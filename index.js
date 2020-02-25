@@ -31,8 +31,20 @@ var c = new Crawler({
       con += "<scholarship>" + ($('div#scholarship').text()) + "</scholarship>";
       //con += "<pictureURL>" + ($('div#photo > img.attr("src")').text()) + "</pictureURL>"; does not currently work.
       con += "<contact>" + ($('div#contact').text()) + "</contact>";
+      let email = ($('div#contact > a').text());
+      let email0 = email.split("@")[0];
+      let email1 = email.split("@")[1];
 
-      con += "</user>";
+      if (email1 !== "@brandeis.edu") {
+        con += "<primary>" + "" + "</primary>";
+      } else {
+        con += "<primary>" + email0 + "</primary>";
+      }
+
+      con += "<email>" + email + "</email>";
+      if (email1)
+
+        con += "</user>";
       // $ is Cheerio by default
       //a lean implementation of core jQuery designed specifically for the server
       fs.createWriteStream('./saved.xml', { flags: 'a' }).write(con);
