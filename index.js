@@ -34,17 +34,18 @@ var c = new Crawler({
       let email = ($('div#contact > a').text());
       let email0 = email.split("@")[0];
       let email1 = email.split("@")[1];
+      console.log(email0, email1);
 
-      if (email1 !== "@brandeis.edu") {
+      if (email1 !== "brandeis.edu") {
         con += "<primary>" + "" + "</primary>";
       } else {
         con += "<primary>" + email0 + "</primary>";
       }
 
       con += "<email>" + email + "</email>";
-      if (email1)
 
-        con += "</user>";
+
+      con += "</user>";
       // $ is Cheerio by default
       //a lean implementation of core jQuery designed specifically for the server
       fs.createWriteStream('./saved.xml', { flags: 'a' }).write(con);
@@ -57,6 +58,7 @@ c.queue(
   [
     'https://www.brandeis.edu/facultyguide/person.html?emplid=947183d5d9a73455f3dff7ebcf3bf398d9815bef',
     'https://www.brandeis.edu/facultyguide/person.html?emplid=0203b89f93c966048429830926729b410a600e79',
-    'https://www.brandeis.edu/facultyguide/person.html?emplid=2d33bfcf3e8d075ca7e63e9a9775face67e35a9d'
+    'https://www.brandeis.edu/facultyguide/person.html?emplid=2d33bfcf3e8d075ca7e63e9a9775face67e35a9d',
+    'https://www.brandeis.edu/facultyguide/person.html?emplid=4cd0d9a645d1cd780d53947eee4f3f12df0ec4f5',
   ]
 );
