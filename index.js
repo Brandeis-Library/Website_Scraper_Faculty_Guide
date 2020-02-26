@@ -22,7 +22,11 @@ var c = new Crawler({
       con += "<name>" + ($('div#content > h1').text()) + "</name>";
       //con += ($('div#content > h1').html());
       con += "<title>" + ($('div#title').text()) + "</title>";
-      con += "<department>" + ($('div#depts').text()) + "</department>";
+
+      let depart = ($('div#depts').text());
+      depart = depart.replace(/Departments\/Programs/g, "");
+
+      con += "<department>" + depart + "</department>";
       con += "<degrees>" + ($('div#degrees').text()) + "</degrees>";
       con += "<expertise>" + ($('div#expertise').text()) + "</expertise>";
       con += "<profile>" + ($('div#expertise').text()) + "</profile>";
