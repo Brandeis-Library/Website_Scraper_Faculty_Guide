@@ -27,9 +27,13 @@ var c = new Crawler({
       depart = depart.replace(/Departments\/Programs/g, "");
 
       con += "<department>" + depart + "</department>";
-      con += "<degrees>" + ($('div#degrees').text()) + "</degrees>";
+
+      let deg = ($('div#degrees').text());
+      deg += deg.replace(/Degrees/g, "");
+
+      con += "<degrees>" + deg + "</degrees>";
       con += "<expertise>" + ($('div#expertise').text()) + "</expertise>";
-      con += "<profile>" + ($('div#expertise').text()) + "</profile>";
+      con += "<profile>" + ($('div#profile').text()) + "</profile>";
       con += "<courses>" + ($('div#courses').text()) + "</courses>";
       con += "<awards>" + ($('div#awards').text()) + "</awards>";
 
