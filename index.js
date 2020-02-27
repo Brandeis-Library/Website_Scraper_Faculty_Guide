@@ -33,18 +33,19 @@ var c = new Crawler({
 
       //expertise
       let exp = await ($('div#expertise').text());
-      exp = await exp.replace(/Expertise/g, "");
+      exp = await exp.replace("Expertise", "");
       con += "<keywords>" + exp + "</keywords>";
       con += "<profile>" + await ($('div#profile').text()) + "</profile>";
 
       let cour = await ($('div#courses').text())
-      cour = await cour.replace(/Courses Taught/g, "");
+      cour = await cour.replace("Courses Taught", "");
       con += "<courses>" + cour + "</courses>";
       con += "<awards>" + await ($('div#awards').text()) + "</awards>";
 
       let schol = await ($('div#scholarship').text())
       schol = await schol.replace(/\</g, '');
       schol = await schol.replace(/\>/g, '');
+      schol = await schol.replace('Scholarship', '');
       con += "<scholarship>" + schol + "</scholarship>";
       //con += "<pictureURL>" + ($('div#photo > img.attr("src")').text()) + "</pictureURL>"; does not currently work.
       con += "<contact>" + ($('div#contact').text()) + "</contact>";
