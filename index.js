@@ -1,8 +1,6 @@
 var fs = require('fs');
 var Crawler = require("crawler");
 
-
-
 var c = new Crawler({
   maxConnections: 10,
   jQuery: {
@@ -18,36 +16,36 @@ var c = new Crawler({
       console.log(error);
     } else {
       var $ = res.$;
-      let con = "<user>";
-      con += "<name>" + await ($('div#content > h1').text()) + "</name>";
+      let con = "<researcher>";
+      con += "<researcher_name_variant>" + await ($('div#content > h1').text()) + "</researcher_name_varient>";
 
-      con += "<title>" + await ($('div#title').text()) + "</title>";
+      con += "<position>" + await ($('div#title').text()) + "</position>";
 
       let depart = await ($('div#depts').text());
       depart = await depart.replace(/Departments\/Programs/g, "");
-      con += "<department>" + depart + "</department>";
+      con += "<researcher_organization_affiliation>" + depart + "</researcher_organization_affiliation>";
 
       let deg = await ($('div#degrees').text());
       deg = await deg.replace("Degrees", "");
-      con += "<education>" + deg + "</education>";
+      con += "<researcher_education>" + deg + "</researcher_education>";
 
       //expertise
       let exp = await ($('div#expertise').text());
       exp = await exp.replace("Expertise", "");
-      con += "<keywords>" + exp + "</keywords>";
-      con += "<profile>" + await ($('div#profile').text()) + "</profile>";
+      con += "<researcher_keywords>" + exp + "</researcher_keywords>";
+      con += "<researcher_description>" + await ($('div#profile').text()) + "</researcher_description>";
 
       let cour = await ($('div#courses').text())
       cour = await cour.replace("Courses Taught", "");
       con += "<courses>" + cour + "</courses>";
-      con += "<awards>" + await ($('div#awards').text()) + "</awards>";
+      con += "<researcher_honors>" + await ($('div#awards').text()) + "</researcher_honors>";
 
       let schol = await ($('div#scholarship').text())
       schol = await schol.replace(/\</g, '');
       schol = await schol.replace(/\>/g, '');
       schol = await schol.replace('Scholarship', '');
       con += "<scholarship>" + schol + "</scholarship>";
-      //con += "<pictureURL>" + ($('div#photo > img.attr("src")').text()) + "</pictureURL>"; does not currently work.
+
       con += "<contact>" + ($('div#contact').text()) + "</contact>";
       let email = ($('div#contact > a').text());
       let email0 = email.split("@")[0];
@@ -55,15 +53,15 @@ var c = new Crawler({
       console.log(email0, email1);
 
       if (email1 !== "brandeis.edu") {
-        con += "<primary>" + "" + "</primary>";
+        con += "<Brandeis_primary_identifier>" + "" + "</Brandeis_primary_identifier>";
       } else {
-        con += "<primary>" + email0 + "</primary>";
+        con += "<Brandeis_primary_identifier>" + email0 + "</Brandeis_primary_identifier>";
       }
 
-      con += "<email>" + email + "</email>";
+      con += "<researcher_alternate_email>" + email + "</researcher_alternate_email>";
 
 
-      con += "</user>";
+      con += "</researcher>";
       // $ is Cheerio by default
       //a lean implementation of core jQuery designed specifically for the server
       fs.createWriteStream('./saved.xml', { flags: 'a' }).write(con);
