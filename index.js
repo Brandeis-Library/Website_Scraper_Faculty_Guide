@@ -28,7 +28,7 @@ var c = new Crawler({
       con += "<department>" + depart + "</department>";
 
       let deg = await ($('div#degrees').text());
-      deg = await deg.replace(/Degrees/g, "");
+      deg = await deg.replace("Degrees", "");
       con += "<education>" + deg + "</education>";
 
       //expertise
