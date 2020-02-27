@@ -31,7 +31,10 @@ var c = new Crawler({
       deg = await deg.replace(/Degrees/g, "");
       con += "<education>" + deg + "</education>";
 
-      con += "<expertise>" + await ($('div#expertise').text()) + "</expertise>";
+      //expertise
+      let exp = await ($('div#expertise').text());
+      exp = await exp.replace(/Expertise/g, "");
+      con += "<keywords>" + exp + "</keywords>";
       con += "<profile>" + await ($('div#profile').text()) + "</profile>";
 
       let cour = await ($('div#courses').text())
