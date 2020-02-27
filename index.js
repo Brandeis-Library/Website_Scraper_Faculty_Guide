@@ -19,23 +19,27 @@ var c = new Crawler({
     } else {
       var $ = res.$;
       let con = "<user>";
-      con += "<name>" + ($('div#content > h1').text()) + "</name>";
-      //con += ($('div#content > h1').html());
-      con += "<title>" + ($('div#title').text()) + "</title>";
+      con += "<name>" + await ($('div#content > h1').text()) + "</name>";
 
-      let depart = ($('div#depts').text());
-      depart = depart.replace(/Departments\/Programs/g, "");
+      con += "<title>" + await ($('div#title').text()) + "</title>";
 
+      let depart = await ($('div#depts').text());
+      depart = await depart.replace(/Departments\/Programs/g, "");
       con += "<department>" + depart + "</department>";
 
-      let deg = ($('div#degrees').text());
-      deg += deg.replace(/Degrees/g, "");
+      let deg = await ($('div#degrees').text());
+      deg = await deg.replace(/Degrees/g, "");
+      //console.log("deg   ", deg);
+      con += "<education>" + deg + "</education>";
 
-      con += "<degrees>" + deg + "</degrees>";
-      con += "<expertise>" + ($('div#expertise').text()) + "</expertise>";
-      con += "<profile>" + ($('div#profile').text()) + "</profile>";
-      con += "<courses>" + ($('div#courses').text()) + "</courses>";
-      con += "<awards>" + ($('div#awards').text()) + "</awards>";
+      con += "<expertise>" + await ($('div#expertise').text()) + "</expertise>";
+      con += "<profile>" + await ($('div#profile').text()) + "</profile>";
+
+      let cour = await ($('div#courses').text())
+      //cour = await cour.replace(\(Courses/ Taught)\g, "");
+
+      con += "<courses>" + cour + "</courses>";
+      con += "<awards>" + await ($('div#awards').text()) + "</awards>";
 
       let schol = await ($('div#scholarship').text())
       schol = await schol.replace(/\</g, '');
