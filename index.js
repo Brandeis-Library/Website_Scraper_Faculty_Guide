@@ -17,7 +17,7 @@ var c = new Crawler({
     } else {
       var $ = res.$;
       let con = "<researcher>";
-      con += "<researcher_name_variant>" + await ($('div#content > h1').text()) + "</researcher_name_varient>";
+      con += "<researcher_name_variant>" + await ($('div#content > h1').text()) + "</researcher_name_variant>";
 
       con += "<position>" + await ($('div#title').text()) + "</position>";
 
