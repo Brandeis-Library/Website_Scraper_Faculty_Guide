@@ -29,15 +29,13 @@ var c = new Crawler({
 
       let deg = await ($('div#degrees').text());
       deg = await deg.replace(/Degrees/g, "");
-      //console.log("deg   ", deg);
       con += "<education>" + deg + "</education>";
 
       con += "<expertise>" + await ($('div#expertise').text()) + "</expertise>";
       con += "<profile>" + await ($('div#profile').text()) + "</profile>";
 
       let cour = await ($('div#courses').text())
-      //cour = await cour.replace(\(Courses/ Taught)\g, "");
-
+      cour = await cour.replace(/Courses Taught/g, "");
       con += "<courses>" + cour + "</courses>";
       con += "<awards>" + await ($('div#awards').text()) + "</awards>";
 
