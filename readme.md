@@ -35,7 +35,7 @@ _{
 
 ## Technologies Used
 
-_{Crawler (via NPM), cheerio, Node.js, vanilla JavaScript, and Regular Expressions }_
+_{Crawler (via NPM), cheerio, Node.js, vanilla JavaScript, XML, and Regular Expressions }_
 
 ### License
 
