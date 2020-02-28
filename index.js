@@ -1,7 +1,23 @@
-var fs = require('fs');
-var Crawler = require("crawler");
+const fs = require('fs');
+const Crawler = require("crawler");
 
-var c = new Crawler({
+const xmlConfig = async (textBlock) => {
+  let text = textBlock;
+  text = await text.replace(/\&/g, '&amp;');
+  text = await text.replace(/\</g, '');
+  text = await text.replace(/\>/g, '');
+  text = await text.replace(/\'/g, '');
+  text = await text.replace(/\"/g, '');
+  return text;
+}
+
+let endingRoot = function () {
+  return fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>');
+}
+
+fs.createWriteStream('./saved.xml', { flags: 'a' }).write('<?xml version="1.0" encoding="UTF-8"?><users>');
+
+const c = new Crawler({
   maxConnections: 10,
   jQuery: {
     name: 'cheerio',
@@ -17,49 +33,76 @@ var c = new Crawler({
     } else {
       var $ = res.$;
       let con = "<researcher>";
-      con += "<researcher_name_variant>" + await ($('div#content > h1').text()) + "</researcher_name_variant>";
 
-      con += "<position>" + await ($('div#title').text()) + "</position>";
+      //researcher name
+      let name = await ($('div#content > h1').text());
+      name = await xmlConfig(name)
+      con += "<researcher_name_variant>" + name + "</researcher_name_variant>";
 
+
+      // position/title
+      let posit = await ($('div#title').text());
+      posit = await xmlConfig(posit)
+      con += "<position>" + posit + "</position>";
+
+      // department
       let depart = await ($('div#depts').text());
       depart = await depart.replace(/Departments\/Programs/g, "");
+      depart = await xmlConfig(depart);
       con += "<researcher_organization_affiliation>" + depart + "</researcher_organization_affiliation>";
 
+      // degrees/education
       let deg = await ($('div#degrees').text());
+      deg = await xmlConfig(deg);
       deg = await deg.replace("Degrees", "");
       con += "<researcher_education>" + deg + "</researcher_education>";
 
-      //expertise
+      // expertise/keywords
       let exp = await ($('div#expertise').text());
+      exp = await xmlConfig(exp);
       exp = await exp.replace("Expertise", "");
       con += "<researcher_keywords>" + exp + "</researcher_keywords>";
-      con += "<researcher_description>" + await ($('div#profile').text()) + "</researcher_description>";
 
+      // profile/description
+      let desc = await ($('div#profile').text());
+      desc = await xmlConfig(desc);
+      con += "<researcher_description>" + desc + "</researcher_description>";
+
+      // courses
       let cour = await ($('div#courses').text())
+      cour = await xmlConfig(cour);
       cour = await cour.replace("Courses Taught", "");
       con += "<courses>" + cour + "</courses>";
-      con += "<researcher_honors>" + await ($('div#awards').text()) + "</researcher_honors>";
 
+      // awards/honors
+      let hon = await ($('div#awards').text())
+      hon = await xmlConfig(hon);
+      con += "<researcher_honors>" + hon + "</researcher_honors>";
+
+      // scholarship
       let schol = await ($('div#scholarship').text())
-      schol = await schol.replace(/\</g, '');
-      schol = await schol.replace(/\>/g, '');
+      schol = await xmlConfig(schol);
       schol = await schol.replace('Scholarship', '');
       con += "<scholarship>" + schol + "</scholarship>";
 
-      con += "<contact>" + ($('div#contact').text()) + "</contact>";
+      // contact info
+      let cont = ($('div#contact').text());
+      cont = await xmlConfig(cont);
+      con += "<contact>" + cont + "</contact>";
+
+      // email
       let email = ($('div#contact > a').text());
+      con += "<researcher_alternate_email>" + email + "</researcher_alternate_email>";
+
+      // primary identifiier
       let email0 = email.split("@")[0];
       let email1 = email.split("@")[1];
       console.log(email0, email1);
-
       if (email1 !== "brandeis.edu") {
         con += "<Brandeis_primary_identifier>" + "" + "</Brandeis_primary_identifier>";
       } else {
         con += "<Brandeis_primary_identifier>" + email0 + "</Brandeis_primary_identifier>";
       }
-
-      con += "<researcher_alternate_email>" + email + "</researcher_alternate_email>";
-
 
       con += "</researcher>";
       // $ is Cheerio by default
@@ -67,8 +110,12 @@ var c = new Crawler({
       fs.createWriteStream('./saved.xml', { flags: 'a' }).write(con);
     }
     done();
-  }
+  },
+
 });
+
+setTimeout(function () { endingRoot(); }, 15000);
+
 
 c.queue(
   [// A
@@ -382,3 +429,4 @@ c.queue(
     //'',
   ]
 );
+
