@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Crawler = require("crawler");
 
+// helper function to remove xml reserved code.
 const xmlConfig = async (textBlock) => {
   let text = textBlock;
   text = await text.replace(/\&/g, '&amp;');
@@ -11,12 +12,10 @@ const xmlConfig = async (textBlock) => {
   return text;
 }
 
-let endingRoot = function () {
-  return fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>');
-}
-
+// starts XML file with xml definition and starting root tag.
 fs.createWriteStream('./saved.xml', { flags: 'a' }).write('<?xml version="1.0" encoding="UTF-8"?><users>');
 
+// beginning of scrapping function.
 const c = new Crawler({
   maxConnections: 10,
   jQuery: {
@@ -31,7 +30,10 @@ const c = new Crawler({
     if (error) {
       console.log(error);
     } else {
-      var $ = res.$;
+      // $ is Cheerio by default
+      //$ is a lean implementation of core jQuery designed specifically for the server
+      let $ = res.$;
+      // beginning of code scrape each section of a researcher
       let con = "<researcher>";
 
       //researcher name
@@ -105,18 +107,20 @@ const c = new Crawler({
       }
 
       con += "</researcher>";
-      // $ is Cheerio by default
-      //a lean implementation of core jQuery designed specifically for the server
+
+
+      // writes each user to our file.
       fs.createWriteStream('./saved.xml', { flags: 'a' }).write(con);
     }
+    // signifies the end of each researcher being scraped
     done();
   },
 
 });
+// puts closing root tag on the document
+setTimeout(function () { return fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 15000);
 
-setTimeout(function () { endingRoot(); }, 15000);
-
-
+// list of pages to scrape.
 c.queue(
   [// A
     'https://www.brandeis.edu/facultyguide/person.html?emplid=ee995cbbd5fff5456e58b19f306d13fe88f30667',
