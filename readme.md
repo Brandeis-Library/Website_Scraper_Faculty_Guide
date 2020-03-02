@@ -39,7 +39,7 @@ _{Crawler (via NPM), cheerio, Node.js, vanilla JavaScript, XML, and Regular Expr
 
 ### License
 
-*{DMIT License
+*{MIT License
 
 Copyright (c) [2020] [Brandeis University Library]
 
