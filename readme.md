@@ -31,7 +31,7 @@ _{
 _{
   npm crawler documentation: https://www.npmjs.com/package/crawler,
   libsys-group at brandeis dot edu
-  }_
+}_
 
 ## Technologies Used
 
