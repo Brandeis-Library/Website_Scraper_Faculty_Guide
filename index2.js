@@ -42,7 +42,7 @@ const c = new Crawler({
       let email1 = email.split("@")[1];
 
       if (email1 !== "brandeis.edu") {
-        con += "<primary_id>" + "unknown" + "</primary_id>";
+        con += "<primary_id>" + "No Data" + "</primary_id>";
       } else {
         con += "<primary_id>" + email0 + "</primary_id>";
       }
@@ -50,71 +50,74 @@ const c = new Crawler({
       con += "<researcher>"
 
       //researcher name
-      // let name = await ($('div#content > h1').text());
-      // name = await xmlConfig(name)
-      // con += "<researcher_name_variants><researcher_name_variant>" + name + "</researcher_name_variant></researcher_name_variants>";
+      let name = await ($('div#content > h1').text());
+      name = await xmlConfig(name)
+      con += "<researcher_name_variants><researcher_name_variant>" + name + "</researcher_name_variant></researcher_name_variants>";
 
-      console.log(email0, email1, email);
+      console.log(email0, email1, email, name);
 
       // email
 
-      //con += "<researcher_alternate_emails><researcher_alternate_email>" + "</ researcher_alternate_email></ researcher_alternate_emails>"
-
+      if (email1 === "brandeis.edu") {
+        con += "<researcher_alternate_emails><researcher_alternate_email>No Data</ researcher_alternate_email><researcher_alternate_emails/>"
+      } else {
+        con += "<researcher_alternate_emails><researcher_alternate_email>" + email + "</ researcher_alternate_email><researcher_alternate_emails/>"
+      }
 
       // position/title
-      //let posit = await ($('div#title').text());
-      //posit = await xmlConfig(posit)
-      //con += "<position>" + posit + "</position>";
+      let posit = await ($('div#title').text());
+      posit = await xmlConfig(posit)
+      con += "<position>" + posit + "</position>";
 
       // department
-      //let depart = await ($('div#depts').text());
-      //depart = await depart.replace(/Departments\/Programs/g, "");
+      let depart = await ($('div#depts').text());
+      depart = await depart.replace(/Departments\/Programs/g, "");
       //depart = await depart.replace(/)
       //let departName = await depart.getElementsByTagName("a").innerText;
       // for (let x = 0; x < departName.length; x++) {
 
       // }
       //console.log("departName", departName);
-      //depart = await xmlConfig(depart);
-      //con += "<researcher_organization_affiliations><researcher_organization_affiliation>" + depart + "</researcher_organization_affiliation></researcher_organization_affiliations>";
+      depart = await xmlConfig(depart);
+      con += "<researcher_organization_affiliations><researcher_organization_affiliation>" + depart + "</researcher_organization_affiliation></researcher_organization_affiliations>";
 
       // previous organization affiliations
-      //con += "<researcher_previous_organization_affiliations><researcher_previous_organization_affiliation>" + "</ researcher_previous_organization_affiliation></researcher_previous_organization_affiliations>";
+      con += "<researcher_previous_organization_affiliations><researcher_previous_organization_affiliation>No Data</researcher_previous_organization_affiliation></researcher_previous_organization_affiliations>";
 
       // external affiliations
-      //con += "<researcher_external_organization_affiliations><researcher_external_organization_affiliation>" + "</researcher_external_organization_affiliation></researcher_external_organization_affiliations>";
+      con += "<researcher_external_organization_affiliations><researcher_external_organization_affiliation>No Data</researcher_external_organization_affiliation></researcher_external_organization_affiliations>";
 
       // previous external affiliations
-      //con += "<researcher_previous_external_organization_affiliations><researcher_previous_external_organization_affiliation>" + "</researcher_previous_external_organization_affiliation></researcher_previous_external_organization_affiliations>";
+      con += "<researcher_previous_external_organization_affiliations><researcher_previous_external_organization_affiliation>No Data</researcher_previous_external_organization_affiliation></researcher_previous_external_organization_affiliations>";
 
 
 
       // degrees/education
-      // let deg = await ($('div#degrees').text());
-      // deg = await xmlConfig(deg);
-      // deg = await deg.replace("Degrees", "");
-      // con += "<researcher_educations><researcher_education>" + deg + "<researcher_education></researcher_educations>";
+      let deg = await ($('div#degrees').text());
+      deg = await xmlConfig(deg);
+      deg = await deg.replace("Degrees", "");
+      con += "<researcher_educations><researcher_education>" + deg + "<researcher_education></researcher_educations>";
 
       // research topics
-      //con += "<researcher_topics><researcher_topic>No Data</ researcher_topic></ researcher_topics >"
+      con += "<researcher_topics><researcher_topic>No Data</ researcher_topic></ researcher_topics >"
 
       // researcher associations
-      //con += "<researcher_associations><researcher_association>" + "</ researcher_association></ researcher_associations >"
+      con += "<researcher_associations><researcher_association></ researcher_association></ researcher_associations >"
 
 
       // researcher languages
-      //con += "<researcher_languages><researcher_language>English</ researcher_language></ researcher_languages >"
+      con += "<researcher_languages><researcher_language>English</ researcher_language><researcher_languages />"
 
       // expertise/keywords
-      // let exp = await ($('div#expertise').text());
-      // exp = await xmlConfig(exp);
-      // exp = await exp.replace("Expertise", "");
-      // con += "<researcher_keywords><researcher_keyword>" + exp + "</researcher_keyword></researcher_keywords>";
+      let exp = await ($('div#expertise').text());
+      exp = await xmlConfig(exp);
+      exp = await exp.replace("Expertise", "");
+      con += "<researcher_keywords><researcher_keyword>" + exp + "</researcher_keyword></researcher_keywords>";
 
       // profile/description
-      // let desc = await ($('div#profile').text());
-      // desc = await xmlConfig(desc);
-      // con += "<researcher_descriptions><researcher_description>" + desc + "</researcher_description></researcher_descriptions>";
+      let desc = await ($('div#profile').text());
+      desc = await xmlConfig(desc);
+      con += "<researcher_descriptions><researcher_description>" + desc + "</researcher_description></researcher_descriptions>";
 
       // courses
       //let cour = await ($('div#courses').text())
@@ -129,17 +132,16 @@ const c = new Crawler({
       //con += "<researcher_description>" + schol + "</researcher_description>";
 
       // awards/honors
-      // let hon = await ($('div#awards').text())
-      // hon = await xmlConfig(hon);
-      // con += "<researcher_honors><researcher_honor>" + hon + "</researcher_honor></researcher_honors>";
+      let hon = await ($('div#awards').text())
+      hon = await xmlConfig(hon);
+      con += "<researcher_honors><researcher_honor>" + hon + "</researcher_honor></researcher_honors>";
 
       // contact info
       //let cont = ($('div#contact').text());
       //cont = await xmlConfig(cont);
       //con += "<contact>" + cont + "</contact>";
 
-      // researcher webpage
-      "<researcher_webpages><researcher_webpage>" + "</ researcher_webpage></ researcher_webpages>"
+
 
 
       con += "</researcher></user > ";
