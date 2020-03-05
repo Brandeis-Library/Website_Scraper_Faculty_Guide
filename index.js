@@ -66,17 +66,16 @@ const c = new Crawler({
       //posit = await xmlConfig(posit)
       //con += "<position>" + posit + "</position>";
 
-      // department
-      //let depart = await ($('div#depts').text());
-      //depart = await depart.replace(/Departments\/Programs/g, "");
+      //department
+      let depart = await ($('div#depts').html());
+      depart = await depart.replace(/Departments\/Programs/g, "");
       //depart = await depart.replace(/)
-      //let departName = await depart.getElementsByTagName("a").innerText;
-      // for (let x = 0; x < departName.length; x++) {
 
-      // }
       //console.log("departName", departName);
       //depart = await xmlConfig(depart);
-      //con += "<researcher_organization_affiliations><researcher_organization_affiliation>" + depart + "</researcher_organization_affiliation></researcher_organization_affiliations>";
+      let digit = depart.indexOf("deptid=");
+      let departCode = "CC" + depart.substr(digit + 7, 5)
+      con += "<researcher_organization_affiliations><researcher_organization_affiliation><organization_code>" + departCode + "</organization_code></researcher_organization_affiliation></researcher_organization_affiliations>";
 
       // previous organization affiliations
       //con += "<researcher_previous_organization_affiliations><researcher_previous_organization_affiliation>" + "</ researcher_previous_organization_affiliation></researcher_previous_organization_affiliations>";
