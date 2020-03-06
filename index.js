@@ -12,6 +12,50 @@ const xmlConfig = async (textBlock) => {
   return text;
 }
 
+//
+userIds = {
+  apranam: '10200684',
+  aridavidow: 'adavi0001',
+  bensinger: 'bensinge',
+  bfriedman: 'bfriedma',
+  cbuck: 'cleduc',
+  cecchetti: 'cecchett',
+  chrisgillespie: 'gillespi',
+  cliffzhu: 'mengnansunny',
+  ctheobald: 'ctheobal',
+  cunningham: 'cunningh',
+  davidsherman: 'dsherman',
+  dtheobald: 'theobal',
+  eissenberg: 'eissenbe',
+  falconi: 'faconi',
+  fishbaynjoffe: 'fishbayn',
+  genemiller: 'gene',
+  hollocher: 'holloche',
+  jankowski: 'pjankows',
+  jenelledavis: 'jcdavis',
+  kenbrumer: '10200775',
+  kpeditto: '10200683',
+  laurenlichten: 'laurlic',
+  lbateman: 'lbate0001',
+  lempereur: 'apl',
+  lisalynch: 'lmlynch',
+  mcclendon: 'mcclendo',
+  merrill: 'merrill2',
+  mikesalem: '10200675',
+  mnoonan: 'noonze',
+  mph: 'headrick',
+  nicoleboyson: 'nboyson',
+  papaemmanouil: 'opapaemm',
+  pitosalas: 'rpsalas',
+  rashazoni: 'rashann',
+  rparmentier: 'parmenti',
+  sagentile: 'sgent0001',
+  slupton: 'shaw1892',
+  sourieff: 'somd86',
+  sreenivasan: 'sreeniva',
+  zivahassenfeld: 'ztreimer'
+}
+
 // starts XML file with xml definition and starting root tag.
 fs.createWriteStream('./saved.xml', { flags: 'a' }).write('<?xml version="1.0" encoding="UTF-8"?><users>');
 
@@ -44,15 +88,23 @@ const c = new Crawler({
       if (email1 !== "brandeis.edu") {
         con += "<primary_id>" + "unknown" + "</primary_id>";
       } else {
+        let newId = userIds[email0];
+
+        if (newId !== undefined) {
+          email0 = newId
+        }
+
+
         con += "<primary_id>" + email0 + "</primary_id>";
       }
 
       con += "<researcher>"
 
       //researcher name
-      // let name = await ($('div#content > h1').text());
-      // name = await xmlConfig(name)
-      // con += "<researcher_name_variants><researcher_name_variant>" + name + "</researcher_name_variant></researcher_name_variants>";
+      //let name = await ($('div#content > h1').text());
+      //name = await xmlConfig(name)
+
+      //con += "<researcher_name_variants><researcher_name_variant>" + name + "</researcher_name_variant></researcher_name_variants>";
 
       console.log(email0, email1, email);
 
@@ -138,10 +190,10 @@ const c = new Crawler({
       //con += "<contact>" + cont + "</contact>";
 
       // researcher webpage
-      "<researcher_webpages><researcher_webpage>" + "</ researcher_webpage></ researcher_webpages>"
+      //con += "<researcher_webpages><researcher_webpage>" + "</ researcher_webpage></ researcher_webpages>"
 
 
-      con += "</researcher></user > ";
+      con += "</researcher></user>";
 
 
       // writes each user to our file.
