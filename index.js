@@ -89,7 +89,12 @@ const c = new Crawler({
       //console.log("departName", departName);
       //depart = await xmlConfig(depart);
       let digit = depart.indexOf("deptid=");
-      let departCode = "CC" + depart.substr(digit + 7, 5)
+      let departCode = "";
+      if (digit > 0) {
+        departCode = "CC" + depart.substr(digit + 7, 5)
+      } else {
+        departCode = "unknown";
+      }
       con += "<researcher_organization_affiliations><researcher_organization_affiliation><organization_code>" + departCode + "</organization_code></researcher_organization_affiliation></researcher_organization_affiliations>";
 
       // previous organization affiliations
@@ -168,7 +173,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { return fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 120000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 120000);
 
 // list of pages to scrape.
 c.queue(
