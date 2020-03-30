@@ -78,7 +78,7 @@ const c = new Crawler({
 
 
 
-      //department
+      //department code
       let depart = await ($('div#depts').html());
       //depart = await depart.replace(/Departments\/Programs/g, "");
       //depart = await depart.replace(/)
@@ -107,6 +107,21 @@ const c = new Crawler({
       posit = await xmlConfig(posit)
       con += "<researcher_description>"
       con += "position: " + posit;
+      con += "</researcher_description>"
+
+      //department name list
+      let departName = await ($('div#depts').text());
+      //console.log("departName------  ", departname)
+
+      if (departName) {
+        departName = await departName.replace(/Departments\/Programs/g, "");
+        departName = await xmlConfig(departName);
+      } else {
+        departName = "unknown"
+      }
+
+      con += "<researcher_description>"
+      con += "Department & Program List:  " + departName
       con += "</researcher_description>"
       con += "</researcher_descriptions>"
       // previous organization affiliations
