@@ -76,19 +76,23 @@ const c = new Crawler({
       //con += "<researcher_alternate_emails><researcher_alternate_email>" + "</ researcher_alternate_email></ researcher_alternate_emails>"
 
 
-      // position/title
-      //let posit = await ($('div#title').text());
-      //posit = await xmlConfig(posit)
-      //con += "<position>" + posit + "</position>";
+
 
       //department
       let depart = await ($('div#depts').html());
-      depart = await depart.replace(/Departments\/Programs/g, "");
+      //depart = await depart.replace(/Departments\/Programs/g, "");
       //depart = await depart.replace(/)
 
       //console.log("departName", departName);
       //depart = await xmlConfig(depart);
-      let digit = depart.indexOf("deptid=");
+
+      let digit = 0;
+      if (depart) {
+        digit = depart.indexOf("deptid=");
+      } else {
+        digit = -1;
+      }
+
       let departCode = "";
       if (digit > 0) {
         departCode = "CC" + depart.substr(digit + 7, 5)
@@ -97,6 +101,14 @@ const c = new Crawler({
       }
       con += "<researcher_organization_affiliations><researcher_organization_affiliation><organization_code>" + departCode + "</organization_code></researcher_organization_affiliation></researcher_organization_affiliations>";
 
+      con += "<researcher_descriptions>"
+      // position/title
+      let posit = await ($('div#title').text());
+      posit = await xmlConfig(posit)
+      con += "<researcher_description>"
+      con += "position: " + posit;
+      con += "</researcher_description>"
+      con += "</researcher_descriptions>"
       // previous organization affiliations
       //con += "<researcher_previous_organization_affiliations><researcher_previous_organization_affiliation>" + "</ researcher_previous_organization_affiliation></researcher_previous_organization_affiliations>";
 
@@ -173,7 +185,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 120000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 200000);
 
 // list of pages to scrape.
 c.queue(
