@@ -71,9 +71,7 @@ const c = new Crawler({
 
       console.log(email0, email1, email);
 
-      // email
 
-      //con += "<researcher_alternate_emails><researcher_alternate_email>" + "</ researcher_alternate_email></ researcher_alternate_emails>"
 
 
 
@@ -121,19 +119,14 @@ const c = new Crawler({
       }
 
       con += "<researcher_description>"
-      con += "Department & Program List:  " + departName
+      con += "Department and Program List:  " + departName
       con += "</researcher_description>"
-      con += "</researcher_descriptions>"
-      // previous organization affiliations
-      //con += "<researcher_previous_organization_affiliations><researcher_previous_organization_affiliation>" + "</ researcher_previous_organization_affiliation></researcher_previous_organization_affiliations>";
 
-      // external affiliations
-      //con += "<researcher_external_organization_affiliations><researcher_external_organization_affiliation>" + "</researcher_external_organization_affiliation></researcher_external_organization_affiliations>";
-
-      // previous external affiliations
-      //con += "<researcher_previous_external_organization_affiliations><researcher_previous_external_organization_affiliation>" + "</researcher_previous_external_organization_affiliation></researcher_previous_external_organization_affiliations>";
-
-
+      // awards/honors
+      let hon = await ($('div#awards').text())
+      hon = await xmlConfig(hon);
+      con += "<researcher_description>" + hon + "</researcher_description>";
+      con += "</researcher_descriptions>";
 
       // degrees/education
       // let deg = await ($('div#degrees').text());
@@ -174,18 +167,28 @@ const c = new Crawler({
       //schol = await schol.replace('Scholarship', '');
       //con += "<researcher_description>" + schol + "</researcher_description>";
 
-      // awards/honors
-      // let hon = await ($('div#awards').text())
-      // hon = await xmlConfig(hon);
-      // con += "<researcher_honors><researcher_honor>" + hon + "</researcher_honor></researcher_honors>";
+
 
       // contact info
       //let cont = ($('div#contact').text());
       //cont = await xmlConfig(cont);
       //con += "<contact>" + cont + "</contact>";
 
+      // external affiliations
+      //con += "<researcher_external_organization_affiliations><researcher_external_organization_affiliation>" + "</researcher_external_organization_affiliation></researcher_external_organization_affiliations>";
+
+      // previous external affiliations
+      //con += "<researcher_previous_external_organization_affiliations><researcher_previous_external_organization_affiliation>" + "</researcher_previous_external_organization_affiliation></researcher_previous_external_organization_affiliations>";
+
+
       // researcher webpage
       //con += "<researcher_webpages><researcher_webpage>" + "</ researcher_webpage></ researcher_webpages>"
+
+      // previous organization affiliations
+      //con += "<researcher_previous_organization_affiliations><researcher_previous_organization_affiliation>" + "</ researcher_previous_organization_affiliation></researcher_previous_organization_affiliations>";
+
+      // email
+      //con += "<researcher_alternate_emails><researcher_alternate_email>" + "</ researcher_alternate_email></ researcher_alternate_emails>"
 
 
       con += "</researcher></user>";
