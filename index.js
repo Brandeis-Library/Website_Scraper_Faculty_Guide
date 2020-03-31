@@ -141,25 +141,20 @@ const c = new Crawler({
       exp = await exp.replace("Expertise", "");
       con += "<researcher_description>" + "Expertise:  " + exp + "</researcher_description>";
 
+      // courses
+      let cour = await ($('div#courses').text())
+      cour = await xmlConfig(cour);
+      //cour = await cour.replace("Courses Taught", "");
+      con += "<researcher_description>" + cour + "</researcher_description>";
+
       con += "</researcher_descriptions>";
-
-
-
-      // researcher languages
-      //con += "<researcher_languages><researcher_language>English</ researcher_language></ researcher_languages >"
-
-
 
       // profile/description
       // let desc = await ($('div#profile').text());
       // desc = await xmlConfig(desc);
       // con += "<researcher_descriptions><researcher_description>" + desc + "</researcher_description></researcher_descriptions>";
 
-      // courses
-      //let cour = await ($('div#courses').text())
-      //cour = await xmlConfig(cour);
-      //cour = await cour.replace("Courses Taught", "");
-      //con += "<researcher_description>" + cour + "</researcher_description>";
+
 
       // scholarship
       //let schol = await ($('div#scholarship').text())
@@ -171,6 +166,9 @@ const c = new Crawler({
       //let cont = ($('div#contact').text());
       //cont = await xmlConfig(cont);
       //con += "<contact>" + cont + "</contact>";
+
+      // researcher languages
+      //con += "<researcher_languages><researcher_language>English</ researcher_language></ researcher_languages >"
 
       // research topics
       //con += "<researcher_topics><researcher_topic>No Data</ researcher_topic></ researcher_topics >"
