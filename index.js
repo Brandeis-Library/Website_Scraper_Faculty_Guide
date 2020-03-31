@@ -104,7 +104,7 @@ const c = new Crawler({
       let posit = await ($('div#title').text());
       posit = await xmlConfig(posit)
       con += "<researcher_description>"
-      con += "position: " + posit;
+      con += "Position: " + posit;
       con += "</researcher_description>"
 
       //department name list
@@ -124,8 +124,9 @@ const c = new Crawler({
 
       // awards/honors
       let hon = await ($('div#awards').text())
+      hon = await hon.replace("Awards and Honors", "");
       hon = await xmlConfig(hon);
-      con += "<researcher_description>" + hon + "</researcher_description>";
+      con += "<researcher_description>" + "Honors and Awards:  " + hon + "</researcher_description>";
 
 
       // degrees/education
@@ -134,22 +135,20 @@ const c = new Crawler({
       deg = await deg.replace("Degrees", "");
       con += "<researcher_description>" + "Education:  " + deg + "</researcher_description>";
 
-      con += "</researcher_descriptions>";
-      // research topics
-      //con += "<researcher_topics><researcher_topic>No Data</ researcher_topic></ researcher_topics >"
+      // expertise/keywords
+      let exp = await ($('div#expertise').text());
+      exp = await xmlConfig(exp);
+      exp = await exp.replace("Expertise", "");
+      con += "<researcher_description>" + "Expertise:  " + exp + "</researcher_description>";
 
-      // researcher associations
-      //con += "<researcher_associations><researcher_association>" + "</ researcher_association></ researcher_associations >"
+      con += "</researcher_descriptions>";
+
 
 
       // researcher languages
       //con += "<researcher_languages><researcher_language>English</ researcher_language></ researcher_languages >"
 
-      // expertise/keywords
-      // let exp = await ($('div#expertise').text());
-      // exp = await xmlConfig(exp);
-      // exp = await exp.replace("Expertise", "");
-      // con += "<researcher_keywords><researcher_keyword>" + exp + "</researcher_keyword></researcher_keywords>";
+
 
       // profile/description
       // let desc = await ($('div#profile').text());
@@ -168,12 +167,16 @@ const c = new Crawler({
       //schol = await schol.replace('Scholarship', '');
       //con += "<researcher_description>" + schol + "</researcher_description>";
 
-
-
       // contact info
       //let cont = ($('div#contact').text());
       //cont = await xmlConfig(cont);
       //con += "<contact>" + cont + "</contact>";
+
+      // research topics
+      //con += "<researcher_topics><researcher_topic>No Data</ researcher_topic></ researcher_topics >"
+
+      // researcher associations
+      //con += "<researcher_associations><researcher_association>" + "</ researcher_association></ researcher_associations >"
 
       // external affiliations
       //con += "<researcher_external_organization_affiliations><researcher_external_organization_affiliation>" + "</researcher_external_organization_affiliation></researcher_external_organization_affiliations>";
