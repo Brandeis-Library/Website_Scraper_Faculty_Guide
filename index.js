@@ -126,14 +126,15 @@ const c = new Crawler({
       let hon = await ($('div#awards').text())
       hon = await xmlConfig(hon);
       con += "<researcher_description>" + hon + "</researcher_description>";
-      con += "</researcher_descriptions>";
+
 
       // degrees/education
-      // let deg = await ($('div#degrees').text());
-      // deg = await xmlConfig(deg);
-      // deg = await deg.replace("Degrees", "");
-      // con += "<researcher_educations><researcher_education>" + deg + "<researcher_education></researcher_educations>";
+      let deg = await ($('div#degrees').text());
+      deg = await xmlConfig(deg);
+      deg = await deg.replace("Degrees", "");
+      con += "<researcher_description>" + "Education:  " + deg + "</researcher_description>";
 
+      con += "</researcher_descriptions>";
       // research topics
       //con += "<researcher_topics><researcher_topic>No Data</ researcher_topic></ researcher_topics >"
 
