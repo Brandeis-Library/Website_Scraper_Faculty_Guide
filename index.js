@@ -71,11 +71,6 @@ const c = new Crawler({
 
       console.log(email0, email1, email);
 
-
-
-
-
-
       //department code
       let depart = await ($('div#depts').html());
       //depart = await depart.replace(/Departments\/Programs/g, "");
@@ -84,42 +79,81 @@ const c = new Crawler({
       //console.log("departName", departName);
       //depart = await xmlConfig(depart);
 
-      let digit = 0;
-      if (depart) {
-        digit = depart.indexOf("deptid=");
+
+
+      // let departCode = "";
+      // if (digit > 0) {
+      //   departCode = "CC" + depart.substr(digit + 7, 5)
+      // } else {
+      //   departCode = "unknown";
+      // }
+      // con += "<researcher_organization_affiliations><researcher_organization_affiliation><organization_code>" + departCode + "</organization_code></researcher_organization_affiliation></researcher_organization_affiliations>";
+
+
+      // // position/title
+      // let posit = await ($('div#title').text());
+      // posit = await xmlConfig(posit)
+      // con += "<researcher_description>"
+      // con += "Position: " + posit;
+      // con += "</researcher_description>"
+
+      //department name list
+      let departName = await ($('div#depts').html());
+      //console.log("departName------  ", departname)
+      let departNameArray = []
+      let deptOutput = "";
+      con += "<researcher_organization_affiliations>"
+      if (departName) {
+        departName = await departName.replace(/Departments\/Programs/g, "");
+        //departName = await departName.replace(/<\/a>/g, " $ ");
+        departName = await departName.replace(/<p(.*?)>/g, "");
+        departName = await departName.replace(/<\/p>/g, "");
+        //departName = await departName.replace(/<a(.*?)>/g, " | ");
+        departName = await departName.replace(/<br\/>/g, "");
+        departName = await departName.replace(/<\/a>/g, "</a>|");
+
+        departNameArray = departName.split("|");
+
+
+
+        for (x = 0; x < departNameArray.length - 1; x++) {
+          let depart = departNameArray[x];
+          let digit = 0;
+          let departCode = "";
+
+          if (depart) {
+            digit = depart.indexOf("deptid=");
+          } else {
+            digit = -1;
+          }
+
+          if (digit > 0) {
+            departCode = "CC" + depart.substr(digit + 7, 5)
+          } else {
+            departCode = "unknown";
+          }
+          deptOutput += "<researcher_organization_affiliation><organization_code>" + departCode + "</organization_code></researcher_organization_affiliation>";
+        }
+
+
       } else {
-        digit = -1;
+        departOutput = "unknown"
+
       }
 
-      let departCode = "";
-      if (digit > 0) {
-        departCode = "CC" + depart.substr(digit + 7, 5)
-      } else {
-        departCode = "unknown";
-      }
-      con += "<researcher_organization_affiliations><researcher_organization_affiliation><organization_code>" + departCode + "</organization_code></researcher_organization_affiliation></researcher_organization_affiliations>";
 
+      //con += "<researcher_description>"
+      con += deptOutput
+      //con += "</researcher_description>"
+      con += "</researcher_organization_affiliations>"
+      //con += "<researcher_descriptions>"
       con += "<researcher_descriptions>"
+
       // position/title
       let posit = await ($('div#title').text());
       posit = await xmlConfig(posit)
       con += "<researcher_description>"
       con += "Position: " + posit;
-      con += "</researcher_description>"
-
-      //department name list
-      let departName = await ($('div#depts').text());
-      //console.log("departName------  ", departname)
-
-      if (departName) {
-        departName = await departName.replace(/Departments\/Programs/g, "");
-        departName = await xmlConfig(departName);
-      } else {
-        departName = "unknown"
-      }
-
-      con += "<researcher_description>"
-      con += "Department and Program List:  " + departName
       con += "</researcher_description>"
 
       // awards/honors
@@ -205,7 +239,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 200000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 250000);
 
 // list of pages to scrape.
 c.queue(
