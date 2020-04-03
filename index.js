@@ -151,20 +151,18 @@ const c = new Crawler({
       //cour = await cour.replace("Courses Taught", "");
       con += "<researcher_description>" + cour + "</researcher_description>";
 
-      con += "</researcher_descriptions>";
-
       // profile/description
-      // let desc = await ($('div#profile').text());
-      // desc = await xmlConfig(desc);
-      // con += "<researcher_descriptions><researcher_description>" + desc + "</researcher_description></researcher_descriptions>";
-
-
+      let desc = await ($('div#profile').text());
+      desc = await xmlConfig(desc);
+      con += "<researcher_description>" + desc + "</researcher_description>";
 
       // scholarship
       //let schol = await ($('div#scholarship').text())
       //schol = await xmlConfig(schol);
       //schol = await schol.replace('Scholarship', '');
       //con += "<researcher_description>" + schol + "</researcher_description>";
+
+      con += "</researcher_descriptions>";
 
       // contact info
       //let cont = ($('div#contact').text());
