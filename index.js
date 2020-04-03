@@ -63,39 +63,13 @@ const c = new Crawler({
 
       con += "<researcher>"
 
-      //researcher name
-      //let name = await ($('div#content > h1').text());
-      //name = await xmlConfig(name)
 
-      //con += "<researcher_name_variants><researcher_name_variant>" + name + "</researcher_name_variant></researcher_name_variants>";
 
       console.log(email0, email1, email);
 
-      //department code
-      let depart = await ($('div#depts').html());
-      //depart = await depart.replace(/Departments\/Programs/g, "");
-      //depart = await depart.replace(/)
 
-      //console.log("departName", departName);
-      //depart = await xmlConfig(depart);
-
-
-
-      // let departCode = "";
-      // if (digit > 0) {
-      //   departCode = "CC" + depart.substr(digit + 7, 5)
-      // } else {
-      //   departCode = "unknown";
-      // }
-      // con += "<researcher_organization_affiliations><researcher_organization_affiliation><organization_code>" + departCode + "</organization_code></researcher_organization_affiliation></researcher_organization_affiliations>";
-
-
-      // // position/title
-      // let posit = await ($('div#title').text());
-      // posit = await xmlConfig(posit)
-      // con += "<researcher_description>"
-      // con += "Position: " + posit;
-      // con += "</researcher_description>"
+      // researcher languages
+      con += "<researcher_languages><researcher_language>English</researcher_language></researcher_languages >"
 
       //department name list
       let departName = await ($('div#depts').html());
@@ -113,8 +87,6 @@ const c = new Crawler({
         departName = await departName.replace(/<\/a>/g, "</a>|");
 
         departNameArray = departName.split("|");
-
-
 
         for (x = 0; x < departNameArray.length - 1; x++) {
           let depart = departNameArray[x];
@@ -141,12 +113,10 @@ const c = new Crawler({
 
       }
 
-
-      //con += "<researcher_description>"
       con += deptOutput
-      //con += "</researcher_description>"
       con += "</researcher_organization_affiliations>"
-      //con += "<researcher_descriptions>"
+
+      //beginning of researcher description fields
       con += "<researcher_descriptions>"
 
       // position/title
@@ -201,8 +171,7 @@ const c = new Crawler({
       //cont = await xmlConfig(cont);
       //con += "<contact>" + cont + "</contact>";
 
-      // researcher languages
-      //con += "<researcher_languages><researcher_language>English</ researcher_language></ researcher_languages >"
+
 
       // research topics
       //con += "<researcher_topics><researcher_topic>No Data</ researcher_topic></ researcher_topics >"
@@ -226,6 +195,12 @@ const c = new Crawler({
       // email
       //con += "<researcher_alternate_emails><researcher_alternate_email>" + "</ researcher_alternate_email></ researcher_alternate_emails>"
 
+      //researcher name
+      //let name = await ($('div#content > h1').text());
+      //name = await xmlConfig(name)
+
+      //con += "<researcher_name_variants><researcher_name_variant>" + name + "</researcher_name_variant></researcher_name_variants>";
+
 
       con += "</researcher></user>";
 
@@ -239,7 +214,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 250000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 150000);
 
 // list of pages to scrape.
 c.queue(
