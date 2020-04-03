@@ -140,9 +140,20 @@ const c = new Crawler({
       con += "<researcher_description>" + "Education:  " + deg + "</researcher_description>";
 
       // expertise/keywords
-      let exp = await ($('div#expertise').text());
-      exp = await xmlConfig(exp);
-      exp = await exp.replace("Expertise", "");
+      let exp = await ($('div#expertise').html());
+      if (exp) {
+        //exp = await xmlConfig(exp);
+        exp = await exp.replace(/<p(.*?)>/g, "");
+        exp = await exp.replace(/<\/p>/g, "");
+        exp = await exp.replace("Expertise", "");
+        exp = await exp.replace(/,/g, " | ");
+        exp = await exp.replace(/:/g, " | ");
+        exp = await exp.replace(/;/g, " | ");
+        exp = await exp.replace(/-/g, " | ");
+      } else {
+        exp = ""
+      }
+
       con += "<researcher_description>" + "Expertise:  " + exp + "</researcher_description>";
 
       // courses
@@ -212,7 +223,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 150000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 120000);
 
 // list of pages to scrape.
 c.queue(
