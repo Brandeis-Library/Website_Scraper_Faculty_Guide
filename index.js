@@ -144,7 +144,8 @@ const c = new Crawler({
       if (exp) {
         //exp = await xmlConfig(exp);
         exp = await exp.replace(/<p(.*?)>/g, "");
-        exp = await exp.replace(/<\/p>/g, "");
+        exp = await exp.replace(/<\/p>/g, " | ");
+        exp = await exp.replace(/<br\/>/g, "");
         exp = await exp.replace("Expertise", "");
         exp = await exp.replace(/,/g, " | ");
         exp = await exp.replace(/:/g, " | ");
@@ -168,9 +169,18 @@ const c = new Crawler({
       con += "<researcher_description>Description:  " + desc + "</researcher_description>";
 
       // scholarship
-      let schol = await ($('div#scholarship').text())
-      schol = await xmlConfig(schol);
-      schol = await schol.replace('Scholarship', '');
+      let schol = await ($('div#scholarship').html());
+      if (schol) {
+        schol = await schol.replace(/<p(.*?)>/g, "");
+        schol = await schol.replace(/<\/p>/g, " | ");
+        schol = await schol.replace(/<br\/>/g, "");
+        //schol = await schol.replace(/<ul>/g, "");
+        //schol = await schol.replace(/<\/ul>/g, "");
+        schol = await xmlConfig(schol);
+        schol = await schol.replace('Scholarship', '');
+      } else {
+        schol = ""
+      }
       con += "<researcher_description>Schololorship:  " + schol + "</researcher_description>";
 
       con += "</researcher_descriptions>";
@@ -223,7 +233,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 120000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 200000);
 
 // list of pages to scrape.
 c.queue(
