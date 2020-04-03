@@ -154,13 +154,13 @@ const c = new Crawler({
       // profile/description
       let desc = await ($('div#profile').text());
       desc = await xmlConfig(desc);
-      con += "<researcher_description>" + desc + "</researcher_description>";
+      con += "<researcher_description>Description:  " + desc + "</researcher_description>";
 
       // scholarship
-      //let schol = await ($('div#scholarship').text())
-      //schol = await xmlConfig(schol);
-      //schol = await schol.replace('Scholarship', '');
-      //con += "<researcher_description>" + schol + "</researcher_description>";
+      let schol = await ($('div#scholarship').text())
+      schol = await xmlConfig(schol);
+      schol = await schol.replace('Scholarship', '');
+      con += "<researcher_description>Schololorship:  " + schol + "</researcher_description>";
 
       con += "</researcher_descriptions>";
 
