@@ -23,7 +23,16 @@ const c = new Crawler({
       let $ = res.$;
       console.log("$------------------", $);
 
-      let con = await ($('div#content').html());
+      let con = await ($('div#content > div#one').html());
+      con += await ($('div#content > div#two').html());
+      con += await ($('div#content > div#three').html());
+      con += await ($('div#content > div#four').html());
+      if (typeof con === "string") {
+        con = await con.replace(/<p(.*?)>/g, "");
+        con = await con.replace(/<\/p>/g, "");
+        con = await con.replace(/<h1(.*?)>(.*?)<\/h1>/g, "");
+        con = await con.replace(/>(.*?)</g, '><')
+      }
 
       console.log("con+++++++++++++++   ", con);
 
