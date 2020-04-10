@@ -4,6 +4,11 @@ const Crawler = require("crawler");
 // brings in the URLs to scrape
 const alphaUrls = require('./alphaUrlsToScrape.js')
 
+let comm = 0;
+
+// starts XML file with xml definition and starting root tag.
+fs.createWriteStream('./userUrlsToScrape2.js', { flags: 'a' }).write('module.exports = { urls =  [');
+
 const c = new Crawler({
   maxConnections: 1,
   jQuery: {
@@ -21,7 +26,7 @@ const c = new Crawler({
       // $ is Cheerio by default
       //$ is a lean implementation of core jQuery designed specifically for the server
       let $ = res.$;
-      console.log("$------------------", $);
+      //console.log("$------------------", $);
       let arrUrls = [];
 
       let con = await ($('div#content > div#one').html());
@@ -41,8 +46,12 @@ const c = new Crawler({
         console.log("array of a tags length......   ", userUrlArray.length);
 
         arrUrls = await userUrlArray.map(item => {
+          let str = "";
+          if (comm > 0) {
+            str += ',';
+          }
           let first = item.indexOf("d=")
-          let str = "'https://www.brandeis.edu/facultyguide/person.html?emplid="
+          str = "'https://www.brandeis.edu/facultyguide/person.html?emplid="
           str += item.substr(first + 2, 40);
           return str += "'";
         })
@@ -60,6 +69,9 @@ const c = new Crawler({
   },
 
 });
+
+// puts closing root tag on the document
+setTimeout(function () { fs.createWriteStream('./userUrlsToScrape2.js', { flags: 'a' }).write(']}'); }, 8000);
 
 
 c.queue(
