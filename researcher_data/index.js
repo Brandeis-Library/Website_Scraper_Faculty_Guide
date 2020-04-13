@@ -2,7 +2,7 @@ const fs = require('fs');
 const Crawler = require("crawler");
 
 // brings in the URLs to scrape
-const { urls } = require('./userUrlsToScrape2.js')
+const { urls } = require('../researcher_URLs/userURLs.js')
 // brings in user object for 'bad' user ids
 const { userIds } = require('./ProblemUIDs.js')
 

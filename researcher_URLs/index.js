@@ -2,7 +2,7 @@ const fs = require('fs');
 const Crawler = require("crawler");
 
 // brings in the URLs to scrape
-const alphaUrls = require('./alphaUrlsToScrape.js')
+const alphaUrls = require('./URLsToScrape.js')
 
 // starts XML file with xml definition and starting root tag.
 fs.createWriteStream('./userUrlsToScrape2.js', { flags: 'a' }).write('module.exports = { urls: [');
@@ -57,7 +57,7 @@ const c = new Crawler({
 
       console.log("con+++++++++++++++   ", con);
       //con = arrUrls;
-      fs.createWriteStream('./userUrlsToScrape2.js', { flags: 'a' }).write(arrUrls);
+      fs.createWriteStream('./userURLs.js', { flags: 'a' }).write(arrUrls);
     }
     // signifies the end of each researcher being scraped
     done();
