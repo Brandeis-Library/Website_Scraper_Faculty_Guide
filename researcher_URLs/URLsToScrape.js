@@ -18,6 +18,7 @@ const alphaUrls = [
   'https://www.brandeis.edu/facultyguide/letter.html?letter=Q',
   'https://www.brandeis.edu/facultyguide/letter.html?letter=R',
   'https://www.brandeis.edu/facultyguide/letter.html?letter=S',
+  'https://www.brandeis.edu/facultyguide/letter.html?letter=T',
   'https://www.brandeis.edu/facultyguide/letter.html?letter=U',
   'https://www.brandeis.edu/facultyguide/letter.html?letter=V',
   'https://www.brandeis.edu/facultyguide/letter.html?letter=W',
