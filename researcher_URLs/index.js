@@ -5,7 +5,7 @@ const Crawler = require("crawler");
 const alphaUrls = require('./URLsToScrape.js')
 
 // starts XML file with xml definition and starting root tag.
-fs.createWriteStream('./userUrlsToScrape2.js', { flags: 'a' }).write('module.exports = { urls: [');
+fs.createWriteStream('./userURLs.js', { flags: 'a' }).write('module.exports = { urls: [');
 
 const c = new Crawler({
   maxConnections: 1,
@@ -66,7 +66,7 @@ const c = new Crawler({
 });
 
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./userUrlsToScrape2.js', { flags: 'a' }).write(']}'); }, 30000);
+setTimeout(function () { fs.createWriteStream('./userURLs.js', { flags: 'a' }).write(']}'); }, 90000);
 
 
 c.queue(
