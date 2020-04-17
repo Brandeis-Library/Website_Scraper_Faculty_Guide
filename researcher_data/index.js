@@ -60,7 +60,10 @@ const c = new Crawler({
 
         con += "<primary_id>" + email0 + "</primary_id>";
       }
+      // add is_researcher
+      con += "<is_researcher>true</is_researcher>"
 
+      // begin researcher fields
       con += "<researcher>"
 
 
@@ -69,7 +72,7 @@ const c = new Crawler({
 
 
       // researcher languages
-      con += "<researcher_languages><researcher_language>English</researcher_language></researcher_languages >"
+      con += "<researcher_languages><researcher_language>en</researcher_language></researcher_languages >"
 
       //department name list
       let departName = await ($('div#depts').html());
