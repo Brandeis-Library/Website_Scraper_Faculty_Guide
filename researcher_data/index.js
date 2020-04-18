@@ -125,22 +125,22 @@ const c = new Crawler({
       // position/title
       let posit = await ($('div#title').text());
       posit = await xmlConfig(posit)
-      con += "<researcher_description>"
+      con += "<researcher_description><description>"
       con += "Position: " + posit;
-      con += "</researcher_description>"
+      con += "</description></researcher_description>"
 
       // awards/honors
       let hon = await ($('div#awards').text())
       hon = await hon.replace("Awards and Honors", "");
       hon = await xmlConfig(hon);
-      con += "<researcher_description>" + "Honors and Awards:  " + hon + "</researcher_description>";
+      con += "<researcher_description><description>" + "Honors and Awards:  " + hon + " </description></researcher_description>";
 
 
       // degrees/education
       let deg = await ($('div#degrees').text());
       deg = await xmlConfig(deg);
       deg = await deg.replace("Degrees", "");
-      con += "<researcher_description>" + "Education:  " + deg + "</researcher_description>";
+      con += "<researcher_description><description>" + "Education:  " + deg + "</description></researcher_description>";
 
       // expertise/keywords
       let exp = await ($('div#expertise').html());
@@ -158,18 +158,18 @@ const c = new Crawler({
         exp = ""
       }
 
-      con += "<researcher_description>" + "Expertise:  " + exp + "</researcher_description>";
+      con += "<researcher_description><description>" + "Expertise:  " + exp + "</description></researcher_description>";
 
       // courses
       let cour = await ($('div#courses').text())
       cour = await xmlConfig(cour);
       //cour = await cour.replace("Courses Taught", "");
-      con += "<researcher_description>" + cour + "</researcher_description>";
+      con += "<researcher_description><description>" + cour + "</description></researcher_description>";
 
       // profile/description
       let desc = await ($('div#profile').text());
       desc = await xmlConfig(desc);
-      con += "<researcher_description>Description:  " + desc + "</researcher_description>";
+      con += "<researcher_description><description>Description:  " + desc + "</description></researcher_description>";
 
       // scholarship
       let schol = await ($('div#scholarship').html());
@@ -184,7 +184,7 @@ const c = new Crawler({
       } else {
         schol = ""
       }
-      con += "<researcher_description>Schololorship:  " + schol + "</researcher_description>";
+      con += "<researcher_description><description>Schololorship:  " + schol + "</description></researcher_description>";
 
       con += "</researcher_descriptions>";
 
