@@ -10,6 +10,14 @@ const { userIds } = require('./ProblemUIDs.js')
 const xmlConfig = async (textBlock) => {
   let text = textBlock;
   text = await text.replace(/\&/g, '&amp;');
+  text = await text.replace(/\'/g, '&apos;');
+  text = await text.replace(/\"/g, '&quot;');
+  text = await text.replace(/\’/g, '&#x2019;');
+  text = await text.replace(/\‘/g, '&#x2018;');
+  text = await text.replace(/\”/g, '&#x201D;'); //right double quotation mark
+  text = await text.replace(/\“/g, '&#x201C;'); //left double quotation mark
+  text = await text.replace(/\\b/g, '0x08');
+  text = await text.replace(/\\/g, '&#92;');
   text = await text.replace(/\</g, '');
   text = await text.replace(/\>/g, '');
   text = await text.replace(/\'/g, '');
@@ -157,6 +165,7 @@ const c = new Crawler({
       } else {
         exp = ""
       }
+      exp = await xmlConfig(exp);
 
       con += "<researcher_description><description>" + "Expertise:  " + exp + "</description></researcher_description>";
 
