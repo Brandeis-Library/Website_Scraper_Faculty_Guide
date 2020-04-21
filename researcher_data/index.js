@@ -72,7 +72,7 @@ const c = new Crawler({
 
 
       // researcher languages
-      con += "<researcher_languages><researcher_language>en</researcher_language></researcher_languages >"
+      con += "<researcher_languages><researcher_language>eng</researcher_language></researcher_languages >"
 
       //department name list
       let departName = await ($('div#depts').html());
