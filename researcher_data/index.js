@@ -193,7 +193,7 @@ const c = new Crawler({
       } else {
         schol = ""
       }
-      con += "<researcher_description><description><p><strong>Schololorship:<strong></p>" + schol + "</description></researcher_description>";
+      con += "<researcher_description><description><p><strong>Schololorship:</strong></p>" + schol + "</description></researcher_description>";
 
       con += "</researcher_descriptions>";
 
