@@ -138,9 +138,20 @@ const c = new Crawler({
       con += "</p></description></researcher_description>"
 
       // awards/honors
-      let hon = await ($('div#awards').text())
+      let hon = await ($('div#awards').html())
       hon = await hon.replace("Awards and Honors", "");
-      hon = await xmlConfig(hon);
+
+      if (hon) {
+        hon = await hon.replace(/<p(.*?)>/g, "");
+        hon = await hon.replace(/<\/p>/g, " | ");
+        hon = await hon.replace(/<br\/>/g, "");
+        //hon = await hon.replace(/<ul>/g, "");
+        //hon = await hon.replace(/<\/ul>/g, "");
+        hon = await xmlConfig(hon);
+        hon = await hon.replace(/\|/g, "<br /><br />")
+      } else {
+        hon = ""
+      }
       con += "<researcher_description><description>" + "<p><strong>Honors and Awards:</strong></p> " + hon + " </description></researcher_description>";
 
 
@@ -189,7 +200,7 @@ const c = new Crawler({
         //schol = await schol.replace(/<ul>/g, "");
         //schol = await schol.replace(/<\/ul>/g, "");
         schol = await xmlConfig(schol);
-        schol = await schol.replace('Scholarship', '');
+        schol = await schol.replace('Scholarship', ''); schol = await schol.replace(/\|/g, "<br /><br />");
       } else {
         schol = ""
       }
@@ -245,7 +256,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 200000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 10000);
 
 // list of pages to scrape.
 c.queue(
