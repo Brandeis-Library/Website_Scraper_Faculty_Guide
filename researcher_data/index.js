@@ -199,9 +199,23 @@ const c = new Crawler({
       con += "<researcher_description><description>" + "<p><strong>Keywords:</strong></p> " + exp + "</description></researcher_description>";
 
       // courses
-      let cour = await ($('div#courses').text())
-      cour = await xmlConfig(cour);
-      cour = await cour.replace("Courses Taught", "<p><strong>Courses Taught:</strong></p>");
+      let cour = await ($('div#courses').html());
+      if (cour) {
+        cour = await cour.replace(/<table(.*?)>/g, "");
+        cour = await cour.replace(/<\/table(.*?)>/g, "");
+        cour = await cour.replace(/<\/tbody(.*?)>/g, "");
+        cour = await cour.replace(/<tbody(.*?)>/g, "");
+        cour = await cour.replace(/<tr(.*?)>/g, "");
+        cour = await cour.replace(/<\/tr(.*?)>/g, " | ");
+        cour = await cour.replace(/<td(.*?)>/g, "");
+        cour = await cour.replace(/<\/td>/g, "");
+        cour = await cour.replace("Courses Taught", "<p><strong>Courses Taught:</strong></p>");
+        //cour = await xmlConfig(cour);
+        cour = await cour.replace(/\|/g, "<br />");
+      } else {
+        cour = ""
+      }
+
       con += "<researcher_description><description>" + cour + "</description></researcher_description>";
 
       // profile/description
@@ -275,7 +289,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 200000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 6000);
 
 // list of pages to scrape.
 c.queue(
