@@ -165,7 +165,7 @@ const c = new Crawler({
         deg = await deg.replace("Degrees", "");
         deg = await deg.replace(/<p(.*?)>/g, " | ");
         deg = await deg.replace(/<\/p>/g, "");
-        deg = await deg.replace(/<br\/>/g, "");
+        deg = await deg.replace(/<br\/>/g, " | ");
         //hon = await hon.replace(/<ul>/g, "");
         //hon = await hon.replace(/<\/ul>/g, "");
         deg = await xmlConfig(deg);
@@ -190,7 +190,7 @@ const c = new Crawler({
         exp = await exp.replace(/<br\/>/g, "");
         exp = await exp.replace("Expertise", "");
         exp = await xmlConfig(exp);
-        exp.replace(/\|/g, "<br />");
+        exp = await exp.replace(/\|/g, "<br />");
       } else {
         exp = ""
       }
