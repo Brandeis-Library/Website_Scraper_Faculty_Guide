@@ -143,13 +143,14 @@ const c = new Crawler({
 
       if (hon) {
         hon = await hon.replace("Awards and Honors", "");
+
         hon = await hon.replace(/<p(.*?)>/g, "");
-        hon = await hon.replace(/<\/p>/g, "");
+        hon = await hon.replace(/<\/p>/g, "|");
         hon = await hon.replace(/<br\/>/g, "");
+        hon = await xmlConfig(hon);
         //hon = await hon.replace(/<ul>/g, "");
         //hon = await hon.replace(/<\/ul>/g, "");
-        hon = await xmlConfig(hon);
-        //hon = await hon.replace(/\|/g, "<br /><br />")
+        hon = await hon.replace(/\|/g, "<br />")
       } else {
         hon = ""
       }
@@ -272,7 +273,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 100000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 200000);
 
 // list of pages to scrape.
 c.queue(
