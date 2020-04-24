@@ -1,5 +1,5 @@
 
-//module.exports = { urls: ['https://www.brandeis.edu/facultyguide/person.html?emplid=0b5539215a5fed4fc44dc70cca228c7ceb6fbfa5',] }
+//module.exports = { urls: ['https://www.brandeis.edu/facultyguide/person.html?emplid=797e68e246969fbd1b40828bafd1c07825056b6a',] }
 
 
 
