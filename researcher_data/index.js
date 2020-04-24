@@ -139,16 +139,17 @@ const c = new Crawler({
 
       // awards/honors
       let hon = await ($('div#awards').html())
-      hon = await hon.replace("Awards and Honors", "");
+
 
       if (hon) {
+        hon = await hon.replace("Awards and Honors", "");
         hon = await hon.replace(/<p(.*?)>/g, "");
-        hon = await hon.replace(/<\/p>/g, " | ");
+        hon = await hon.replace(/<\/p>/g, "");
         hon = await hon.replace(/<br\/>/g, "");
         //hon = await hon.replace(/<ul>/g, "");
         //hon = await hon.replace(/<\/ul>/g, "");
         hon = await xmlConfig(hon);
-        hon = await hon.replace(/\|/g, "<br /><br />")
+        //hon = await hon.replace(/\|/g, "<br /><br />")
       } else {
         hon = ""
       }
@@ -156,9 +157,24 @@ const c = new Crawler({
 
 
       // degrees/education
-      let deg = await ($('div#degrees').text());
-      deg = await xmlConfig(deg);
-      deg = await deg.replace("Degrees", "");
+      let deg = await ($('div#degrees').html());
+
+
+      if (deg) {
+        deg = await deg.replace("Degrees", "");
+        //deg = await xmlConfig(deg);
+        deg = await deg.replace(/<p(.*?)>/g, "<br />");
+        deg = await deg.replace(/<\/p>/g, "");
+        deg = await deg.replace(/<br\/>/g, "<br />");
+        //hon = await hon.replace(/<ul>/g, "");
+        //hon = await hon.replace(/<\/ul>/g, "");
+
+        deg = await deg.replace(/\|/g, "<br /><br />")
+      } else {
+        deg = ""
+      }
+
+
       con += "<researcher_description><description>" + "<p><strong>Education:</strong></p>" + deg + "</description></researcher_description>";
 
       // expertise/keywords
@@ -256,7 +272,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 10000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 100000);
 
 // list of pages to scrape.
 c.queue(
