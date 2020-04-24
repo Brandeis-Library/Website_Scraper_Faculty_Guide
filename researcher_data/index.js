@@ -163,13 +163,12 @@ const c = new Crawler({
 
       if (deg) {
         deg = await deg.replace("Degrees", "");
-        //deg = await xmlConfig(deg);
-        deg = await deg.replace(/<p(.*?)>/g, "<br />");
+        deg = await deg.replace(/<p(.*?)>/g, " | ");
         deg = await deg.replace(/<\/p>/g, "");
-        deg = await deg.replace(/<br\/>/g, "<br />");
+        deg = await deg.replace(/<br\/>/g, "");
         //hon = await hon.replace(/<ul>/g, "");
         //hon = await hon.replace(/<\/ul>/g, "");
-
+        deg = await xmlConfig(deg);
         deg = await deg.replace(/\|/g, "<br /><br />")
       } else {
         deg = ""
@@ -181,21 +180,23 @@ const c = new Crawler({
       // expertise/keywords
       let exp = await ($('div#expertise').html());
       if (exp) {
-        //exp = await xmlConfig(exp);
+        exp = await exp.replace(/\,/g, " | ");
+        exp = await exp.replace(/\:/g, " | ");
+        exp = await exp.replace(/\;/g, " | ");
+        exp = await exp.replace(/\-/g, " | ");
+
         exp = await exp.replace(/<p(.*?)>/g, "");
-        exp = await exp.replace(/<\/p>/g, " | ");
+        exp = await exp.replace(/<\/p>/g, "");
         exp = await exp.replace(/<br\/>/g, "");
         exp = await exp.replace("Expertise", "");
-        exp = await exp.replace(/,/g, " | ");
-        exp = await exp.replace(/:/g, " | ");
-        exp = await exp.replace(/;/g, " | ");
-        exp = await exp.replace(/-/g, " | ");
+        exp = await xmlConfig(exp);
+        exp.replace(/\|/g, "<br />");
       } else {
         exp = ""
       }
-      exp = await xmlConfig(exp);
 
-      con += "<researcher_description><description>" + "<p><strong>Expertise:</strong></p> " + exp + "</description></researcher_description>";
+
+      con += "<researcher_description><description>" + "<p><strong>Keywords:</strong></p> " + exp + "</description></researcher_description>";
 
       // courses
       let cour = await ($('div#courses').text())
@@ -217,7 +218,8 @@ const c = new Crawler({
         //schol = await schol.replace(/<ul>/g, "");
         //schol = await schol.replace(/<\/ul>/g, "");
         schol = await xmlConfig(schol);
-        schol = await schol.replace('Scholarship', ''); schol = await schol.replace(/\|/g, "<br /><br />");
+        schol = await schol.replace('Scholarship', '');
+        schol = await schol.replace(/\|/g, "<br /><br />");
       } else {
         schol = ""
       }
