@@ -28,7 +28,9 @@ const xmlConfig = async (textBlock) => {
 // end of the file converts all the html to XML friendly escape code.
 const xmlEscape = async (textBlock) => {
   let text = textBlock;
-  text = await text.replace(/<br \/>/g, "&lt;br/&gt");
+  text = await text.replace(/<br \/>/g, "&lt;br/&gt;");
+  text = await text.replace(/<p>/, "&lt;p&gt;")
+  text = await text.replace(/<\/p>/, "&lt;\p&gt;")
   return text;
 }
 
@@ -216,7 +218,8 @@ const c = new Crawler({
         cour = await cour.replace(/<\/tr(.*?)>/g, " | ");
         cour = await cour.replace(/<td(.*?)>/g, "");
         cour = await cour.replace(/<\/td>/g, "");
-        cour = await cour.replace("Courses Taught", "<p><strong>Courses Taught:</strong></p>");
+        cour = await cour.replace(/<p(.*?)>/g, "<p>");
+        cour = await cour.replace("Courses Taught", "<strong>Courses Taught:</strong>");
         //cour = await xmlConfig(cour);
         cour = await cour.replace(/\|/g, "<br />");
       } else {
