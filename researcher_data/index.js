@@ -25,6 +25,13 @@ const xmlConfig = async (textBlock) => {
   return text;
 }
 
+// end of the file converts all the html to XML friendly escape code.
+const xmlEscape = async (textBlock) => {
+  let text = textBlock;
+  text = await text.replace(/<br \/>/g, "&lt;br/&gt");
+  return text;
+}
+
 
 
 // starts XML file with xml definition and starting root tag.
@@ -135,7 +142,7 @@ const c = new Crawler({
       posit = await xmlConfig(posit)
       con += "<researcher_description><description>"
       con += "<p><strong>Position:</strong> " + posit;
-      con += "</p></description></researcher_description>"
+      con += "</p><br /></description></researcher_description>"
 
       // awards/honors
       let hon = await ($('div#awards').html())
@@ -278,6 +285,9 @@ const c = new Crawler({
 
 
       con += "</researcher></user>";
+
+
+      con = await xmlEscape(con);
 
 
       // writes each user to our file.
