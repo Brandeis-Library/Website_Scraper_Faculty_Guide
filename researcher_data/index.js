@@ -29,8 +29,10 @@ const xmlConfig = async (textBlock) => {
 const xmlEscape = async (textBlock) => {
   let text = textBlock;
   text = await text.replace(/<br \/>/g, "&lt;br/&gt;");
-  text = await text.replace(/<p>/, "&lt;p&gt;")
-  text = await text.replace(/<\/p>/, "&lt;\p&gt;")
+  text = await text.replace(/<p>/g, "&lt;p&gt;")
+  text = await text.replace(/<\/p>/g, "&lt;/p&gt;")
+  text = await text.replace(/<strong>/g, "&lt;strong&gt;")
+  text = await text.replace(/<\/strong>/g, "&lt;/strong&gt;")
   return text;
 }
 
@@ -157,13 +159,11 @@ const c = new Crawler({
         hon = await hon.replace(/<\/p>/g, "|");
         hon = await hon.replace(/<br\/>/g, "");
         hon = await xmlConfig(hon);
-        //hon = await hon.replace(/<ul>/g, "");
-        //hon = await hon.replace(/<\/ul>/g, "");
         hon = await hon.replace(/\|/g, "<br />")
       } else {
         hon = ""
       }
-      con += "<researcher_description><description>" + "<p><strong>Honors and Awards:</strong></p> " + hon + " </description></researcher_description>";
+      con += "<researcher_description><description>" + "<p><strong>Honors and Awards:</strong> </p> " + hon + "</description></researcher_description>";
 
 
       // degrees/education
@@ -243,7 +243,7 @@ const c = new Crawler({
         //schol = await schol.replace(/<\/ul>/g, "");
         schol = await xmlConfig(schol);
         schol = await schol.replace('Scholarship', '');
-        schol = await schol.replace(/\|/g, "<br /><br />");
+        schol = await schol.replace(/\|/g, "<br />");
       } else {
         schol = ""
       }
@@ -302,7 +302,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 6000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 200000);
 
 // list of pages to scrape.
 c.queue(
