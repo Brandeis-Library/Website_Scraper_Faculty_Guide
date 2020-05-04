@@ -39,7 +39,7 @@ const xmlEscape = async (textBlock) => {
 
 
 // starts XML file with xml definition and starting root tag.
-fs.createWriteStream('./saved.xml', { flags: 'a' }).write('<?xml version="1.0" encoding="UTF-8"?><users>');
+fs.createWriteStream('./saved.xml', { flags: 'a' }).write(`<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="saved.xsl"?><users>`);
 
 // beginning of scrapping function.
 const c = new Crawler({
@@ -302,7 +302,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 200000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 6000);
 
 // list of pages to scrape.
 c.queue(
