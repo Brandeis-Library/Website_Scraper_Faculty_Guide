@@ -27,7 +27,7 @@
 
 
         <xsl:for-each select="users/user/researcher/researcher_descriptions/researcher_description/description">
-         <div> Description: <span><xsl:value-of select="." disable-output-escaping="yes" /></span></div>
+         <div> <span><xsl:value-of select="." disable-output-escaping="yes" /></span></div>
          </xsl:for-each>
 
       </body>

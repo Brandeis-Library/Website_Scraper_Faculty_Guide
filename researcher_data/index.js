@@ -146,7 +146,7 @@ const c = new Crawler({
       posit = await xmlConfig(posit)
       con += "<researcher_description><description>"
       con += "<p><strong>Position:</strong> " + posit;
-      con += "</p><br /></description></researcher_description>"
+      con += "</p></description></researcher_description>"
 
       // awards/honors
       let hon = await ($('div#awards').html())
@@ -163,7 +163,7 @@ const c = new Crawler({
       } else {
         hon = ""
       }
-      con += "<researcher_description><description>" + "<p><strong>Honors and Awards:</strong> </p> " + hon + "</description></researcher_description>";
+      con += "<researcher_description><description>" + "<strong>Honors and Awards:</strong> <br /> " + hon + "</description></researcher_description>";
 
 
       // degrees/education
@@ -172,19 +172,19 @@ const c = new Crawler({
 
       if (deg) {
         deg = await deg.replace("Degrees", "");
-        deg = await deg.replace(/<p(.*?)>/g, " | ");
+        deg = await deg.replace(/<p(.*?)>/g, "");
         deg = await deg.replace(/<\/p>/g, "");
         deg = await deg.replace(/<br\/>/g, " | ");
         //hon = await hon.replace(/<ul>/g, "");
         //hon = await hon.replace(/<\/ul>/g, "");
         deg = await xmlConfig(deg);
-        deg = await deg.replace(/\|/g, "<br /><br />")
+        deg = await deg.replace(/\|/g, "<br />")
       } else {
         deg = ""
       }
 
 
-      con += "<researcher_description><description>" + "<p><strong>Education:</strong></p>" + deg + "</description></researcher_description>";
+      con += "<researcher_description><description>" + "<p><strong>Education: </strong></p>" + deg + "</description></researcher_description>";
 
       // expertise/keywords
       let exp = await ($('div#expertise').html());
@@ -231,7 +231,7 @@ const c = new Crawler({
       // profile/description
       let desc = await ($('div#profile').text());
       desc = await xmlConfig(desc);
-      con += "<researcher_description><description><p><strong>Description:</strong></p>" + desc + "</description></researcher_description>";
+      con += "<researcher_description><description><p><strong>Description:</strong></p>" + desc + "</description ></researcher_description > ";
 
       // scholarship
       let schol = await ($('div#scholarship').html());
@@ -243,11 +243,11 @@ const c = new Crawler({
         //schol = await schol.replace(/<\/ul>/g, "");
         schol = await xmlConfig(schol);
         schol = await schol.replace('Scholarship', '');
-        schol = await schol.replace(/\|/g, "<br />");
+        schol = await schol.replace(/\|/g, "&lt;br/&gt;&lt;br/&gt;");
       } else {
         schol = ""
       }
-      con += "<researcher_description><description><p><strong>Schololorship:</strong></p>" + schol + "</description></researcher_description>";
+      con += "<researcher_description><description>&lt;br/&gt;<strong>Schololorship:</strong>" + schol + "</description></researcher_description>";
 
       con += "</researcher_descriptions>";
 
