@@ -33,6 +33,8 @@ const xmlEscape = async (textBlock) => {
   text = await text.replace(/<\/p>/g, "&lt;/p&gt;")
   text = await text.replace(/<strong>/g, "&lt;strong&gt;")
   text = await text.replace(/<\/strong>/g, "&lt;/strong&gt;")
+  // text = await text.replace(/<h3>/g, "&lt;h3&gt;")
+  // text = await text.replace(/<\/h3>/g, "&lt;/h3&gt;")
   return text;
 }
 
@@ -163,7 +165,7 @@ const c = new Crawler({
       } else {
         hon = ""
       }
-      con += "<researcher_description><description>" + "<strong>Honors and Awards:</strong> <br /> " + hon + "</description></researcher_description>";
+      con += "<researcher_description><description>" + "<strong>Honors and Awards:</strong><br />" + hon + "</description></researcher_description>";
 
 
       // degrees/education
@@ -191,7 +193,7 @@ const c = new Crawler({
       if (exp) {
         exp = await exp.replace(/\,/g, " | ");
         exp = await exp.replace(/\:/g, " | ");
-        exp = await exp.replace(/\;/g, " | ");
+        //exp = await exp.replace(/\;/g, " | ");
         exp = await exp.replace(/\-/g, " | ");
 
         exp = await exp.replace(/<p(.*?)>/g, "");
