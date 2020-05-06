@@ -36,8 +36,8 @@ const xmlEscape = async (textBlock) => {
   text = await text.replace(/<h3>/g, "&lt;h3&gt;")
   text = await text.replace(/<\/h3>/g, "&lt;/h3&gt;")
   text = await text.replace(/<\/li>/g, "&lt;/li&gt;")
-  text = await text.replace(/<\/ol>/g, "&lt;/ol&gt;")
-  text = await text.replace(/<ol>/g, "&lt;ol&gt;")
+  text = await text.replace(/<\/ul>/g, "&lt;/ul&gt;")
+  text = await text.replace(/<ul>/g, "&lt;ul&gt;")
   text = await text.replace(/<li>/g, "&lt;li&gt;")
   return text;
 }
@@ -261,7 +261,7 @@ const c = new Crawler({
       } else {
         schol = ""
       }
-      con += "<researcher_description><description><h3><strong>Schololorship:</strong></h3><ol>" + schol + "</ol></description></researcher_description>";
+      con += "<researcher_description><description><h3><strong>Schololorship:</strong></h3><ul>" + schol + "</ul></description></researcher_description>";
 
       con += "</researcher_descriptions>";
 

@@ -8,6 +8,9 @@
       <head>
 
         <style>
+        body ul {
+        list-style: none;
+        }
         </style>
 
       </head>
