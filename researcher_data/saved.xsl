@@ -19,13 +19,10 @@
         </xsl:for-each>
         <xsl:for-each select="users/user/researcher">
           <div> Researcher Language: <span><xsl:value-of select="researcher_languages/researcher_language" disable-output-escaping="yes"/></span></div>
-
         </xsl:for-each>
         <xsl:for-each select="users/user/researcher/researcher_organization_affiliations/researcher_organization_affiliation">
          <div> Researcher Organizations: <span><xsl:value-of select="organization_code" disable-output-escaping="yes" /></span></div>
          </xsl:for-each>
-
-
         <xsl:for-each select="users/user/researcher/researcher_descriptions/researcher_description/description">
          <div> <span><xsl:value-of select="." disable-output-escaping="yes" /></span></div>
          </xsl:for-each>

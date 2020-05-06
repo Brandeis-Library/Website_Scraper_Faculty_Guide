@@ -33,8 +33,12 @@ const xmlEscape = async (textBlock) => {
   text = await text.replace(/<\/p>/g, "&lt;/p&gt;")
   text = await text.replace(/<strong>/g, "&lt;strong&gt;")
   text = await text.replace(/<\/strong>/g, "&lt;/strong&gt;")
-  // text = await text.replace(/<h3>/g, "&lt;h3&gt;")
-  // text = await text.replace(/<\/h3>/g, "&lt;/h3&gt;")
+  text = await text.replace(/<h3>/g, "&lt;h3&gt;")
+  text = await text.replace(/<\/h3>/g, "&lt;/h3&gt;")
+  text = await text.replace(/<\/li>/g, "&lt;/li&gt;")
+  text = await text.replace(/<\/ol>/g, "&lt;/ol&gt;")
+  text = await text.replace(/<ol>/g, "&lt;ol&gt;")
+  text = await text.replace(/<li>/g, "&lt;li&gt;")
   return text;
 }
 
@@ -147,8 +151,8 @@ const c = new Crawler({
       let posit = await ($('div#title').text());
       posit = await xmlConfig(posit)
       con += "<researcher_description><description>"
-      con += "<p><strong>Position:</strong> " + posit;
-      con += "</p></description></researcher_description>"
+      con += "<h3><strong>Position:</strong></h3>" + posit;
+      con += "</description></researcher_description>"
 
       // awards/honors
       let hon = await ($('div#awards').html())
@@ -162,10 +166,12 @@ const c = new Crawler({
         hon = await hon.replace(/<br\/>/g, "");
         hon = await xmlConfig(hon);
         hon = await hon.replace(/\|/g, "<br />")
+        hon = await hon.replace(/<br \/>/, "");
       } else {
         hon = ""
       }
-      con += "<researcher_description><description>" + "<strong>Honors and Awards:</strong><br />" + hon + "</description></researcher_description>";
+      con += "<researcher_description><description>" + "<h3><strong>Honors and Awards:</strong></h3>" + hon +
+        "</description></researcher_description>"
 
 
       // degrees/education
@@ -181,12 +187,13 @@ const c = new Crawler({
         //hon = await hon.replace(/<\/ul>/g, "");
         deg = await xmlConfig(deg);
         deg = await deg.replace(/\|/g, "<br />")
+
       } else {
         deg = ""
       }
 
 
-      con += "<researcher_description><description>" + "<p><strong>Education: </strong></p>" + deg + "</description></researcher_description>";
+      con += "<researcher_description><description>" + "<h3><strong>Education: </strong></h3>" + deg + "</description></researcher_description>";
 
       // expertise/keywords
       let exp = await ($('div#expertise').html());
@@ -207,7 +214,7 @@ const c = new Crawler({
       }
 
 
-      con += "<researcher_description><description>" + "<p><strong>Keywords:</strong></p> " + exp + "</description></researcher_description>";
+      con += "<researcher_description><description>" + "<h3><strong>Keywords:</strong></h3> " + exp + "</description></researcher_description>";
 
       // courses
       let cour = await ($('div#courses').html());
@@ -220,8 +227,9 @@ const c = new Crawler({
         cour = await cour.replace(/<\/tr(.*?)>/g, " | ");
         cour = await cour.replace(/<td(.*?)>/g, "");
         cour = await cour.replace(/<\/td>/g, "");
-        cour = await cour.replace(/<p(.*?)>/g, "<p>");
-        cour = await cour.replace("Courses Taught", "<strong>Courses Taught:</strong>");
+        cour = await cour.replace(/<p(.*?)>/g, "");
+        cour = await cour.replace(/<\/p>/g, "");
+        cour = await cour.replace("Courses Taught", "<h3><strong>Courses Taught:</strong></h3>");
         //cour = await xmlConfig(cour);
         cour = await cour.replace(/\|/g, "<br />");
       } else {
@@ -233,23 +241,27 @@ const c = new Crawler({
       // profile/description
       let desc = await ($('div#profile').text());
       desc = await xmlConfig(desc);
-      con += "<researcher_description><description><p><strong>Description:</strong></p>" + desc + "</description ></researcher_description > ";
+      con += "<researcher_description><description><h3><strong>Description:</strong></h3>" + desc + "</description ></researcher_description > ";
 
       // scholarship
       let schol = await ($('div#scholarship').html());
       if (schol) {
-        schol = await schol.replace(/<p(.*?)>/g, "");
+        schol = await schol.replace(/<p(.*?)>/g, "  ||  ");
         schol = await schol.replace(/<\/p>/g, " | ");
         schol = await schol.replace(/<br\/>/g, "");
+        schol = await schol.replace(/\|\|/, "");
         //schol = await schol.replace(/<ul>/g, "");
         //schol = await schol.replace(/<\/ul>/g, "");
         schol = await xmlConfig(schol);
         schol = await schol.replace('Scholarship', '');
-        schol = await schol.replace(/\|/g, "&lt;br/&gt;&lt;br/&gt;");
+        schol = await schol.replace(/\|\|/g, "<li>")
+        schol = await schol.replace(/\|/g, "</li><br />");
+        schol = await schol.replace(/<br \/>/, "");
+        //schol = await schol.replace(/<br \/>/, "");
       } else {
         schol = ""
       }
-      con += "<researcher_description><description>&lt;br/&gt;<strong>Schololorship:</strong>" + schol + "</description></researcher_description>";
+      con += "<researcher_description><description><h3><strong>Schololorship:</strong></h3><ol>" + schol + "</ol></description></researcher_description>";
 
       con += "</researcher_descriptions>";
 
