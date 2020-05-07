@@ -8,9 +8,9 @@
       <head>
 
         <style>
-        body ul {
+        <!-- body ul {
         list-style: none;
-        }
+        } -->
         </style>
 
       </head>
@@ -19,17 +19,17 @@
         <xsl:for-each select="users/user">
           <div> <strong >Primary ID: </strong> <span><xsl:value-of select="primary_id" /></span></div>
           <div> Is Researcher: <span><xsl:value-of select="is_researcher" disable-output-escaping="yes" /></span></div>
-        </xsl:for-each>
-        <xsl:for-each select="users/user/researcher">
+
+        <xsl:for-each select="researcher">
           <div> Researcher Language: <span><xsl:value-of select="researcher_languages/researcher_language" disable-output-escaping="yes"/></span></div>
         </xsl:for-each>
-        <xsl:for-each select="users/user/researcher/researcher_organization_affiliations/researcher_organization_affiliation">
+        <xsl:for-each select="researcher/researcher_organization_affiliations/researcher_organization_affiliation">
          <div> Researcher Organizations: <span><xsl:value-of select="organization_code" disable-output-escaping="yes" /></span></div>
          </xsl:for-each>
-        <xsl:for-each select="users/user/researcher/researcher_descriptions/researcher_description/description">
+        <xsl:for-each select="researcher/researcher_descriptions/researcher_description/description">
          <div> <span><xsl:value-of select="." disable-output-escaping="yes" /></span></div>
          </xsl:for-each>
-
+        </xsl:for-each>
       </body>
     </html>
   </xsl:template>
