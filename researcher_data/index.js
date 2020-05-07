@@ -186,7 +186,7 @@ const c = new Crawler({
         //hon = await hon.replace(/<ul>/g, "");
         //hon = await hon.replace(/<\/ul>/g, "");
         deg = await xmlConfig(deg);
-        deg = await deg.replace(/\|/g, "<br />")
+        deg = await deg.replace(/\|/g, "</li><li>")
 
       } else {
         deg = ""
@@ -208,13 +208,13 @@ const c = new Crawler({
         exp = await exp.replace(/<br\/>/g, "");
         exp = await exp.replace("Expertise", "");
         exp = await xmlConfig(exp);
-        exp = await exp.replace(/\|/g, "<br />");
+        exp = await exp.replace(/\|/g, "</li><li>");
       } else {
         exp = ""
       }
 
 
-      con += "<researcher_description><description>" + "<h3><strong>Keywords:</strong></h3> " + exp + "</description></researcher_description>";
+      con += "<researcher_description><description>" + "<h3><strong>Keywords:</strong></h3><ul><li>" + exp + "</li></ul></description></researcher_description>";
 
       // courses
       let cour = await ($('div#courses').html());
@@ -223,20 +223,21 @@ const c = new Crawler({
         cour = await cour.replace(/<\/table(.*?)>/g, "");
         cour = await cour.replace(/<\/tbody(.*?)>/g, "");
         cour = await cour.replace(/<tbody(.*?)>/g, "");
-        cour = await cour.replace(/<tr(.*?)>/g, "");
+        cour = await cour.replace(/<tr(.*?)>/g, " || ");
         cour = await cour.replace(/<\/tr(.*?)>/g, " | ");
         cour = await cour.replace(/<td(.*?)>/g, "");
         cour = await cour.replace(/<\/td>/g, "");
         cour = await cour.replace(/<p(.*?)>/g, "");
         cour = await cour.replace(/<\/p>/g, "");
-        cour = await cour.replace("Courses Taught", "<h3><strong>Courses Taught:</strong></h3>");
+        cour = await cour.replace("Courses Taught", "");
         //cour = await xmlConfig(cour);
-        cour = await cour.replace(/\|/g, "<br />");
+        cour = await cour.replace(/\|\|/g, "<li>")
+        cour = await cour.replace(/\|/g, "</li>");
       } else {
         cour = ""
       }
 
-      con += "<researcher_description><description>" + cour + "</description></researcher_description>";
+      con += "<researcher_description><description><h3><strong>Courses Taught:</strong></h3><ul>" + cour + "</ul></description></researcher_description>";
 
       // profile/description
       let desc = await ($('div#profile').text());
