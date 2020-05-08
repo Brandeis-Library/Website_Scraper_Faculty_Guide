@@ -197,8 +197,10 @@ const c = new Crawler({
       if (exp) {
         exp = await exp.replace(/\,/g, " | ");
         exp = await exp.replace(/\:/g, " | ");
+        //exp = await exp.replace(/\./g, " | ");
+        // Can't remove ; as it conflicts with XML escape characters
         //exp = await exp.replace(/\;/g, " | ");
-        exp = await exp.replace(/\-/g, " | ");
+        //exp = await exp.replace(/\-/g, " | ");
 
         exp = await exp.replace(/<p(.*?)>/g, "");
         exp = await exp.replace(/<\/p>/g, "");
@@ -314,7 +316,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 6000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 100000);
 
 // list of pages to scrape.
 c.queue(
