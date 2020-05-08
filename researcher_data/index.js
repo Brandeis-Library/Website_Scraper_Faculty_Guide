@@ -179,12 +179,11 @@ const c = new Crawler({
 
 
       if (deg) {
+        deg = deg.slice(0, -6);
         deg = await deg.replace("Degrees", "");
         deg = await deg.replace(/<p(.*?)>/g, "");
         deg = await deg.replace(/<\/p>/g, "");
         deg = await deg.replace(/<br\/>/g, " | ");
-        //hon = await hon.replace(/<ul>/g, "");
-        //hon = await hon.replace(/<\/ul>/g, "");
         deg = await xmlConfig(deg);
         deg = await deg.replace(/\|/g, "</li><li>")
 
@@ -193,7 +192,7 @@ const c = new Crawler({
       }
 
 
-      con += "<researcher_description><description>" + "<h3><strong>Education: </strong></h3>" + deg + "</description></researcher_description>";
+      con += "<researcher_description><description>" + "<h3><strong>Education: </strong></h3><ul><li>" + deg + "</li></ul></description></researcher_description>";
 
       // expertise/keywords
       let exp = await ($('div#expertise').html());
