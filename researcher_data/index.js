@@ -155,28 +155,26 @@ const c = new Crawler({
       con += "</description></researcher_description>"
 
       // awards/honors
-      let hon = await ($('div#awards').html())
-
+      let hon = await ($('div#awards').html());
 
       if (hon) {
         hon = await hon.replace("Awards and Honors", "");
-
+        hon = hon.slice(0, -6);
         hon = await hon.replace(/<p(.*?)>/g, "");
         hon = await hon.replace(/<\/p>/g, "|");
         hon = await hon.replace(/<br\/>/g, "");
         hon = await xmlConfig(hon);
-        hon = await hon.replace(/\|/g, "<br />")
-        hon = await hon.replace(/<br \/>/, "");
+        hon = await hon.replace(/\|/, "");
+        hon = await hon.replace(/\|/g, "</li><li>")
+
       } else {
         hon = ""
       }
-      con += "<researcher_description><description>" + "<h3><strong>Honors and Awards:</strong></h3>" + hon +
-        "</description></researcher_description>"
-
+      con += "<researcher_description><description>" + "<h3><strong>Honors and Awards:</strong></h3><ul><li>" + hon +
+        "</li></ul></description></researcher_description>"
 
       // degrees/education
       let deg = await ($('div#degrees').html());
-
 
       if (deg) {
         deg = deg.slice(0, -6);
