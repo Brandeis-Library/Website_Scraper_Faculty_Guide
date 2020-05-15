@@ -26,6 +26,11 @@
         <xsl:for-each select="researcher/researcher_organization_affiliations/researcher_organization_affiliation">
          <div> Researcher Organizations: <span><xsl:value-of select="organization_code" disable-output-escaping="yes" /></span></div>
          </xsl:for-each>
+
+         <xsl:for-each select="researcher/keywords">
+         <div> <span><xsl:value-of select="." disable-output-escaping="yes" /></span></div>
+         </xsl:for-each>
+
         <xsl:for-each select="researcher/researcher_descriptions/researcher_description/description">
          <div> <span><xsl:value-of select="." disable-output-escaping="yes" /></span></div>
          </xsl:for-each>

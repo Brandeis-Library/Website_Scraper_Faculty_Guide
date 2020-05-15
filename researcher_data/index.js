@@ -144,6 +144,31 @@ const c = new Crawler({
       con += deptOutput
       con += "</researcher_organization_affiliations>"
 
+
+      // expertise/keywords
+      let exp = await ($('div#expertise').html());
+      if (exp) {
+        exp = await exp.replace(/\,/g, " | ");
+        exp = await exp.replace(/\:/g, " | ");
+        //exp = await exp.replace(/\./g, " | ");
+        // Can't remove ; as it conflicts with XML escape characters
+        //exp = await exp.replace(/\;/g, " | ");
+        //exp = await exp.replace(/\-/g, " | ");
+
+        exp = await exp.replace(/<p(.*?)>/g, "");
+        exp = await exp.replace(/<\/p>/g, "");
+        exp = await exp.replace(/<br\/>/g, "");
+        exp = await exp.replace("Expertise", "");
+        exp = await xmlConfig(exp);
+        exp = await exp.replace(/\|/g, "</keyword><keyword>");
+      } else {
+        exp = ""
+      }
+
+
+      con += "<keywords><h3><strong>Keywords:</strong></h3><keyword>" + exp + "</keyword></keywords>";
+
+
       //beginning of researcher description fields
       con += "<researcher_descriptions>"
 
@@ -193,27 +218,27 @@ const c = new Crawler({
       con += "<researcher_description><description>" + "<h3><strong>Education: </strong></h3><ul><li>" + deg + "</li></ul></description></researcher_description>";
 
       // expertise/keywords
-      let exp = await ($('div#expertise').html());
-      if (exp) {
-        exp = await exp.replace(/\,/g, " | ");
-        exp = await exp.replace(/\:/g, " | ");
-        //exp = await exp.replace(/\./g, " | ");
-        // Can't remove ; as it conflicts with XML escape characters
-        //exp = await exp.replace(/\;/g, " | ");
-        //exp = await exp.replace(/\-/g, " | ");
+      // let exp = await ($('div#expertise').html());
+      // if (exp) {
+      //   exp = await exp.replace(/\,/g, " | ");
+      //   exp = await exp.replace(/\:/g, " | ");
+      //   //exp = await exp.replace(/\./g, " | ");
+      //   // Can't remove ; as it conflicts with XML escape characters
+      //   //exp = await exp.replace(/\;/g, " | ");
+      //   //exp = await exp.replace(/\-/g, " | ");
 
-        exp = await exp.replace(/<p(.*?)>/g, "");
-        exp = await exp.replace(/<\/p>/g, "");
-        exp = await exp.replace(/<br\/>/g, "");
-        exp = await exp.replace("Expertise", "");
-        exp = await xmlConfig(exp);
-        exp = await exp.replace(/\|/g, "</li><li>");
-      } else {
-        exp = ""
-      }
+      //   exp = await exp.replace(/<p(.*?)>/g, "");
+      //   exp = await exp.replace(/<\/p>/g, "");
+      //   exp = await exp.replace(/<br\/>/g, "");
+      //   exp = await exp.replace("Expertise", "");
+      //   exp = await xmlConfig(exp);
+      //   exp = await exp.replace(/\|/g, "</li><li>");
+      // } else {
+      //   exp = ""
+      // }
 
 
-      con += "<researcher_description><description>" + "<h3><strong>Keywords:</strong></h3><ul><li>" + exp + "</li></ul></description></researcher_description>";
+      // con += "<researcher_description><description>" + "<h3><strong>Keywords:</strong></h3><ul><li>" + exp + "</li></ul></description></researcher_description>";
 
       // courses
       let cour = await ($('div#courses').html());
@@ -316,7 +341,7 @@ const c = new Crawler({
 
 });
 // puts closing root tag on the document
-setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 100000);
+setTimeout(function () { fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>'); }, 9000);
 
 // list of pages to scrape.
 c.queue(
