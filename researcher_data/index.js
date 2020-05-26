@@ -347,6 +347,7 @@ const c = new Crawler({
   },
 });
 
+//Add end users tag with XML
 c.on('drain',function(){
   fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>');
 });

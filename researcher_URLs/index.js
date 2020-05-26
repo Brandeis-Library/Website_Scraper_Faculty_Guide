@@ -65,12 +65,10 @@ const c = new Crawler({
 
 });
 
+//Add end of object with callback
 c.on('drain',function(){
   fs.createWriteStream('./userURLs.js', { flags: 'a' }).write(']}');
 });
-
-
-
 
 c.queue(
   alphaUrls,
