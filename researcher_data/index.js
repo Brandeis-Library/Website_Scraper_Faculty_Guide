@@ -346,11 +346,8 @@ const c = new Crawler({
     done();
   },
 });
-// puts closing root tag on the document
-// setTimeout(function () {
-//   fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>');
-// }, 9000);
 
+// puts closing root tag on the document
 c.on('drain', function () {
   fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>');
 });
