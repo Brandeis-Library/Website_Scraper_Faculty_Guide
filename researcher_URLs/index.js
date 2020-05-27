@@ -66,10 +66,6 @@ const c = new Crawler({
 });
 
 // puts closing root tag on the document
-setTimeout(function () {
-  fs.createWriteStream('./userURLs.js', { flags: 'a' }).write(']}');
-}, 90000);
-
 c.on('drain', function () {
   fs.createWriteStream('./userURLs.js', { flags: 'a' }).write(']}');
 });
