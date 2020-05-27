@@ -347,9 +347,13 @@ const c = new Crawler({
   },
 });
 // puts closing root tag on the document
-setTimeout(function () {
+// setTimeout(function () {
+//   fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>');
+// }, 9000);
+
+c.on('drain', function () {
   fs.createWriteStream('./saved.xml', { flags: 'a' }).write('</users>');
-}, 200000);
+});
 
 // list of pages to scrape.
 c.queue(urls);
