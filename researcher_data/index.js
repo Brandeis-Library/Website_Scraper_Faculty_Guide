@@ -3,8 +3,15 @@ const Crawler = require('crawler');
 
 // brings in the URLs to scrape
 const { urls } = require('../researcher_URLs/userURLs.js');
+
+// brings in the Testing URLs to scrape
+//const { urls } = require('../researcher_URLs/userURLsTesting.js');
+
 // brings in user object for 'bad' user ids
 const { userIds } = require('./ProblemUIDs.js');
+
+// Truncate saved.xml before appending
+fs.truncateSync('./saved.xml');
 
 // helper function to remove xml reserved code.
 const xmlConfig = async textBlock => {
@@ -278,7 +285,7 @@ const c = new Crawler({
       con = await xmlEscape(con);
 
       // writes each user to our file.
-      fs.createWriteStream('./saved.xml', { flags: 'w' }).write(con);
+      fs.createWriteStream('./saved.xml', { flags: 'a' }).write(con);
     }
     // signifies the end of each researcher being scraped
     done();
