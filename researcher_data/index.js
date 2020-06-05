@@ -141,31 +141,6 @@ const c = new Crawler({
       con += deptOutput;
       con += '</researcher_organization_affiliations>';
 
-      // expertise/keywords
-      // let exp = await $('div#expertise').html();
-      // if (exp) {
-      //   exp = await exp.replace(/\,/g, ' | ');
-      //   exp = await exp.replace(/\:/g, ' | ');
-      //   //exp = await exp.replace(/\./g, " | ");
-      //   // Can't remove ; as it conflicts with XML escape characters
-      //   //exp = await exp.replace(/\;/g, " | ");
-      //   //exp = await exp.replace(/\-/g, " | ");
-
-      //   exp = await exp.replace(/<p(.*?)>/g, '');
-      //   exp = await exp.replace(/<\/p>/g, '');
-      //   exp = await exp.replace(/<br\/>/g, '');
-      //   exp = await exp.replace('Expertise', '');
-      //   exp = await xmlConfig(exp);
-      //   exp = await exp.replace(/\|/g, '</keyword><keyword>');
-      // } else {
-      //   exp = '';
-      // }
-
-      // con +=
-      //   '<keywords><h3><strong>Keywords:</strong></h3><keyword>' +
-      //   exp +
-      //   '</keyword></keywords>';
-
       //beginning of researcher description fields
       con += '<researcher_descriptions>';
 
@@ -223,11 +198,6 @@ const c = new Crawler({
       if (exp) {
         exp = await exp.replace(/\,/g, ' | ');
         exp = await exp.replace(/\:/g, ' | ');
-        //exp = await exp.replace(/\./g, " | ");
-        // Can't remove ; as it conflicts with XML escape characters
-        //exp = await exp.replace(/\;/g, " | ");
-        //exp = await exp.replace(/\-/g, " | ");
-
         exp = await exp.replace(/<p(.*?)>/g, '');
         exp = await exp.replace(/<\/p>/g, '');
         exp = await exp.replace(/<br\/>/g, '');
@@ -303,44 +273,12 @@ const c = new Crawler({
 
       con += '</researcher_descriptions>';
 
-      // contact info
-      //let cont = ($('div#contact').text());
-      //cont = await xmlConfig(cont);
-      //con += "<contact>" + cont + "</contact>";
-
-      // research topics
-      //con += "<researcher_topics><researcher_topic>No Data</ researcher_topic></ researcher_topics >"
-
-      // researcher associations
-      //con += "<researcher_associations><researcher_association>" + "</ researcher_association></ researcher_associations >"
-
-      // external affiliations
-      //con += "<researcher_external_organization_affiliations><researcher_external_organization_affiliation>" + "</researcher_external_organization_affiliation></researcher_external_organization_affiliations>";
-
-      // previous external affiliations
-      //con += "<researcher_previous_external_organization_affiliations><researcher_previous_external_organization_affiliation>" + "</researcher_previous_external_organization_affiliation></researcher_previous_external_organization_affiliations>";
-
-      // researcher webpage
-      //con += "<researcher_webpages><researcher_webpage>" + "</ researcher_webpage></ researcher_webpages>"
-
-      // previous organization affiliations
-      //con += "<researcher_previous_organization_affiliations><researcher_previous_organization_affiliation>" + "</ researcher_previous_organization_affiliation></researcher_previous_organization_affiliations>";
-
-      // email
-      //con += "<researcher_alternate_emails><researcher_alternate_email>" + "</ researcher_alternate_email></ researcher_alternate_emails>"
-
-      //researcher name
-      //let name = await ($('div#content > h1').text());
-      //name = await xmlConfig(name)
-
-      //con += "<researcher_name_variants><researcher_name_variant>" + name + "</researcher_name_variant></researcher_name_variants>";
-
       con += '</researcher></user>';
 
       con = await xmlEscape(con);
 
       // writes each user to our file.
-      fs.createWriteStream('./saved.xml', { flags: 'a' }).write(con);
+      fs.createWriteStream('./saved.xml', { flags: 'w' }).write(con);
     }
     // signifies the end of each researcher being scraped
     done();
