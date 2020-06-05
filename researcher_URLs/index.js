@@ -4,6 +4,9 @@ const Crawler = require('crawler');
 // brings in the URLs to scrape
 const alphaUrls = require('./URLsToScrape.js');
 
+// Truncate userURLS.js before appending
+fs.truncateSync('./userURLs.js');
+
 // starts XML file with xml definition and starting root tag.
 fs.createWriteStream('./userURLs.js', { flags: 'a' }).write(
   'module.exports = { urls: ['
