@@ -15,7 +15,7 @@ const { userIds } = require('./ProblemUIDs.js');
 fs.truncateSync('./saved.xml');
 
 // helper function to remove xml reserved code.
-const xmlConfig = async textBlock => {
+const xmlConfig = textBlock => {
   let text = textBlock;
   text = text.replace(/\&/g, '&amp;');
   text = text.replace(/\'/g, '&apos;');
@@ -34,19 +34,19 @@ const xmlConfig = async textBlock => {
 };
 
 // end of the file converts all the html to XML friendly escape code.
-const xmlEscape = async textBlock => {
+const xmlEscape = textBlock => {
   let text = textBlock;
-  text = await text.replace(/<br \/>/g, '&lt;br/&gt;');
-  text = await text.replace(/<p>/g, '&lt;p&gt;');
-  text = await text.replace(/<\/p>/g, '&lt;/p&gt;');
-  text = await text.replace(/<strong>/g, '&lt;strong&gt;');
-  text = await text.replace(/<\/strong>/g, '&lt;/strong&gt;');
-  text = await text.replace(/<h3>/g, '&lt;h3&gt;');
-  text = await text.replace(/<\/h3>/g, '&lt;/h3&gt;');
-  text = await text.replace(/<\/li>/g, '&lt;/li&gt;');
-  text = await text.replace(/<\/ul>/g, '&lt;/ul&gt;');
-  text = await text.replace(/<ul>/g, '&lt;ul&gt;');
-  text = await text.replace(/<li>/g, '&lt;li&gt;');
+  text = text.replace(/<br \/>/g, '&lt;br/&gt;');
+  text = text.replace(/<p>/g, '&lt;p&gt;');
+  text = text.replace(/<\/p>/g, '&lt;/p&gt;');
+  text = text.replace(/<strong>/g, '&lt;strong&gt;');
+  text = text.replace(/<\/strong>/g, '&lt;/strong&gt;');
+  text = text.replace(/<h3>/g, '&lt;h3&gt;');
+  text = text.replace(/<\/h3>/g, '&lt;/h3&gt;');
+  text = text.replace(/<\/li>/g, '&lt;/li&gt;');
+  text = text.replace(/<\/ul>/g, '&lt;/ul&gt;');
+  text = text.replace(/<ul>/g, '&lt;ul&gt;');
+  text = text.replace(/<li>/g, '&lt;li&gt;');
   return text;
 };
 
