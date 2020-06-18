@@ -256,18 +256,15 @@ const c = new Crawler({
       // scholarship
       let schol = await $('div#scholarship').html();
       if (schol) {
-        schol = await schol.replace(/<p(.*?)>/g, '  ||  ');
-        schol = await schol.replace(/<\/p>/g, ' | ');
-        schol = await schol.replace(/<br\/>/g, '');
-        schol = await schol.replace(/\|\|/, '');
-        //schol = await schol.replace(/<ul>/g, "");
-        //schol = await schol.replace(/<\/ul>/g, "");
+        schol = schol.replace(/<p(.*?)>/g, '  ||  ');
+        schol = schol.replace(/<\/p>/g, ' | ');
+        schol = schol.replace(/<br\/>/g, '');
+        schol = schol.replace(/\|\|/, '');
         schol = await xmlConfig(schol);
-        schol = await schol.replace('Scholarship', '');
-        schol = await schol.replace(/\|\|/g, '<li>');
-        schol = await schol.replace(/\|/g, '</li><br />');
-        schol = await schol.replace(/<br \/>/, '');
-        //schol = await schol.replace(/<br \/>/, "");
+        schol = schol.replace('Scholarship', '');
+        schol = schol.replace(/\|\|/g, '<li>');
+        schol = schol.replace(/\|/g, '</li><br />');
+        schol = schol.replace(/<br \/>/, '');
       } else {
         schol = '';
       }
