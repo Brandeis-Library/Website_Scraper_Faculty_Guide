@@ -98,6 +98,7 @@ const c = new Crawler({
       // begin researcher fields
       con += '<researcher>';
 
+      // Show some data of each reasearcher in the console to give an update to the process
       console.log(email0, email1, email);
 
       // researcher languages
@@ -106,19 +107,16 @@ const c = new Crawler({
 
       //department name list
       let departName = await $('div#depts').html();
-      //console.log("departName------  ", departname)
+
       let departNameArray = [];
       let deptOutput = '';
       con += '<researcher_organization_affiliations>';
       if (departName) {
-        departName = await departName.replace(/Departments\/Programs/g, '');
-        //departName = await departName.replace(/<\/a>/g, " $ ");
-        departName = await departName.replace(/<p(.*?)>/g, '');
-        departName = await departName.replace(/<\/p>/g, '');
-        //departName = await departName.replace(/<a(.*?)>/g, " | ");
-        departName = await departName.replace(/<br\/>/g, '');
-        departName = await departName.replace(/<\/a>/g, '</a>|');
-
+        departName = departName.replace(/Departments\/Programs/g, '');
+        departName = departName.replace(/<p(.*?)>/g, '');
+        departName = departName.replace(/<\/p>/g, '');
+        departName = departName.replace(/<br\/>/g, '');
+        departName = departName.replace(/<\/a>/g, '</a>|');
         departNameArray = departName.split('|');
 
         for (x = 0; x < departNameArray.length - 1; x++) {
