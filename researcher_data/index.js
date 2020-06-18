@@ -1,5 +1,6 @@
 const fs = require('fs');
 const Crawler = require('crawler');
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
 // brings in the URLs to scrape
 const { urls } = require('../researcher_URLs/userURLs.js');
