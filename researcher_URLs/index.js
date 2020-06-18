@@ -38,15 +38,12 @@ const c = new Crawler({
       con += await $('div#content > div#three').html();
       con += await $('div#content > div#four').html();
       if (typeof con === 'string') {
-        con = await con.replace(/<p(.*?)>/g, '');
-        con = await con.replace(/<\/p>/g, '');
-        con = await con.replace(/<h1(.*?)>(.*?)<\/h1>/g, '');
-        con = await con.replace(/>(.*?)</g, '><');
+        con = con.replace(/<p(.*?)>/g, '');
+        con = con.replace(/<\/p>/g, '');
+        con = con.replace(/<h1(.*?)>(.*?)<\/h1>/g, '');
+        con = con.replace(/>(.*?)</g, '><');
 
-        let userUrlArray = await con.split('</a>');
-
-        console.log('array of a tags......   ', userUrlArray);
-        console.log('array of a tags length......   ', userUrlArray.length);
+        let userUrlArray = con.split('</a>');
 
         arrUrls = await userUrlArray.map(item => {
           let first = item.indexOf('d=');
@@ -56,12 +53,10 @@ const c = new Crawler({
           return (str += "',");
         });
         let removedItemToNotToBeUsed = arrUrls.pop();
-        console.log('arrUrls.....', arrUrls);
+
         arrUrls = arrUrls.join(' ');
       }
 
-      console.log('con+++++++++++++++   ', con);
-      //con = arrUrls;
       fs.createWriteStream('./userURLs.js', { flags: 'a' }).write(arrUrls);
     }
     // signifies the end of each researcher being scraped
