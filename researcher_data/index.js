@@ -161,14 +161,14 @@ const c = new Crawler({
       let hon = await $('div#awards').html();
 
       if (hon) {
-        hon = await hon.replace('Awards and Honors', '');
+        hon = hon.replace('Awards and Honors', '');
         hon = hon.slice(0, -6);
-        hon = await hon.replace(/<p(.*?)>/g, '');
-        hon = await hon.replace(/<\/p>/g, '|');
-        hon = await hon.replace(/<br\/>/g, '');
+        hon = hon.replace(/<p(.*?)>/g, '');
+        hon = hon.replace(/<\/p>/g, '|');
+        hon = hon.replace(/<br\/>/g, '');
         hon = await xmlConfig(hon);
-        hon = await hon.replace(/\|/, '');
-        hon = await hon.replace(/\|/g, '</li><li>');
+        hon = hon.replace(/\|/, '');
+        hon = hon.replace(/\|/g, '</li><li>');
       } else {
         hon = '';
       }
@@ -183,12 +183,12 @@ const c = new Crawler({
 
       if (deg) {
         deg = deg.slice(0, -6);
-        deg = await deg.replace('Degrees', '');
-        deg = await deg.replace(/<p(.*?)>/g, '');
-        deg = await deg.replace(/<\/p>/g, '');
-        deg = await deg.replace(/<br\/>/g, ' | ');
+        deg = deg.replace('Degrees', '');
+        deg = deg.replace(/<p(.*?)>/g, '');
+        deg = deg.replace(/<\/p>/g, '');
+        deg = deg.replace(/<br\/>/g, ' | ');
         deg = await xmlConfig(deg);
-        deg = await deg.replace(/\|/g, '</li><li>');
+        deg = deg.replace(/\|/g, '</li><li>');
       } else {
         deg = '';
       }
@@ -202,14 +202,14 @@ const c = new Crawler({
       // expertise/keywords
       let exp = await $('div#expertise').html();
       if (exp) {
-        exp = await exp.replace(/\,/g, ' | ');
-        exp = await exp.replace(/\:/g, ' | ');
-        exp = await exp.replace(/<p(.*?)>/g, '');
-        exp = await exp.replace(/<\/p>/g, '');
-        exp = await exp.replace(/<br\/>/g, '');
-        exp = await exp.replace('Expertise', '');
-        exp = await xmlConfig(exp);
-        exp = await exp.replace(/\|/g, '</li><li>');
+        exp = exp.replace(/\,/g, ' | ');
+        exp = exp.replace(/\:/g, ' | ');
+        exp = exp.replace(/<p(.*?)>/g, '');
+        exp = exp.replace(/<\/p>/g, '');
+        exp = exp.replace(/<br\/>/g, '');
+        exp = exp.replace('Expertise', '');
+        exp = exp = await xmlConfig(exp);
+        exp = exp.replace(/\|/g, '</li><li>');
       } else {
         exp = '';
       }
@@ -223,20 +223,19 @@ const c = new Crawler({
       // courses
       let cour = await $('div#courses').html();
       if (cour) {
-        cour = await cour.replace(/<table(.*?)>/g, '');
-        cour = await cour.replace(/<\/table(.*?)>/g, '');
-        cour = await cour.replace(/<\/tbody(.*?)>/g, '');
-        cour = await cour.replace(/<tbody(.*?)>/g, '');
-        cour = await cour.replace(/<tr(.*?)>/g, ' || ');
-        cour = await cour.replace(/<\/tr(.*?)>/g, ' | ');
-        cour = await cour.replace(/<td(.*?)>/g, '');
-        cour = await cour.replace(/<\/td>/g, '');
-        cour = await cour.replace(/<p(.*?)>/g, '');
-        cour = await cour.replace(/<\/p>/g, '');
-        cour = await cour.replace('Courses Taught', '');
-        //cour = await xmlConfig(cour);
-        cour = await cour.replace(/\|\|/g, '<li>');
-        cour = await cour.replace(/\|/g, '</li>');
+        cour = cour.replace(/<table(.*?)>/g, '');
+        cour = cour.replace(/<\/table(.*?)>/g, '');
+        cour = cour.replace(/<\/tbody(.*?)>/g, '');
+        cour = cour.replace(/<tbody(.*?)>/g, '');
+        cour = cour.replace(/<tr(.*?)>/g, ' || ');
+        cour = cour.replace(/<\/tr(.*?)>/g, ' | ');
+        cour = cour.replace(/<td(.*?)>/g, '');
+        cour = cour.replace(/<\/td>/g, '');
+        cour = cour.replace(/<p(.*?)>/g, '');
+        cour = cour.replace(/<\/p>/g, '');
+        cour = cour.replace('Courses Taught', '');
+        cour = cour.replace(/\|\|/g, '<li>');
+        cour = cour.replace(/\|/g, '</li>');
       } else {
         cour = '';
       }
