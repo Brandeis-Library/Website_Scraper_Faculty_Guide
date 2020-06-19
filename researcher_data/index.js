@@ -43,10 +43,12 @@ const xmlEscape = textBlock => {
   text = text.replace(/<\/strong>/g, '&lt;/strong&gt;');
   text = text.replace(/<h3>/g, '&lt;h3&gt;');
   text = text.replace(/<\/h3>/g, '&lt;/h3&gt;');
-  text = text.replace(/<\/li>/g, '&lt;/li&gt;');
-  text = text.replace(/<\/ul>/g, '&lt;/ul&gt;');
-  text = text.replace(/<ul>/g, '&lt;ul&gt;');
   text = text.replace(/<li>/g, '&lt;li&gt;');
+  text = text.replace(/<\/li>/g, '&lt;/li&gt;');
+  text = text.replace(/<ul>/g, '&lt;ul&gt;');
+  text = text.replace(/<\/ul>/g, '&lt;/ul&gt;');
+  text = text.replace(/<ol>/g, '&lt;ol&gt;');
+  text = text.replace(/<\/ol>/g, '&lt;/ol&gt;');
   return text;
 };
 
