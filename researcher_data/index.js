@@ -260,6 +260,8 @@ const c = new Crawler({
       if (schol) {
         schol = schol.replace(/<p(.*?)>/g, '  ||  ');
         schol = schol.replace(/<\/p>/g, ' | ');
+        schol = schol.replace(/<U(.*?)>/g, '');
+        schol = schol.replace(/<\/U>/g, '');
         schol = schol.replace(/<br\/>/g, '');
         schol = schol.replace(/\|\|/, '');
         schol = await xmlConfig(schol);
