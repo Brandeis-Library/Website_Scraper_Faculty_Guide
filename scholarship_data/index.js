@@ -15,6 +15,24 @@ const { userIds } = require('../researcher_data/ProblemUIDs.js');
 fs.truncateSync('./doi_researcher.csv');
 
 // Place reserved for functions to remove code jobs.
+// helper function to remove xml reserved code.
+const xmlConfig = textBlock => {
+  let text = textBlock;
+  // text = text.replace(/\&/g, '&amp;');
+  // text = text.replace(/\'/g, '&apos;');
+  // text = text.replace(/\"/g, '&quot;');
+  // text = text.replace(/\’/g, '&#x2019;');
+  // text = text.replace(/\‘/g, '&#x2018;');
+  // text = text.replace(/\”/g, '&#x201D;'); //right double quotation mark
+  // text = text.replace(/\“/g, '&#x201C;'); //left double quotation mark
+  // text = text.replace(/\\b/g, '0x08');
+  // text = text.replace(/\\/g, '&#92;');
+  text = text.replace(/\</g, '');
+  text = text.replace(/\>/g, '');
+  // text = text.replace(/\'/g, '');
+  // text = text.replace(/\"/g, '');
+  return text;
+};
 
 // starts CSV file with column headings.
 fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
@@ -41,6 +59,7 @@ const c = new Crawler({
       let $ = res.$;
       // beginning of code scrape each section of a researcher
       let con = '';
+      let id = '';
 
       // Alma Primary ID
       let email = await $('div#contact > a').text();
@@ -50,7 +69,9 @@ const c = new Crawler({
       if (email1 !== 'brandeis.edu') {
         con += 'unknown_Alma_ID';
       } else {
-        con += email0 + ', ';
+        id = email0 + ', ';
+
+        con += id;
         // let newId = userIds[email0];
 
         // if (newId !== undefined) {
@@ -59,6 +80,27 @@ const c = new Crawler({
         // }
       }
 
+      // Scholarship
+      let schol = await $('div#scholarship').html();
+      if (schol) {
+        schol = schol.replace('<p class="label">Scholarship</p>', '');
+        schol = schol.replace(/<p(.*?)>/g, '');
+        schol = schol.replace(/<\/p>/g, ' | ');
+        schol = schol.replace(/<U(.*?)>/g, '');
+        schol = schol.replace(/<\/U>/g, '');
+        schol = schol.replace(/<br\/>/g, '');
+        schol = schol.replace(/\|\|/, '');
+        schol = await xmlConfig(schol);
+
+        //schol = schol.replace(/\|\|/g, '<li>');
+        //schol = schol.replace(/\|/g, '/n');
+        schol = schol.replace(/<br \/>/, '');
+      } else {
+        schol = '';
+      }
+      let scholArr = schol.split(' | ');
+      console.log('scholArr', scholArr);
+      //con += ;
       // writes each user to our file.
       fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
         con + '\n'
