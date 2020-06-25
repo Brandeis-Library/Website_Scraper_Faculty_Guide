@@ -6,7 +6,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 const { urls } = require('../researcher_URLs/userURLs.js');
 
 // brings in user object for 'bad' user ids
-const { userIds } = require('./ProblemUIDs.js');
+const { userIds } = require('../researcher_data/ProblemUIDs.js');
 
 // Place reserved for functions to remove code jobs.
 
@@ -55,4 +55,4 @@ c.on('drain', function () {
 // list of pages to scrape.
 c.queue(urls);
 
-encodeURI(uri);
+//encodeURI(uri);
