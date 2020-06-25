@@ -18,7 +18,7 @@ fs.truncateSync('./doi_researcher.csv');
 
 // starts CSV file with column headings.
 fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
-  `ALAMID, DOI`
+  `ALAMID, DOI` + '\n'
 );
 
 // beginning of scrapping function.
@@ -46,21 +46,23 @@ const c = new Crawler({
       let email = await $('div#contact > a').text();
       let email0 = email.split('@')[0];
       let email1 = email.split('@')[1];
-
+      console.log(email0, email1, email);
       if (email1 !== 'brandeis.edu') {
         con += 'unknown_Alma_ID';
       } else {
-        let newId = userIds[email0];
+        con += email0 + ', ';
+        // let newId = userIds[email0];
 
-        if (newId !== undefined) {
-          email0 = newId;
-        }
-
-        console.log(email0, email1, email);
+        // if (newId !== undefined) {
+        //   email0 = newId;
+        //   con += email0;
+        // }
       }
 
       // writes each user to our file.
-      fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(con);
+      fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
+        con + '\n'
+      );
 
       // signifies the end of each researcher being scraped
       done();
@@ -71,7 +73,7 @@ const c = new Crawler({
 // puts closing root tag on the document
 c.on('drain', function () {
   fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
-    'Do I need to put anything in here?'
+    '\n' + 'Do I need to put anything in here?'
   );
 });
 
