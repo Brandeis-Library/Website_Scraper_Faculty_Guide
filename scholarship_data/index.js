@@ -74,6 +74,8 @@ const xmlConfig = textBlock => {
   text = text.replace(/\&#x201C;/g, '"'); //left double quotation mark
   // text = text.replace(/\\b/g, '0x08');
   // text = text.replace(/\\/g, '&#92;');
+  text = text.replace(/\&gt;/g, '>');
+  text = text.replace(/\&lt;/g, '<');
   text = text.replace(/\</g, '');
   text = text.replace(/\>/g, '');
   // text = text.replace(/\'/g, '');
@@ -115,6 +117,7 @@ const c = new Crawler({
       console.log(email0, email1, email);
       if (email1 !== 'brandeis.edu') {
         con += 'unknown_Alma_ID';
+        done();
       } else {
         id = email0 + ', ';
 
