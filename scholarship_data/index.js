@@ -1,23 +1,47 @@
 async function getScholarshipDOIs(scholArr) {
   console.log('scholArr', scholArr);
-  let testItem = scholArr.shift();
-  console.log('testItem', testItem);
-  let len = scholArr.length;
+  // let testItem = scholArr.shift();
+  // console.log('testItem', testItem);
+  //let len = scholArr.length;
   let str = '';
-  for (let x = 0; x < len; x++) {
+
+  for (const uri of scholArr) {
     try {
-      let item = scholArr.shift();
-      item = encodeURI(item);
-      console.log('item encodeURI', item);
-      // let result = await axios.get(
-      //   `https://api.crossref.org/works?sort=relevance&order=desc&select=DOI&query.bibliographic=${item}`
-      // );
-      //console.log('Result', result);
-      //console.log('result.item[0].DOI', result.item[0].DOI);
+      const item = uri.trim();
+      console.log('item---------', item);
+      let itemEncoded = encodeURI(item);
+      itemEncoded = await xmlConfig(itemEncoded);
+      console.log('itemEncoded------  ', itemEncoded);
+      let { data } = await axios.get(
+        `https://api.crossref.org/works?sort=relevance&order=desc&select=DOI&query.bibliographic=${itemEncoded}`,
+        {
+          headers: { 'User-Agent': 'cunderwood@brandeis.edu' },
+        }
+      );
+      console.log('Result', data.message.items[0]);
     } catch (error) {
-      console.error(error);
+      console.log('for...in-------  ', error.message);
     }
   }
+
+  // for (let x = 0; x < len; x++) {
+  //   try {
+  //     setTimeout(async function () {
+  //       const item = scholArr.shift().trim();
+  //       const itemEncoded = encodeURI(item);
+  //       console.log('item encodeURI', itemEncoded);
+
+  // let result = await axios.get(
+  //   `https://api.crossref.org/works?sort=relevance&order=desc&select=DOI&query.bibliographic=${itemEncoded}`
+  // );
+  //       //str +=
+  //       console.log('Result', result);
+  //       //console.log('result.item[0].DOI', result.item[0].DOI);
+  //     }, 3000);
+  // } catch (error) {
+  //   console.error(error);
+  // }
+  //}
 }
 
 const fs = require('fs');
@@ -41,13 +65,13 @@ fs.truncateSync('./doi_researcher.csv');
 // helper function to remove xml reserved code.
 const xmlConfig = textBlock => {
   let text = textBlock;
-  // text = text.replace(/\&/g, '&amp;');
-  // text = text.replace(/\'/g, '&apos;');
-  // text = text.replace(/\"/g, '&quot;');
-  // text = text.replace(/\’/g, '&#x2019;');
-  // text = text.replace(/\‘/g, '&#x2018;');
-  // text = text.replace(/\”/g, '&#x201D;'); //right double quotation mark
-  // text = text.replace(/\“/g, '&#x201C;'); //left double quotation mark
+  text = text.replace(/\&amp;/g, '&');
+  text = text.replace(/\&apos;/g, "'");
+  text = text.replace(/\&quot;/g, '');
+  text = text.replace(/\&#x2019;/g, '"');
+  text = text.replace(/\&#x2018;/g, '"');
+  text = text.replace(/\&#x201D;/g, '"'); //right double quotation mark
+  text = text.replace(/\&#x201C;/g, '"'); //left double quotation mark
   // text = text.replace(/\\b/g, '0x08');
   // text = text.replace(/\\/g, '&#92;');
   text = text.replace(/\</g, '');
