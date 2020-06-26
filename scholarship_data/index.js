@@ -1,9 +1,8 @@
-async function getScholarshipDOIs(scholArr) {
+async function getScholarshipDOIs(scholArr, id, str) {
   console.log('scholArr', scholArr);
   // let testItem = scholArr.shift();
   // console.log('testItem', testItem);
   //let len = scholArr.length;
-  let str = '';
 
   for (const uri of scholArr) {
     try {
@@ -18,7 +17,13 @@ async function getScholarshipDOIs(scholArr) {
           headers: { 'User-Agent': 'cunderwood@brandeis.edu' },
         }
       );
+
       console.log('Result', data.message.items[0]);
+      let DOI = data.message.items[0]['DOI'];
+      fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
+        id + ' ' + DOI + ', \n'
+      );
+      //str += id + ' ' + data.message.items[0] + ', \n'
     } catch (error) {
       console.log('for...in-------  ', error.message);
     }
@@ -109,7 +114,7 @@ const c = new Crawler({
       // beginning of code scrape each section of a researcher
       let con = '';
       let id = '';
-
+      let str = '';
       // Alma Primary ID
       let email = await $('div#contact > a').text();
       let email0 = email.split('@')[0];
@@ -152,12 +157,12 @@ const c = new Crawler({
       console.log('schol-------', schol);
       let scholArr = schol.split('|');
       console.log('scholArr', scholArr);
-
-      getScholarshipDOIs(scholArr);
+      console.log('id------------------------------', id);
+      getScholarshipDOIs(scholArr, id, str);
       //con += ;
       // writes each user to our file.
       fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
-        con + '\n'
+        str + '\n'
       );
 
       // signifies the end of each researcher being scraped
@@ -169,7 +174,7 @@ const c = new Crawler({
 // puts closing root tag on the document
 c.on('drain', function () {
   fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
-    '\n' + 'Do I need to put anything in here?'
+    '\n' + 'Do I need to put anything in here? \n'
   );
 });
 
