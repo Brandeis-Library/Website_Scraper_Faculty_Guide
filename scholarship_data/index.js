@@ -1,3 +1,25 @@
+async function getScholarshipDOIs(scholArr) {
+  console.log('scholArr', scholArr);
+  let testItem = scholArr.shift();
+  console.log('testItem', testItem);
+  let len = scholArr.length;
+  let str = '';
+  for (let x = 0; x < len; x++) {
+    try {
+      let item = scholArr.shift();
+      item = encodeURI(item);
+      console.log('item encodeURI', item);
+      // let result = await axios.get(
+      //   `https://api.crossref.org/works?sort=relevance&order=desc&select=DOI&query.bibliographic=${item}`
+      // );
+      //console.log('Result', result);
+      //console.log('result.item[0].DOI', result.item[0].DOI);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+}
+
 const fs = require('fs');
 const Crawler = require('crawler');
 const axios = require('axios').default;
@@ -99,24 +121,10 @@ const c = new Crawler({
       } else {
         schol = '';
       }
-      let scholArr = schol.split(' | ');
-      console.log('scholArr', scholArr);
 
-      async function getScholarshipDOIs(scholArr) {
-        console.log('scholArr', scholArr);
-        let len = scholArr.length;
-        let str = '';
-        for (let x = 0; x < len; x++) {
-          let item = scholArr.shift();
-          item = encodeURI(item);
-          console.log('item encodeURI', item);
-          let result = await axios.get(
-            `https://api.crossref.org/works?sort=relevance&order=desc&select=DOI&query.bibliographic=${item}`
-          );
-          console.log('Result', result);
-          //console.log('result.item[0].DOI', result.item[0].DOI);
-        }
-      }
+      console.log('schol-------', schol);
+      let scholArr = schol.split('|');
+      console.log('scholArr', scholArr);
 
       getScholarshipDOIs(scholArr);
       //con += ;
