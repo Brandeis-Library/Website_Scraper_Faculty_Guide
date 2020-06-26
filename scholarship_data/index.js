@@ -21,7 +21,7 @@ async function getScholarshipDOIs(scholArr, id, str) {
       console.log('Result', data.message.items[0]);
       let DOI = data.message.items[0]['DOI'];
       fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
-        id + ' ' + DOI + ', \n'
+        id + DOI + ', \n'
       );
       //str += id + ' ' + data.message.items[0] + ', \n'
     } catch (error) {
