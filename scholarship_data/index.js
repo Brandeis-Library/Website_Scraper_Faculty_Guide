@@ -1,5 +1,6 @@
 const fs = require('fs');
 const Crawler = require('crawler');
+const axios = require('axios').default;
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
 // brings in the URLs to scrape
@@ -100,6 +101,24 @@ const c = new Crawler({
       }
       let scholArr = schol.split(' | ');
       console.log('scholArr', scholArr);
+
+      async function getScholarshipDOIs(scholArr) {
+        console.log('scholArr', scholArr);
+        let len = scholArr.length;
+        let str = '';
+        for (let x = 0; x < len; x++) {
+          let item = scholArr.shift();
+          item = encodeURI(item);
+          console.log('item encodeURI', item);
+          let result = await axios.get(
+            `https://api.crossref.org/works?sort=relevance&order=desc&select=DOI&query.bibliographic=${item}`
+          );
+          console.log('Result', result);
+          //console.log('result.item[0].DOI', result.item[0].DOI);
+        }
+      }
+
+      getScholarshipDOIs(scholArr);
       //con += ;
       // writes each user to our file.
       fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
