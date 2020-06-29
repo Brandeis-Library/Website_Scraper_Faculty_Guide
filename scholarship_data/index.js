@@ -11,8 +11,10 @@ async function getScholarshipDOIs(scholArr, id, str) {
       let itemEncoded = encodeURI(item);
       itemEncoded = await xmlConfig(itemEncoded);
       console.log('itemEncoded------  ', itemEncoded);
+      let name = item.substring(0, item.indexOf('.'));
+      console.log('name--------  ', name);
       let { data } = await axios.get(
-        `https://api.crossref.org/works?sort=relevance&order=desc&select=DOI&query.bibliographic=${itemEncoded}`,
+        `https://api.crossref.org/works?sort=score&order=desc&select=DOI&query.bibliographic=${itemEncoded}`,
         {
           headers: { 'User-Agent': 'cunderwood@brandeis.edu' },
         }
