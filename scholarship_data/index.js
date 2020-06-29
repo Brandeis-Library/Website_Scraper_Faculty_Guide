@@ -21,32 +21,13 @@ async function getScholarshipDOIs(scholArr, id, str) {
       console.log('Result', data.message.items[0]);
       let DOI = data.message.items[0]['DOI'];
       fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
-        id + DOI + ', \n'
+        id + DOI + ', https://doi.org/' + DOI + ', ' + item + ', \n'
       );
       //str += id + ' ' + data.message.items[0] + ', \n'
     } catch (error) {
       console.log('for...in-------  ', error.message);
     }
   }
-
-  // for (let x = 0; x < len; x++) {
-  //   try {
-  //     setTimeout(async function () {
-  //       const item = scholArr.shift().trim();
-  //       const itemEncoded = encodeURI(item);
-  //       console.log('item encodeURI', itemEncoded);
-
-  // let result = await axios.get(
-  //   `https://api.crossref.org/works?sort=relevance&order=desc&select=DOI&query.bibliographic=${itemEncoded}`
-  // );
-  //       //str +=
-  //       console.log('Result', result);
-  //       //console.log('result.item[0].DOI', result.item[0].DOI);
-  //     }, 3000);
-  // } catch (error) {
-  //   console.error(error);
-  // }
-  //}
 }
 
 const fs = require('fs');
@@ -90,7 +71,7 @@ const xmlConfig = textBlock => {
 
 // starts CSV file with column headings.
 fs.createWriteStream('./doi_researcher.csv', { flags: 'a' }).write(
-  `ALAMID, DOI` + '\n'
+  `ALMAID, DOI, FULL DOI URL, CITATION` + '\n'
 );
 
 // beginning of scrapping function.
