@@ -3,10 +3,10 @@ const Crawler = require('crawler');
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
 // brings in the URLs to scrape
-const { urls } = require('../researcher_URLs/userURLs.js');
+//const { urls } = require('../researcher_URLs/userURLs.js');
 
 // brings in the Testing URLs to scrape
-//const { urls } = require('../researcher_URLs/userURLsTesting.js');
+const { urls } = require('../researcher_URLs/userURLsTesting.js');
 
 // brings in user object for 'bad' user ids
 const { userIds } = require('./ProblemUIDs.js');
@@ -107,6 +107,13 @@ const c = new Crawler({
       con +=
         '<researcher_languages><researcher_language>eng</researcher_language></researcher_languages >';
 
+      // position/title
+      let posit = await $('div#title').text();
+      posit = await xmlConfig(posit);
+
+      let titleVar = '<title>' + posit + '</title>';
+      // con += '</description></researcher_description>';
+
       //department name list
       let departName = await $('div#depts').html();
 
@@ -140,7 +147,9 @@ const c = new Crawler({
           deptOutput +=
             '<researcher_organization_affiliation><organization_code>' +
             departCode +
-            '</organization_code></researcher_organization_affiliation>';
+            '</organization_code>' +
+            titleVar +
+            '</researcher_organization_affiliation>';
         }
       } else {
         departOutput = 'unknown';
@@ -150,14 +159,7 @@ const c = new Crawler({
       con += '</researcher_organization_affiliations>';
 
       //beginning of researcher description fields
-      con += '<researcher_descriptions>';
-
-      // position/title
-      let posit = await $('div#title').text();
-      posit = await xmlConfig(posit);
-      con += '<researcher_description><description>';
-      con += '<h3><strong>Position:</strong></h3>' + posit;
-      con += '</description></researcher_description>';
+      //con += '<researcher_descriptions>';
 
       // awards/honors
       let hon = await $('div#awards').html();
@@ -174,8 +176,8 @@ const c = new Crawler({
       } else {
         hon = '';
       }
-      con +=
-        '<researcher_description><description>' +
+      //con +=
+      '<researcher_description><description>' +
         '<h3><strong>Honors and Awards:</strong></h3><ul><li>' +
         hon +
         '</li></ul></description></researcher_description>';
@@ -195,8 +197,8 @@ const c = new Crawler({
         deg = '';
       }
 
-      con +=
-        '<researcher_description><description>' +
+      //con +=
+      '<researcher_description><description>' +
         '<h3><strong>Education: </strong></h3><ul><li>' +
         deg +
         '</li></ul></description></researcher_description>';
@@ -216,8 +218,8 @@ const c = new Crawler({
         exp = '';
       }
 
-      con +=
-        '<researcher_description><description>' +
+      //con +=
+      '<researcher_description><description>' +
         '<h3><strong>Keywords:</strong></h3><ul><li>' +
         exp +
         '</li></ul></description></researcher_description>';
@@ -242,16 +244,16 @@ const c = new Crawler({
         cour = '';
       }
 
-      con +=
-        '<researcher_description><description><h3><strong>Courses Taught:</strong></h3><ul>' +
+      //con +=
+      '<researcher_description><description><h3><strong>Courses Taught:</strong></h3><ul>' +
         cour +
         '</ul></description></researcher_description>';
 
       // profile/description
       let desc = await $('div#profile').text();
       desc = await xmlConfig(desc);
-      con +=
-        '<researcher_description><description><h3><strong>Description:</strong></h3>' +
+      //con +=
+      '<researcher_description><description><h3><strong>Description:</strong></h3>' +
         desc +
         '</description ></researcher_description > ';
 
@@ -272,12 +274,12 @@ const c = new Crawler({
       } else {
         schol = '';
       }
-      con +=
-        '<researcher_description><description><h3><strong>Scholarship:</strong></h3><ul>' +
+      //con +=
+      '<researcher_description><description><h3><strong>Scholarship:</strong></h3><ul>' +
         schol +
         '</ul></description></researcher_description>';
 
-      con += '</researcher_descriptions>';
+      //con += '</researcher_descriptions>';
 
       con += '</researcher></user>';
 
