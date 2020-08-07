@@ -105,14 +105,13 @@ const c = new Crawler({
 
       // researcher languages
       con +=
-        '<researcher_languages><researcher_language>eng</researcher_language></researcher_languages >';
+        '<researcher_languages><researcher_language>eng</researcher_language></researcher_languages>';
 
       // position/title
       let posit = await $('div#title').text();
       posit = await xmlConfig(posit);
 
       let titleVar = '<title>' + posit + '</title>';
-      // con += '</description></researcher_description>';
 
       //department name list
       let departName = await $('div#depts').html();
@@ -158,8 +157,32 @@ const c = new Crawler({
       con += deptOutput;
       con += '</researcher_organization_affiliations>';
 
+      // expertise/keywords
+      let exp = await $('div#expertise').html();
+      if (exp) {
+        exp = exp.replace(/\,/g, ' | ');
+        exp = exp.replace(/\:/g, ' | ');
+        exp = exp.replace(/<p(.*?)>/g, '');
+        exp = exp.replace(/<\/p>/g, '');
+        exp = exp.replace(/<br\/>/g, '');
+        exp = exp.replace('Expertise', '');
+        exp = exp = await xmlConfig(exp);
+        exp = exp.replace(
+          /\|/g,
+          '</value></researcher_keyword><researcher_keyword><value>'
+        );
+      } else {
+        exp = '';
+      }
+
+      //con +=
+      '<researcher_keywords><researcher_keyword><value>' +
+        exp +
+        '</value></researcher_keyword></researcher_keywords>';
+
       //beginning of researcher description fields
-      //con += '<researcher_descriptions>';
+      //con += '</description></researcher_description>';
+      con += '<researcher_descriptions>';
 
       // awards/honors
       let hon = await $('div#awards').html();
@@ -176,8 +199,8 @@ const c = new Crawler({
       } else {
         hon = '';
       }
-      //con +=
-      '<researcher_description><description>' +
+      con +=
+        '<researcher_description><description>' +
         '<h3><strong>Honors and Awards:</strong></h3><ul><li>' +
         hon +
         '</li></ul></description></researcher_description>';
@@ -197,14 +220,14 @@ const c = new Crawler({
         deg = '';
       }
 
-      //con +=
-      '<researcher_description><description>' +
+      con +=
+        '<researcher_description><description>' +
         '<h3><strong>Education: </strong></h3><ul><li>' +
         deg +
         '</li></ul></description></researcher_description>';
 
       // expertise/keywords
-      let exp = await $('div#expertise').html();
+      exp = await $('div#expertise').html();
       if (exp) {
         exp = exp.replace(/\,/g, ' | ');
         exp = exp.replace(/\:/g, ' | ');
@@ -218,8 +241,8 @@ const c = new Crawler({
         exp = '';
       }
 
-      //con +=
-      '<researcher_description><description>' +
+      con +=
+        '<researcher_description><description>' +
         '<h3><strong>Keywords:</strong></h3><ul><li>' +
         exp +
         '</li></ul></description></researcher_description>';
@@ -244,8 +267,8 @@ const c = new Crawler({
         cour = '';
       }
 
-      //con +=
-      '<researcher_description><description><h3><strong>Courses Taught:</strong></h3><ul>' +
+      con +=
+        '<researcher_description><description><h3><strong>Courses Taught:</strong></h3><ul>' +
         cour +
         '</ul></description></researcher_description>';
 
@@ -274,12 +297,12 @@ const c = new Crawler({
       } else {
         schol = '';
       }
-      //con +=
-      '<researcher_description><description><h3><strong>Scholarship:</strong></h3><ul>' +
+      con +=
+        '<researcher_description><description><h3><strong>Scholarship:</strong></h3><ul>' +
         schol +
         '</ul></description></researcher_description>';
 
-      //con += '</researcher_descriptions>';
+      con += '</researcher_descriptions>';
 
       con += '</researcher></user>';
 
