@@ -14,7 +14,7 @@ async function getScholarshipDOIs(scholArr, id, str) {
       let name = item.substring(0, item.indexOf('.'));
       console.log('name--------  ', name);
       let { data } = await axios.get(
-        `https://api.crossref.org/works?sort=score&order=desc&select=DOI&query.bibliographic=${itemEncoded}`,
+        `https://api.crossref.org/works?sort=relevance&order=desc&select=DOI&query=${itemEncoded}&c={!frange l=80.0}query($q,0)`,
         {
           headers: { 'User-Agent': 'cunderwood@brandeis.edu' },
         }
