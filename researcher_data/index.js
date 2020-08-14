@@ -11,6 +11,9 @@ const { urls } = require('../researcher_URLs/userURLsTesting.js');
 // brings in user object for 'bad' user ids
 const { userIds } = require('./ProblemUIDs.js');
 
+// brings in the function to test for position
+const { positionMatch } = require('./positionMatch.js');
+
 // Truncate saved.xml before appending
 fs.truncateSync('./saved.xml');
 
@@ -112,6 +115,8 @@ const c = new Crawler({
       posit = await xmlConfig(posit);
 
       let titleVar = '<title>' + posit + '</title>';
+      let positVar =
+        '<position>' + (await positionMatch(posit)) + '</position>';
 
       //department name list
       let departName = await $('div#depts').html();
@@ -147,6 +152,7 @@ const c = new Crawler({
             '<researcher_organization_affiliation><organization_code>' +
             departCode +
             '</organization_code>' +
+            positVar +
             titleVar +
             '</researcher_organization_affiliation>';
         }
