@@ -3,6 +3,10 @@ const positionMatch = str => {
   let fullTitle = str.toLowerCase();
   const titleSplit = '';
 
+  // if (fullTitle.indexOf('research associate') >= 0) {
+  //   return 'Research Associate';
+  // } else
+
   if (fullTitle.indexOf('adjunct associate professor of the practice') >= 0) {
     return 'Adjunct Associate Professor of the Practice';
   } else if (fullTitle.indexOf('adjunct professor of the practice') >= 0) {
