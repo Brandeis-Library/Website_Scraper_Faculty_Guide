@@ -8,5 +8,7 @@ module.exports = {
     'https://www.brandeis.edu/facultyguide/person.html?emplid=9fb3674dcbdcd262263cf7b5bd987c45e0a4c10a',
     'https://www.brandeis.edu/facultyguide/person.html?emplid=4dd233275d124d9d0d17eda2d59c0b0e1c158b5e',
     'https://www.brandeis.edu/facultyguide/person.html?emplid=9d6e7a17246d137200237a48208b32ed6082d0d8',
+    'https://www.brandeis.edu/facultyguide/person.html?emplid=e190d4a2a1d8de22a2e61fdeaac8dc580b869edb',
+    'https://www.brandeis.edu/facultyguide/person.html?emplid=4cd0d9a645d1cd780d53947eee4f3f12df0ec4f5',
   ],
 };
