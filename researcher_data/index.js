@@ -3,10 +3,10 @@ const Crawler = require('crawler');
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
 // brings in the URLs to scrape
-//const { urls } = require('../researcher_URLs/userURLs.js');
+const { urls } = require('../researcher_URLs/userURLs.js');
 
 // brings in the Testing URLs to scrape
-const { urls } = require('../researcher_URLs/userURLsTesting.js');
+//const { urls } = require('../researcher_URLs/userURLsTesting.js');
 
 // brings in user object for 'bad' user ids
 const { userIds } = require('./ProblemUIDs.js');
@@ -87,8 +87,8 @@ const c = new Crawler({
       let email1 = email.split('@')[1];
 
       if (email1 !== 'brandeis.edu') {
-        //done();
         con += '<primary_id>' + 'unknown' + '</primary_id>';
+        //con += '<primary_id>' + email + '</primary_id>';
       } else {
         let newId = userIds[email0];
 
