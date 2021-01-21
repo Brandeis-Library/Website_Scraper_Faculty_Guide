@@ -17,6 +17,8 @@ fs.createWriteStream('./researcher_data.txt', { flags: 'a' }).write(
     researcherIds: { `
 );
 
+let emailCount = 1;
+
 // beginning of scrapping function.
 const c = new Crawler({
   maxConnections: 1,
@@ -45,7 +47,8 @@ const c = new Crawler({
       let email1 = email.split('@')[1];
 
       if (email1 !== 'brandeis.edu') {
-        con += '{';
+        con += 'badEmail' + emailCount + ':{';
+        emailCount++;
       } else {
         let newId = userIds[email0];
 
