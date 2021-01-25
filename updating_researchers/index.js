@@ -3,7 +3,10 @@ const Crawler = require('crawler');
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
 // brings in the URLs to scrape
-const { urls } = require('../researcher_URLs/userURLs.js');
+//const { urls } = require('../researcher_URLs/userURLs.js');
+
+// brings in the Testing URLs to scrape
+const { urls } = require('../researcher_URLs/userURLsTesting.js');
 
 // brings in user object for 'bad' user ids
 const { userIds } = require('../researcher_data/ProblemUIDs.js');
@@ -17,6 +20,7 @@ fs.createWriteStream('./researcher_data.txt', { flags: 'a' }).write(
     researcherIds: { `
 );
 
+// Count for bad Brandeis emails to create a 'safe'
 let emailCount = 1;
 
 // beginning of scrapping function.
@@ -58,6 +62,46 @@ const c = new Crawler({
         console.log('Brandeis id:', email0);
         con += email0 + `:{`;
       }
+
+      //department name list
+      let departName = await $('div#depts').html();
+
+      let departNameArray = [];
+      let deptOutput = 'depts: [';
+
+      if (departName) {
+        departName = departName.replace(/Departments\/Programs/g, '');
+        departName = departName.replace(/<p(.*?)>/g, '');
+        departName = departName.replace(/<\/p>/g, '');
+        departName = departName.replace(/<br\/>/g, '');
+        departName = departName.replace(/<\/a>/g, '</a>|');
+        departNameArray = departName.split('|');
+
+        for (x = 0; x < departNameArray.length - 1; x++) {
+          let depart = departNameArray[x];
+          let digit = 0;
+          let departCode = '';
+
+          if (depart) {
+            digit = depart.indexOf('deptid=');
+          } else {
+            digit = -1;
+          }
+
+          if (digit > 0) {
+            departCode = 'CC' + depart.substr(digit + 7, 5);
+          } else {
+            departCode = 'unknown';
+          }
+          deptOutput += departCode + ',';
+        }
+      } else {
+        departOutput = 'unknown';
+      }
+
+      con += deptOutput;
+
+      con += ']';
 
       //con = await xmlEscape(con);
 
