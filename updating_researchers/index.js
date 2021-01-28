@@ -1,9 +1,9 @@
 const fs = require('fs');
 const Crawler = require('crawler');
 const XLSX = require('xlsx');
-const axios = require('axios');
-const xpath = require('xpath');
-const dom = require('xmldom').DOMParser;
+// const axios = require('axios');
+// const xpath = require('xpath');
+// const dom = require('xmldom').DOMParser;
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
@@ -128,17 +128,4 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
   // list of pages to scrape.
   c.queue(urls);
-})();
-
-(async function () {
-  const workbook = XLSX.readFile('TestData2.xlsx');
-  //console.log('workbook ---------- ', workbook);
-  const sheetNames = workbook.SheetNames;
-  const sheetIndex = 1;
-
-  var df = XLSX.utils.sheet_to_json(
-    workbook.Sheets[sheetNames[sheetIndex - 1]]
-  );
-
-  console.log('Can you see me now');
 })();
