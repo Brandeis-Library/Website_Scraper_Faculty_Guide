@@ -18,18 +18,18 @@ const XLSX = require('xlsx');
 
   try {
     // Ensure creation of errors before truncating
-    fs.appendFile('./errors.csv', '', function (err) {
+    await fs.appendFile('./errors.csv', '', function (err) {
       if (err) throw err;
       console.log('Saved errors.csv');
     });
 
     // Truncate errors before appending
-    fs.truncateSync('./errors.csv');
+    await fs.truncateSync('./errors.csv');
 
     // write headers for errors.csv
-    fs.createWriteStream('./errors.csv', { flags: 'as' }).write(
-      `Documents, ISBN, Title, Author  \n`
-    );
+    await fs
+      .createWriteStream('./errors.csv', { flags: 'as' })
+      .write(`Documents, ISBN, Title, Author  \n`);
 
     // Ensure creation of final before truncating
     await fs.appendFile('./final.csv', '', function (err) {
@@ -38,18 +38,39 @@ const XLSX = require('xlsx');
     });
 
     // Truncate final before appending
-    fs.truncateSync('./final.csv');
+    await fs.truncateSync('./final.csv');
 
     // write headers for final.csv
     fs.createWriteStream('./final.csv', { flags: 'a' }).write(
       `Class,ISBN,Title,Author,Year Pub,Req-Rec,Documents,AVD/AVE,URL,Link   \n`
     );
+
+    let staffDataObjs = df.map(async staffObj => {
+      let fullName = staffObj.Full_Name;
+
+      //let basicObjs = await Promise.all(staffDataObjs);
+      //console.log('basicObjs-----', basicObjs);
+      // fs.createWriteStream('./errors.csv', { flags: 'a' }).write(
+      //   '\n\n\n' +
+      //     'basicObjs.length: ' +
+      //     basicObjs.length +
+      //     '\n\n\n' +
+      //     JSON.stringify(basicObjs)
+      // );
+
+      // await fs
+      //  .createWriteStream('./final.csv', { flags: 'a' })
+      //  .write(JSON.stringify(basicObjs));
+    });
+
+    let basicObjs = await Promise.all(staffDataObjs);
   } catch (error) {
     console.log('Error inside call to Ex Libris  *************** ', error);
     fs.createWriteStream('./errors.csv', { flags: 'a' }).write(
       error.message + '\n'
     );
   }
-  console.log('data ----------------------- ', df);
+  //console.log('data ----------------------- ', df);
+  //console.log('staffDataObj ----------------------- ', staffDataObj);
   console.log('Can you see me now');
 })();
