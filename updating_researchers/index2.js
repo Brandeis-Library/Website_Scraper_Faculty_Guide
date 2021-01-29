@@ -5,7 +5,7 @@ const XLSX = require('xlsx');
 
 (async function () {
   const workbook = XLSX.readFile('TestData2.xls');
-  console.log('workbook ---------- ', workbook);
+  //console.log('workbook ---------- ', workbook);
   const sheetNames = workbook.SheetNames;
   console.log('sheetNames -----', sheetNames);
   const sheetIndex = 1;
@@ -14,7 +14,7 @@ const XLSX = require('xlsx');
     workbook.Sheets[sheetNames[sheetIndex - 1]]
   );
 
-  console.log('data ----------------------- ', df);
+  //console.log('data ----------------------- ', df);
 
   try {
     // Ensure creation of errors before truncating
@@ -45,25 +45,44 @@ const XLSX = require('xlsx');
       `Class,ISBN,Title,Author,Year Pub,Req-Rec,Documents,AVD/AVE,URL,Link   \n`
     );
 
-    let staffDataObjs = df.map(async staffObj => {
-      let fullName = staffObj.Full_Name;
-
-      //let basicObjs = await Promise.all(staffDataObjs);
-      //console.log('basicObjs-----', basicObjs);
-      // fs.createWriteStream('./errors.csv', { flags: 'a' }).write(
-      //   '\n\n\n' +
-      //     'basicObjs.length: ' +
-      //     basicObjs.length +
-      //     '\n\n\n' +
-      //     JSON.stringify(basicObjs)
-      // );
-
-      // await fs
-      //  .createWriteStream('./final.csv', { flags: 'a' })
-      //  .write(JSON.stringify(basicObjs));
+    // Ensure creation of final before truncating
+    await fs.appendFile('./df.csv', '', function (err) {
+      if (err) throw err;
+      console.log('Saved df!');
     });
 
-    let basicObjs = await Promise.all(staffDataObjs);
+    // Truncate final before appending
+    await fs.truncateSync('./df.csv');
+
+    // write headers for final.csv
+    await fs
+      .createWriteStream('./df.csv', { flags: 'a' })
+      .write(`JSON from df  \n`);
+
+    //let staffDataObjs = await df.map(async staffObj => {
+    // fs.createWriteStream('./errors.csv', { flags: 'a' }).write(
+    //   '\n\n\n' +
+    //     'basicObjs.length: ' +
+    //     basicObjs.length +
+    //     '\n\n\n' +
+    //     JSON.stringify(basicObjs)
+    // );
+    // await fs
+    //   .createWriteStream('./final.csv', { flags: 'a' })
+    //   .write(JSON.stringify(basicObjs));
+    //});
+
+    // console.log(
+    //   'staffDataObjs ---------',
+    //   staffDataObjs,
+    //   '----------  staffSataObjs ----------------'
+    // );
+
+    // let basicObjs = await Promise.all(staffDataObjs);
+
+    await fs
+      .createWriteStream('./df.csv', { flags: 'a' })
+      .write(JSON.stringify(df));
   } catch (error) {
     console.log('Error inside call to Ex Libris  *************** ', error);
     fs.createWriteStream('./errors.csv', { flags: 'a' }).write(
