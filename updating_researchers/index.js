@@ -135,7 +135,9 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
   // puts closing root tag on the document
   c.on('drain', function () {
-    fs.createWriteStream('./researcher_data.txt', { flags: 'a' }).write(`}}\n`);
+    fs.createWriteStream('./faculty_guide_data.txt', { flags: 'a' }).write(
+      `}}\n`
+    );
   });
 
   // list of pages to scrape.
