@@ -7,7 +7,7 @@ const XLSX = require('xlsx');
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
-(function () {
+(async function () {
   // brings in the URLs to scrape
   //const { urls } = require('../researcher_URLs/userURLs.js');
 
@@ -17,11 +17,23 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
   // brings in user object for 'bad' user ids
   const { userIds } = require('../researcher_data/ProblemUIDs.js');
 
-  // Truncate saved.xml before appending
-  fs.truncateSync('./researcher_data.txt');
+  // Ensure creation of errors before truncating
+  await fs.appendFile('./errors.csv', '', function (err) {
+    if (err) throw err;
+    console.log('Saved errors.csv');
+  });
+
+  // Ensure creation of faculty_guide_data.txt before truncating
+  await fs.appendFile('./faculty_guide_data.txt', '', function (err) {
+    if (err) throw err;
+    console.log('Saved faculty_guide_data.txt');
+  });
+
+  // Truncate faculty_guide_data.txt before appending
+  await fs.truncateSync('./faculty_guide_data.txt');
 
   // Write at the top of the page.
-  fs.createWriteStream('./researcher_data.txt', { flags: 'a' }).write(
+  await fs.createWriteStream('./faculty_guide_data.txt', { flags: 'a' }).write(
     `module.exports = {
     researcherIds: { `
   );
@@ -112,7 +124,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
         //con = await xmlEscape(con);
 
         // writes each user to our file.
-        fs.createWriteStream('./researcher_data.txt', { flags: 'a' }).write(
+        fs.createWriteStream('./faculty_guide_data.txt', { flags: 'a' }).write(
           con + `}, \n`
         );
       }
