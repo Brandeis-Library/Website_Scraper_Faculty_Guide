@@ -24,25 +24,25 @@ const XLSX = require('xlsx');
     });
 
     // Truncate errors before appending
-    await fs.truncateSync('./errors.csv');
+    //await fs.truncateSync('./errors.csv');
 
     // write headers for errors.csv
     await fs
       .createWriteStream('./errors.csv', { flags: 'as' })
-      .write(`Documents, ISBN, Title, Author  \n`);
+      .write(`Errors for this running of the application...  \n`);
 
     // Ensure creation of final before truncating
-    await fs.appendFile('./final.csv', '', function (err) {
+    await fs.appendFile('./Spreadsheet_Objs.csv', '', function (err) {
       if (err) throw err;
-      console.log('Saved final!');
+      console.log('Saved Spreadsheet_Objs.csv!');
     });
 
     // Truncate final before appending
-    await fs.truncateSync('./final.csv');
+    await fs.truncateSync('./Spreadsheet_Objs.csv');
 
     // write headers for final.csv
     fs.createWriteStream('./final.csv', { flags: 'a' }).write(
-      `Class,ISBN,Title,Author,Year Pub,Req-Rec,Documents,AVD/AVE,URL,Link   \n`
+      `Processed Spreadsheet Objs   \n`
     );
 
     // Ensure creation of final before truncating

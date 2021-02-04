@@ -18,10 +18,10 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
   const { userIds } = require('../researcher_data/ProblemUIDs.js');
 
   // Ensure creation of errors before truncating
-  await fs.appendFile('./errors.csv', '', function (err) {
-    if (err) throw err;
-    console.log('Saved errors.csv');
-  });
+  // await fs.appendFile('./errors.csv', '', function (err) {
+  //   if (err) throw err;
+  //   console.log('Saved errors.csv');
+  // });
 
   // Ensure creation of faculty_guide_data.txt before truncating
   await fs.appendFile('./faculty_guide_data.txt', '', function (err) {
