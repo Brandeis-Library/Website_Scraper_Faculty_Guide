@@ -40,9 +40,9 @@ const XLSX = require('xlsx');
     // Truncate final before appending
     await fs.truncateSync('./Spreadsheet_Objs.csv');
 
-    // write headers for final.csv
-    fs.createWriteStream('./final.csv', { flags: 'a' }).write(
-      `Processed Spreadsheet Objs   \n`
+    // write headers for Spreadsheet_Objs.csv
+    fs.createWriteStream('./Spreadsheet_Objs.csv', { flags: 'a' }).write(
+      `\/\/Processed Spreadsheet Objs   \n`
     );
 
     // Ensure creation of final before truncating
@@ -54,7 +54,7 @@ const XLSX = require('xlsx');
     // Truncate final before appending
     await fs.truncateSync('./df.csv');
 
-    // write headers for final.csv
+    // write headers for df.csv
     await fs
       .createWriteStream('./df.csv', { flags: 'a' })
       .write(`JSON from df  \n`);
@@ -80,6 +80,13 @@ const XLSX = require('xlsx');
 
     // let basicObjs = await Promise.all(staffDataObjs);
 
+    let staffDataObjs = await df.map(async staffObj => {
+      const FullName = staffObj.Full_Name;
+
+      return FullName;
+    });
+
+    console.log('staffDataObjs....', staffDataObjs);
     await fs
       .createWriteStream('./df.csv', { flags: 'a' })
       .write(JSON.stringify(df));
