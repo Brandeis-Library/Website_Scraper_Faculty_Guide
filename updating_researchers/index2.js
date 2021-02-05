@@ -100,6 +100,10 @@ const XLSX = require('xlsx');
         obj.unet = staffObj.Email.slice(0, num);
       }
 
+      if (staffObj.Business_Title) {
+        obj.title = staffObj.Business_Title;
+      }
+
       if (staffObj.Cost_Centers) {
         const num = staffObj.Cost_Centers.indexOf(' ');
         obj.costCenterPrimary = staffObj.Cost_Centers.slice(0, num);
