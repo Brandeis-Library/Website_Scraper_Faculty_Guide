@@ -32,16 +32,16 @@ const XLSX = require('xlsx');
       .write(`Errors for this running of the application...  \n`);
 
     // Ensure creation of final before truncating
-    await fs.appendFile('./Spreadsheet_Objs.csv', '', function (err) {
+    await fs.appendFile('./Spreadsheet_Objs.js', '', function (err) {
       if (err) throw err;
-      console.log('Saved Spreadsheet_Objs.csv!');
+      console.log('Saved Spreadsheet_Objs.js!');
     });
 
     // Truncate final before appending
-    await fs.truncateSync('./Spreadsheet_Objs.csv');
+    await fs.truncateSync('./Spreadsheet_Objs.js');
 
     // write headers for Spreadsheet_Objs.csv
-    fs.createWriteStream('./Spreadsheet_Objs.csv', { flags: 'a' }).write(
+    fs.createWriteStream('./Spreadsheet_Objs.js', { flags: 'a' }).write(
       `\/\/Processed Spreadsheet Objs   \n`
     );
 
@@ -118,9 +118,14 @@ const XLSX = require('xlsx');
     });
 
     console.log('staffDataObjs....', staffDataObjs);
+    let resolvedStaffDataObjs = await Promise.all(staffDataObjs);
     await fs
       .createWriteStream('./df.csv', { flags: 'a' })
       .write(JSON.stringify(df));
+
+    await fs
+      .createWriteStream('./Spreadsheet_Objs.js', { flags: 'a' })
+      .write(JSON.stringify(resolvedStaffDataObjs));
   } catch (error) {
     console.log('Error inside call to Ex Libris  *************** ', error);
     fs.createWriteStream('./errors.csv', { flags: 'a' }).write(

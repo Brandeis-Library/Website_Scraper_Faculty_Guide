@@ -24,16 +24,16 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
   // });
 
   // Ensure creation of faculty_guide_data.txt before truncating
-  await fs.appendFile('./faculty_guide_data.txt', '', function (err) {
+  await fs.appendFile('./faculty_guide_data.js', '', function (err) {
     if (err) throw err;
     console.log('Saved faculty_guide_data.txt');
   });
 
   // Truncate faculty_guide_data.txt before appending
-  await fs.truncateSync('./faculty_guide_data.txt');
+  await fs.truncateSync('./faculty_guide_data.js');
 
   // Write at the top of the page.
-  await fs.createWriteStream('./faculty_guide_data.txt', { flags: 'a' }).write(
+  await fs.createWriteStream('./faculty_guide_data.js', { flags: 'a' }).write(
     `module.exports = {
     researcherIds: { `
   );
@@ -124,7 +124,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
         //con = await xmlEscape(con);
 
         // writes each user to our file.
-        fs.createWriteStream('./faculty_guide_data.txt', { flags: 'a' }).write(
+        fs.createWriteStream('./faculty_guide_data.js', { flags: 'a' }).write(
           con + `}, \n`
         );
       }
@@ -135,7 +135,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
   // puts closing root tag on the document
   c.on('drain', function () {
-    fs.createWriteStream('./faculty_guide_data.txt', { flags: 'a' }).write(
+    fs.createWriteStream('./faculty_guide_data.js', { flags: 'a' }).write(
       `}}\n`
     );
   });
