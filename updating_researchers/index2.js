@@ -81,9 +81,26 @@ const XLSX = require('xlsx');
     // let basicObjs = await Promise.all(staffDataObjs);
 
     let staffDataObjs = await df.map(async staffObj => {
-      const FullName = staffObj.Full_Name;
+      const obj = {};
+      if (staffObj.Full_Name) {
+        obj.fullName = staffObj.Full_Name;
+      }
 
-      return FullName;
+      if (staffObj.First_Name) {
+        obj.firstName = staffObj.First_Name;
+      }
+
+      if (staffObj.Last_Name) {
+        obj.lastName = staffObj.Last_Name;
+      }
+
+      if (staffObj.Email) {
+        const num = staffObj.Email.indexOf('@');
+        obj.email = staffObj.Email;
+        obj.unet = staffObj.Email.slice(0, num);
+      }
+
+      return obj;
     });
 
     console.log('staffDataObjs....', staffDataObjs);
