@@ -100,6 +100,16 @@ const XLSX = require('xlsx');
         obj.unet = staffObj.Email.slice(0, num);
       }
 
+      if (staffObj.Cost_Centers) {
+        const num = staffObj.Cost_Centers.indexOf(' ');
+        obj.costCenterPrimary = staffObj.Cost_Centers.slice(0, num);
+        obj.costCenterPrimaryLabel = staffObj.Cost_Centers.slice(num + 1);
+      }
+
+      if (staffObj.Cost_Center_Hierarchy) {
+        obj.CCH = staffObj.Cost_Center_Hierarchy;
+      }
+
       return obj;
     });
 
