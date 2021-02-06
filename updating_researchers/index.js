@@ -78,7 +78,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
             email0 = newId;
           }
           console.log('Brandeis id:', email0);
-          con += email0 + `:{`;
+          con += `${email0}:{`;
         }
 
         //department name list
@@ -107,11 +107,11 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
             }
 
             if (digit > 0) {
-              departCode = 'CC' + depart.substr(digit + 7, 5);
+              departCode = `"CC${depart.substr(digit + 7, 5)}"`;
             } else {
               departCode = 'unknown';
             }
-            deptOutput += departCode + ',';
+            deptOutput += `${departCode},`;
           }
         } else {
           departOutput = 'unknown';
@@ -119,9 +119,11 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
         con += deptOutput;
 
-        con += ']';
+        con += '],';
 
         //con = await xmlEscape(con);
+
+        con += `email: "${email}"`;
 
         // writes each user to our file.
         fs.createWriteStream('./faculty_guide_data.js', { flags: 'a' }).write(
