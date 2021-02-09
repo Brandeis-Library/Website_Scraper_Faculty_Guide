@@ -114,6 +114,14 @@ const XLSX = require('xlsx');
         obj.CCH = staffObj.Cost_Center_Hierarchy;
       }
 
+      if (staffObj.Management_Level) {
+        obj.ML = staffObj.Management_Level;
+      }
+
+      if (staffObj.Worker_Type) {
+        obj.WT = staffObj.Worker_Type;
+      }
+
       return obj;
     });
 
