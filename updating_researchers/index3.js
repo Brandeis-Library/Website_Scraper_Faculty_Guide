@@ -11,3 +11,20 @@ for (i = 0; i < userObjs.length; i++) {
   const user = userObjs[i].unet;
   console.log(researcherIds[user]);
 }
+
+/*
+Possible actions
+
+match spreadsheet with faculty guide
+
+match faculty guide with spreadsheet
+
+list userObjs not in faculty guide
+
+list users in faculty guide not in spreadsheet
+
+get list of user titles
+  from just spreadsheet or faculty guide
+  combine the two in one record for analysis.
+
+*/
