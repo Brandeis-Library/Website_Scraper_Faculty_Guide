@@ -7,11 +7,29 @@ const { researcherIds } = require('./faculty_guide_data.js');
 const { userObjs } = require('./Spreadsheet_Objs.js');
 
 for (i = 0; i < userObjs.length; i++) {
-  console.log(userObjs[i].unet);
-  const user = userObjs[i].unet;
-  console.log(researcherIds[user]);
-}
+  console.table(userObjs[i]);
+  const userSpreadSheet = userObjs[i].unet;
+  const userFacGuide = researcherIds[userSpreadSheet];
+  console.table(userFacGuide);
 
+  if (!userFacGuide) {
+    console.log('continue');
+    continue;
+  }
+
+  console.log(userObjs[i].costCenterPrimary);
+  console.log(userFacGuide.depts);
+
+  const index = userFacGuide.depts.indexOf(userObjs[i].costCenterPrimary);
+  if (index > -1) {
+    userFacGuide.depts.splice(index, 1);
+    userFacGuide.depts.unshift(userObjs[i].costCenterPrimary);
+  } else {
+    userFacGuide.depts.unshift(userObjs[i].costCenterPrimary);
+  }
+  userObjs[i].costCenters = userFacGuide.depts;
+  console.table(userObjs[i]);
+}
 /*
 Possible actions
 
