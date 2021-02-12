@@ -10,13 +10,26 @@ const XLSX = require('xlsx');
   console.log('sheetNames -----', sheetNames);
   const sheetIndex = 1;
 
-  var df = await XLSX.utils.sheet_to_json(
+  var df = XLSX.utils.sheet_to_json(
     workbook.Sheets[sheetNames[sheetIndex - 1]]
   );
 
-  //console.log('data ----------------------- ', df);
-
   try {
+    // Ensure creation of final before truncating
+    await fs.appendFile('./Spreadsheet_Objs.js', '', function (err) {
+      if (err) throw err;
+      console.log('Saved Spreadsheet_Objs.js!');
+    });
+
+    // Truncate final before appending
+    await fs.truncateSync('./Spreadsheet_Objs.js');
+
+    // write headers for Spreadsheet_Objs.csv
+    await fs.createWriteStream('./Spreadsheet_Objs.js', { flags: 'a' }).write(
+      `module.exports = {
+        userObjs:`
+    );
+
     // Ensure creation of errors before truncating
     await fs.appendFile('./errors.csv', '', function (err) {
       if (err) throw err;
@@ -32,20 +45,6 @@ const XLSX = require('xlsx');
       .write(`Errors for this running of the application...  \n`);
 
     // Ensure creation of final before truncating
-    await fs.appendFile('./Spreadsheet_Objs.js', '', function (err) {
-      if (err) throw err;
-      console.log('Saved Spreadsheet_Objs.js!');
-    });
-
-    // Truncate final before appending
-    await fs.truncateSync('./Spreadsheet_Objs.js');
-
-    // write headers for Spreadsheet_Objs.csv
-    // fs.createWriteStream('./Spreadsheet_Objs.js', { flags: 'a' }).write(
-    //   `\/\/Processed Spreadsheet Objs   \n`
-    // );
-
-    // Ensure creation of final before truncating
     await fs.appendFile('./df.csv', '', function (err) {
       if (err) throw err;
       console.log('Saved df!');
@@ -59,28 +58,7 @@ const XLSX = require('xlsx');
       .createWriteStream('./df.csv', { flags: 'a' })
       .write(`JSON from df  \n`);
 
-    //let staffDataObjs = await df.map(async staffObj => {
-    // fs.createWriteStream('./errors.csv', { flags: 'a' }).write(
-    //   '\n\n\n' +
-    //     'basicObjs.length: ' +
-    //     basicObjs.length +
-    //     '\n\n\n' +
-    //     JSON.stringify(basicObjs)
-    // );
-    // await fs
-    //   .createWriteStream('./final.csv', { flags: 'a' })
-    //   .write(JSON.stringify(basicObjs));
-    //});
-
-    // console.log(
-    //   'staffDataObjs ---------',
-    //   staffDataObjs,
-    //   '----------  staffSataObjs ----------------'
-    // );
-
-    // let basicObjs = await Promise.all(staffDataObjs);
-
-    let staffDataObjs = await df.map(async staffObj => {
+    let staffDataObjs = await df.map(staffObj => {
       const obj = {};
       if (staffObj.Full_Name) {
         obj.fullName = staffObj.Full_Name;
@@ -136,11 +114,16 @@ const XLSX = require('xlsx');
       .write(JSON.stringify(resolvedStaffDataObjs));
   } catch (error) {
     console.log('Error inside call to Ex Libris  *************** ', error);
-    fs.createWriteStream('./errors.csv', { flags: 'a' }).write(
-      error.message + '\n'
-    );
+    await fs
+      .createWriteStream('./errors.csv', { flags: 'a' })
+      .write(error.message + '\n');
   }
   //console.log('data ----------------------- ', df);
   //console.log('staffDataObj ----------------------- ', staffDataObj);
+
+  // write  for df.csv
+  await fs
+    .createWriteStream('./Spreadsheet_Objs.js', { flags: 'a' })
+    .write(`}`);
   console.log('Can you see me now');
 })();
