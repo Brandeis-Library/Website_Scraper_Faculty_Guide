@@ -4,7 +4,7 @@ const XLSX = require('xlsx');
 //if (typeof require !== 'undefined') XLSX = require('xlsx');
 
 (async function () {
-  const workbook = XLSX.readFile('TestData2.xls');
+  const workbook = XLSX.readFile('TestData3.xls');
   //console.log('workbook ---------- ', workbook);
   const sheetNames = workbook.SheetNames;
   console.log('sheetNames -----', sheetNames);
@@ -41,9 +41,9 @@ const XLSX = require('xlsx');
     await fs.truncateSync('./Spreadsheet_Objs.js');
 
     // write headers for Spreadsheet_Objs.csv
-    fs.createWriteStream('./Spreadsheet_Objs.js', { flags: 'a' }).write(
-      `\/\/Processed Spreadsheet Objs   \n`
-    );
+    // fs.createWriteStream('./Spreadsheet_Objs.js', { flags: 'a' }).write(
+    //   `\/\/Processed Spreadsheet Objs   \n`
+    // );
 
     // Ensure creation of final before truncating
     await fs.appendFile('./df.csv', '', function (err) {
