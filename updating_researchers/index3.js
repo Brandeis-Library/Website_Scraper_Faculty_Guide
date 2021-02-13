@@ -14,6 +14,8 @@ for (i = 0; i < userObjs.length; i++) {
 
   if (!userFacGuide) {
     console.log('continue');
+    userObjs[i].facGuide = 'No';
+    console.table(userObjs[i]);
     continue;
   }
 
@@ -28,6 +30,8 @@ for (i = 0; i < userObjs.length; i++) {
     userFacGuide.depts.unshift(userObjs[i].costCenterPrimary);
   }
   userObjs[i].costCenters = userFacGuide.depts;
+  userObjs[i].facGuideEmail = userFacGuide.email;
+  userObjs[i].facGuide = 'Yes';
   console.table(userObjs[i]);
 }
 /*
