@@ -123,6 +123,10 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
         //con = await xmlEscape(con);
 
+        const title = await $('div#title').text();
+
+        con += `title: "${title.trim()}", `;
+
         con += `email: "${email}"`;
 
         // writes each user to our file.

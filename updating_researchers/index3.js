@@ -31,6 +31,7 @@ for (i = 0; i < userObjs.length; i++) {
   }
   userObjs[i].costCenters = userFacGuide.depts;
   userObjs[i].facGuideEmail = userFacGuide.email;
+  userObjs[i].facGuideTitle = userFacGuide.title;
   userObjs[i].facGuide = 'Yes';
   console.table(userObjs[i]);
 }
