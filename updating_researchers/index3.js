@@ -39,6 +39,20 @@ const fs = require('fs');
         console.log('continue');
         userObjs[i].facGuide = 'No';
         console.table(userObjs[i]);
+        await fs
+          .createWriteStream('./Spreadsheet_Objs_Plus_Fac_Guide.js', {
+            flags: 'a',
+          })
+          .write(
+            `${userObjs[i].unet}: { fullName: "${userObjs[i].fullName}", firstName: "${userObjs[i].firstName}",lastName: "${userObjs[i].lastName}", unet: "${userObjs[i].unet}",titleWorkday: "${userObjs[i].title}",costCenterPrimary: "${userObjs[i].costCenterPrimary}",
+          costCenterPrimaryLabel: "${userObjs[i].costCenterPrimaryLabel}",
+          CCH: "${userObjs[i].CCH}",
+          costCenters: [${userObjs[i].costCenters}],
+          facGuideEmail: "${userObjs[i].facGuideEmail}",
+          facGuideTitle: "${userObjs[i].facGuideTitle}",
+          facGuide: "${userObjs[i].facGuide}",
+        },`
+          );
         continue;
       }
 
@@ -96,5 +110,7 @@ list users in faculty guide not in spreadsheet
 get list of user titles
   from just spreadsheet or faculty guide
   combine the two in one record for analysis.
+
+
 
 */
