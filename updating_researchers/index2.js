@@ -76,6 +76,7 @@ const XLSX = require('xlsx');
         const num = staffObj.Email.indexOf('@');
         obj.email = staffObj.Email;
         obj.unet = staffObj.Email.slice(0, num);
+        obj.unet.replace('.', '_');
       }
 
       if (staffObj.Business_Title) {
