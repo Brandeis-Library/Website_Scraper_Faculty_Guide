@@ -67,6 +67,7 @@ const fs = require('fs');
         userFacGuide.depts.unshift(userObjs[i].costCenterPrimary);
       }
       userObjs[i].costCenters = userFacGuide.depts;
+      console.log('userObjs[i].costCenters', userObjs[i].costCenters);
       userObjs[i].facGuideEmail = userFacGuide.email;
       userObjs[i].facGuideTitle = userFacGuide.title;
       userObjs[i].facGuide = 'Yes';
@@ -79,7 +80,7 @@ const fs = require('fs');
           `${userObjs[i].unet}: { fullName: "${userObjs[i].fullName}", firstName: "${userObjs[i].firstName}",lastName: "${userObjs[i].lastName}", unet: "${userObjs[i].unet}",titleWorkday: "${userObjs[i].title}",costCenterPrimary: "${userObjs[i].costCenterPrimary}",
           costCenterPrimaryLabel: "${userObjs[i].costCenterPrimaryLabel}",
           CCH: "${userObjs[i].CCH}",
-          costCenters: [${userObjs[i].costCenters}],
+          costCenters: "[${userObjs[i].costCenters}]",
           facGuideEmail: "${userObjs[i].facGuideEmail}",
           facGuideTitle: "${userObjs[i].facGuideTitle}",
           facGuide: "${userObjs[i].facGuide}",
