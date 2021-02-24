@@ -5,6 +5,10 @@ const XLSX = require('xlsx');
 const { userEnhancedObjs } = require('./Spreadsheet_Objs_Plus_Fac_Guide.js');
 
 // brings in the ExLibris Analytics spreadsheet of Internal Affiliations positions and titles
-//const { researchAffil } = require('./researcherAffil.xls');
+const { researchAffil } = require('./researcherAffil.csv');
 
-console.log('userEnhancedObjs----- ', userEnhancedObjs);
+//console.log('userEnhancedObjs----- ', userEnhancedObjs);
+//console.log('researchAffil----- ', researchAffil);
+setTimeout(function () {
+  console.log('researchAffil----- ', researchAffil);
+}, 3000);
