@@ -2,11 +2,6 @@ const fs = require('fs');
 const XLSX = require('xlsx');
 
 (async function () {
-  // brings in the spreadsheet obs + faculty guide scraped data
-  const { userEnhancedObjs } = require('./Spreadsheet_Objs_Plus_Fac_Guide.js');
-
-  //console.log('userEnhancedObjs----- ', userEnhancedObjs);
-
   // brings in the ExLibris Analytics spreadsheet of Internal Affiliations positions and titles
   try {
     const workbook = await XLSX.readFile('researcherAffil.csv');
@@ -56,6 +51,7 @@ const XLSX = require('xlsx');
     await fs
       .createWriteStream('./Affilation_Spreadsheet_Objs.js', { flags: 'a' })
       .write(`${resolvedAffilDataObjs}}}`);
+
     console.log('Can you see me now');
   } catch (error) {
     console.error(error);
