@@ -1,6 +1,6 @@
 module.exports = {
   affilationObjs: {
-    9990: {
+    '9990_CC18800': {
       unet: '9990',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -8,7 +8,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    9991: {
+    '9991_CC24700': {
       unet: '9991',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -16,7 +16,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    9992: {
+    '9992_CC25700': {
       unet: '9992',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -24,7 +24,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    9993: {
+    '9993_CC26100': {
       unet: '9993',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -32,7 +32,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    9994: {
+    '9994_CC40100': {
       unet: '9994',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -40,7 +40,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    10200675: {
+    '10200675_CC45100': {
       unet: '10200675',
       costCenter: 'CC45100',
       unitName:
@@ -49,7 +49,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    10200683: {
+    '10200683_CC45100': {
       unet: '10200683',
       costCenter: 'CC45100',
       unitName:
@@ -58,7 +58,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    10200684: {
+    '10200684_CC45100': {
       unet: '10200684',
       costCenter: 'CC45100',
       unitName:
@@ -67,7 +67,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    10200775: {
+    '10200775_CC45100': {
       unet: '10200775',
       costCenter: 'CC45100',
       unitName:
@@ -76,7 +76,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aaehawkins: {
+    aaehawkins_CC18400: {
       unet: 'aaehawkins',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -84,7 +84,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    aaehawkins: {
+    aaehawkins_CC43100: {
       unet: 'aaehawkins',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -92,7 +92,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    abcooper: {
+    abcooper_CC18100: {
       unet: 'abcooper',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -100,7 +100,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    abcooper: {
+    abcooper_CC18500: {
       unet: 'abcooper',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -108,7 +108,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    abdurez: {
+    abdurez_CC43100: {
       unet: 'abdurez',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -116,7 +116,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    abusch: {
+    abusch_CC13200: {
       unet: 'abusch',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -124,7 +124,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    acheng: {
+    acheng_CC45100: {
       unet: 'acheng',
       costCenter: 'CC45100',
       unitName:
@@ -133,7 +133,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    adavi0001: {
+    adavi0001_CC45100: {
       unet: 'adavi0001',
       costCenter: 'CC45100',
       unitName:
@@ -142,7 +142,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    adler: {
+    adler_CC16700: {
       unet: 'adler',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -150,7 +150,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aeknaian: {
+    aeknaian_CC45100: {
       unet: 'aeknaian',
       costCenter: 'CC45100',
       unitName:
@@ -159,7 +159,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    afreiberg: {
+    afreiberg_CC11100: {
       unet: 'afreiberg',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -167,7 +167,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    agrover: {
+    agrover_CC25000: {
       unet: 'agrover',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -175,7 +175,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    agualdoni: {
+    agualdoni_CC25100: {
       unet: 'agualdoni',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -183,7 +183,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ahahn: {
+    ahahn_CC40100: {
       unet: 'ahahn',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -191,7 +191,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ahill: {
+    ahill_CC18100: {
       unet: 'ahill',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -199,7 +199,7 @@ module.exports = {
       affilPosition: 'University Professor',
       affilPositionTitle: 'undefined',
     },
-    ahill: {
+    ahill_CC24700: {
       unet: 'ahill',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -207,7 +207,7 @@ module.exports = {
       affilPosition: 'University Professor',
       affilPositionTitle: 'undefined',
     },
-    ahill: {
+    ahill_CC40100: {
       unet: 'ahill',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -215,7 +215,7 @@ module.exports = {
       affilPosition: 'University Professor',
       affilPositionTitle: 'undefined',
     },
-    ahill: {
+    ahill_CC25100: {
       unet: 'ahill',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -223,7 +223,7 @@ module.exports = {
       affilPosition: 'University Professor',
       affilPositionTitle: 'undefined',
     },
-    ahsiaw: {
+    ahsiaw_CC18400: {
       unet: 'ahsiaw',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -231,7 +231,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ahsiaw: {
+    ahsiaw_CC43100: {
       unet: 'ahsiaw',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -239,7 +239,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    aida: {
+    aida_CC11100: {
       unet: 'aida',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -247,7 +247,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    aida: {
+    aida_CC12600: {
       unet: 'aida',
       costCenter: 'CC12600',
       unitName:
@@ -256,7 +256,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    aida: {
+    aida_CC25600: {
       unet: 'aida',
       costCenter: 'CC25600',
       unitName: 'East Asian Studies Program',
@@ -264,7 +264,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    aida: {
+    aida_CC12102: {
       unet: 'aida',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -272,7 +272,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    ajackson: {
+    ajackson_CC25000: {
       unet: 'ajackson',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -280,7 +280,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    ajaffe: {
+    ajaffe_CC16200: {
       unet: 'ajaffe',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -288,7 +288,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    ajaffe: {
+    ajaffe_CC18400: {
       unet: 'ajaffe',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -296,7 +296,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    ajmurphy: {
+    ajmurphy_CC18500: {
       unet: 'ajmurphy',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -304,7 +304,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ajmurphy: {
+    ajmurphy_CC24700: {
       unet: 'ajmurphy',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -312,7 +312,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aknkumar: {
+    aknkumar_CC40100: {
       unet: 'aknkumar',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -320,7 +320,7 @@ module.exports = {
       affilPosition: 'Professor of the Practice',
       affilPositionTitle: 'undefined',
     },
-    alanschlesinger: {
+    alanschlesinger_CC43100: {
       unet: 'alanschlesinger',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -328,7 +328,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    alanus: {
+    alanus_CC12400: {
       unet: 'alanus',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -336,7 +336,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    albion: {
+    albion_CC16800: {
       unet: 'albion',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -344,7 +344,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aldom: {
+    aldom_CC18400: {
       unet: 'aldom',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -352,7 +352,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aldom: {
+    aldom_CC43100: {
       unet: 'aldom',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -360,7 +360,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    alexanderkaye: {
+    alexanderkaye_CC13200: {
       unet: 'alexanderkaye',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -369,7 +369,7 @@ module.exports = {
       affilPositionTitle:
         'Karl, Harry, and Helen Stoll Assistant Professor of Israel Studies',
     },
-    aliabdur: {
+    aliabdur_CC12400: {
       unet: 'aliabdur',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -377,7 +377,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aliceainrich: {
+    aliceainrich_CC43100: {
       unet: 'aliceainrich',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -385,7 +385,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    alisonwirshing: {
+    alisonwirshing_CC28100: {
       unet: 'alisonwirshing',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -393,7 +393,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aliza: {
+    aliza_CC13200: {
       unet: 'aliza',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -401,7 +401,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    allara: {
+    allara_CC11100: {
       unet: 'allara',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -409,7 +409,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    allenr19: {
+    allenr19_CC45100: {
       unet: 'allenr19',
       costCenter: 'CC45100',
       unitName:
@@ -418,7 +418,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    alonzaslaver: {
+    alonzaslaver_CC16200: {
       unet: 'alonzaslaver',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -426,7 +426,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    altman: {
+    altman_CC40100: {
       unet: 'altman',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -434,7 +434,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    amaertens: {
+    amaertens_CC45100: {
       unet: 'amaertens',
       costCenter: 'CC45100',
       unitName:
@@ -443,7 +443,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    amberspry: {
+    amberspry_CC18100: {
       unet: 'amberspry',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -451,7 +451,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    amberspry: {
+    amberspry_CC18600: {
       unet: 'amberspry',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -459,7 +459,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    amjacobs: {
+    amjacobs_CC11400: {
       unet: 'amjacobs',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -467,7 +467,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    amparker: {
+    amparker_CC12600: {
       unet: 'amparker',
       costCenter: 'CC12600',
       unitName:
@@ -476,7 +476,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    amundra: {
+    amundra_CC27400: {
       unet: 'amundra',
       costCenter: 'CC27400',
       unitName: 'Religious Studies Program',
@@ -484,7 +484,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    amundra: {
+    amundra_CC18320: {
       unet: 'amundra',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -492,7 +492,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    amysinger: {
+    amysinger_CC18500: {
       unet: 'amysinger',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -500,7 +500,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    amysylee: {
+    amysylee_CC16200: {
       unet: 'amysylee',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -508,7 +508,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    amysylee: {
+    amysylee_CC28100: {
       unet: 'amysylee',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -516,7 +516,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    anaide: {
+    anaide_CC40100: {
       unet: 'anaide',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -524,7 +524,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    anamini: {
+    anamini_CC43100: {
       unet: 'anamini',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -532,7 +532,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    anconway: {
+    anconway_CC45100: {
       unet: 'anconway',
       costCenter: 'CC45100',
       unitName:
@@ -541,7 +541,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    andreacarrillo: {
+    andreacarrillo_CC25100: {
       unet: 'andreacarrillo',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -549,7 +549,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    anhuang: {
+    anhuang_CC16700: {
       unet: 'anhuang',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -557,7 +557,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'Assistant Professor of Mathematics',
     },
-    anneberry: {
+    anneberry_CC18700: {
       unet: 'anneberry',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -565,7 +565,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    anrg: {
+    anrg_CC16700: {
       unet: 'anrg',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -573,7 +573,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    antebi: {
+    antebi_CC13200: {
       unet: 'antebi',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -581,7 +581,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    antler: {
+    antler_CC18200: {
       unet: 'antler',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -589,7 +589,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aoko: {
+    aoko_CC18300: {
       unet: 'aoko',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -597,7 +597,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aoko: {
+    aoko_CC12100: {
       unet: 'aoko',
       costCenter: 'CC12100',
       unitName: 'Department of Classical Studies',
@@ -606,7 +606,7 @@ module.exports = {
       affilPositionTitle:
         'The Kevy and Hortense Kaiserman Endowed Chair in the Humanities',
     },
-    aoko: {
+    aoko_CC11100: {
       unet: 'aoko',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -614,7 +614,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aoko: {
+    aoko_CC24700: {
       unet: 'aoko',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -622,7 +622,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aoko: {
+    aoko_CC26600: {
       unet: 'aoko',
       costCenter: 'CC26600',
       unitName: 'Interdepartmental Program in Italian Studies',
@@ -630,7 +630,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aoko: {
+    aoko_CC12102: {
       unet: 'aoko',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -638,7 +638,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aparna: {
+    aparna_CC16800: {
       unet: 'aparna',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -646,7 +646,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    apineros: {
+    apineros_CC40100: {
       unet: 'apineros',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -654,7 +654,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    apl: {
+    apl_CC40100: {
       unet: 'apl',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -662,7 +662,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    appell: {
+    appell_CC40100: {
       unet: 'appell',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -670,7 +670,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    arellano: {
+    arellano_CC43100: {
       unet: 'arellano',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -678,7 +678,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    arnulfbecker: {
+    arnulfbecker_CC25100: {
       unet: 'arnulfbecker',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -686,7 +686,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    arodal: {
+    arodal_CC25200: {
       unet: 'arodal',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -694,7 +694,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    arodal: {
+    arodal_CC16200: {
       unet: 'arodal',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -702,7 +702,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    arodal: {
+    arodal_CC27200: {
       unet: 'arodal',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -710,7 +710,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    arodal: {
+    arodal_CC28100: {
       unet: 'arodal',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -718,7 +718,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    aros: {
+    aros_CC43100: {
       unet: 'aros',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -726,7 +726,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    arrom: {
+    arrom_ND_INST: {
       unet: 'arrom',
       costCenter: 'ND_INST',
       unitName: 'Brandeis University',
@@ -734,7 +734,7 @@ module.exports = {
       affilPosition: 'Associate Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    arrom: {
+    arrom_CC18500: {
       unet: 'arrom',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -742,7 +742,7 @@ module.exports = {
       affilPosition: 'Associate Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    art: {
+    art_ND_INST: {
       unet: 'art',
       costCenter: 'ND_INST',
       unitName: 'Brandeis University',
@@ -750,7 +750,7 @@ module.exports = {
       affilPosition: 'Associate Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    art: {
+    art_CC18600: {
       unet: 'art',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -758,7 +758,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ascherbina: {
+    ascherbina_CC43100: {
       unet: 'ascherbina',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -766,7 +766,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    asegar: {
+    asegar_CC11200: {
       unet: 'asegar',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -774,7 +774,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    asewick: {
+    asewick_CC12500: {
       unet: 'asewick',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -782,7 +782,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    ashakow: {
+    ashakow_CC26500: {
       unet: 'ashakow',
       costCenter: 'CC26500',
       unitName: 'Islamic and Middle Eastern Studies Program',
@@ -790,7 +790,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    ashebanow: {
+    ashebanow_CC45100: {
       unet: 'ashebanow',
       costCenter: 'CC45100',
       unitName:
@@ -799,7 +799,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    asivache: {
+    asivache_CC45100: {
       unet: 'asivache',
       costCenter: 'CC45100',
       unitName:
@@ -809,7 +809,7 @@ module.exports = {
       affilPositionTitle:
         'Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies',
     },
-    atowvim: {
+    atowvim_CC43100: {
       unet: 'atowvim',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -817,7 +817,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    atrelles: {
+    atrelles_CC18600: {
       unet: 'atrelles',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -825,7 +825,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    avinash: {
+    avinash_CC18500: {
       unet: 'avinash',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -833,7 +833,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    avinash: {
+    avinash_CC26300: {
       unet: 'avinash',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -841,7 +841,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    avinash: {
+    avinash_CC18320: {
       unet: 'avinash',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -849,7 +849,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    ayurik: {
+    ayurik_CC45100: {
       unet: 'ayurik',
       costCenter: 'CC45100',
       unitName:
@@ -858,7 +858,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bailis: {
+    bailis_CC40100: {
       unet: 'bailis',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -866,7 +866,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    banders: {
+    banders_CC40100: {
       unet: 'banders',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -874,7 +874,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    banders: {
+    banders_CC43100: {
       unet: 'banders',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -882,7 +882,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    barryshrage: {
+    barryshrage_CC13100: {
       unet: 'barryshrage',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -890,7 +890,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    bbal: {
+    bbal_CC27200: {
       unet: 'bbal',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -898,7 +898,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bcallender: {
+    bcallender_CC12400: {
       unet: 'bcallender',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -906,7 +906,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bclark: {
+    bclark_CC24700: {
       unet: 'bclark',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -914,7 +914,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bcline: {
+    bcline_CC12300: {
       unet: 'bcline',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -922,7 +922,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bcline: {
+    bcline_CC27200: {
       unet: 'bcline',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -930,7 +930,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bdonahue: {
+    bdonahue_CC18200: {
       unet: 'bdonahue',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -938,7 +938,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bdonahue: {
+    bdonahue_CC18500: {
       unet: 'bdonahue',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -946,7 +946,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bdonahue: {
+    bdonahue_CC25700: {
       unet: 'bdonahue',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -954,7 +954,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    benkosk: {
+    benkosk_CC43100: {
       unet: 'benkosk',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -962,7 +962,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bensinge: {
+    bensinge_CC16800: {
       unet: 'bensinge',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -970,7 +970,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bernardi: {
+    bernardi_CC16700: {
       unet: 'bernardi',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -978,7 +978,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bfriedma: {
+    bfriedma_CC40100: {
       unet: 'bfriedma',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -986,7 +986,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    bgc: {
+    bgc_CC43100: {
       unet: 'bgc',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -994,7 +994,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    bggreen: {
+    bggreen_CC11400: {
       unet: 'bggreen',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -1002,7 +1002,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bharris: {
+    bharris_CC16200: {
       unet: 'bharris',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -1010,7 +1010,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    bhorton: {
+    bhorton_CC18300: {
       unet: 'bhorton',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -1018,7 +1018,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    bhorton: {
+    bhorton_CC24700: {
       unet: 'bhorton',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -1026,7 +1026,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bhorton: {
+    bhorton_CC18320: {
       unet: 'bhorton',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -1034,7 +1034,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    birren: {
+    birren_CC25200: {
       unet: 'birren',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -1042,7 +1042,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    birren: {
+    birren_CC16200: {
       unet: 'birren',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -1050,7 +1050,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    birren: {
+    birren_CC18700: {
       unet: 'birren',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -1058,7 +1058,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    birren: {
+    birren_CC27200: {
       unet: 'birren',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -1066,7 +1066,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bishop: {
+    bishop_CC40100: {
       unet: 'bishop',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1074,7 +1074,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bisson: {
+    bisson_CC16200: {
       unet: 'bisson',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -1082,7 +1082,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bkuttner: {
+    bkuttner_CC40100: {
       unet: 'bkuttner',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1091,7 +1091,7 @@ module.exports = {
       affilPositionTitle:
         'Meyer and Ida Kirstein Professor in Social Planning and Administration',
     },
-    blebaron: {
+    blebaron_CC18400: {
       unet: 'blebaron',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -1099,7 +1099,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    blebaron: {
+    blebaron_CC43100: {
       unet: 'blebaron',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -1108,7 +1108,7 @@ module.exports = {
       affilPositionTitle:
         'Abram L. and Thelma Sachar Professor of International Economics in the Brandeis International Business School; Program Director, Master of Science in Business Analytics',
     },
-    blocker: {
+    blocker_CC16800: {
       unet: 'blocker',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -1116,7 +1116,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bmarkeson: {
+    bmarkeson_CC18400: {
       unet: 'bmarkeson',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -1124,7 +1124,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bmorriso: {
+    bmorriso_CC43100: {
       unet: 'bmorriso',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -1132,7 +1132,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bofangli: {
+    bofangli_CC12450: {
       unet: 'bofangli',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -1140,7 +1140,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    boguslaw: {
+    boguslaw_CC40100: {
       unet: 'boguslaw',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1148,7 +1148,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    boykan: {
+    boykan_CC11200: {
       unet: 'boykan',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -1156,7 +1156,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bpaulding: {
+    bpaulding_CC11200: {
       unet: 'bpaulding',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -1164,7 +1164,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    brai: {
+    brai_CC43100: {
       unet: 'brai',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -1172,7 +1172,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bramson: {
+    bramson_CC25000: {
       unet: 'bramson',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -1180,7 +1180,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    brenng: {
+    brenng_CC45100: {
       unet: 'brenng',
       costCenter: 'CC45100',
       unitName:
@@ -1189,7 +1189,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    brettler: {
+    brettler_CC13200: {
       unet: 'brettler',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -1197,7 +1197,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    broach: {
+    broach_CC40100: {
       unet: 'broach',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1205,7 +1205,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    brolin: {
+    brolin_CC40100: {
       unet: 'brolin',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1213,7 +1213,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    brookshedstrom: {
+    brookshedstrom_CC12100: {
       unet: 'brookshedstrom',
       costCenter: 'CC12100',
       unitName: 'Department of Classical Studies',
@@ -1221,7 +1221,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    brookshedstrom: {
+    brookshedstrom_CC13200: {
       unet: 'brookshedstrom',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -1229,7 +1229,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    brooten: {
+    brooten_CC13200: {
       unet: 'brooten',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -1237,7 +1237,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    broumas: {
+    broumas_CC12400: {
       unet: 'broumas',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -1245,7 +1245,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    brown: {
+    brown_CC16700: {
       unet: 'brown',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -1253,7 +1253,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bswingle: {
+    bswingle_CC16800: {
       unet: 'bswingle',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -1261,7 +1261,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    buchsbau: {
+    buchsbau_CC16700: {
       unet: 'buchsbau',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -1269,7 +1269,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bulbul: {
+    bulbul_CC16800: {
       unet: 'bulbul',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -1277,7 +1277,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    burack: {
+    burack_CC40100: {
       unet: 'burack',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1285,7 +1285,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    burg: {
+    burg_CC18600: {
       unet: 'burg',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -1293,7 +1293,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    burgja: {
+    burgja_CC12450: {
       unet: 'burgja',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -1301,7 +1301,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    burt: {
+    burt_CC18200: {
       unet: 'burt',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -1309,7 +1309,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    burt: {
+    burt_CC12400: {
       unet: 'burt',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -1317,7 +1317,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    burt: {
+    burt_CC12102: {
       unet: 'burt',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -1325,7 +1325,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    bxu: {
+    bxu_CC16500: {
       unet: 'bxu',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -1333,7 +1333,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    calt1: {
+    calt1_CC43100: {
       unet: 'calt1',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -1341,7 +1341,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    camerona: {
+    camerona_CC11400: {
       unet: 'camerona',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -1349,7 +1349,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    campbell: {
+    campbell_CC12400: {
       unet: 'campbell',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -1357,7 +1357,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    campbell: {
+    campbell_CC27100: {
       unet: 'campbell',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -1365,7 +1365,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    carter: {
+    carter_CC18400: {
       unet: 'carter',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -1373,7 +1373,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    catherinekehoe: {
+    catherinekehoe_CC11100: {
       unet: 'catherinekehoe',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -1381,7 +1381,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'Lecturer',
     },
-    catherinescott: {
+    catherinescott_CC12450: {
       unet: 'catherinescott',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -1389,7 +1389,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    cbregman: {
+    cbregman_CC16700: {
       unet: 'cbregman',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -1397,7 +1397,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ccarlson: {
+    ccarlson_CC40100: {
       unet: 'ccarlson',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1405,7 +1405,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cchester: {
+    cchester_CC25700: {
       unet: 'cchester',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -1413,7 +1413,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cchilelli: {
+    cchilelli_CC12500: {
       unet: 'cchilelli',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -1421,7 +1421,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cchoreau: {
+    cchoreau_CC16700: {
       unet: 'cchoreau',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -1429,7 +1429,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ccoleman: {
+    ccoleman_CC45100: {
       unet: 'ccoleman',
       costCenter: 'CC45100',
       unitName:
@@ -1438,7 +1438,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cdellalucia: {
+    cdellalucia_CC11100: {
       unet: 'cdellalucia',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -1446,7 +1446,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cecchett: {
+    cecchett_CC18400: {
       unet: 'cecchett',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -1454,7 +1454,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cecchett: {
+    cecchett_CC43100: {
       unet: 'cecchett',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -1462,7 +1462,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    celereid: {
+    celereid_CC40100: {
       unet: 'celereid',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1470,7 +1470,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cemoore: {
+    cemoore_CC45100: {
       unet: 'cemoore',
       costCenter: 'CC45100',
       unitName:
@@ -1479,7 +1479,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cer15: {
+    cer15_CC18100: {
       unet: 'cer15',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -1487,7 +1487,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cer15: {
+    cer15_CC18500: {
       unet: 'cer15',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -1495,7 +1495,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cer15: {
+    cer15_CC24700: {
       unet: 'cer15',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -1503,7 +1503,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cerbil: {
+    cerbil_CC40100: {
       unet: 'cerbil',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1511,7 +1511,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cfaure: {
+    cfaure_CC12500: {
       unet: 'cfaure',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -1519,7 +1519,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cfaure: {
+    cfaure_CC26300: {
       unet: 'cfaure',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -1527,7 +1527,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cfreeze: {
+    cfreeze_CC12600: {
       unet: 'cfreeze',
       costCenter: 'CC12600',
       unitName:
@@ -1536,7 +1536,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cfreeze: {
+    cfreeze_CC18500: {
       unet: 'cfreeze',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -1544,7 +1544,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cfreeze: {
+    cfreeze_CC13200: {
       unet: 'cfreeze',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -1553,7 +1553,7 @@ module.exports = {
       affilPositionTitle:
         'Frances and Max Elkon Chair in Modern Jewish History',
     },
-    cfreeze: {
+    cfreeze_CC24700: {
       unet: 'cfreeze',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -1561,7 +1561,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cfrost: {
+    cfrost_CC11100: {
       unet: 'cfrost',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -1569,7 +1569,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    cgillespie: {
+    cgillespie_CC12100: {
       unet: 'cgillespie',
       costCenter: 'CC12100',
       unitName: 'Department of Classical Studies',
@@ -1577,7 +1577,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    cgolden: {
+    cgolden_CC18300: {
       unet: 'cgolden',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -1585,7 +1585,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of Anthropology',
     },
-    cha: {
+    cha_CC43100: {
       unet: 'cha',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -1593,7 +1593,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    chadw: {
+    chadw_CC18100: {
       unet: 'chadw',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -1601,7 +1601,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    chadw: {
+    chadw_CC18500: {
       unet: 'chadw',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -1609,7 +1609,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    chadw: {
+    chadw_CC40100: {
       unet: 'chadw',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1617,7 +1617,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    chafe: {
+    chafe_CC11200: {
       unet: 'chafe',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -1625,7 +1625,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    charlesfreilich: {
+    charlesfreilich_CC18600: {
       unet: 'charlesfreilich',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -1633,7 +1633,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    chasalow: {
+    chasalow_CC11200: {
       unet: 'chasalow',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -1642,7 +1642,7 @@ module.exports = {
       affilPositionTitle:
         'Dean of the Graduate School of Arts and Sciences, Irving Fine Professor of Music',
     },
-    chase: {
+    chase_CC18600: {
       unet: 'chase',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -1650,7 +1650,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    chase: {
+    chase_CC26300: {
       unet: 'chase',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -1658,7 +1658,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    chenchen: {
+    chenchen_CC12400: {
       unet: 'chenchen',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -1666,7 +1666,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    chengyingye: {
+    chengyingye_CC12600: {
       unet: 'chengyingye',
       costCenter: 'CC12600',
       unitName:
@@ -1675,7 +1675,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    chilinge: {
+    chilinge_CC40100: {
       unet: 'chilinge',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1683,7 +1683,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    chiwaichow: {
+    chiwaichow_CC45100: {
       unet: 'chiwaichow',
       costCenter: 'CC45100',
       unitName:
@@ -1692,7 +1692,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    chrismansley: {
+    chrismansley_CC45100: {
       unet: 'chrismansley',
       costCenter: 'CC45100',
       unitName:
@@ -1701,7 +1701,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    christagould: {
+    christagould_CC12500: {
       unet: 'christagould',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -1709,7 +1709,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    chuxuzhang: {
+    chuxuzhang_CC16600: {
       unet: 'chuxuzhang',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -1717,7 +1717,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    ckgill: {
+    ckgill_CC45100: {
       unet: 'ckgill',
       costCenter: 'CC45100',
       unitName:
@@ -1726,7 +1726,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    clcummings: {
+    clcummings_CC45100: {
       unet: 'clcummings',
       costCenter: 'CC45100',
       unitName:
@@ -1735,7 +1735,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cleduc: {
+    cleduc_CC27700: {
       unet: 'cleduc',
       costCenter: 'CC27700',
       unitName: 'Graduate Program in Genetic Counseling',
@@ -1743,7 +1743,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    climate: {
+    climate_CC25700: {
       unet: 'climate',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -1751,7 +1751,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cmiller: {
+    cmiller_CC16100: {
       unet: 'cmiller',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -1759,7 +1759,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cmorseharding: {
+    cmorseharding_Library: {
       unet: 'cmorseharding',
       costCenter: 'Library',
       unitName: 'Library',
@@ -1767,7 +1767,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Reference & Instruction Archivist',
     },
-    cnoelke: {
+    cnoelke_CC40100: {
       unet: 'cnoelke',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1775,7 +1775,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    coiner: {
+    coiner_CC18400: {
       unet: 'coiner',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -1783,7 +1783,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    conrad: {
+    conrad_CC18800: {
       unet: 'conrad',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -1791,7 +1791,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cosler: {
+    cosler_CC18400: {
       unet: 'cosler',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -1799,7 +1799,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cosler: {
+    cosler_CC43100: {
       unet: 'cosler',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -1807,7 +1807,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    courtnyelloyd: {
+    courtnyelloyd_CC25000: {
       unet: 'courtnyelloyd',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -1815,7 +1815,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cowillia: {
+    cowillia_CC40100: {
       unet: 'cowillia',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1823,7 +1823,7 @@ module.exports = {
       affilPosition: 'Associate Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    cpa: {
+    cpa_CC12500: {
       unet: 'cpa',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -1831,7 +1831,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cpmiller: {
+    cpmiller_CC12450: {
       unet: 'cpmiller',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -1839,7 +1839,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cpontbriand: {
+    cpontbriand_Library: {
       unet: 'cpontbriand',
       costCenter: 'Library',
       unitName: 'Library',
@@ -1847,7 +1847,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    creed: {
+    creed_CC43100: {
       unet: 'creed',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -1855,7 +1855,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    crosen: {
+    crosen_CC18800: {
       unet: 'crosen',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -1863,7 +1863,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    crosen: {
+    crosen_CC26300: {
       unet: 'crosen',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -1871,7 +1871,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    crosen: {
+    crosen_CC25100: {
       unet: 'crosen',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -1879,7 +1879,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    csim: {
+    csim_ND_INST: {
       unet: 'csim',
       costCenter: 'ND_INST',
       unitName: 'Brandeis University',
@@ -1887,7 +1887,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    cslodden: {
+    cslodden_CC18800: {
       unet: 'cslodden',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -1895,7 +1895,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ctedford: {
+    ctedford_CC11400: {
       unet: 'ctedford',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -1903,7 +1903,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    ctheobal: {
+    ctheobal_CC12500: {
       unet: 'ctheobal',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -1911,7 +1911,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cthomas: {
+    cthomas_CC40100: {
       unet: 'cthomas',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1919,7 +1919,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor and Associate Dean for Research',
     },
-    cunningh: {
+    cunningh_CC18700: {
       unet: 'cunningh',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -1927,7 +1927,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    curnan: {
+    curnan_CC40100: {
       unet: 'curnan',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1935,7 +1935,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    cwalker: {
+    cwalker_CC12100: {
       unet: 'cwalker',
       costCenter: 'CC12100',
       unitName: 'Department of Classical Studies',
@@ -1943,7 +1943,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    cwalker: {
+    cwalker_CC12400: {
       unet: 'cwalker',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -1951,7 +1951,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    cwalker: {
+    cwalker_CC26600: {
       unet: 'cwalker',
       costCenter: 'CC26600',
       unitName: 'Interdepartmental Program in Italian Studies',
@@ -1959,7 +1959,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    cwalker: {
+    cwalker_CC12102: {
       unet: 'cwalker',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -1967,7 +1967,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    cwalker: {
+    cwalker_CC27100: {
       unet: 'cwalker',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -1975,7 +1975,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    cynthiap: {
+    cynthiap_CC45100: {
       unet: 'cynthiap',
       costCenter: 'CC45100',
       unitName:
@@ -1984,7 +1984,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dacevedo: {
+    dacevedo_CC40100: {
       unet: 'dacevedo',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -1992,7 +1992,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dariusz: {
+    dariusz_CC16200: {
       unet: 'dariusz',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -2000,7 +2000,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    davidalbert: {
+    davidalbert_CC30800: {
       unet: 'davidalbert',
       costCenter: 'CC30800',
       unitName: 'Myra Kraft Transitional Year Program',
@@ -2008,7 +2008,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    davideianni: {
+    davideianni_CC11200: {
       unet: 'davideianni',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -2016,7 +2016,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    davidkatz: {
+    davidkatz_CC18500: {
       unet: 'davidkatz',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -2024,7 +2024,7 @@ module.exports = {
       affilPosition: 'Visiting Professor',
       affilPositionTitle: 'Visiting Professor of History',
     },
-    davidswiniarski: {
+    davidswiniarski_CC45100: {
       unet: 'davidswiniarski',
       costCenter: 'CC45100',
       unitName:
@@ -2033,7 +2033,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    davweil: {
+    davweil_CC18400: {
       unet: 'davweil',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -2042,7 +2042,7 @@ module.exports = {
       affilPositionTitle:
         'Dean and Professor of the Heller School for Social Policy and Management',
     },
-    davweil: {
+    davweil_CC40100: {
       unet: 'davweil',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2051,7 +2051,7 @@ module.exports = {
       affilPositionTitle:
         'Dean and Professor of the Heller School for Social Policy and Management',
     },
-    dawnskor: {
+    dawnskor_CC12400: {
       unet: 'dawnskor',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -2059,7 +2059,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    dberech: {
+    dberech_CC43100: {
       unet: 'dberech',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2067,7 +2067,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dberg: {
+    dberg_CC18400: {
       unet: 'dberg',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -2075,7 +2075,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dberg: {
+    dberg_CC43100: {
       unet: 'dberg',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2083,7 +2083,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dbkatz: {
+    dbkatz_CC25200: {
       unet: 'dbkatz',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -2091,7 +2091,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dbkatz: {
+    dbkatz_CC18700: {
       unet: 'dbkatz',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -2099,7 +2099,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Psychology',
     },
-    dbkatz: {
+    dbkatz_CC27200: {
       unet: 'dbkatz',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -2107,7 +2107,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dbowser: {
+    dbowser_CC40100: {
       unet: 'dbowser',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2115,7 +2115,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dbrams: {
+    dbrams_CC45100: {
       unet: 'dbrams',
       costCenter: 'CC45100',
       unitName:
@@ -2124,7 +2124,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dbreen91: {
+    dbreen91_CC25100: {
       unet: 'dbreen91',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -2132,7 +2132,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dcooper: {
+    dcooper_CC16200: {
       unet: 'dcooper',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -2140,7 +2140,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dcunning: {
+    dcunning_CC18800: {
       unet: 'dcunning',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -2148,7 +2148,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dcunning: {
+    dcunning_CC40100: {
       unet: 'dcunning',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2156,7 +2156,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    deborahpolivy: {
+    deborahpolivy_CC13100: {
       unet: 'deborahpolivy',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -2164,7 +2164,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    decter: {
+    decter_CC12501: {
       unet: 'decter',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -2172,7 +2172,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    decter: {
+    decter_CC13200: {
       unet: 'decter',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -2180,7 +2180,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    decter: {
+    decter_CC27100: {
       unet: 'decter',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -2188,7 +2188,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dellelo: {
+    dellelo_CC26700: {
       unet: 'dellelo',
       costCenter: 'CC26700',
       unitName: 'Journalism Program',
@@ -2196,7 +2196,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dellenson: {
+    dellenson_CC13200: {
       unet: 'dellenson',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -2204,7 +2204,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    deng: {
+    deng_CC16500: {
       unet: 'deng',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -2212,7 +2212,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    denispatterson: {
+    denispatterson_CC16700: {
       unet: 'denispatterson',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -2220,7 +2220,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    derosier: {
+    derosier_CC16200: {
       unet: 'derosier',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -2228,7 +2228,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dgrigorjev: {
+    dgrigorjev_CC45100: {
       unet: 'dgrigorjev',
       costCenter: 'CC45100',
       unitName:
@@ -2237,7 +2237,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    dhodgson: {
+    dhodgson_CC18300: {
       unet: 'dhodgson',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -2246,7 +2246,7 @@ module.exports = {
       affilPositionTitle:
         'Dean of Arts and Sciences and Professor of Anthropology',
     },
-    dhughes: {
+    dhughes_CC40100: {
       unet: 'dhughes',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2254,7 +2254,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dhunter: {
+    dhunter_CC24700: {
       unet: 'dhunter',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -2262,7 +2262,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    dibble: {
+    dibble_CC11400: {
       unet: 'dibble',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -2270,7 +2270,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    digra: {
+    digra_CC25000: {
       unet: 'digra',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -2278,7 +2278,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    dilant: {
+    dilant_CC25200: {
       unet: 'dilant',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -2286,7 +2286,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dilant: {
+    dilant_CC16600: {
       unet: 'dilant',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -2294,7 +2294,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    diouf: {
+    diouf_CC18100: {
       unet: 'diouf',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -2302,7 +2302,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    diouf: {
+    diouf_CC12400: {
       unet: 'diouf',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -2310,7 +2310,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    diouf: {
+    diouf_CC24700: {
       unet: 'diouf',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -2318,7 +2318,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dizio: {
+    dizio_CC25200: {
       unet: 'dizio',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -2326,7 +2326,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dizio: {
+    dizio_CC18700: {
       unet: 'dizio',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -2334,7 +2334,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dizio: {
+    dizio_CC27200: {
       unet: 'dizio',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -2342,7 +2342,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    djlevin: {
+    djlevin_CC43100: {
       unet: 'djlevin',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2350,7 +2350,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dkenyon: {
+    dkenyon_CC40100: {
       unet: 'dkenyon',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2358,7 +2358,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dkern: {
+    dkern_CC25200: {
       unet: 'dkern',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -2366,7 +2366,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dkern: {
+    dkern_CC16100: {
       unet: 'dkern',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -2375,7 +2375,7 @@ module.exports = {
       affilPositionTitle:
         'Professor of Biochemistry and Howard Hughes Medical Institute Investigator',
     },
-    dkirshen: {
+    dkirshen_CC12450: {
       unet: 'dkirshen',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -2383,7 +2383,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dlsmith: {
+    dlsmith_CC25100: {
       unet: 'dlsmith',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -2391,7 +2391,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    dlumerman: {
+    dlumerman_CC45100: {
       unet: 'dlumerman',
       costCenter: 'CC45100',
       unitName:
@@ -2400,7 +2400,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dlundgren: {
+    dlundgren_CC43100: {
       unet: 'dlundgren',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2408,7 +2408,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dmichalides: {
+    dmichalides_CC45100: {
       unet: 'dmichalides',
       costCenter: 'CC45100',
       unitName:
@@ -2417,7 +2417,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dnandy: {
+    dnandy_CC18400: {
       unet: 'dnandy',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -2425,7 +2425,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dnandy: {
+    dnandy_CC40100: {
       unet: 'dnandy',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2433,7 +2433,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dnandy: {
+    dnandy_CC43100: {
       unet: 'dnandy',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2441,7 +2441,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    doherty: {
+    doherty_CC18200: {
       unet: 'doherty',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -2449,7 +2449,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dolbear: {
+    dolbear_CC43100: {
       unet: 'dolbear',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2457,7 +2457,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dolnik: {
+    dolnik_CC16500: {
       unet: 'dolnik',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -2465,7 +2465,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    doonan: {
+    doonan_CC40100: {
       unet: 'doonan',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2473,7 +2473,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dost: {
+    dost_CC13200: {
       unet: 'dost',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -2481,7 +2481,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dowden: {
+    dowden_CC12501: {
       unet: 'dowden',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -2489,7 +2489,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dowden: {
+    dowden_CC12600: {
       unet: 'dowden',
       costCenter: 'CC12600',
       unitName:
@@ -2498,7 +2498,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dowden: {
+    dowden_CC25800: {
       unet: 'dowden',
       costCenter: 'CC25800',
       unitName: 'Interdepartmental Program in European Cultural Studies',
@@ -2506,7 +2506,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dowden: {
+    dowden_CC12102: {
       unet: 'dowden',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -2514,7 +2514,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dpeavey: {
+    dpeavey_CC16500: {
       unet: 'dpeavey',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -2522,7 +2522,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dpettenu: {
+    dpettenu_CC18400: {
       unet: 'dpettenu',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -2530,7 +2530,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dpettenu: {
+    dpettenu_CC43100: {
       unet: 'dpettenu',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2538,7 +2538,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dphillips: {
+    dphillips_CC25000: {
       unet: 'dphillips',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -2546,7 +2546,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dpineo: {
+    dpineo_CC45100: {
       unet: 'dpineo',
       costCenter: 'CC45100',
       unitName:
@@ -2555,7 +2555,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dpriddle: {
+    dpriddle_CC45100: {
       unet: 'dpriddle',
       costCenter: 'CC45100',
       unitName:
@@ -2564,7 +2564,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dshaby: {
+    dshaby_CC43100: {
       unet: 'dshaby',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2572,7 +2572,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    dsherman: {
+    dsherman_CC12501: {
       unet: 'dsherman',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -2580,7 +2580,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of English',
     },
-    dsherman: {
+    dsherman_CC12400: {
       unet: 'dsherman',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -2588,7 +2588,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of English',
     },
-    dsherman: {
+    dsherman_CC26100: {
       unet: 'dsherman',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -2596,7 +2596,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of English',
     },
-    dsherman: {
+    dsherman_CC12102: {
       unet: 'dsherman',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -2604,7 +2604,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of English',
     },
-    dsteele: {
+    dsteele_CC40100: {
       unet: 'dsteele',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2612,7 +2612,7 @@ module.exports = {
       affilPosition: 'Adjunct Lecturer',
       affilPositionTitle: 'undefined',
     },
-    dsull: {
+    dsull_CC25000: {
       unet: 'dsull',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -2620,7 +2620,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dtroyanov: {
+    dtroyanov_CC11400: {
       unet: 'dtroyanov',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -2628,7 +2628,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    dtybor01: {
+    dtybor01_CC40100: {
       unet: 'dtybor01',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2636,7 +2636,7 @@ module.exports = {
       affilPosition: 'Adjunct Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    dunigan: {
+    dunigan_CC40100: {
       unet: 'dunigan',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2644,7 +2644,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    dwallace: {
+    dwallace_CC18100: {
       unet: 'dwallace',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -2652,7 +2652,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    dwallace: {
+    dwallace_CC18800: {
       unet: 'dwallace',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -2660,7 +2660,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    dwallace: {
+    dwallace_CC25000: {
       unet: 'dwallace',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -2668,7 +2668,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    dwhalen: {
+    dwhalen_CC40100: {
       unet: 'dwhalen',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2676,7 +2676,7 @@ module.exports = {
       affilPosition: 'Adjunct Lecturer',
       affilPositionTitle: 'undefined',
     },
-    dzinner: {
+    dzinner_CC26100: {
       unet: 'dzinner',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -2685,7 +2685,7 @@ module.exports = {
       affilPositionTitle:
         'Associate Professor; Associate Dean for Academic Personnel; Director, Heller Undergraduate Program',
     },
-    dzinner: {
+    dzinner_CC40100: {
       unet: 'dzinner',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2693,7 +2693,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Associate Chair',
     },
-    eacmills: {
+    eacmills_CC16800: {
       unet: 'eacmills',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -2701,7 +2701,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eafrey: {
+    eafrey_CC11200: {
       unet: 'eafrey',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -2709,7 +2709,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    ebayone: {
+    ebayone_CC43100: {
       unet: 'ebayone',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2717,7 +2717,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ebellin: {
+    ebellin_CC18600: {
       unet: 'ebellin',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -2725,7 +2725,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ebkogan: {
+    ebkogan_CC40100: {
       unet: 'ebkogan',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2733,7 +2733,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ebrad: {
+    ebrad_CC12400: {
       unet: 'ebrad',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -2741,7 +2741,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ebrainer: {
+    ebrainer_CC18400: {
       unet: 'ebrainer',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -2749,7 +2749,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ebrainer: {
+    ebrainer_CC24700: {
       unet: 'ebrainer',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -2757,7 +2757,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ebrainer: {
+    ebrainer_CC40100: {
       unet: 'ebrainer',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2765,7 +2765,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ebrainer: {
+    ebrainer_CC43100: {
       unet: 'ebrainer',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2773,7 +2773,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    edkaplan: {
+    edkaplan_CC12500: {
       unet: 'edkaplan',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -2782,7 +2782,7 @@ module.exports = {
       affilPositionTitle:
         'Kevy and Hortense Kaiserman Professor in the Humanities',
     },
-    edwarddumas: {
+    edwarddumas_CC43100: {
       unet: 'edwarddumas',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2790,7 +2790,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ehackett: {
+    ehackett_CC40100: {
       unet: 'ehackett',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2799,7 +2799,7 @@ module.exports = {
       affilPositionTitle:
         'Vice Provost for Research and Professor of Sociology',
     },
-    ehemdal: {
+    ehemdal_CC45100: {
       unet: 'ehemdal',
       costCenter: 'CC45100',
       unitName:
@@ -2808,7 +2808,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    ehiller: {
+    ehiller_CC27700: {
       unet: 'ehiller',
       costCenter: 'CC27700',
       unitName: 'Graduate Program in Genetic Counseling',
@@ -2816,7 +2816,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eigsti: {
+    eigsti_CC11400: {
       unet: 'eigsti',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -2824,7 +2824,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eileenma: {
+    eileenma_CC18200: {
       unet: 'eileenma',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -2832,7 +2832,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eileenma: {
+    eileenma_CC26700: {
       unet: 'eileenma',
       costCenter: 'CC26700',
       unitName: 'Journalism Program',
@@ -2840,7 +2840,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eissenbe: {
+    eissenbe_CC11200: {
       unet: 'eissenbe',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -2848,7 +2848,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eizmang: {
+    eizmang_CC18400: {
       unet: 'eizmang',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -2856,7 +2856,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eizmang: {
+    eizmang_CC43100: {
       unet: 'eizmang',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -2864,7 +2864,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ejwright: {
+    ejwright_CC18700: {
       unet: 'ejwright',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -2872,7 +2872,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    ekjacobs: {
+    ekjacobs_CC12450: {
       unet: 'ekjacobs',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -2880,7 +2880,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    elee2395: {
+    elee2395_CC12600: {
       unet: 'elee2395',
       costCenter: 'CC12600',
       unitName:
@@ -2889,7 +2889,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    elenag: {
+    elenag_CC12500: {
       unet: 'elenag',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -2897,7 +2897,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    eltobgui: {
+    eltobgui_CC13200: {
       unet: 'eltobgui',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -2905,7 +2905,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    embazzell: {
+    embazzell_CC40100: {
       unet: 'embazzell',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2913,7 +2913,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    embazzell: {
+    embazzell_CC45100: {
       unet: 'embazzell',
       costCenter: 'CC45100',
       unitName:
@@ -2922,7 +2922,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    emilieconnolly: {
+    emilieconnolly_CC18500: {
       unet: 'emilieconnolly',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -2930,7 +2930,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    engerman: {
+    engerman_CC18500: {
       unet: 'engerman',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -2938,7 +2938,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    engerman: {
+    engerman_CC18320: {
       unet: 'engerman',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -2946,7 +2946,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eolson: {
+    eolson_CC40100: {
       unet: 'eolson',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -2954,7 +2954,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    epstein: {
+    epstein_CC25200: {
       unet: 'epstein',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -2962,7 +2962,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    epstein: {
+    epstein_CC16500: {
       unet: 'epstein',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -2971,7 +2971,7 @@ module.exports = {
       affilPositionTitle:
         'University Professor and Henry F. Fischbach Professor of Chemistry',
     },
-    epstein: {
+    epstein_CC27200: {
       unet: 'epstein',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -2979,7 +2979,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eringee: {
+    eringee_CC11200: {
       unet: 'eringee',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -2987,7 +2987,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    ernestgreen: {
+    ernestgreen_CC45100: {
       unet: 'ernestgreen',
       costCenter: 'CC45100',
       unitName:
@@ -2996,7 +2996,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eschatt: {
+    eschatt_CC18300: {
       unet: 'eschatt',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -3004,7 +3004,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    eschatt: {
+    eschatt_CC24700: {
       unet: 'eschatt',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -3012,7 +3012,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eschatt: {
+    eschatt_CC25600: {
       unet: 'eschatt',
       costCenter: 'CC25600',
       unitName: 'East Asian Studies Program',
@@ -3020,7 +3020,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eschatt: {
+    eschatt_CC26300: {
       unet: 'eschatt',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -3028,7 +3028,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eschatt: {
+    eschatt_CC12102: {
       unet: 'eschatt',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -3036,7 +3036,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    eschatt: {
+    eschatt_CC27400: {
       unet: 'eschatt',
       costCenter: 'CC27400',
       unitName: 'Religious Studies Program',
@@ -3044,7 +3044,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    esession: {
+    esession_CC40100: {
       unet: 'esession',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3052,7 +3052,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    esisli: {
+    esisli_CC40100: {
       unet: 'esisli',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3060,7 +3060,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    esmith2: {
+    esmith2_CC13200: {
       unet: 'esmith2',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -3068,7 +3068,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of the Practice',
     },
-    esmith2: {
+    esmith2_CC13100: {
       unet: 'esmith2',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -3076,7 +3076,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Director',
     },
-    espinosa: {
+    espinosa_CC40100: {
       unet: 'espinosa',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3084,7 +3084,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    euretsky: {
+    euretsky_CC25600: {
       unet: 'euretsky',
       costCenter: 'CC25600',
       unitName: 'East Asian Studies Program',
@@ -3092,7 +3092,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    euretsky: {
+    euretsky_CC26300: {
       unet: 'euretsky',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -3100,7 +3100,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    evaheinrich: {
+    evaheinrich_CC12600: {
       unet: 'evaheinrich',
       costCenter: 'CC12600',
       unitName:
@@ -3109,7 +3109,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    faconi: {
+    faconi_CC11100: {
       unet: 'faconi',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -3117,7 +3117,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fair: {
+    fair_CC11100: {
       unet: 'fair',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -3125,7 +3125,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    farrelly: {
+    farrelly_CC18200: {
       unet: 'farrelly',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -3133,7 +3133,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    farrelly: {
+    farrelly_CC26700: {
       unet: 'farrelly',
       costCenter: 'CC26700',
       unitName: 'Journalism Program',
@@ -3141,7 +3141,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fbattist: {
+    fbattist_CC45100: {
       unet: 'fbattist',
       costCenter: 'CC45100',
       unitName:
@@ -3150,7 +3150,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fcampbell: {
+    fcampbell_CC40100: {
       unet: 'fcampbell',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3158,7 +3158,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fchertok: {
+    fchertok_CC13100: {
       unet: 'fchertok',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -3166,7 +3166,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fell: {
+    fell_CC16800: {
       unet: 'fell',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -3174,7 +3174,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fellman: {
+    fellman_CC18800: {
       unet: 'fellman',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -3182,7 +3182,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fellman: {
+    fellman_CC24700: {
       unet: 'fellman',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -3190,7 +3190,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ferosen: {
+    ferosen_CC12501: {
       unet: 'ferosen',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -3198,7 +3198,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ferosen: {
+    ferosen_CC12500: {
       unet: 'ferosen',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -3206,7 +3206,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ferosen: {
+    ferosen_CC25900: {
       unet: 'ferosen',
       costCenter: 'CC25900',
       unitName: 'Film, Television and Interactive Media Program',
@@ -3214,7 +3214,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ferosen: {
+    ferosen_CC26300: {
       unet: 'ferosen',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -3222,7 +3222,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ferosen: {
+    ferosen_CC26800: {
       unet: 'ferosen',
       costCenter: 'CC26800',
       unitName: 'Latin American and Latino Studies Program',
@@ -3230,7 +3230,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ferosen: {
+    ferosen_CC12102: {
       unet: 'ferosen',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -3238,7 +3238,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ferry: {
+    ferry_CC18300: {
       unet: 'ferry',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -3246,7 +3246,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fischer: {
+    fischer_CC18500: {
       unet: 'fischer',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -3254,7 +3254,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fishbayn: {
+    fishbayn_ND_INST: {
       unet: 'fishbayn',
       costCenter: 'ND_INST',
       unitName: 'Brandeis University',
@@ -3263,7 +3263,7 @@ module.exports = {
       affilPositionTitle:
         'Shulamit Reinharz Director of the Hadassah-Brandeis Institute',
     },
-    fishbayn: {
+    fishbayn_ND_INST: {
       unet: 'fishbayn',
       costCenter: 'ND_INST',
       unitName: 'Brandeis University',
@@ -3271,7 +3271,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Co-founder, Boston Agunah Task Force',
     },
-    fishbayn: {
+    fishbayn_T___BUP: {
       unet: 'fishbayn',
       costCenter: 'T___BUP',
       unitName: 'Brandeis University Press',
@@ -3280,7 +3280,7 @@ module.exports = {
       affilPositionTitle:
         'Editor, Series on Gender, Culture, Religion and the Law',
     },
-    fishbayn: {
+    fishbayn_CC13200: {
       unet: 'fishbayn',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -3288,7 +3288,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'Lecturer in Near Eastern and Judaic Studies',
     },
-    fishman: {
+    fishman_CC13200: {
       unet: 'fishman',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -3296,7 +3296,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    flesch: {
+    flesch_CC12501: {
       unet: 'flesch',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -3304,7 +3304,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    flesch: {
+    flesch_CC12400: {
       unet: 'flesch',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -3312,7 +3312,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    flesch: {
+    flesch_CC12300: {
       unet: 'flesch',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -3320,7 +3320,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    flesch: {
+    flesch_CC12102: {
       unet: 'flesch',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -3328,7 +3328,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    flesch: {
+    flesch_CC27100: {
       unet: 'flesch',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -3336,7 +3336,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fournier: {
+    fournier_CC40100: {
       unet: 'fournier',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3344,7 +3344,7 @@ module.exports = {
       affilPosition: 'Senior Lecturer',
       affilPositionTitle: 'Senior Lecturer',
     },
-    fox: {
+    fox_CC12500: {
       unet: 'fox',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -3352,7 +3352,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    fox: {
+    fox_CC24700: {
       unet: 'fox',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -3360,7 +3360,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    foxman1: {
+    foxman1_CC16500: {
       unet: 'foxman1',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -3368,7 +3368,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    fraden: {
+    fraden_CC16800: {
       unet: 'fraden',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -3376,7 +3376,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    fraleigh: {
+    fraleigh_CC12501: {
       unet: 'fraleigh',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -3384,7 +3384,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fraleigh: {
+    fraleigh_CC12600: {
       unet: 'fraleigh',
       costCenter: 'CC12600',
       unitName:
@@ -3394,7 +3394,7 @@ module.exports = {
       affilPositionTitle:
         'Associate Professor of East Asian Literature and Culture',
     },
-    fraleigh: {
+    fraleigh_CC25600: {
       unet: 'fraleigh',
       costCenter: 'CC25600',
       unitName: 'East Asian Studies Program',
@@ -3402,7 +3402,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fraleigh: {
+    fraleigh_CC25900: {
       unet: 'fraleigh',
       costCenter: 'CC25900',
       unitName: 'Film, Television and Interactive Media Program',
@@ -3410,7 +3410,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fraleigh: {
+    fraleigh_CC12102: {
       unet: 'fraleigh',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -3418,7 +3418,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    freeze: {
+    freeze_CC12600: {
       unet: 'freeze',
       costCenter: 'CC12600',
       unitName:
@@ -3427,7 +3427,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    freeze: {
+    freeze_CC18500: {
       unet: 'freeze',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -3435,7 +3435,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Victor and Gwendolyn Beinfield Professor of History',
     },
-    freeze: {
+    freeze_CC26300: {
       unet: 'freeze',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -3443,7 +3443,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    fsmith: {
+    fsmith_CC18100: {
       unet: 'fsmith',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -3451,7 +3451,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    fsmith: {
+    fsmith_CC12400: {
       unet: 'fsmith',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -3459,7 +3459,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    fsmith: {
+    fsmith_CC24700: {
       unet: 'fsmith',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -3467,7 +3467,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    fsmith: {
+    fsmith_CC26800: {
       unet: 'fsmith',
       costCenter: 'CC26800',
       unitName: 'Latin American and Latino Studies Program',
@@ -3475,7 +3475,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    fulton: {
+    fulton_CC16200: {
       unet: 'fulton',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -3483,7 +3483,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    gannit: {
+    gannit_CC11100: {
       unet: 'gannit',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -3492,7 +3492,7 @@ module.exports = {
       affilPositionTitle:
         'Professor of Fine Arts and Chair in Israeli Art, Department of Fine Arts and Schusterman Center for Israel Studies',
     },
-    garnick: {
+    garnick_CC40100: {
       unet: 'garnick',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3500,7 +3500,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    gaskins: {
+    gaskins_CC18200: {
       unet: 'gaskins',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -3508,7 +3508,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gaskins: {
+    gaskins_CC18100: {
       unet: 'gaskins',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -3516,7 +3516,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gaskins: {
+    gaskins_CC12300: {
       unet: 'gaskins',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -3524,7 +3524,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gaskins: {
+    gaskins_CC18600: {
       unet: 'gaskins',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -3532,7 +3532,7 @@ module.exports = {
       affilPosition: 'Director',
       affilPositionTitle: 'undefined',
     },
-    gaskins: {
+    gaskins_CC26300: {
       unet: 'gaskins',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -3540,7 +3540,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gaumer: {
+    gaumer_CC40100: {
       unet: 'gaumer',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3548,7 +3548,7 @@ module.exports = {
       affilPosition: 'Adjunct Lecturer',
       affilPositionTitle: 'undefined',
     },
-    gcbell: {
+    gcbell_CC11100: {
       unet: 'gcbell',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -3556,7 +3556,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gchilds: {
+    gchilds_CC18100: {
       unet: 'gchilds',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -3564,7 +3564,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gchilds: {
+    gchilds_CC18500: {
       unet: 'gchilds',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -3572,7 +3572,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gduclos: {
+    gduclos_CC16800: {
       unet: 'gduclos',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -3580,7 +3580,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gehrenk: {
+    gehrenk_CC45100: {
       unet: 'gehrenk',
       costCenter: 'CC45100',
       unitName:
@@ -3589,7 +3589,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gelles: {
+    gelles_CC16100: {
       unet: 'gelles',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -3597,7 +3597,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    gene: {
+    gene_CC43100: {
       unet: 'gene',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -3605,7 +3605,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    geoffclarke: {
+    geoffclarke_CC18400: {
       unet: 'geoffclarke',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -3613,7 +3613,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    geoffclarke: {
+    geoffclarke_CC43100: {
       unet: 'geoffclarke',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -3621,7 +3621,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gessel: {
+    gessel_CC16700: {
       unet: 'gessel',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -3629,7 +3629,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    geverett: {
+    geverett_CC12400: {
       unet: 'geverett',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -3637,7 +3637,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ggillin: {
+    ggillin_CC45100: {
       unet: 'ggillin',
       costCenter: 'CC45100',
       unitName:
@@ -3646,7 +3646,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    ghall: {
+    ghall_CC18400: {
       unet: 'ghall',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -3654,7 +3654,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Fred C. Hecht Professor of Economics',
     },
-    ghall: {
+    ghall_CC43100: {
       unet: 'ghall',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -3662,7 +3662,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    giele1: {
+    giele1_CC40100: {
       unet: 'giele1',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3670,7 +3670,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    gieseking: {
+    gieseking_CC16500: {
       unet: 'gieseking',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -3678,7 +3678,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    gil: {
+    gil_CC40100: {
       unet: 'gil',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3686,7 +3686,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    gillespi: {
+    gillespi_CC18800: {
       unet: 'gillespi',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -3694,7 +3694,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    gisholt: {
+    gisholt_CC11100: {
       unet: 'gisholt',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -3702,7 +3702,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    glasnovich: {
+    glasnovich_CC18500: {
       unet: 'glasnovich',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -3710,7 +3710,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    gnenciu: {
+    gnenciu_CC12500: {
       unet: 'gnenciu',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -3718,7 +3718,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    goldin: {
+    goldin_CC25700: {
       unet: 'goldin',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -3726,7 +3726,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'Professor Emerita of Environmental Studies',
     },
-    goode: {
+    goode_CC16200: {
       unet: 'goode',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -3734,7 +3734,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Biology',
     },
-    goode: {
+    goode_CC27200: {
       unet: 'goode',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -3742,7 +3742,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    goode: {
+    goode_CC28100: {
       unet: 'goode',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -3750,7 +3750,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    goodhear: {
+    goodhear_CC12400: {
       unet: 'goodhear',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -3758,7 +3758,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    gordon: {
+    gordon_CC11200: {
       unet: 'gordon',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -3766,7 +3766,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    gowri: {
+    gowri_CC18800: {
       unet: 'gowri',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -3774,7 +3774,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    gowri: {
+    gowri_CC18320: {
       unet: 'gowri',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -3782,7 +3782,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    gperetti: {
+    gperetti_CC16700: {
       unet: 'gperetti',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -3790,7 +3790,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gracehan: {
+    gracehan_CC16500: {
       unet: 'gracehan',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -3798,7 +3798,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    gracet01: {
+    gracet01_CC12400: {
       unet: 'gracet01',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -3806,7 +3806,7 @@ module.exports = {
       affilPosition: 'Writer-in-Residence',
       affilPositionTitle: 'undefined',
     },
-    green: {
+    green_CC13200: {
       unet: 'green',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -3814,7 +3814,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    greenlee: {
+    greenlee_CC18600: {
       unet: 'greenlee',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -3822,7 +3822,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    greenlee: {
+    greenlee_CC24700: {
       unet: 'greenlee',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -3830,7 +3830,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    gretchen: {
+    gretchen_CC27700: {
       unet: 'gretchen',
       costCenter: 'CC27700',
       unitName: 'Graduate Program in Genetic Counseling',
@@ -3838,7 +3838,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    grgrobinson: {
+    grgrobinson_CC45100: {
       unet: 'grgrobinson',
       costCenter: 'CC45100',
       unitName:
@@ -3847,7 +3847,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    griffith: {
+    griffith_CC25200: {
       unet: 'griffith',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -3856,7 +3856,7 @@ module.exports = {
       affilPositionTitle:
         'Director of the Volen National Center for Complex Systems',
     },
-    griffith: {
+    griffith_CC16200: {
       unet: 'griffith',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -3864,7 +3864,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    griffith: {
+    griffith_CC27200: {
       unet: 'griffith',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -3872,7 +3872,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Nancy Lurie Marks Professor of Neuroscience',
     },
-    gross: {
+    gross_CC18800: {
       unet: 'gross',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -3880,7 +3880,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    gsamore: {
+    gsamore_CC18600: {
       unet: 'gsamore',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -3888,7 +3888,7 @@ module.exports = {
       affilPosition: 'Professor of the Practice',
       affilPositionTitle: 'undefined',
     },
-    gtr: {
+    gtr_CC16700: {
       unet: 'gtr',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -3896,7 +3896,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    guillermina: {
+    guillermina_CC16200: {
       unet: 'guillermina',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -3904,7 +3904,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gulley: {
+    gulley_CC26100: {
       unet: 'gulley',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -3912,7 +3912,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    gutchess: {
+    gutchess_CC25200: {
       unet: 'gutchess',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -3920,7 +3920,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gutchess: {
+    gutchess_CC18700: {
       unet: 'gutchess',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -3928,7 +3928,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    gutchess: {
+    gutchess_CC27200: {
       unet: 'gutchess',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -3936,7 +3936,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    guvenc: {
+    guvenc_CC11100: {
       unet: 'guvenc',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -3944,7 +3944,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    gwwri: {
+    gwwri_CC40100: {
       unet: 'gwwri',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3952,7 +3952,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    gzimmerm: {
+    gzimmerm_CC40100: {
       unet: 'gzimmerm',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -3960,7 +3960,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    gzimmerm: {
+    gzimmerm_CC43100: {
       unet: 'gzimmerm',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -3968,7 +3968,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    haber: {
+    haber_CC16200: {
       unet: 'haber',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -3976,7 +3976,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Abraham and Etta Goodman Professor of Biology',
     },
-    haber: {
+    haber_CC28100: {
       unet: 'haber',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -3985,7 +3985,7 @@ module.exports = {
       affilPositionTitle:
         'Director of the Rosenstiel Basic Medical Sciences Research Center',
     },
-    hagan: {
+    hagan_CC16800: {
       unet: 'hagan',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -3993,7 +3993,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    hagit: {
+    hagit_CC43100: {
       unet: 'hagit',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -4001,7 +4001,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    hall: {
+    hall_CC16200: {
       unet: 'hall',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -4009,7 +4009,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    hampton: {
+    hampton_CC11200: {
       unet: 'hampton',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -4017,7 +4017,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    hannig: {
+    hannig_CC18300: {
       unet: 'hannig',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -4025,7 +4025,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    hannig: {
+    hannig_CC24700: {
       unet: 'hannig',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -4033,7 +4033,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    hannig: {
+    hannig_CC26100: {
       unet: 'hannig',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -4041,7 +4041,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    haohxu: {
+    haohxu_CC16500: {
       unet: 'haohxu',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -4049,7 +4049,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    harder: {
+    harder_CC12500: {
       unet: 'harder',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -4057,7 +4057,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    harleen: {
+    harleen_CC12501: {
       unet: 'harleen',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -4065,7 +4065,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    harleen: {
+    harleen_CC12600: {
       unet: 'harleen',
       costCenter: 'CC12600',
       unitName:
@@ -4074,7 +4074,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    harleen: {
+    harleen_CC24700: {
       unet: 'harleen',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -4082,7 +4082,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    harleen: {
+    harleen_CC26300: {
       unet: 'harleen',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -4090,7 +4090,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    harleen: {
+    harleen_CC12102: {
       unet: 'harleen',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -4098,7 +4098,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    harleen: {
+    harleen_CC18320: {
       unet: 'harleen',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -4106,7 +4106,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    harth: {
+    harth_CC12500: {
       unet: 'harth',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -4114,7 +4114,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    hascal: {
+    hascal_CC13200: {
       unet: 'hascal',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -4122,7 +4122,7 @@ module.exports = {
       affilPosition: 'Associate Professor of the Practice',
       affilPositionTitle: 'undefined',
     },
-    hashemi: {
+    hashemi_CC16800: {
       unet: 'hashemi',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -4130,7 +4130,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    hayim: {
+    hayim_CC18800: {
       unet: 'hayim',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -4138,7 +4138,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    headrick: {
+    headrick_CC16800: {
       unet: 'headrick',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -4146,7 +4146,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    hedstrom: {
+    hedstrom_CC16200: {
       unet: 'hedstrom',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -4154,7 +4154,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Biology and Chemistry',
     },
-    hedstrom: {
+    hedstrom_CC16500: {
       unet: 'hedstrom',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -4162,7 +4162,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Biology and Chemistry',
     },
-    henchman: {
+    henchman_CC16500: {
       unet: 'henchman',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -4170,7 +4170,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    hershens: {
+    hershens_CC18700: {
       unet: 'hershens',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -4178,7 +4178,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    herzfeld: {
+    herzfeld_CC16500: {
       unet: 'herzfeld',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -4186,7 +4186,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    hetalvig: {
+    hetalvig_CC27700: {
       unet: 'hetalvig',
       costCenter: 'CC27700',
       unitName: 'Graduate Program in Genetic Counseling',
@@ -4194,7 +4194,7 @@ module.exports = {
       affilPosition: 'Associate Professor of the Practice',
       affilPositionTitle: 'undefined',
     },
-    hfujiwar: {
+    hfujiwar_CC12600: {
       unet: 'hfujiwar',
       costCenter: 'CC12600',
       unitName:
@@ -4203,7 +4203,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    hhung: {
+    hhung_CC26900: {
       unet: 'hhung',
       costCenter: 'CC26900',
       unitName: 'Linguistics and Computational Linguistics',
@@ -4211,7 +4211,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    hindley: {
+    hindley_CC18600: {
       unet: 'hindley',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -4219,7 +4219,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    hirsch: {
+    hirsch_CC12300: {
       unet: 'hirsch',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -4227,7 +4227,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    hitchcock: {
+    hitchcock_CC16200: {
       unet: 'hitchcock',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -4235,7 +4235,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    hitchcock: {
+    hitchcock_CC25700: {
       unet: 'hitchcock',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -4243,7 +4243,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    hjafri: {
+    hjafri_CC45100: {
       unet: 'hjafri',
       costCenter: 'CC45100',
       unitName:
@@ -4252,7 +4252,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    hodgkin: {
+    hodgkin_CC40100: {
       unet: 'hodgkin',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -4260,7 +4260,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    holloche: {
+    holloche_CC16100: {
       unet: 'holloche',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -4268,7 +4268,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    holmberg: {
+    holmberg_CC11400: {
       unet: 'holmberg',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -4276,7 +4276,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    hongfuliu: {
+    hongfuliu_CC25200: {
       unet: 'hongfuliu',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -4284,7 +4284,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    hongfuliu: {
+    hongfuliu_CC16600: {
       unet: 'hongfuliu',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -4292,7 +4292,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    hongpeng: {
+    hongpeng_CC25200: {
       unet: 'hongpeng',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -4300,7 +4300,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    hongpeng: {
+    hongpeng_CC16600: {
       unet: 'hongpeng',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -4308,7 +4308,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Computer Science',
     },
-    horgan: {
+    horgan_ND_INST: {
       unet: 'horgan',
       costCenter: 'ND_INST',
       unitName: 'Brandeis University',
@@ -4316,7 +4316,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    horgan: {
+    horgan_CC40100: {
       unet: 'horgan',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -4324,7 +4324,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    hrlee: {
+    hrlee_CC12400: {
       unet: 'hrlee',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -4332,7 +4332,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    hrsnyder: {
+    hrsnyder_CC25200: {
       unet: 'hrsnyder',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -4340,7 +4340,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    hrsnyder: {
+    hrsnyder_CC18700: {
       unet: 'hrsnyder',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -4348,7 +4348,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    hrsnyder: {
+    hrsnyder_CC27200: {
       unet: 'hrsnyder',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -4356,7 +4356,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    hulliung: {
+    hulliung_CC18500: {
       unet: 'hulliung',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -4364,7 +4364,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    hulliung: {
+    hulliung_CC18600: {
       unet: 'hulliung',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -4372,7 +4372,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    hulliung: {
+    hulliung_CC12500: {
       unet: 'hulliung',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -4380,7 +4380,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    hunt: {
+    hunt_CC18300: {
       unet: 'hunt',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -4388,7 +4388,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    hyungse87: {
+    hyungse87_CC43100: {
       unet: 'hyungse87',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -4396,7 +4396,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    ianroy: {
+    ianroy_CC43100: {
       unet: 'ianroy',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -4404,7 +4404,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    ichan: {
+    ichan_CC16500: {
       unet: 'ichan',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -4412,7 +4412,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    idubinin: {
+    idubinin_CC12600: {
       unet: 'idubinin',
       costCenter: 'CC12600',
       unitName:
@@ -4421,7 +4421,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    igusa: {
+    igusa_CC16700: {
       unet: 'igusa',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -4429,7 +4429,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    ijean: {
+    ijean_CC40100: {
       unet: 'ijean',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -4437,7 +4437,7 @@ module.exports = {
       affilPosition: 'Adjunct Lecturer',
       affilPositionTitle: 'undefined',
     },
-    ijean: {
+    ijean_CC40100: {
       unet: 'ijean',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -4445,7 +4445,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    imrankhan: {
+    imrankhan_CC45100: {
       unet: 'imrankhan',
       costCenter: 'CC45100',
       unitName:
@@ -4454,7 +4454,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    irr: {
+    irr_CC12400: {
       unet: 'irr',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -4462,7 +4462,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of English',
     },
-    irr: {
+    irr_CC25700: {
       unet: 'irr',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -4470,7 +4470,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    irr: {
+    irr_CC25900: {
       unet: 'irr',
       costCenter: 'CC25900',
       unitName: 'Film, Television and Interactive Media Program',
@@ -4478,7 +4478,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    irr: {
+    irr_CC26200: {
       unet: 'irr',
       costCenter: 'CC26200',
       unitName: 'History of Ideas Program',
@@ -4486,7 +4486,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    irr: {
+    irr_CC12102: {
       unet: 'irr',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -4494,7 +4494,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ivanovic: {
+    ivanovic_CC16100: {
       unet: 'ivanovic',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -4502,7 +4502,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'Assistant Professor of Biochemistry',
     },
-    ivanovic: {
+    ivanovic_CC28100: {
       unet: 'ivanovic',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -4510,7 +4510,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jackendo: {
+    jackendo_CC18700: {
       unet: 'jackendo',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -4518,7 +4518,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jacleary: {
+    jacleary_CC11400: {
       unet: 'jacleary',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -4526,7 +4526,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jacobson: {
+    jacobson_CC18300: {
       unet: 'jacobson',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -4534,7 +4534,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    jacques: {
+    jacques_CC16600: {
       unet: 'jacques',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -4542,7 +4542,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jameshoward: {
+    jameshoward_CC18700: {
       unet: 'jameshoward',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -4550,7 +4550,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    jamesp: {
+    jamesp_CC25200: {
       unet: 'jamesp',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -4558,7 +4558,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jamesp: {
+    jamesp_CC26900: {
       unet: 'jamesp',
       costCenter: 'CC26900',
       unitName: 'Linguistics and Computational Linguistics',
@@ -4566,7 +4566,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jamesp: {
+    jamesp_CC16600: {
       unet: 'jamesp',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -4574,7 +4574,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    janetmc: {
+    janetmc_CC18100: {
       unet: 'janetmc',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -4582,7 +4582,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    janetmc: {
+    janetmc_CC18300: {
       unet: 'janetmc',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -4590,7 +4590,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    janetmc: {
+    janetmc_CC18700: {
       unet: 'janetmc',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -4598,7 +4598,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    janjaria: {
+    janjaria_CC18300: {
       unet: 'janjaria',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -4606,7 +4606,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    janjaria: {
+    janjaria_CC18320: {
       unet: 'janjaria',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -4614,7 +4614,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jannagreenberg: {
+    jannagreenberg_CC43100: {
       unet: 'jannagreenberg',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -4622,7 +4622,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    jarellan: {
+    jarellan_CC12501: {
       unet: 'jarellan',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -4630,7 +4630,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jarellan: {
+    jarellan_CC12400: {
       unet: 'jarellan',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -4638,7 +4638,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jarellan: {
+    jarellan_CC12500: {
       unet: 'jarellan',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -4646,7 +4646,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jarellan: {
+    jarellan_CC26800: {
       unet: 'jarellan',
       costCenter: 'CC26800',
       unitName: 'Latin American and Latino Studies Program',
@@ -4654,7 +4654,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jarellan: {
+    jarellan_CC12102: {
       unet: 'jarellan',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -4662,7 +4662,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jaronson: {
+    jaronson_CC13100: {
       unet: 'jaronson',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -4670,7 +4670,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jbellaic: {
+    jbellaic_CC16700: {
       unet: 'jbellaic',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -4678,7 +4678,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jcdavis: {
+    jcdavis_CC45100: {
       unet: 'jcdavis',
       costCenter: 'CC45100',
       unitName:
@@ -4687,7 +4687,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jcohen: {
+    jcohen_CC18200: {
       unet: 'jcohen',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -4695,7 +4695,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jdassin: {
+    jdassin_CC40100: {
       unet: 'jdassin',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -4703,7 +4703,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jdcas: {
+    jdcas_CC11200: {
       unet: 'jdcas',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -4711,7 +4711,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jdegrado: {
+    jdegrado_CC13200: {
       unet: 'jdegrado',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -4719,7 +4719,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jdmwilliams: {
+    jdmwilliams_CC12400: {
       unet: 'jdmwilliams',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -4727,7 +4727,7 @@ module.exports = {
       affilPosition: 'Visiting Professor',
       affilPositionTitle: 'undefined',
     },
-    jdubinsky: {
+    jdubinsky_CC40100: {
       unet: 'jdubinsky',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -4735,7 +4735,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jebert: {
+    jebert_CC18700: {
       unet: 'jebert',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -4743,7 +4743,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jebert: {
+    jebert_CC43100: {
       unet: 'jebert',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -4751,7 +4751,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jefferso: {
+    jefferso_CC18400: {
       unet: 'jefferso',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -4759,7 +4759,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    jefferso: {
+    jefferso_CC25600: {
       unet: 'jefferso',
       costCenter: 'CC25600',
       unitName: 'East Asian Studies Program',
@@ -4767,7 +4767,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    jefferso: {
+    jefferso_CC26300: {
       unet: 'jefferso',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -4775,7 +4775,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    jefferso: {
+    jefferso_CC43100: {
       unet: 'jefferso',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -4783,7 +4783,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    jgittell: {
+    jgittell_ND_INST: {
       unet: 'jgittell',
       costCenter: 'ND_INST',
       unitName: 'Brandeis University',
@@ -4791,7 +4791,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jgittell: {
+    jgittell_CC40100: {
       unet: 'jgittell',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -4799,7 +4799,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    jgittell: {
+    jgittell_CC40100: {
       unet: 'jgittell',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -4807,7 +4807,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jgutsell: {
+    jgutsell_CC25200: {
       unet: 'jgutsell',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -4815,7 +4815,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jgutsell: {
+    jgutsell_CC18700: {
       unet: 'jgutsell',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -4823,7 +4823,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    jgutsell: {
+    jgutsell_CC27200: {
       unet: 'jgutsell',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -4831,7 +4831,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jhale: {
+    jhale_CC12500: {
       unet: 'jhale',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -4839,7 +4839,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    jianwei: {
+    jianwei_CC12600: {
       unet: 'jianwei',
       costCenter: 'CC12600',
       unitName:
@@ -4848,7 +4848,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'Lecturer in Chinese',
     },
-    jikbal: {
+    jikbal_CC45100: {
       unet: 'jikbal',
       costCenter: 'CC45100',
       unitName:
@@ -4857,7 +4857,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    jjackson: {
+    jjackson_CC27700: {
       unet: 'jjackson',
       costCenter: 'CC27700',
       unitName: 'Graduate Program in Genetic Counseling',
@@ -4865,7 +4865,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    jjahn: {
+    jjahn_CC11400: {
       unet: 'jjahn',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -4873,7 +4873,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    jjaquette: {
+    jjaquette_CC16700: {
       unet: 'jjaquette',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -4881,7 +4881,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jkrasner: {
+    jkrasner_CC18200: {
       unet: 'jkrasner',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -4889,7 +4889,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jkrasner: {
+    jkrasner_CC13200: {
       unet: 'jkrasner',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -4897,7 +4897,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jlacreta: {
+    jlacreta_CC45100: {
       unet: 'jlacreta',
       costCenter: 'CC45100',
       unitName:
@@ -4906,7 +4906,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jlederman: {
+    jlederman_CC12450: {
       unet: 'jlederman',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -4914,7 +4914,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jleu: {
+    jleu_CC43100: {
       unet: 'jleu',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -4922,7 +4922,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jmarusic: {
+    jmarusic_CC12300: {
       unet: 'jmarusic',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -4930,7 +4930,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jmarusic: {
+    jmarusic_CC26200: {
       unet: 'jmarusic',
       costCenter: 'CC26200',
       unitName: 'History of Ideas Program',
@@ -4938,7 +4938,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jmcginn: {
+    jmcginn_CC45100: {
       unet: 'jmcginn',
       costCenter: 'CC45100',
       unitName:
@@ -4947,7 +4947,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jmmhug: {
+    jmmhug_CC13200: {
       unet: 'jmmhug',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -4955,7 +4955,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jmorris: {
+    jmorris_CC16200: {
       unet: 'jmorris',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -4963,7 +4963,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jmorris: {
+    jmorris_CC25000: {
       unet: 'jmorris',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -4971,7 +4971,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jmorris: {
+    jmorris_CC25700: {
       unet: 'jmorris',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -4979,7 +4979,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jmorris: {
+    jmorris_CC26100: {
       unet: 'jmorris',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -4987,7 +4987,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jmw: {
+    jmw_CC18700: {
       unet: 'jmw',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -4995,7 +4995,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    jnicholson: {
+    jnicholson_CC40100: {
       unet: 'jnicholson',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5003,7 +5003,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jockusch: {
+    jockusch_CC18500: {
       unet: 'jockusch',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -5012,7 +5012,7 @@ module.exports = {
       affilPositionTitle:
         'Albert Abramson Associate Professor of Holocaust Studies',
     },
-    jockusch: {
+    jockusch_CC13200: {
       unet: 'jockusch',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -5021,7 +5021,7 @@ module.exports = {
       affilPositionTitle:
         'Albert Abramson Associate Professor of Holocaust Studies',
     },
-    joeassan: {
+    joeassan_CC40100: {
       unet: 'joeassan',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5029,7 +5029,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    joel: {
+    joel_CC12501: {
       unet: 'joel',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -5037,7 +5037,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    joel: {
+    joel_CC12100: {
       unet: 'joel',
       costCenter: 'CC12100',
       unitName: 'Department of Classical Studies',
@@ -5045,7 +5045,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Associate Professor and Chair of Classical Studies',
     },
-    joelcg: {
+    joelcg_CC40100: {
       unet: 'joelcg',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5053,7 +5053,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    johnbal: {
+    johnbal_CC43100: {
       unet: 'johnbal',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -5061,7 +5061,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    johnston: {
+    johnston_CC12100: {
       unet: 'johnston',
       costCenter: 'CC12100',
       unitName: 'Department of Classical Studies',
@@ -5069,7 +5069,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'Professor Emerita of Classical Studies',
     },
-    joness: {
+    joness_CC40100: {
       unet: 'joness',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5077,7 +5077,7 @@ module.exports = {
       affilPosition: 'Director',
       affilPositionTitle: 'Deputy Director, COEX and SID Programs',
     },
-    jordan: {
+    jordan_CC16500: {
       unet: 'jordan',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -5085,7 +5085,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'Professor Emeritus of Chemistry',
     },
-    joshuagoodman: {
+    joshuagoodman_CC18400: {
       unet: 'joshuagoodman',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -5093,7 +5093,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    joshuagoodman: {
+    joshuagoodman_CC43100: {
       unet: 'joshuagoodman',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -5101,7 +5101,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    joyner: {
+    joyner_CC16700: {
       unet: 'joyner',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -5109,7 +5109,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'Instructor in Mathematics',
     },
-    jpaulsen: {
+    jpaulsen_CC45100: {
       unet: 'jpaulsen',
       costCenter: 'CC45100',
       unitName:
@@ -5118,7 +5118,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jpipkin: {
+    jpipkin_CC16200: {
       unet: 'jpipkin',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -5126,7 +5126,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jpl: {
+    jpl_CC18400: {
       unet: 'jpl',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -5134,7 +5134,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jpl: {
+    jpl_CC43100: {
       unet: 'jpl',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -5142,7 +5142,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jpowers: {
+    jpowers_CC18200: {
       unet: 'jpowers',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -5150,7 +5150,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jreinhar: {
+    jreinhar_CC18500: {
       unet: 'jreinhar',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -5158,7 +5158,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jreinhar: {
+    jreinhar_CC13200: {
       unet: 'jreinhar',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -5166,7 +5166,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jrudin: {
+    jrudin_CC40100: {
       unet: 'jrudin',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5174,7 +5174,7 @@ module.exports = {
       affilPosition: 'Adjunct Lecturer',
       affilPositionTitle: 'undefined',
     },
-    jrutenbeck: {
+    jrutenbeck_CC27900: {
       unet: 'jrutenbeck',
       costCenter: 'CC27900',
       unitName: 'Creativity, the Arts, and Social Transformation Program',
@@ -5182,7 +5182,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    jsantos: {
+    jsantos_CC40100: {
       unet: 'jsantos',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5190,7 +5190,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    jschlesinger: {
+    jschlesinger_CC10500: {
       unet: 'jschlesinger',
       costCenter: 'CC10500',
       unitName: 'School of Arts and Sciences',
@@ -5198,7 +5198,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    jsimon13: {
+    jsimon13_CC18700: {
       unet: 'jsimon13',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -5206,7 +5206,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    jssuh: {
+    jssuh_CC18100: {
       unet: 'jssuh',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -5214,7 +5214,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    jssuh: {
+    jssuh_CC18800: {
       unet: 'jssuh',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -5222,7 +5222,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    jssuh: {
+    jssuh_CC24700: {
       unet: 'jssuh',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -5230,7 +5230,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    jstinchcomb: {
+    jstinchcomb_CC12100: {
       unet: 'jstinchcomb',
       costCenter: 'CC12100',
       unitName: 'Department of Classical Studies',
@@ -5238,7 +5238,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jstinchcomb: {
+    jstinchcomb_CC13200: {
       unet: 'jstinchcomb',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -5246,7 +5246,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    jsuaya: {
+    jsuaya_CC40100: {
       unet: 'jsuaya',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5254,7 +5254,7 @@ module.exports = {
       affilPosition: 'Adjunct Lecturer',
       affilPositionTitle: 'undefined',
     },
-    jtharaud: {
+    jtharaud_CC18200: {
       unet: 'jtharaud',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -5262,7 +5262,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    jtharaud: {
+    jtharaud_CC12400: {
       unet: 'jtharaud',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -5270,7 +5270,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    jtharaud: {
+    jtharaud_CC25700: {
       unet: 'jtharaud',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -5278,7 +5278,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    jtouboul: {
+    jtouboul_CC25200: {
       unet: 'jtouboul',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -5286,7 +5286,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    jtouboul: {
+    jtouboul_CC16700: {
       unet: 'jtouboul',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -5294,7 +5294,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    jtouboul: {
+    jtouboul_CC27200: {
       unet: 'jtouboul',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -5302,7 +5302,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    juboswell: {
+    juboswell_CC45100: {
       unet: 'juboswell',
       costCenter: 'CC45100',
       unitName:
@@ -5311,7 +5311,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    judydean: {
+    judydean_CC18400: {
       unet: 'judydean',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -5319,7 +5319,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    judydean: {
+    judydean_CC43100: {
       unet: 'judydean',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -5327,7 +5327,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    juliasmeliansky: {
+    juliasmeliansky_CC11400: {
       unet: 'juliasmeliansky',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -5335,7 +5335,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    juliehorwitz: {
+    juliehorwitz_CC25000: {
       unet: 'juliehorwitz',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -5343,7 +5343,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    juliemiller: {
+    juliemiller_CC43100: {
       unet: 'juliemiller',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -5351,7 +5351,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kam1483: {
+    kam1483_CC30800: {
       unet: 'kam1483',
       costCenter: 'CC30800',
       unitName: 'Myra Kraft Transitional Year Program',
@@ -5359,7 +5359,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    kammerer: {
+    kammerer_CC18300: {
       unet: 'kammerer',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -5367,7 +5367,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kammerer: {
+    kammerer_CC40100: {
       unet: 'kammerer',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5375,7 +5375,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kaniasty: {
+    kaniasty_CC45100: {
       unet: 'kaniasty',
       costCenter: 'CC45100',
       unitName:
@@ -5384,7 +5384,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kanthan: {
+    kanthan_CC25700: {
       unet: 'kanthan',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -5392,7 +5392,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kanthan: {
+    kanthan_CC40100: {
       unet: 'kanthan',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5400,7 +5400,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kardon: {
+    kardon_CC16100: {
       unet: 'kardon',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -5408,7 +5408,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'Assistant Professor of Biochemistry',
     },
-    katsh: {
+    katsh_CC25000: {
       unet: 'katsh',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -5416,7 +5416,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'Lecturer in Education',
     },
-    kchayes: {
+    kchayes_ND_INST: {
       unet: 'kchayes',
       costCenter: 'ND_INST',
       unitName: 'Brandeis University',
@@ -5424,7 +5424,7 @@ module.exports = {
       affilPosition: 'Director',
       affilPositionTitle: 'undefined',
     },
-    kchayes: {
+    kchayes_CC16200: {
       unet: 'kchayes',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -5432,7 +5432,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    kdesmond: {
+    kdesmond_CC11200: {
       unet: 'kdesmond',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -5440,7 +5440,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kdesmond: {
+    kdesmond_CC27100: {
       unet: 'kdesmond',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -5448,7 +5448,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    keehn: {
+    keehn_CC16500: {
       unet: 'keehn',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -5456,7 +5456,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'Professor Emeritus of Chemistry',
     },
-    keiler: {
+    keiler_CC11200: {
       unet: 'keiler',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -5464,7 +5464,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'Professor Emeritus of Music',
     },
-    kelikian: {
+    kelikian_CC18500: {
       unet: 'kelikian',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -5472,7 +5472,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of History',
     },
-    kelikian: {
+    kelikian_CC25900: {
       unet: 'kelikian',
       costCenter: 'CC25900',
       unitName: 'Film, Television and Interactive Media Program',
@@ -5480,7 +5480,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kelikian: {
+    kelikian_CC26600: {
       unet: 'kelikian',
       costCenter: 'CC26600',
       unitName: 'Interdepartmental Program in Italian Studies',
@@ -5488,7 +5488,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kellman: {
+    kellman_CC13200: {
       unet: 'kellman',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -5496,7 +5496,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of Yiddish',
     },
-    kerenm: {
+    kerenm_CC18200: {
       unet: 'kerenm',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -5504,7 +5504,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kestrada: {
+    kestrada_CC45100: {
       unet: 'kestrada',
       costCenter: 'CC45100',
       unitName:
@@ -5513,7 +5513,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kgraddy: {
+    kgraddy_CC18400: {
       unet: 'kgraddy',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -5521,7 +5521,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kgraddy: {
+    kgraddy_CC43100: {
       unet: 'kgraddy',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -5530,7 +5530,7 @@ module.exports = {
       affilPositionTitle:
         'Dean of the International Business School, and Fred and Rita Richman Distinguished Professor in Economics',
     },
-    khadijakhartit: {
+    khadijakhartit_CC45100: {
       unet: 'khadijakhartit',
       costCenter: 'CC45100',
       unitName:
@@ -5539,7 +5539,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    khansen: {
+    khansen_CC18500: {
       unet: 'khansen',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -5547,7 +5547,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    khansen: {
+    khansen_CC18800: {
       unet: 'khansen',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -5555,7 +5555,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    khansen: {
+    khansen_CC24700: {
       unet: 'khansen',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -5563,7 +5563,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    khashaba: {
+    khashaba_CC13200: {
       unet: 'khashaba',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -5571,7 +5571,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kimelman: {
+    kimelman_CC13200: {
       unet: 'kimelman',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -5579,7 +5579,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kimelman: {
+    kimelman_CC12102: {
       unet: 'kimelman',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -5587,7 +5587,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kirklipscomb: {
+    kirklipscomb_CC45100: {
       unet: 'kirklipscomb',
       costCenter: 'CC45100',
       unitName:
@@ -5596,7 +5596,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kirsch: {
+    kirsch_CC16800: {
       unet: 'kirsch',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -5604,7 +5604,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'Professor Emeritus of Physics',
     },
-    kkivl0001: {
+    kkivl0001_CC45100: {
       unet: 'kkivl0001',
       costCenter: 'CC45100',
       unitName:
@@ -5613,7 +5613,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kklein: {
+    kklein_CC12400: {
       unet: 'kklein',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -5621,7 +5621,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    klausen: {
+    klausen_CC18600: {
       unet: 'klausen',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -5630,7 +5630,7 @@ module.exports = {
       affilPositionTitle:
         'Lawrence A. Wien Professor of International Cooperation',
     },
-    klausen: {
+    klausen_CC25800: {
       unet: 'klausen',
       costCenter: 'CC25800',
       unitName: 'Interdepartmental Program in European Cultural Studies',
@@ -5638,7 +5638,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kleinboc: {
+    kleinboc_CC16700: {
       unet: 'kleinboc',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -5646,7 +5646,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    klobo: {
+    klobo_CC25000: {
       unet: 'klobo',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -5654,7 +5654,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    klsmith: {
+    klsmith_CC43100: {
       unet: 'klsmith',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -5662,7 +5662,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    klucken: {
+    klucken_CC18800: {
       unet: 'klucken',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -5670,7 +5670,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    klucken: {
+    klucken_CC26300: {
       unet: 'klucken',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -5678,7 +5678,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    klucken: {
+    klucken_CC27400: {
       unet: 'klucken',
       costCenter: 'CC27400',
       unitName: 'Religious Studies Program',
@@ -5686,7 +5686,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kmascall: {
+    kmascall_CC16500: {
       unet: 'kmascall',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -5694,7 +5694,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kmcqueen: {
+    kmcqueen_CC43100: {
       unet: 'kmcqueen',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -5702,7 +5702,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kmoran: {
+    kmoran_CC12300: {
       unet: 'kmoran',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -5710,7 +5710,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    knight2: {
+    knight2_CC18700: {
       unet: 'knight2',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -5718,7 +5718,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kondev: {
+    kondev_CC16800: {
       unet: 'kondev',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -5726,7 +5726,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'William R. Kenan, Jr. Professor of Physics',
     },
-    kosinski: {
+    kosinski_CC16200: {
       unet: 'kosinski',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -5734,7 +5734,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Biology',
     },
-    kpiasta: {
+    kpiasta_CC16200: {
       unet: 'kpiasta',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -5742,7 +5742,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kplaster: {
+    kplaster_CC26900: {
       unet: 'kplaster',
       costCenter: 'CC26900',
       unitName: 'Linguistics and Computational Linguistics',
@@ -5750,7 +5750,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    krauss: {
+    krauss_CC40100: {
       unet: 'krauss',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5758,7 +5758,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'John Stein Professor of Disability Research',
     },
-    kraussi: {
+    kraussi_CC16500: {
       unet: 'kraussi',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -5766,7 +5766,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Chemistry',
     },
-    krishnag: {
+    krishnag_CC45100: {
       unet: 'krishnag',
       costCenter: 'CC45100',
       unitName:
@@ -5775,7 +5775,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    krnerp: {
+    krnerp_CC25000: {
       unet: 'krnerp',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -5783,7 +5783,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    krothstein: {
+    krothstein_CC26700: {
       unet: 'krothstein',
       costCenter: 'CC26700',
       unitName: 'Journalism Program',
@@ -5791,7 +5791,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    kround: {
+    kround_CC45100: {
       unet: 'kround',
       costCenter: 'CC45100',
       unitName:
@@ -5800,7 +5800,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    krstansk: {
+    krstansk_CC11400: {
       unet: 'krstansk',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -5808,7 +5808,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    krstansk: {
+    krstansk_CC24700: {
       unet: 'krstansk',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -5816,7 +5816,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    krstansk: {
+    krstansk_CC25900: {
       unet: 'krstansk',
       costCenter: 'CC25900',
       unitName: 'Film, Television and Interactive Media Program',
@@ -5824,7 +5824,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kryder: {
+    kryder_CC18100: {
       unet: 'kryder',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -5832,7 +5832,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kryder: {
+    kryder_CC18500: {
       unet: 'kryder',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -5840,7 +5840,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kryder: {
+    kryder_CC18600: {
       unet: 'kryder',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -5848,7 +5848,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Louis Stulberg Chair in Law and Politics',
     },
-    kschumacher: {
+    kschumacher_CC40100: {
       unet: 'kschumacher',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5856,7 +5856,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    kschumacher: {
+    kschumacher_CC13100: {
       unet: 'kschumacher',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -5864,7 +5864,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    kseidlgo: {
+    kseidlgo_CC12600: {
       unet: 'kseidlgo',
       costCenter: 'CC12600',
       unitName:
@@ -5873,7 +5873,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    kturpin: {
+    kturpin_CC12500: {
       unet: 'kturpin',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -5881,7 +5881,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    kustin: {
+    kustin_CC16500: {
       unet: 'kustin',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -5889,7 +5889,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lachman: {
+    lachman_CC18700: {
       unet: 'lachman',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -5897,7 +5897,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Minnie and Harold Fierman Professor of Psychology',
     },
-    lachman: {
+    lachman_CC40100: {
       unet: 'lachman',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5905,7 +5905,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lackner: {
+    lackner_CC25200: {
       unet: 'lackner',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -5913,7 +5913,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lackner: {
+    lackner_CC18700: {
       unet: 'lackner',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -5921,7 +5921,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Meshulam and Judith Riklis Professor of Physiology',
     },
-    lackner: {
+    lackner_CC27200: {
       unet: 'lackner',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -5929,7 +5929,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lamb: {
+    lamb_CC18300: {
       unet: 'lamb',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -5938,7 +5938,7 @@ module.exports = {
       affilPositionTitle:
         'Professor of Anthropology, Womens, Gender, and Sexuality Studies',
     },
-    lamb: {
+    lamb_CC24700: {
       unet: 'lamb',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -5946,7 +5946,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lamb: {
+    lamb_CC26100: {
       unet: 'lamb',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -5955,7 +5955,7 @@ module.exports = {
       affilPositionTitle:
         'Barbara Mandel Professor of the Humanistic Social Sciences',
     },
-    lamb: {
+    lamb_CC40100: {
       unet: 'lamb',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -5964,7 +5964,7 @@ module.exports = {
       affilPositionTitle:
         'Member, Brandeiss Lifespan Initiative on Healthy Aging',
     },
-    lamb: {
+    lamb_CC27400: {
       unet: 'lamb',
       costCenter: 'CC27400',
       unitName: 'Religious Studies Program',
@@ -5972,7 +5972,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lamb: {
+    lamb_CC18320: {
       unet: 'lamb',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -5980,7 +5980,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lamiller: {
+    lamiller_CC18800: {
       unet: 'lamiller',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -5988,7 +5988,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lampham: {
+    lampham_CC16700: {
       unet: 'lampham',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -5996,7 +5996,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lange: {
+    lange_CC16800: {
       unet: 'lange',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -6004,7 +6004,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lanser: {
+    lanser_CC12400: {
       unet: 'lanser',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -6012,7 +6012,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lanser: {
+    lanser_CC24700: {
       unet: 'lanser',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -6020,7 +6020,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lansing: {
+    lansing_CC12500: {
       unet: 'lansing',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -6028,7 +6028,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    larson: {
+    larson_CC40100: {
       unet: 'larson',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6036,7 +6036,7 @@ module.exports = {
       affilPosition: 'Senior Scientist',
       affilPositionTitle: 'Senior Scientist and Lecturer',
     },
-    laurenwoods: {
+    laurenwoods_CC11100: {
       unet: 'laurenwoods',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -6044,7 +6044,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    laurlic: {
+    laurlic_CC27700: {
       unet: 'laurlic',
       costCenter: 'CC27700',
       unitName: 'Graduate Program in Genetic Counseling',
@@ -6052,7 +6052,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lbate0001: {
+    lbate0001_CC45100: {
       unet: 'lbate0001',
       costCenter: 'CC45100',
       unitName:
@@ -6061,7 +6061,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lbeals: {
+    lbeals_CC40100: {
       unet: 'lbeals',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6069,7 +6069,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lbloch: {
+    lbloch_CC18200: {
       unet: 'lbloch',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -6077,7 +6077,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lbloch: {
+    lbloch_CC18300: {
       unet: 'lbloch',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -6085,7 +6085,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lcbrown: {
+    lcbrown_CC26800: {
       unet: 'lcbrown',
       costCenter: 'CC26800',
       unitName: 'Latin American and Latino Studies Program',
@@ -6093,7 +6093,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ldropkin: {
+    ldropkin_CC25100: {
       unet: 'ldropkin',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -6101,7 +6101,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    leahgordon: {
+    leahgordon_CC18500: {
       unet: 'leahgordon',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -6109,7 +6109,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    leahgordon: {
+    leahgordon_CC25000: {
       unet: 'leahgordon',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -6117,7 +6117,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    leahw: {
+    leahw_CC18500: {
       unet: 'leahw',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -6125,7 +6125,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    lebrowne: {
+    lebrowne_CC18400: {
       unet: 'lebrowne',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -6133,7 +6133,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lebrowne: {
+    lebrowne_CC43100: {
       unet: 'lebrowne',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -6141,7 +6141,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lenowitz: {
+    lenowitz_CC18600: {
       unet: 'lenowitz',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -6149,7 +6149,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    lenowitz: {
+    lenowitz_CC26200: {
       unet: 'lenowitz',
       costCenter: 'CC26200',
       unitName: 'History of Ideas Program',
@@ -6157,7 +6157,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ler: {
+    ler_CC40100: {
       unet: 'ler',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6165,7 +6165,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    leutz: {
+    leutz_CC40100: {
       unet: 'leutz',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6173,7 +6173,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    levin: {
+    levin_CC18600: {
       unet: 'levin',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -6181,7 +6181,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    levisohn: {
+    levisohn_CC13200: {
       unet: 'levisohn',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -6189,7 +6189,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    levy: {
+    levy_CC13200: {
       unet: 'levy',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -6197,7 +6197,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lfloreslee: {
+    lfloreslee_CC45100: {
       unet: 'lfloreslee',
       costCenter: 'CC45100',
       unitName:
@@ -6206,7 +6206,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lgoodhar: {
+    lgoodhar_CC18600: {
       unet: 'lgoodhar',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -6214,7 +6214,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lgoodhar: {
+    lgoodhar_CC26300: {
       unet: 'lgoodhar',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -6222,7 +6222,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    lhibbler: {
+    lhibbler_Library: {
       unet: 'lhibbler',
       costCenter: 'Library',
       unitName: 'Library',
@@ -6231,7 +6231,7 @@ module.exports = {
       affilPositionTitle:
         'Associate University Librarian for Research & Instruction',
     },
-    lhindman: {
+    lhindman_CC45100: {
       unet: 'lhindman',
       costCenter: 'CC45100',
       unitName:
@@ -6240,7 +6240,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    lian: {
+    lian_CC16700: {
       unet: 'lian',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -6248,7 +6248,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lichtman: {
+    lichtman_CC11100: {
       unet: 'lichtman',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -6256,7 +6256,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lignos: {
+    lignos_CC16600: {
       unet: 'lignos',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -6264,7 +6264,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lishi87: {
+    lishi87_CC16800: {
       unet: 'lishi87',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -6272,7 +6272,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    liuba: {
+    liuba_CC25200: {
       unet: 'liuba',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -6280,7 +6280,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    liuba: {
+    liuba_CC16600: {
       unet: 'liuba',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -6288,7 +6288,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    lkaye: {
+    lkaye_CC13200: {
       unet: 'lkaye',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -6297,7 +6297,7 @@ module.exports = {
       affilPositionTitle:
         'Associate Professor of Rabbinic Literature and Thought',
     },
-    llocher: {
+    llocher_CC27600: {
       unet: 'llocher',
       costCenter: 'CC27600',
       unitName: 'Social Justice and Social Policy Program',
@@ -6305,7 +6305,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lmgold: {
+    lmgold_CC25200: {
       unet: 'lmgold',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -6313,7 +6313,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lmgold: {
+    lmgold_CC26900: {
       unet: 'lmgold',
       costCenter: 'CC26900',
       unitName: 'Linguistics and Computational Linguistics',
@@ -6321,7 +6321,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    lmlynch: {
+    lmlynch_CC18400: {
       unet: 'lmlynch',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -6330,7 +6330,7 @@ module.exports = {
       affilPositionTitle:
         'Maurice B. Hexter Professor of Social and Economic Policy',
     },
-    lmlynch: {
+    lmlynch_CC40100: {
       unet: 'lmlynch',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6338,7 +6338,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lovett: {
+    lovett_CC16200: {
       unet: 'lovett',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -6347,7 +6347,7 @@ module.exports = {
       affilPositionTitle:
         'Abraham S. and Gertrude Burg Professor of Microbiology',
     },
-    lovett: {
+    lovett_CC28100: {
       unet: 'lovett',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -6355,7 +6355,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lowry: {
+    lowry_CC11400: {
       unet: 'lowry',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -6363,7 +6363,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lpanas: {
+    lpanas_CC40100: {
       unet: 'lpanas',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6371,7 +6371,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lreyes: {
+    lreyes_CC12500: {
       unet: 'lreyes',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -6379,7 +6379,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    lrourke: {
+    lrourke_CC12450: {
       unet: 'lrourke',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -6387,7 +6387,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    lsantini: {
+    lsantini_CC18300: {
       unet: 'lsantini',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -6395,7 +6395,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    lstoller: {
+    lstoller_CC43100: {
       unet: 'lstoller',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -6404,7 +6404,7 @@ module.exports = {
       affilPositionTitle:
         'Senior Lecturer in the Brandeis International Business School',
     },
-    ltbui: {
+    ltbui_CC18400: {
       unet: 'ltbui',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -6412,7 +6412,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ltbui: {
+    ltbui_CC25700: {
       unet: 'ltbui',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -6420,7 +6420,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ltbui: {
+    ltbui_CC43100: {
       unet: 'ltbui',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -6428,7 +6428,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    luis: {
+    luis_CC18300: {
       unet: 'luis',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -6436,7 +6436,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    luis: {
+    luis_CC24700: {
       unet: 'luis',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -6444,7 +6444,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mairson: {
+    mairson_CC25200: {
       unet: 'mairson',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -6452,7 +6452,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mairson: {
+    mairson_CC16600: {
       unet: 'mairson',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -6460,7 +6460,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    makbari: {
+    makbari_CC18400: {
       unet: 'makbari',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -6468,7 +6468,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    maling: {
+    maling_CC25200: {
       unet: 'maling',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -6476,7 +6476,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    maling: {
+    maling_CC18700: {
       unet: 'maling',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -6484,7 +6484,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mandrell: {
+    mandrell_CC18200: {
       unet: 'mandrell',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -6492,7 +6492,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mandrell: {
+    mandrell_CC12501: {
       unet: 'mandrell',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -6500,7 +6500,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mandrell: {
+    mandrell_CC12500: {
       unet: 'mandrell',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -6508,7 +6508,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mandrell: {
+    mandrell_CC24700: {
       unet: 'mandrell',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -6516,7 +6516,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mandrell: {
+    mandrell_CC26800: {
       unet: 'mandrell',
       costCenter: 'CC26800',
       unitName: 'Latin American and Latino Studies Program',
@@ -6524,7 +6524,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mandrell: {
+    mandrell_CC12450: {
       unet: 'mandrell',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -6532,7 +6532,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    marcelle: {
+    marcelle_CC16800: {
       unet: 'marcelle',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -6540,7 +6540,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    marcw: {
+    marcw_CC12400: {
       unet: 'marcw',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -6548,7 +6548,7 @@ module.exports = {
       affilPosition: 'Adjunct Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    marder: {
+    marder_CC25200: {
       unet: 'marder',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -6556,7 +6556,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    marder: {
+    marder_CC16200: {
       unet: 'marder',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -6564,7 +6564,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    marder: {
+    marder_CC27200: {
       unet: 'marder',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -6572,7 +6572,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Victor and Gwendolyn Beinfield Professor',
     },
-    maric: {
+    maric_Library: {
       unet: 'maric',
       costCenter: 'Library',
       unitName: 'Library',
@@ -6580,7 +6580,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    markcoleman: {
+    markcoleman_CC45100: {
       unet: 'markcoleman',
       costCenter: 'CC45100',
       unitName:
@@ -6589,7 +6589,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    marthalagace: {
+    marthalagace_CC12450: {
       unet: 'marthalagace',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -6597,7 +6597,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    martycs: {
+    martycs_CC16600: {
       unet: 'martycs',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -6605,7 +6605,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    marusic: {
+    marusic_CC12300: {
       unet: 'marusic',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -6613,7 +6613,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    matthewmitchell: {
+    matthewmitchell_CC25100: {
       unet: 'matthewmitchell',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -6621,7 +6621,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    matthewokazaki: {
+    matthewokazaki_CC11100: {
       unet: 'matthewokazaki',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -6629,7 +6629,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mauratighe: {
+    mauratighe_CC11400: {
       unet: 'mauratighe',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -6637,7 +6637,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mayada: {
+    mayada_CC40100: {
       unet: 'mayada',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6645,7 +6645,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    mayer: {
+    mayer_CC16700: {
       unet: 'mayer',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -6653,7 +6653,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mberger: {
+    mberger_CC11200: {
       unet: 'mberger',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -6661,7 +6661,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mboumil: {
+    mboumil_CC40100: {
       unet: 'mboumil',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6669,7 +6669,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mboxer: {
+    mboxer_CC13100: {
       unet: 'mboxer',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -6677,7 +6677,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mcaraccioli: {
+    mcaraccioli_CC45100: {
       unet: 'mcaraccioli',
       costCenter: 'CC45100',
       unitName:
@@ -6686,7 +6686,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mcclendo: {
+    mcclendo_CC11100: {
       unet: 'mcclendo',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -6694,7 +6694,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mcclendo: {
+    mcclendo_CC26600: {
       unet: 'mcclendo',
       costCenter: 'CC26600',
       unitName: 'Interdepartmental Program in Italian Studies',
@@ -6702,7 +6702,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mcclendo: {
+    mcclendo_CC27100: {
       unet: 'mcclendo',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -6710,7 +6710,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mcharnerlaird: {
+    mcharnerlaird_CC25000: {
       unet: 'mcharnerlaird',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -6718,7 +6718,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mckittr: {
+    mckittr_CC11400: {
       unet: 'mckittr',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -6726,7 +6726,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mcpeacock: {
+    mcpeacock_CC45100: {
       unet: 'mcpeacock',
       costCenter: 'CC45100',
       unitName:
@@ -6735,7 +6735,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mduran: {
+    mduran_CC12500: {
       unet: 'mduran',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -6743,7 +6743,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mduran: {
+    mduran_CC26800: {
       unet: 'mduran',
       costCenter: 'CC26800',
       unitName: 'Latin American and Latino Studies Program',
@@ -6751,7 +6751,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mead: {
+    mead_CC11200: {
       unet: 'mead',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -6759,7 +6759,7 @@ module.exports = {
       affilPosition: 'Professor of the Practice',
       affilPositionTitle: 'undefined',
     },
-    mead: {
+    mead_CC27100: {
       unet: 'mead',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -6767,7 +6767,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    meden: {
+    meden_CC18400: {
       unet: 'meden',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -6775,7 +6775,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    meden: {
+    meden_CC43100: {
       unet: 'meden',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -6783,7 +6783,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mederos: {
+    mederos_CC12500: {
       unet: 'mederos',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -6791,7 +6791,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    meneva17: {
+    meneva17_CC12600: {
       unet: 'meneva17',
       costCenter: 'CC12600',
       unitName:
@@ -6800,7 +6800,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mengnansunny: {
+    mengnansunny_CC43100: {
       unet: 'mengnansunny',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -6808,7 +6808,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    mepandelia: {
+    mepandelia_CC16100: {
       unet: 'mepandelia',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -6816,7 +6816,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mepandelia: {
+    mepandelia_CC28100: {
       unet: 'mepandelia',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -6824,7 +6824,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    merrill2: {
+    merrill2_CC16700: {
       unet: 'merrill2',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -6832,7 +6832,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    meschede: {
+    meschede_CC40100: {
       unet: 'meschede',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6840,7 +6840,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mew: {
+    mew_CC40100: {
       unet: 'mew',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6848,7 +6848,7 @@ module.exports = {
       affilPosition: 'Senior Lecturer',
       affilPositionTitle: 'undefined',
     },
-    meyer: {
+    meyer_CC16800: {
       unet: 'meyer',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -6856,7 +6856,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mfc: {
+    mfc_CC25200: {
       unet: 'mfc',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -6864,7 +6864,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mfc: {
+    mfc_CC16600: {
       unet: 'mfc',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -6872,7 +6872,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mfeeney: {
+    mfeeney_CC18200: {
       unet: 'mfeeney',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -6880,7 +6880,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mfitzd: {
+    mfitzd_CC40100: {
       unet: 'mfitzd',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6888,7 +6888,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mgkatz: {
+    mgkatz_CC18400: {
       unet: 'mgkatz',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -6896,7 +6896,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mgkatz: {
+    mgkatz_CC43100: {
       unet: 'mgkatz',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -6905,7 +6905,7 @@ module.exports = {
       affilPositionTitle:
         'Adjunct Professor in the Brandeis International Business School',
     },
-    mhurd: {
+    mhurd_CC11400: {
       unet: 'mhurd',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -6913,7 +6913,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    michaelgauthier: {
+    michaelgauthier_CC45100: {
       unet: 'michaelgauthier',
       costCenter: 'CC45100',
       unitName:
@@ -6922,7 +6922,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mirosen: {
+    mirosen_CC13100: {
       unet: 'mirosen',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -6930,7 +6930,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mirsky: {
+    mirsky_CC13200: {
       unet: 'mirsky',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -6938,7 +6938,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mkrumpak: {
+    mkrumpak_CC16700: {
       unet: 'mkrumpak',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -6946,7 +6946,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mlevenso: {
+    mlevenso_CC25000: {
       unet: 'mlevenso',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -6954,7 +6954,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mlevenso: {
+    mlevenso_CC40100: {
       unet: 'mlevenso',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -6962,7 +6962,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mmarr: {
+    mmarr_CC16200: {
       unet: 'mmarr',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -6970,7 +6970,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mmarr: {
+    mmarr_CC28100: {
       unet: 'mmarr',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -6978,7 +6978,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mmckay: {
+    mmckay_CC43100: {
       unet: 'mmckay',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -6986,7 +6986,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mmeteer: {
+    mmeteer_CC25200: {
       unet: 'mmeteer',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -6994,7 +6994,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mmeteer: {
+    mmeteer_CC26900: {
       unet: 'mmeteer',
       costCenter: 'CC26900',
       unitName: 'Linguistics and Computational Linguistics',
@@ -7002,7 +7002,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mmeteer: {
+    mmeteer_CC16600: {
       unet: 'mmeteer',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -7010,7 +7010,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mmiara: {
+    mmiara_CC16200: {
       unet: 'mmiara',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -7018,7 +7018,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mmitra: {
+    mmitra_CC40100: {
       unet: 'mmitra',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7026,7 +7026,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mmunsell: {
+    mmunsell_CC43100: {
       unet: 'mmunsell',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -7034,7 +7034,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mnourse: {
+    mnourse_CC12450: {
       unet: 'mnourse',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -7042,7 +7042,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    molinsky: {
+    molinsky_CC18700: {
       unet: 'molinsky',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -7050,7 +7050,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    molinsky: {
+    molinsky_CC43100: {
       unet: 'molinsky',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -7058,7 +7058,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    monifahie: {
+    monifahie_CC16200: {
       unet: 'monifahie',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -7066,7 +7066,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    monsky: {
+    monsky_CC16700: {
       unet: 'monsky',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -7074,7 +7074,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    moody: {
+    moody_CC11400: {
       unet: 'moody',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -7082,7 +7082,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mooneyd: {
+    mooneyd_CC27900: {
       unet: 'mooneyd',
       costCenter: 'CC27900',
       unitName: 'Creativity, the Arts, and Social Transformation Program',
@@ -7090,7 +7090,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mooneyd: {
+    mooneyd_CC25900: {
       unet: 'mooneyd',
       costCenter: 'CC25900',
       unitName: 'Film, Television and Interactive Media Program',
@@ -7098,7 +7098,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    motoikatsumata: {
+    motoikatsumata_CC12600: {
       unet: 'motoikatsumata',
       costCenter: 'CC12600',
       unitName:
@@ -7107,7 +7107,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    motoikatsumata: {
+    motoikatsumata_CC25600: {
       unet: 'motoikatsumata',
       costCenter: 'CC25600',
       unitName: 'East Asian Studies Program',
@@ -7116,7 +7116,7 @@ module.exports = {
       affilPositionTitle:
         'Madeleine Haas Russell Visiting Professor in the East Asian Studies Program',
     },
-    mpapa: {
+    mpapa_CC40100: {
       unet: 'mpapa',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7124,7 +7124,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mpetit: {
+    mpetit_CC40100: {
       unet: 'mpetit',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7132,7 +7132,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mpetit: {
+    mpetit_CC43100: {
       unet: 'mpetit',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -7140,7 +7140,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mrazavi: {
+    mrazavi_CC40100: {
       unet: 'mrazavi',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7148,7 +7148,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Scientist and Lecturer',
     },
-    msokolof: {
+    msokolof_CC25000: {
       unet: 'msokolof',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -7156,7 +7156,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    mstewart: {
+    mstewart_CC40100: {
       unet: 'mstewart',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7164,7 +7164,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    mstrand: {
+    mstrand_CC18800: {
       unet: 'mstrand',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -7172,7 +7172,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    mtamaki: {
+    mtamaki_CC12600: {
       unet: 'mtamaki',
       costCenter: 'CC12600',
       unitName:
@@ -7181,7 +7181,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    mtm: {
+    mtm_CC40100: {
       unet: 'mtm',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7189,7 +7189,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    muellner: {
+    muellner_CC12100: {
       unet: 'muellner',
       costCenter: 'CC12100',
       unitName: 'Department of Classical Studies',
@@ -7197,7 +7197,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mullerh: {
+    mullerh_CC18500: {
       unet: 'mullerh',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -7205,7 +7205,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mullerh: {
+    mullerh_CC26300: {
       unet: 'mullerh',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -7213,7 +7213,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mullerh: {
+    mullerh_CC18320: {
       unet: 'mullerh',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -7221,7 +7221,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    murray: {
+    murray_CC16500: {
       unet: 'murray',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -7229,7 +7229,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    musegade: {
+    musegade_CC18200: {
       unet: 'musegade',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -7237,7 +7237,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    musegade: {
+    musegade_CC11200: {
       unet: 'musegade',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -7245,7 +7245,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    mvenezia: {
+    mvenezia_CC45100: {
       unet: 'mvenezia',
       costCenter: 'CC45100',
       unitName:
@@ -7254,7 +7254,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    mwhoward: {
+    mwhoward_CC40100: {
       unet: 'mwhoward',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7262,7 +7262,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    nanarm: {
+    nanarm_ND_INST: {
       unet: 'nanarm',
       costCenter: 'ND_INST',
       unitName: 'Brandeis University',
@@ -7270,7 +7270,7 @@ module.exports = {
       affilPosition: 'Adjunct Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    nanarm: {
+    nanarm_CC11400: {
       unet: 'nanarm',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -7278,7 +7278,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nblumberg: {
+    nblumberg_CC40100: {
       unet: 'nblumberg',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7286,7 +7286,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nboyson: {
+    nboyson_CC43100: {
       unet: 'nboyson',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -7294,7 +7294,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    negreene: {
+    negreene_CC13200: {
       unet: 'negreene',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -7302,7 +7302,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    neilswidey: {
+    neilswidey_CC26700: {
       unet: 'neilswidey',
       costCenter: 'CC26700',
       unitName: 'Journalism Program',
@@ -7310,7 +7310,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    nelson: {
+    nelson_CC25200: {
       unet: 'nelson',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -7318,7 +7318,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nelson: {
+    nelson_CC16200: {
       unet: 'nelson',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -7326,7 +7326,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Gyula and Katica Tauber Professor of Life Science',
     },
-    nelson: {
+    nelson_CC27200: {
       unet: 'nelson',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -7334,7 +7334,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nesa: {
+    nesa_CC18400: {
       unet: 'nesa',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -7342,7 +7342,7 @@ module.exports = {
       affilPosition: 'Senior Lecturer',
       affilPositionTitle: 'undefined',
     },
-    nhabibi: {
+    nhabibi_CC18400: {
       unet: 'nhabibi',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -7350,7 +7350,7 @@ module.exports = {
       affilPosition: 'Senior Lecturer',
       affilPositionTitle: 'undefined',
     },
-    nhabibi: {
+    nhabibi_CC43100: {
       unet: 'nhabibi',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -7358,7 +7358,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    nicastro: {
+    nicastro_CC16200: {
       unet: 'nicastro',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -7366,7 +7366,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    niels: {
+    niels_CC16100: {
       unet: 'niels',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -7374,7 +7374,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nieren: {
+    nieren_CC43100: {
       unet: 'nieren',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -7382,7 +7382,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nieske: {
+    nieske_CC11200: {
       unet: 'nieske',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -7390,7 +7390,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nikkola: {
+    nikkola_CC27700: {
       unet: 'nikkola',
       costCenter: 'CC27700',
       unitName: 'Graduate Program in Genetic Counseling',
@@ -7398,7 +7398,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nlau: {
+    nlau_CC16200: {
       unet: 'nlau',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -7406,7 +7406,7 @@ module.exports = {
       affilPosition: 'Visiting Professor',
       affilPositionTitle: 'Visiting Assistant Professor of Biology',
     },
-    nmalik88: {
+    nmalik88_CC45100: {
       unet: 'nmalik88',
       costCenter: 'CC45100',
       unitName:
@@ -7415,7 +7415,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nmenon: {
+    nmenon_CC18400: {
       unet: 'nmenon',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -7423,7 +7423,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nmenon: {
+    nmenon_CC24700: {
       unet: 'nmenon',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -7431,7 +7431,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nmenon: {
+    nmenon_CC40100: {
       unet: 'nmenon',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7439,7 +7439,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nmenon: {
+    nmenon_CC43100: {
       unet: 'nmenon',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -7447,7 +7447,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nmenon: {
+    nmenon_CC18320: {
       unet: 'nmenon',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -7455,7 +7455,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nobleal: {
+    nobleal_CC27700: {
       unet: 'nobleal',
       costCenter: 'CC27700',
       unitName: 'Graduate Program in Genetic Counseling',
@@ -7463,7 +7463,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nobleal: {
+    nobleal_CC40100: {
       unet: 'nobleal',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7471,7 +7471,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    noonze: {
+    noonze_CC45100: {
       unet: 'noonze',
       costCenter: 'CC45100',
       unitName:
@@ -7480,7 +7480,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    novack: {
+    novack_CC16500: {
       unet: 'novack',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -7488,7 +7488,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nyangoni: {
+    nyangoni_CC18100: {
       unet: 'nyangoni',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -7496,7 +7496,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    nyangoni: {
+    nyangoni_CC18600: {
       unet: 'nyangoni',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -7504,7 +7504,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    odonnell: {
+    odonnell_CC12450: {
       unet: 'odonnell',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -7512,7 +7512,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    offen: {
+    offen_CC16700: {
       unet: 'offen',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -7520,7 +7520,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    olesen: {
+    olesen_CC11200: {
       unet: 'olesen',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -7528,7 +7528,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    olmanda: {
+    olmanda_CC12500: {
       unet: 'olmanda',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -7536,7 +7536,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    opapaemm: {
+    opapaemm_CC25200: {
       unet: 'opapaemm',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -7544,7 +7544,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    opapaemm: {
+    opapaemm_CC16600: {
       unet: 'opapaemm',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -7552,7 +7552,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    oprian: {
+    oprian_CC25200: {
       unet: 'oprian',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -7560,7 +7560,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    oprian: {
+    oprian_CC16100: {
       unet: 'oprian',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -7568,7 +7568,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    oprian: {
+    oprian_CC27200: {
       unet: 'oprian',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -7576,7 +7576,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ospinaleon: {
+    ospinaleon_CC12500: {
       unet: 'ospinaleon',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -7584,7 +7584,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    palais: {
+    palais_CC16700: {
       unet: 'palais',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -7592,7 +7592,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    palvarez: {
+    palvarez_CC18300: {
       unet: 'palvarez',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -7600,7 +7600,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pamjoshi: {
+    pamjoshi_ND_INST: {
       unet: 'pamjoshi',
       costCenter: 'ND_INST',
       unitName: 'Brandeis University',
@@ -7609,7 +7609,7 @@ module.exports = {
       affilPositionTitle:
         'Associate Director of the Institute on Children, Youth and Families',
     },
-    pamjoshi: {
+    pamjoshi_CC40100: {
       unet: 'pamjoshi',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7617,7 +7617,7 @@ module.exports = {
       affilPosition: 'Senior Scientist',
       affilPositionTitle: 'Senior Scientist and Lecturer',
     },
-    panick: {
+    panick_CC26900: {
       unet: 'panick',
       costCenter: 'CC26900',
       unitName: 'Linguistics and Computational Linguistics',
@@ -7625,7 +7625,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    panick: {
+    panick_CC16600: {
       unet: 'panick',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -7633,7 +7633,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    paradis: {
+    paradis_CC25200: {
       unet: 'paradis',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -7641,7 +7641,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    paradis: {
+    paradis_CC16200: {
       unet: 'paradis',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -7649,7 +7649,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    paradis: {
+    paradis_CC27200: {
       unet: 'paradis',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -7657,7 +7657,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    parker: {
+    parker_CC16700: {
       unet: 'parker',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -7665,7 +7665,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    parmenti: {
+    parmenti_CC18300: {
       unet: 'parmenti',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -7673,7 +7673,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    paultherrien: {
+    paultherrien_CC43100: {
       unet: 'paultherrien',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -7681,7 +7681,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pdixon: {
+    pdixon_CC40100: {
       unet: 'pdixon',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7689,7 +7689,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    penning: {
+    penning_CC16800: {
       unet: 'penning',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -7697,7 +7697,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pepstein: {
+    pepstein_CC12300: {
       unet: 'pepstein',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -7705,7 +7705,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    perlman: {
+    perlman_CC16200: {
       unet: 'perlman',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -7713,7 +7713,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    perlman: {
+    perlman_CC25700: {
       unet: 'perlman',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -7721,7 +7721,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    perloff: {
+    perloff_CC40100: {
       unet: 'perloff',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7729,7 +7729,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    petsko: {
+    petsko_CC16100: {
       unet: 'petsko',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -7737,7 +7737,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pfirchow: {
+    pfirchow_CC40100: {
       unet: 'pfirchow',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7745,7 +7745,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pgamsby: {
+    pgamsby_CC12300: {
       unet: 'pgamsby',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -7753,7 +7753,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pgarrity: {
+    pgarrity_CC25200: {
       unet: 'pgarrity',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -7761,7 +7761,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pgarrity: {
+    pgarrity_CC16200: {
       unet: 'pgarrity',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -7769,7 +7769,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Biology',
     },
-    pgarrity: {
+    pgarrity_CC27200: {
       unet: 'pgarrity',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -7777,7 +7777,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pgould: {
+    pgould_CC27300: {
       unet: 'pgould',
       costCenter: 'CC27300',
       unitName: 'Peace, Conflict, and Coexistence Studies Program',
@@ -7785,7 +7785,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    pjankows: {
+    pjankows_CC18500: {
       unet: 'pjankows',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -7793,7 +7793,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    pjankows: {
+    pjankows_CC26300: {
       unet: 'pjankows',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -7801,7 +7801,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pkalb: {
+    pkalb_CC11100: {
       unet: 'pkalb',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -7810,7 +7810,7 @@ module.exports = {
       affilPositionTitle:
         'Cynthia L. and Theodore S. Berenson Associate Professor of Contemporary Art',
     },
-    pkalb: {
+    pkalb_CC24700: {
       unet: 'pkalb',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -7818,7 +7818,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pkasili: {
+    pkasili_CC30800: {
       unet: 'pkasili',
       costCenter: 'CC30800',
       unitName: 'Myra Kraft Transitional Year Program',
@@ -7827,7 +7827,7 @@ module.exports = {
       affilPositionTitle:
         'Instructor in the Myra Kraft Transitional Year Program',
     },
-    plotz: {
+    plotz_CC12400: {
       unet: 'plotz',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -7835,7 +7835,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    plotz: {
+    plotz_CC12102: {
       unet: 'plotz',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -7843,7 +7843,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pmay: {
+    pmay_CC26700: {
       unet: 'pmay',
       costCenter: 'CC26700',
       unitName: 'Journalism Program',
@@ -7851,7 +7851,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pme89: {
+    pme89_CC12450: {
       unet: 'pme89',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -7859,7 +7859,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pmenoret: {
+    pmenoret_CC18300: {
       unet: 'pmenoret',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -7867,7 +7867,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    pmiller: {
+    pmiller_CC25200: {
       unet: 'pmiller',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -7875,7 +7875,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pmiller: {
+    pmiller_CC16200: {
       unet: 'pmiller',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -7883,7 +7883,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pmiller: {
+    pmiller_CC16600: {
       unet: 'pmiller',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -7891,7 +7891,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pmiller: {
+    pmiller_CC27200: {
       unet: 'pmiller',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -7899,7 +7899,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pmistark: {
+    pmistark_CC16800: {
       unet: 'pmistark',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -7907,7 +7907,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pmorriso: {
+    pmorriso_CC12400: {
       unet: 'pmorriso',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -7915,7 +7915,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pmorriso: {
+    pmorriso_CC25900: {
       unet: 'pmorriso',
       costCenter: 'CC25900',
       unitName: 'Film, Television and Interactive Media Program',
@@ -7923,7 +7923,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pochapsk: {
+    pochapsk_CC16500: {
       unet: 'pochapsk',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -7931,7 +7931,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pochapsk: {
+    pochapsk_CC28100: {
       unet: 'pochapsk',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -7939,7 +7939,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pollack: {
+    pollack_CC25200: {
       unet: 'pollack',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -7947,7 +7947,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pollack: {
+    pollack_CC16600: {
       unet: 'pollack',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -7955,7 +7955,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    polonsky: {
+    polonsky_CC12600: {
       unet: 'polonsky',
       costCenter: 'CC12600',
       unitName:
@@ -7964,7 +7964,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ppetri: {
+    ppetri_CC18400: {
       unet: 'ppetri',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -7972,7 +7972,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ppichler: {
+    ppichler_CC43100: {
       unet: 'ppichler',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -7980,7 +7980,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pquint: {
+    pquint_CC40100: {
       unet: 'pquint',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7988,7 +7988,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pratisthaj: {
+    pratisthaj_CC40100: {
       unet: 'pratisthaj',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -7996,7 +7996,7 @@ module.exports = {
       affilPosition: 'Adjunct Lecturer',
       affilPositionTitle: 'Adjunct Lecturer',
     },
-    press: {
+    press_CC16200: {
       unet: 'press',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -8004,7 +8004,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    professorrue: {
+    professorrue_CC45100: {
       unet: 'professorrue',
       costCenter: 'CC45100',
       unitName:
@@ -8013,7 +8013,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    prottas: {
+    prottas_CC40100: {
       unet: 'prottas',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8021,7 +8021,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    proychoudhury: {
+    proychoudhury_CC43100: {
       unet: 'proychoudhury',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8029,7 +8029,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    pstock: {
+    pstock_CC12501: {
       unet: 'pstock',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -8037,7 +8037,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pstock: {
+    pstock_CC12600: {
       unet: 'pstock',
       costCenter: 'CC12600',
       unitName:
@@ -8046,7 +8046,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    pstock: {
+    pstock_CC12102: {
       unet: 'pstock',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -8054,7 +8054,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pvzljr: {
+    pvzljr_CC12400: {
       unet: 'pvzljr',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -8062,7 +8062,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pwang: {
+    pwang_CC12501: {
       unet: 'pwang',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -8070,7 +8070,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pwang: {
+    pwang_CC12600: {
       unet: 'pwang',
       costCenter: 'CC12600',
       unitName:
@@ -8079,7 +8079,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pwang: {
+    pwang_CC25600: {
       unet: 'pwang',
       costCenter: 'CC25600',
       unitName: 'East Asian Studies Program',
@@ -8087,7 +8087,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pwang: {
+    pwang_CC12102: {
       unet: 'pwang',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -8095,7 +8095,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    pwells: {
+    pwells_CC43100: {
       unet: 'pwells',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8103,7 +8103,7 @@ module.exports = {
       affilPosition: 'Senior Lecturer',
       affilPositionTitle: 'undefined',
     },
-    qiangwang: {
+    qiangwang_CC12600: {
       unet: 'qiangwang',
       costCenter: 'CC12600',
       unitName:
@@ -8112,7 +8112,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    qsxia: {
+    qsxia_CC43100: {
       unet: 'qsxia',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8120,7 +8120,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    quinney: {
+    quinney_CC12501: {
       unet: 'quinney',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -8128,7 +8128,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    quinney: {
+    quinney_CC12400: {
       unet: 'quinney',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -8136,7 +8136,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    quinney: {
+    quinney_CC25800: {
       unet: 'quinney',
       costCenter: 'CC25800',
       unitName: 'Interdepartmental Program in European Cultural Studies',
@@ -8144,7 +8144,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    r2evans: {
+    r2evans_CC18400: {
       unet: 'r2evans',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -8152,7 +8152,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rachelmoody: {
+    rachelmoody_CC25000: {
       unet: 'rachelmoody',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -8160,7 +8160,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rahulkrishna: {
+    rahulkrishna_CC16700: {
       unet: 'rahulkrishna',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -8168,7 +8168,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'Instructor in Mathematics',
     },
-    rakowski: {
+    rakowski_CC11200: {
       unet: 'rakowski',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -8176,7 +8176,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Walter W. Naumburg Professor of Composition',
     },
-    ralterma: {
+    ralterma_CC25200: {
       unet: 'ralterma',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -8184,7 +8184,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ralterma: {
+    ralterma_CC18700: {
       unet: 'ralterma',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -8192,7 +8192,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ralterma: {
+    ralterma_CC16600: {
       unet: 'ralterma',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -8200,7 +8200,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    randall: {
+    randall_CC12501: {
       unet: 'randall',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -8208,7 +8208,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    randall: {
+    randall_CC12500: {
       unet: 'randall',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -8216,7 +8216,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    randall: {
+    randall_CC25800: {
       unet: 'randall',
       costCenter: 'CC25800',
       unitName: 'Interdepartmental Program in European Cultural Studies',
@@ -8224,7 +8224,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    randall: {
+    randall_CC26300: {
       unet: 'randall',
       costCenter: 'CC26300',
       unitName: 'International and Global Studies Program',
@@ -8232,7 +8232,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    randall: {
+    randall_CC12102: {
       unet: 'randall',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -8240,7 +8240,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    randall: {
+    randall_CC27100: {
       unet: 'randall',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -8248,7 +8248,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rangell: {
+    rangell_CC43100: {
       unet: 'rangell',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8256,7 +8256,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    raquelsaenz: {
+    raquelsaenz_CC18800: {
       unet: 'raquelsaenz',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -8264,7 +8264,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    rashann: {
+    rashann_CC13200: {
       unet: 'rashann',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -8272,7 +8272,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ratzlaff: {
+    ratzlaff_CC12100: {
       unet: 'ratzlaff',
       costCenter: 'CC12100',
       unitName: 'Department of Classical Studies',
@@ -8280,7 +8280,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ravid: {
+    ravid_CC13200: {
       unet: 'ravid',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -8288,7 +8288,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rbkramer: {
+    rbkramer_CC25000: {
       unet: 'rbkramer',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -8297,7 +8297,7 @@ module.exports = {
       affilPositionTitle:
         'Senior Lecturer in Education and Elementary Faculty Leader',
     },
-    rbolton: {
+    rbolton_CC40100: {
       unet: 'rbolton',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8305,7 +8305,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rclarke: {
+    rclarke_CC40100: {
       unet: 'rclarke',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8313,7 +8313,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rduff: {
+    rduff_CC11200: {
       unet: 'rduff',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -8321,7 +8321,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    redenius: {
+    redenius_CC18400: {
       unet: 'redenius',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -8329,7 +8329,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    reif: {
+    reif_CC40100: {
       unet: 'reif',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8337,7 +8337,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    reimer: {
+    reimer_CC25000: {
       unet: 'reimer',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -8345,7 +8345,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    reimer: {
+    reimer_CC13100: {
       unet: 'reimer',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -8353,7 +8353,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    reinharz: {
+    reinharz_CC18800: {
       unet: 'reinharz',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -8361,7 +8361,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ren: {
+    ren_CC16200: {
       unet: 'ren',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -8369,7 +8369,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ren: {
+    ren_CC28100: {
       unet: 'ren',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -8377,7 +8377,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rfmiller: {
+    rfmiller_CC12501: {
       unet: 'rfmiller',
       costCenter: 'CC12501',
       unitName: 'Comparative Literature and Culture Program',
@@ -8385,7 +8385,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rfmiller: {
+    rfmiller_CC12400: {
       unet: 'rfmiller',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -8393,7 +8393,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rfmiller: {
+    rfmiller_CC12600: {
       unet: 'rfmiller',
       costCenter: 'CC12600',
       unitName:
@@ -8402,7 +8402,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rfmiller: {
+    rfmiller_CC26200: {
       unet: 'rfmiller',
       costCenter: 'CC26200',
       unitName: 'History of Ideas Program',
@@ -8410,7 +8410,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rfmiller: {
+    rfmiller_CC25800: {
       unet: 'rfmiller',
       costCenter: 'CC25800',
       unitName: 'Interdepartmental Program in European Cultural Studies',
@@ -8418,7 +8418,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rfmiller: {
+    rfmiller_CC12102: {
       unet: 'rfmiller',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -8426,7 +8426,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rgodoy: {
+    rgodoy_CC40100: {
       unet: 'rgodoy',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8434,7 +8434,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of International Development',
     },
-    rgreenbe: {
+    rgreenbe_CC12300: {
       unet: 'rgreenbe',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -8442,7 +8442,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    rheda0001: {
+    rheda0001_CC45100: {
       unet: 'rheda0001',
       costCenter: 'CC45100',
       unitName:
@@ -8451,7 +8451,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    rherriman: {
+    rherriman_CC45100: {
       unet: 'rherriman',
       costCenter: 'CC45100',
       unitName:
@@ -8460,7 +8460,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    rimaf: {
+    rimaf_CC13200: {
       unet: 'rimaf',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -8468,7 +8468,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ringe: {
+    ringe_CC16100: {
       unet: 'ringe',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -8476,7 +8476,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ringe: {
+    ringe_CC16500: {
       unet: 'ringe',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -8484,7 +8484,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ringe: {
+    ringe_CC27200: {
       unet: 'ringe',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -8492,7 +8492,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ringe: {
+    ringe_CC28100: {
       unet: 'ringe',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -8500,7 +8500,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ritter: {
+    ritter_CC40100: {
       unet: 'ritter',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8508,7 +8508,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rivo: {
+    rivo_CC13200: {
       unet: 'rivo',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -8516,7 +8516,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rkabrhel: {
+    rkabrhel_CC25100: {
       unet: 'rkabrhel',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -8524,7 +8524,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'Lecturer in Legal Studies',
     },
-    rmarshal: {
+    rmarshal_CC11200: {
       unet: 'rmarshal',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -8532,7 +8532,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rmorrone: {
+    rmorrone_CC45100: {
       unet: 'rmorrone',
       costCenter: 'CC45100',
       unitName:
@@ -8541,7 +8541,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    roberts: {
+    roberts_CC16800: {
       unet: 'roberts',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -8549,7 +8549,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rohleder: {
+    rohleder_CC18700: {
       unet: 'rohleder',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -8557,7 +8557,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rosbash: {
+    rosbash_CC25200: {
       unet: 'rosbash',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -8565,7 +8565,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rosbash: {
+    rosbash_CC16200: {
       unet: 'rosbash',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -8573,7 +8573,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Biology',
     },
-    rosbash: {
+    rosbash_CC27200: {
       unet: 'rosbash',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -8581,7 +8581,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Peter Gruber Endowed Chair',
     },
-    rpod: {
+    rpod_CC43100: {
       unet: 'rpod',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8589,7 +8589,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rpsalas: {
+    rpsalas_CC25200: {
       unet: 'rpsalas',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -8597,7 +8597,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    rpsalas: {
+    rpsalas_CC16600: {
       unet: 'rpsalas',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -8605,7 +8605,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    rreitano: {
+    rreitano_CC43100: {
       unet: 'rreitano',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8613,7 +8613,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rsampath: {
+    rsampath_CC40100: {
       unet: 'rsampath',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8621,7 +8621,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    rsampath: {
+    rsampath_CC12102: {
       unet: 'rsampath',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -8629,7 +8629,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rsampath: {
+    rsampath_CC18320: {
       unet: 'rsampath',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -8637,7 +8637,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    rschroeder: {
+    rschroeder_CC18300: {
       unet: 'rschroeder',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -8646,7 +8646,7 @@ module.exports = {
       affilPositionTitle:
         'Professor of Geography in the Department of Anthropology',
     },
-    rspack: {
+    rspack_CC30800: {
       unet: 'rspack',
       costCenter: 'CC30800',
       unitName: 'Myra Kraft Transitional Year Program',
@@ -8654,7 +8654,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    rtannen: {
+    rtannen_CC40100: {
       unet: 'rtannen',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8662,7 +8662,7 @@ module.exports = {
       affilPosition: 'Adjunct Lecturer',
       affilPositionTitle: 'undefined',
     },
-    rtorrey: {
+    rtorrey_CC16700: {
       unet: 'rtorrey',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -8670,7 +8670,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    ruberman: {
+    ruberman_CC16700: {
       unet: 'ruberman',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -8678,7 +8678,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    ruesch: {
+    ruesch_CC12450: {
       unet: 'ruesch',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -8686,7 +8686,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    rwalsh: {
+    rwalsh_CC11400: {
       unet: 'rwalsh',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -8694,7 +8694,7 @@ module.exports = {
       affilPosition: 'Associate Professor of the Practice',
       affilPositionTitle: 'undefined',
     },
-    ryang: {
+    ryang_CC45100: {
       unet: 'ryang',
       costCenter: 'CC45100',
       unitName:
@@ -8703,7 +8703,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    saaschec: {
+    saaschec_CC18200: {
       unet: 'saaschec',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -8711,7 +8711,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    saler: {
+    saler_CC18300: {
       unet: 'saler',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -8719,7 +8719,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    salmeida: {
+    salmeida_CC11100: {
       unet: 'salmeida',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -8727,7 +8727,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    samet: {
+    samet_CC12300: {
       unet: 'samet',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -8735,7 +8735,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    samet: {
+    samet_CC18700: {
       unet: 'samet',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -8743,7 +8743,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sarashank: {
+    sarashank_CC43100: {
       unet: 'sarashank',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8751,7 +8751,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sarna: {
+    sarna_CC18500: {
       unet: 'sarna',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -8760,7 +8760,7 @@ module.exports = {
       affilPositionTitle:
         'Joseph H. and Belle R. Braun Professor of American Jewish History',
     },
-    sarna: {
+    sarna_CC13200: {
       unet: 'sarna',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -8769,7 +8769,7 @@ module.exports = {
       affilPositionTitle:
         'Joseph H. and Belle R. Braun Professor of American Jewish History',
     },
-    sathomas: {
+    sathomas_CC43100: {
       unet: 'sathomas',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8777,7 +8777,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    saxe: {
+    saxe_CC13100: {
       unet: 'saxe',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -8785,7 +8785,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Klutznick Professor of Contemporary Jewish Studies',
     },
-    sberhane: {
+    sberhane_CC24700: {
       unet: 'sberhane',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -8793,7 +8793,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sberhane: {
+    sberhane_CC43100: {
       unet: 'sberhane',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8801,7 +8801,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sbrown: {
+    sbrown_CC18600: {
       unet: 'sbrown',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -8809,7 +8809,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    schagant: {
+    schagant_CC40100: {
       unet: 'schagant',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8817,7 +8817,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    schnitzr: {
+    schnitzr_CC16800: {
       unet: 'schnitzr',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -8826,7 +8826,7 @@ module.exports = {
       affilPositionTitle:
         'Edward & Gertrude Swartz Professor of Theoretical Physics, Emeritus',
     },
-    schoenle: {
+    schoenle_CC18400: {
       unet: 'schoenle',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -8834,7 +8834,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    schoenle: {
+    schoenle_CC43100: {
       unet: 'schoenle',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8842,7 +8842,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    schrecke: {
+    schrecke_CC18500: {
       unet: 'schrecke',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -8850,7 +8850,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    schulz: {
+    schulz_CC40100: {
       unet: 'schulz',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8858,7 +8858,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    schumann: {
+    schumann_CC43100: {
       unet: 'schumann',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -8866,7 +8866,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    schwalbe: {
+    schwalbe_CC18400: {
       unet: 'schwalbe',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -8874,7 +8874,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    schwarz: {
+    schwarz_CC16700: {
       unet: 'schwarz',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -8882,7 +8882,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    sciolla: {
+    sciolla_CC16800: {
       unet: 'sciolla',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -8890,7 +8890,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Physics',
     },
-    scott: {
+    scott_CC11100: {
       unet: 'scott',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -8898,7 +8898,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    scott: {
+    scott_CC12500: {
       unet: 'scott',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -8906,7 +8906,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    scott: {
+    scott_CC25800: {
       unet: 'scott',
       costCenter: 'CC25800',
       unitName: 'Interdepartmental Program in European Cultural Studies',
@@ -8914,7 +8914,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    scott: {
+    scott_CC12102: {
       unet: 'scott',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -8922,7 +8922,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    scuri: {
+    scuri_CC26100: {
       unet: 'scuri',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -8930,7 +8930,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    scuri: {
+    scuri_CC25100: {
       unet: 'scuri',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -8938,7 +8938,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sdeptula: {
+    sdeptula_CC11400: {
       unet: 'sdeptula',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -8946,7 +8946,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sdupree: {
+    sdupree_CC45100: {
       unet: 'sdupree',
       costCenter: 'CC45100',
       unitName:
@@ -8955,7 +8955,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    seaton: {
+    seaton_CC40100: {
       unet: 'seaton',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -8963,7 +8963,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sekuler: {
+    sekuler_CC25200: {
       unet: 'sekuler',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -8971,7 +8971,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Neuroscience',
     },
-    sekuler: {
+    sekuler_CC18700: {
       unet: 'sekuler',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -8979,7 +8979,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Louis and Frances Salvage Professor of Psychology',
     },
-    sekuler: {
+    sekuler_CC27200: {
       unet: 'sekuler',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -8987,7 +8987,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Neuroscience',
     },
-    sengupta: {
+    sengupta_CC25200: {
       unet: 'sengupta',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -8995,7 +8995,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Neurobiology',
     },
-    sengupta: {
+    sengupta_CC16200: {
       unet: 'sengupta',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -9003,7 +9003,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Neurobiology',
     },
-    sengupta: {
+    sengupta_CC27200: {
       unet: 'sengupta',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -9011,7 +9011,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Neurobiology',
     },
-    servino: {
+    servino_CC12500: {
       unet: 'servino',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -9019,7 +9019,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    sethi: {
+    sethi_CC12300: {
       unet: 'sethi',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -9027,7 +9027,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    sfein: {
+    sfein_CC12450: {
       unet: 'sfein',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -9035,7 +9035,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sfeldman: {
+    sfeldman_CC18600: {
       unet: 'sfeldman',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -9043,7 +9043,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sfreedma: {
+    sfreedma_CC45100: {
       unet: 'sfreedma',
       costCenter: 'CC45100',
       unitName:
@@ -9052,7 +9052,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    sgent0001: {
+    sgent0001_CC45100: {
       unet: 'sgent0001',
       costCenter: 'CC45100',
       unitName:
@@ -9061,7 +9061,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    sh40: {
+    sh40_CC18100: {
       unet: 'sh40',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -9069,7 +9069,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    sh40: {
+    sh40_CC11100: {
       unet: 'sh40',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -9077,7 +9077,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    shantanu: {
+    shantanu_CC25200: {
       unet: 'shantanu',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -9085,7 +9085,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    shantanu: {
+    shantanu_CC18700: {
       unet: 'shantanu',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -9093,7 +9093,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    shantanu: {
+    shantanu_CC27200: {
       unet: 'shantanu',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -9101,7 +9101,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    shashayang: {
+    shashayang_CC12600: {
       unet: 'shashayang',
       costCenter: 'CC12600',
       unitName:
@@ -9110,7 +9110,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    shaw1892: {
+    shaw1892_CC43100: {
       unet: 'shaw1892',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -9118,7 +9118,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sheehy: {
+    sheehy_Library: {
       unet: 'sheehy',
       costCenter: 'Library',
       unitName: 'Library',
@@ -9126,7 +9126,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'Brandeis National Committee University Librarian',
     },
-    shepard: {
+    shepard_CC40100: {
       unet: 'shepard',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9134,7 +9134,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    sheppard: {
+    sheppard_CC18500: {
       unet: 'sheppard',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -9143,7 +9143,7 @@ module.exports = {
       affilPositionTitle:
         'Chair of the Department of Near Eastern and Judaic Studies, Associate Professor of Modern Jewish History and Thought, Associate Director of the Tauber Institute for the Study of European Jewry, and associate editor of the Tauber Institute Series with Brandeis University Press.',
     },
-    sheppard: {
+    sheppard_CC13200: {
       unet: 'sheppard',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -9152,7 +9152,7 @@ module.exports = {
       affilPositionTitle:
         'Chair of the Department of Near Eastern and Judaic Studies, Associate Professor of Modern Jewish History and Thought, Associate Director of the Tauber Institute for the Study of European Jewry, and associate editor of the Tauber Institute Series with Brandeis University Press.',
     },
-    sheppard: {
+    sheppard_CC12300: {
       unet: 'sheppard',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -9161,7 +9161,7 @@ module.exports = {
       affilPositionTitle:
         'Chair of the Department of Near Eastern and Judaic Studies, Associate Professor of Modern Jewish History and Thought, Associate Director of the Tauber Institute for the Study of European Jewry, and associate editor of the Tauber Institute Series with Brandeis University Press.',
     },
-    sheppard: {
+    sheppard_CC26200: {
       unet: 'sheppard',
       costCenter: 'CC26200',
       unitName: 'History of Ideas Program',
@@ -9170,7 +9170,7 @@ module.exports = {
       affilPositionTitle:
         'Chair of the Department of Near Eastern and Judaic Studies, Associate Professor of Modern Jewish History and Thought, Associate Director of the Tauber Institute for the Study of European Jewry, and associate editor of the Tauber Institute Series with Brandeis University Press',
     },
-    sheppard: {
+    sheppard_CC25800: {
       unet: 'sheppard',
       costCenter: 'CC25800',
       unitName: 'Interdepartmental Program in European Cultural Studies',
@@ -9179,7 +9179,7 @@ module.exports = {
       affilPositionTitle:
         'Chair of the Department of Near Eastern and Judaic Studies, Associate Professor of Modern Jewish History and Thought, Associate Director of the Tauber Institute for the Study of European Jewry, and associate editor of the Tauber Institute Series with Brandeis University Press.',
     },
-    shevitz: {
+    shevitz_CC13100: {
       unet: 'shevitz',
       costCenter: 'CC13100',
       unitName: 'Hornstein Jewish Professional Leadership Program',
@@ -9187,7 +9187,7 @@ module.exports = {
       affilPosition: 'Associate Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    shholc: {
+    shholc_CC40100: {
       unet: 'shholc',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9195,7 +9195,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    shihuifan: {
+    shihuifan_CC12600: {
       unet: 'shihuifan',
       costCenter: 'CC12600',
       unitName:
@@ -9204,7 +9204,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    shiller: {
+    shiller_CC18400: {
       unet: 'shiller',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -9212,7 +9212,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    shiller: {
+    shiller_CC43100: {
       unet: 'shiller',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -9220,7 +9220,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    shoniquaroach: {
+    shoniquaroach_CC18100: {
       unet: 'shoniquaroach',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -9228,7 +9228,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    shoniquaroach: {
+    shoniquaroach_CC24700: {
       unet: 'shoniquaroach',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -9236,7 +9236,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    shorr: {
+    shorr_CC13200: {
       unet: 'shorr',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -9244,7 +9244,7 @@ module.exports = {
       affilPosition: 'Senior Lecturer',
       affilPositionTitle: 'undefined',
     },
-    simister: {
+    simister_CC16200: {
       unet: 'simister',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -9252,7 +9252,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    simon: {
+    simon_CC40100: {
       unet: 'simon',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9260,7 +9260,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    simon: {
+    simon_CC18320: {
       unet: 'simon',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -9268,7 +9268,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    simonxi: {
+    simonxi_CC45100: {
       unet: 'simonxi',
       costCenter: 'CC45100',
       unitName:
@@ -9277,7 +9277,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    sirianni: {
+    sirianni_CC18800: {
       unet: 'sirianni',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -9285,7 +9285,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    sirianni: {
+    sirianni_CC40100: {
       unet: 'sirianni',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9293,7 +9293,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    skadener: {
+    skadener_CC25200: {
       unet: 'skadener',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -9301,7 +9301,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    skadener: {
+    skadener_CC16200: {
       unet: 'skadener',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -9309,7 +9309,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of Biology',
     },
-    skadener: {
+    skadener_CC27200: {
       unet: 'skadener',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -9317,7 +9317,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    skadener: {
+    skadener_CC28100: {
       unet: 'skadener',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -9325,7 +9325,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    slupis: {
+    slupis_CC18700: {
       unet: 'slupis',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -9333,7 +9333,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    slupis: {
+    slupis_CC25000: {
       unet: 'slupis',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -9341,7 +9341,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    slupis: {
+    slupis_CC30800: {
       unet: 'slupis',
       costCenter: 'CC30800',
       unitName: 'Myra Kraft Transitional Year Program',
@@ -9349,7 +9349,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    smalamud: {
+    smalamud_CC25200: {
       unet: 'smalamud',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -9357,7 +9357,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    smalamud: {
+    smalamud_CC18300: {
       unet: 'smalamud',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -9365,7 +9365,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    smalamud: {
+    smalamud_CC12300: {
       unet: 'smalamud',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -9373,7 +9373,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    smalamud: {
+    smalamud_CC26900: {
       unet: 'smalamud',
       costCenter: 'CC26900',
       unitName: 'Linguistics and Computational Linguistics',
@@ -9381,7 +9381,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    smalamud: {
+    smalamud_CC16600: {
       unet: 'smalamud',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -9389,7 +9389,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    smccau: {
+    smccau_CC12400: {
       unet: 'smccau',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -9398,7 +9398,7 @@ module.exports = {
       affilPositionTitle:
         'Professor of the Practice of English and Co-Director of the Creative Writing Program',
     },
-    smiley: {
+    smiley_CC12300: {
       unet: 'smiley',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -9406,7 +9406,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    smiley: {
+    smiley_CC18600: {
       unet: 'smiley',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -9414,7 +9414,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    smiley: {
+    smiley_CC24700: {
       unet: 'smiley',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -9422,7 +9422,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    snemser: {
+    snemser_CC13200: {
       unet: 'snemser',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -9430,7 +9430,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    snemser: {
+    snemser_CC25000: {
       unet: 'snemser',
       costCenter: 'CC25000',
       unitName: 'Education Program',
@@ -9438,7 +9438,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    snider: {
+    snider_CC16500: {
       unet: 'snider',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -9446,7 +9446,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    sohrabi: {
+    sohrabi_CC18500: {
       unet: 'sohrabi',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -9454,7 +9454,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    somd86: {
+    somd86_CC40100: {
       unet: 'somd86',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9462,7 +9462,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    spagliaccio: {
+    spagliaccio_CC45100: {
       unet: 'spagliaccio',
       costCenter: 'CC45100',
       unitName:
@@ -9471,7 +9471,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    spmw: {
+    spmw_CC12500: {
       unet: 'spmw',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -9479,7 +9479,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    spmw: {
+    spmw_CC26600: {
       unet: 'spmw',
       costCenter: 'CC26600',
       unitName: 'Interdepartmental Program in Italian Studies',
@@ -9487,7 +9487,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sreeniva: {
+    sreeniva_CC18500: {
       unet: 'sreeniva',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -9495,7 +9495,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    sreeniva: {
+    sreeniva_CC25800: {
       unet: 'sreeniva',
       costCenter: 'CC25800',
       unitName: 'Interdepartmental Program in European Cultural Studies',
@@ -9503,7 +9503,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    sreeniva: {
+    sreeniva_CC27100: {
       unet: 'sreeniva',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -9511,7 +9511,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    sreeniva: {
+    sreeniva_CC18320: {
       unet: 'sreeniva',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -9519,7 +9519,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    srohr: {
+    srohr_CC16500: {
       unet: 'srohr',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -9527,7 +9527,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    ssaluk: {
+    ssaluk_CC18300: {
       unet: 'ssaluk',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -9535,7 +9535,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sshostak: {
+    sshostak_CC18800: {
       unet: 'sshostak',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -9543,7 +9543,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sshostak: {
+    sshostak_CC24700: {
       unet: 'sshostak',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -9551,7 +9551,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sshostak: {
+    sshostak_CC25700: {
       unet: 'sshostak',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -9559,7 +9559,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sshostak: {
+    sshostak_CC26100: {
       unet: 'sshostak',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -9567,7 +9567,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sshostak: {
+    sshostak_CC40100: {
       unet: 'sshostak',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9575,7 +9575,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ssoleimani: {
+    ssoleimani_CC11100: {
       unet: 'ssoleimani',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -9583,7 +9583,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    staves: {
+    staves_CC12400: {
       unet: 'staves',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -9591,7 +9591,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    stepner: {
+    stepner_CC11200: {
       unet: 'stepner',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -9599,7 +9599,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'Professor Emeritus of the Practice of Music',
     },
-    stevenostrow: {
+    stevenostrow_CC12100: {
       unet: 'stevenostrow',
       costCenter: 'CC12100',
       unitName: 'Department of Classical Studies',
@@ -9607,7 +9607,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    stevensass: {
+    stevensass_CC18400: {
       unet: 'stevensass',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -9615,7 +9615,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    stevenwilson: {
+    stevenwilson_CC18600: {
       unet: 'stevenwilson',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -9623,7 +9623,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    stimell: {
+    stimell_CC25100: {
       unet: 'stimell',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -9631,7 +9631,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    stone: {
+    stone_CC40100: {
       unet: 'stone',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9639,7 +9639,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    storer: {
+    storer_CC25200: {
       unet: 'storer',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -9647,7 +9647,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    storer: {
+    storer_CC16600: {
       unet: 'storer',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -9655,7 +9655,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    straussl: {
+    straussl_CC43100: {
       unet: 'straussl',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -9663,7 +9663,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    suderow: {
+    suderow_CC43100: {
       unet: 'suderow',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -9671,7 +9671,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    suebergamo: {
+    suebergamo_CC45100: {
       unet: 'suebergamo',
       costCenter: 'CC45100',
       unitName:
@@ -9680,7 +9680,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sundiata: {
+    sundiata_CC18500: {
       unet: 'sundiata',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -9688,7 +9688,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    susancarman: {
+    susancarman_CC45100: {
       unet: 'susancarman',
       costCenter: 'CC45100',
       unitName:
@@ -9697,7 +9697,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    sutera: {
+    sutera_CC16200: {
       unet: 'sutera',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -9705,7 +9705,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'Lecturer in Biology',
     },
-    swhitfie: {
+    swhitfie_CC18200: {
       unet: 'swhitfie',
       costCenter: 'CC18200',
       unitName: 'American Studies Program',
@@ -9713,7 +9713,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    szobel: {
+    szobel_CC13200: {
       unet: 'szobel',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -9721,7 +9721,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    szobel: {
+    szobel_CC24700: {
       unet: 'szobel',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -9729,7 +9729,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    szobel: {
+    szobel_CC12102: {
       unet: 'szobel',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -9737,7 +9737,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    tamaru: {
+    tamaru_CC40100: {
       unet: 'tamaru',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9745,7 +9745,7 @@ module.exports = {
       affilPosition: 'Adjunct Lecturer',
       affilPositionTitle: 'undefined',
     },
-    targoff: {
+    targoff_CC12400: {
       unet: 'targoff',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -9753,7 +9753,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of English',
     },
-    targoff: {
+    targoff_CC26600: {
       unet: 'targoff',
       costCenter: 'CC26600',
       unitName: 'Interdepartmental Program in Italian Studies',
@@ -9761,7 +9761,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of English',
     },
-    targoff: {
+    targoff_CC27100: {
       unet: 'targoff',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -9769,7 +9769,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of English',
     },
-    tcowen: {
+    tcowen_CC40100: {
       unet: 'tcowen',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9777,7 +9777,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    teuber: {
+    teuber_CC12300: {
       unet: 'teuber',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -9785,7 +9785,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    teuber: {
+    teuber_CC25100: {
       unet: 'teuber',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -9793,7 +9793,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    tevlin: {
+    tevlin_CC45100: {
       unet: 'tevlin',
       costCenter: 'CC45100',
       unitName:
@@ -9802,7 +9802,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    tfai: {
+    tfai_CC25200: {
       unet: 'tfai',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -9810,7 +9810,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    tfai: {
+    tfai_CC16700: {
       unet: 'tfai',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -9818,7 +9818,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    tgrigor: {
+    tgrigor_CC11100: {
       unet: 'tgrigor',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -9826,7 +9826,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    thaxton: {
+    thaxton_CC18600: {
       unet: 'thaxton',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -9834,7 +9834,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    theobal: {
+    theobal_CC16100: {
       unet: 'theobal',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -9842,7 +9842,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of Biochemistry',
     },
-    timothysong: {
+    timothysong_CC45100: {
       unet: 'timothysong',
       costCenter: 'CC45100',
       unitName:
@@ -9851,7 +9851,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    tjhickey: {
+    tjhickey_CC25200: {
       unet: 'tjhickey',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -9859,7 +9859,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    tjhickey: {
+    tjhickey_CC25900: {
       unet: 'tjhickey',
       costCenter: 'CC25900',
       unitName: 'Film, Television and Interactive Media Program',
@@ -9867,7 +9867,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    tjhickey: {
+    tjhickey_CC16600: {
       unet: 'tjhickey',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -9875,7 +9875,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Professor of Computer Science',
     },
-    tjhickey: {
+    tjhickey_CC30800: {
       unet: 'tjhickey',
       costCenter: 'CC30800',
       unitName: 'Myra Kraft Transitional Year Program',
@@ -9883,7 +9883,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    tjohn: {
+    tjohn_CC40100: {
       unet: 'tjohn',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9891,7 +9891,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of the Practice',
     },
-    tking: {
+    tking_CC12400: {
       unet: 'tking',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -9899,7 +9899,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of English',
     },
-    tlam: {
+    tlam_CC26100: {
       unet: 'tlam',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -9907,7 +9907,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    tmbrown: {
+    tmbrown_CC40100: {
       unet: 'tmbrown',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9915,7 +9915,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    tmitch: {
+    tmitch_CC18700: {
       unet: 'tmitch',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -9923,7 +9923,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    toddchapin: {
+    toddchapin_CC45100: {
       unet: 'toddchapin',
       costCenter: 'CC45100',
       unitName:
@@ -9932,7 +9932,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    tohall: {
+    tohall_CC11200: {
       unet: 'tohall',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -9940,7 +9940,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    tompkins: {
+    tompkins_CC40100: {
       unet: 'tompkins',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9949,7 +9949,7 @@ module.exports = {
       affilPositionTitle:
         'Associate Professor; Director of Institute on Healthcare Systems',
     },
-    tonishapiro: {
+    tonishapiro_CC27900: {
       unet: 'tonishapiro',
       costCenter: 'CC27900',
       unitName: 'Creativity, the Arts, and Social Transformation Program',
@@ -9957,7 +9957,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    tqueler: {
+    tqueler_CC27700: {
       unet: 'tqueler',
       costCenter: 'CC27700',
       unitName: 'Graduate Program in Genetic Counseling',
@@ -9965,7 +9965,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    tracigreen: {
+    tracigreen_CC40100: {
       unet: 'tracigreen',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9973,7 +9973,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    troen: {
+    troen_CC13200: {
       unet: 'troen',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -9981,7 +9981,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    tsekourakis: {
+    tsekourakis_CC16600: {
       unet: 'tsekourakis',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -9989,7 +9989,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    tshapiro: {
+    tshapiro_CC40100: {
       unet: 'tshapiro',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -9997,7 +9997,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    tsipis: {
+    tsipis_CC16200: {
       unet: 'tsipis',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -10005,7 +10005,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    tslocz: {
+    tslocz_CC18400: {
       unet: 'tslocz',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -10013,7 +10013,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    tslocz: {
+    tslocz_CC43100: {
       unet: 'tslocz',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -10021,7 +10021,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    tsouza: {
+    tsouza_CC11200: {
       unet: 'tsouza',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -10029,7 +10029,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    tstreet: {
+    tstreet_CC16100: {
       unet: 'tstreet',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -10037,7 +10037,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    tstreet: {
+    tstreet_CC28100: {
       unet: 'tstreet',
       costCenter: 'CC28100',
       unitName: 'Rosenstiel Basic Medical Sciences Research Center',
@@ -10045,7 +10045,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    ttoth: {
+    ttoth_CC43100: {
       unet: 'ttoth',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -10053,7 +10053,7 @@ module.exports = {
       affilPosition: 'Adjunct Professor',
       affilPositionTitle: 'undefined',
     },
-    turrigia: {
+    turrigia_CC25200: {
       unet: 'turrigia',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -10061,7 +10061,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Joseph Levitan Professor of Vision Science',
     },
-    turrigia: {
+    turrigia_CC16200: {
       unet: 'turrigia',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -10069,7 +10069,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Joseph Levitan Professor of Vision Science',
     },
-    tuttle: {
+    tuttle_CC16500: {
       unet: 'tuttle',
       costCenter: 'CC16500',
       unitName: 'Department of Chemistry',
@@ -10077,7 +10077,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    uanjaria: {
+    uanjaria_CC12400: {
       unet: 'uanjaria',
       costCenter: 'CC12400',
       unitName: 'Department of English',
@@ -10085,7 +10085,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    uanjaria: {
+    uanjaria_CC18320: {
       unet: 'uanjaria',
       costCenter: 'CC18320',
       unitName: 'South Asian Studies Program',
@@ -10093,7 +10093,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ungerlei: {
+    ungerlei_CC27300: {
       unet: 'ungerlei',
       costCenter: 'CC27300',
       unitName: 'Peace, Conflict, and Coexistence Studies Program',
@@ -10101,7 +10101,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    unglaub: {
+    unglaub_CC11100: {
       unet: 'unglaub',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -10109,7 +10109,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    unglaub: {
+    unglaub_CC26600: {
       unet: 'unglaub',
       costCenter: 'CC26600',
       unitName: 'Interdepartmental Program in Italian Studies',
@@ -10117,7 +10117,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    unglaub: {
+    unglaub_CC12102: {
       unet: 'unglaub',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -10125,7 +10125,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    unglaub: {
+    unglaub_CC27100: {
       unet: 'unglaub',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -10133,7 +10133,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    urcid: {
+    urcid_CC18300: {
       unet: 'urcid',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -10141,7 +10141,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    valakh: {
+    valakh_CC16200: {
       unet: 'valakh',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -10149,7 +10149,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    vanhoosr: {
+    vanhoosr_CC25200: {
       unet: 'vanhoosr',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -10157,7 +10157,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of Biology',
     },
-    vanhoosr: {
+    vanhoosr_CC16200: {
       unet: 'vanhoosr',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -10165,7 +10165,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of Biology',
     },
-    vanhoosr: {
+    vanhoosr_CC27200: {
       unet: 'vanhoosr',
       costCenter: 'CC27200',
       unitName: 'Neuroscience Program',
@@ -10173,7 +10173,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'Associate Professor of Biology',
     },
-    vanmoerb: {
+    vanmoerb_CC16700: {
       unet: 'vanmoerb',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -10181,7 +10181,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'Professor Emeritus of Mathematics',
     },
-    vayntrub: {
+    vayntrub_CC13200: {
       unet: 'vayntrub',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -10189,7 +10189,7 @@ module.exports = {
       affilPosition: 'Adjunct Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    vchaudhry: {
+    vchaudhry_CC24700: {
       unet: 'vchaudhry',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -10197,7 +10197,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    voiret: {
+    voiret_CC12500: {
       unet: 'voiret',
       costCenter: 'CC12500',
       unitName: 'Department of Romance Studies',
@@ -10205,7 +10205,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    vonmerin: {
+    vonmerin_CC12600: {
       unet: 'vonmerin',
       costCenter: 'CC12600',
       unitName:
@@ -10214,7 +10214,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    vonmerin: {
+    vonmerin_CC24700: {
       unet: 'vonmerin',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -10222,7 +10222,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    vonmerin: {
+    vonmerin_CC25700: {
       unet: 'vonmerin',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -10230,7 +10230,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    vsmedile: {
+    vsmedile_CC45100: {
       unet: 'vsmedile',
       costCenter: 'CC45100',
       unitName:
@@ -10239,7 +10239,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    wangh: {
+    wangh_CC16200: {
       unet: 'wangh',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -10247,7 +10247,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    wardle: {
+    wardle_CC16800: {
       unet: 'wardle',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -10255,7 +10255,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    wardwell: {
+    wardwell_CC11100: {
       unet: 'wardwell',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -10263,7 +10263,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    warrenschwartz: {
+    warrenschwartz_CC11100: {
       unet: 'warrenschwartz',
       costCenter: 'CC11100',
       unitName: 'Department of Fine Arts',
@@ -10271,7 +10271,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    watson: {
+    watson_CC18700: {
       unet: 'watson',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -10279,7 +10279,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    wcadge: {
+    wcadge_CC18800: {
       unet: 'wcadge',
       costCenter: 'CC18800',
       unitName: 'Department of Sociology',
@@ -10287,7 +10287,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    wcadge: {
+    wcadge_CC24700: {
       unet: 'wcadge',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -10295,7 +10295,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    wchalmus: {
+    wchalmus_CC11400: {
       unet: 'wchalmus',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -10303,7 +10303,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    weiw: {
+    weiw_CC12600: {
       unet: 'weiw',
       costCenter: 'CC12600',
       unitName:
@@ -10312,7 +10312,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    wellner: {
+    wellner_CC26900: {
       unet: 'wellner',
       costCenter: 'CC26900',
       unitName: 'Linguistics and Computational Linguistics',
@@ -10320,7 +10320,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    wellner: {
+    wellner_CC16600: {
       unet: 'wellner',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -10328,7 +10328,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    westover: {
+    westover_CC16100: {
       unet: 'westover',
       costCenter: 'CC16100',
       unitName: 'Department of Biochemistry',
@@ -10336,7 +10336,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    white: {
+    white_CC16200: {
       unet: 'white',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -10344,7 +10344,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    willrich: {
+    willrich_CC18500: {
       unet: 'willrich',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -10352,7 +10352,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    willrich: {
+    willrich_CC18600: {
       unet: 'willrich',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -10360,7 +10360,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    willrich: {
+    willrich_CC25100: {
       unet: 'willrich',
       costCenter: 'CC25100',
       unitName: 'Legal Studies Program',
@@ -10368,7 +10368,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    wilmes: {
+    wilmes_CC25200: {
       unet: 'wilmes',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -10376,7 +10376,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    wilmes: {
+    wilmes_CC16700: {
       unet: 'wilmes',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -10384,7 +10384,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    wingfiel: {
+    wingfiel_CC18700: {
       unet: 'wingfiel',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -10392,7 +10392,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    wkapelle: {
+    wkapelle_CC18500: {
       unet: 'wkapelle',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -10400,7 +10400,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    wkapelle: {
+    wkapelle_CC26600: {
       unet: 'wkapelle',
       costCenter: 'CC26600',
       unitName: 'Interdepartmental Program in Italian Studies',
@@ -10408,7 +10408,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    wkapelle: {
+    wkapelle_CC27100: {
       unet: 'wkapelle',
       costCenter: 'CC27100',
       unitName: 'Medieval and Renaissance Studies Program',
@@ -10416,7 +10416,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    wmuigai: {
+    wmuigai_CC18100: {
       unet: 'wmuigai',
       costCenter: 'CC18100',
       unitName: 'Department of African and African American Studies',
@@ -10424,7 +10424,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    wmuigai: {
+    wmuigai_CC18500: {
       unet: 'wmuigai',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -10432,7 +10432,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    wmuigai: {
+    wmuigai_CC26100: {
       unet: 'wmuigai',
       costCenter: 'CC26100',
       unitName: 'Health: Science, Society, and Policy Program',
@@ -10440,7 +10440,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    wodinsky: {
+    wodinsky_CC18700: {
       unet: 'wodinsky',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -10448,7 +10448,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    woll: {
+    woll_CC18600: {
       unet: 'woll',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -10456,7 +10456,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    wooden: {
+    wooden_CC11400: {
       unet: 'wooden',
       costCenter: 'CC11400',
       unitName: 'Department of Theater Arts',
@@ -10464,7 +10464,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    woodruff: {
+    woodruff_CC16200: {
       unet: 'woodruff',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -10472,7 +10472,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    wright: {
+    wright_CC13200: {
       unet: 'wright',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -10480,7 +10480,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    wrogers: {
+    wrogers_CC16800: {
       unet: 'wrogers',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -10488,7 +10488,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    wuzengcn: {
+    wuzengcn_CC40100: {
       unet: 'wuzengcn',
       costCenter: 'CC40100',
       unitName: 'Heller School for Social Policy and Management',
@@ -10497,7 +10497,7 @@ module.exports = {
       affilPositionTitle:
         'Associate Research Professor at the Schneider Institutes for Health Policy',
     },
-    xinghang: {
+    xinghang_CC18500: {
       unet: 'xinghang',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -10505,7 +10505,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    xinghang: {
+    xinghang_CC12102: {
       unet: 'xinghang',
       costCenter: 'CC12102',
       unitName: 'Master of Arts Program in Comparative Humanities',
@@ -10513,7 +10513,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    xiwenlu: {
+    xiwenlu_CC12600: {
       unet: 'xiwenlu',
       costCenter: 'CC12600',
       unitName:
@@ -10522,7 +10522,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    xixiran: {
+    xixiran_CC12600: {
       unet: 'xixiran',
       costCenter: 'CC12600',
       unitName:
@@ -10531,7 +10531,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    xji: {
+    xji_CC18400: {
       unet: 'xji',
       costCenter: 'CC18400',
       unitName: 'Department of Economics',
@@ -10539,7 +10539,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    xji: {
+    xji_CC25700: {
       unet: 'xji',
       costCenter: 'CC25700',
       unitName: 'Environmental Studies Program',
@@ -10547,7 +10547,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    xliu0806: {
+    xliu0806_CC18700: {
       unet: 'xliu0806',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -10555,7 +10555,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    xuen: {
+    xuen_CC25200: {
       unet: 'xuen',
       costCenter: 'CC25200',
       unitName: 'Benjamin and Mae Volen National Center for Complex Systems',
@@ -10563,7 +10563,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    xuen: {
+    xuen_CC26900: {
       unet: 'xuen',
       costCenter: 'CC26900',
       unitName: 'Linguistics and Computational Linguistics',
@@ -10571,7 +10571,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    xuen: {
+    xuen_CC16600: {
       unet: 'xuen',
       costCenter: 'CC16600',
       unitName: 'Michtom School of Computer Science',
@@ -10579,7 +10579,7 @@ module.exports = {
       affilPosition: 'Associate Professor',
       affilPositionTitle: 'undefined',
     },
-    xumsimon: {
+    xumsimon_CC16200: {
       unet: 'xumsimon',
       costCenter: 'CC16200',
       unitName: 'Department of Biology',
@@ -10587,7 +10587,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    xvidalberastain: {
+    xvidalberastain_CC43100: {
       unet: 'xvidalberastain',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -10595,7 +10595,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    yack: {
+    yack_CC12600: {
       unet: 'yack',
       costCenter: 'CC12600',
       unitName:
@@ -10604,7 +10604,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    yack: {
+    yack_CC18600: {
       unet: 'yack',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -10612,7 +10612,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    yangs: {
+    yangs_CC43100: {
       unet: 'yangs',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -10620,7 +10620,7 @@ module.exports = {
       affilPosition: 'Assistant Professor',
       affilPositionTitle: 'undefined',
     },
-    ychang: {
+    ychang_CC11200: {
       unet: 'ychang',
       costCenter: 'CC11200',
       unitName: 'Department of Music',
@@ -10628,7 +10628,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    yfeng: {
+    yfeng_CC12600: {
       unet: 'yfeng',
       costCenter: 'CC12600',
       unitName:
@@ -10637,7 +10637,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    ylbecker: {
+    ylbecker_CC43100: {
       unet: 'ylbecker',
       costCenter: 'CC43100',
       unitName: 'International Business School',
@@ -10645,7 +10645,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    yourgrau: {
+    yourgrau_CC12300: {
       unet: 'yourgrau',
       costCenter: 'CC12300',
       unitName: 'Department of Philosophy',
@@ -10653,7 +10653,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    yourgrau: {
+    yourgrau_CC25800: {
       unet: 'yourgrau',
       costCenter: 'CC25800',
       unitName: 'Interdepartmental Program in European Cultural Studies',
@@ -10661,7 +10661,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'undefined',
     },
-    ypark: {
+    ypark_CC16700: {
       unet: 'ypark',
       costCenter: 'CC16700',
       unitName: 'Department of Mathematics',
@@ -10669,7 +10669,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    yukimi: {
+    yukimi_CC12600: {
       unet: 'yukimi',
       costCenter: 'CC12600',
       unitName:
@@ -10678,7 +10678,7 @@ module.exports = {
       affilPosition: 'Senior Lecturer',
       affilPositionTitle: 'undefined',
     },
-    yuridoolan: {
+    yuridoolan_CC18500: {
       unet: 'yuridoolan',
       costCenter: 'CC18500',
       unitName: 'Department of History',
@@ -10686,7 +10686,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    yuridoolan: {
+    yuridoolan_CC24700: {
       unet: 'yuridoolan',
       costCenter: 'CC24700',
       unitName: 'Department of Womens, Gender and Sexuality Studies',
@@ -10694,7 +10694,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    zalbert: {
+    zalbert_CC18600: {
       unet: 'zalbert',
       costCenter: 'CC18600',
       unitName: 'Department of Politics',
@@ -10702,7 +10702,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    zalipsco: {
+    zalipsco_CC13200: {
       unet: 'zalipsco',
       costCenter: 'CC13200',
       unitName: 'Department of Near Eastern and Judaic Studies',
@@ -10710,7 +10710,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    zalipsco: {
+    zalipsco_CC12450: {
       unet: 'zalipsco',
       costCenter: 'CC12450',
       unitName: 'University Writing Program',
@@ -10718,7 +10718,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    zdogic: {
+    zdogic_CC16800: {
       unet: 'zdogic',
       costCenter: 'CC16800',
       unitName: 'Martin A. Fisher School of Physics',
@@ -10726,7 +10726,7 @@ module.exports = {
       affilPosition: 'undefined',
       affilPositionTitle: 'undefined',
     },
-    zebrowit: {
+    zebrowit_CC18700: {
       unet: 'zebrowit',
       costCenter: 'CC18700',
       unitName: 'Department of Psychology',
@@ -10734,7 +10734,7 @@ module.exports = {
       affilPosition: 'Professor',
       affilPositionTitle: 'Manuel Yellen Professor of Social Relations',
     },
-    zeitlin: {
+    zeitlin_CC18300: {
       unet: 'zeitlin',
       costCenter: 'CC18300',
       unitName: 'Department of Anthropology',
@@ -10742,7 +10742,7 @@ module.exports = {
       affilPosition: 'Professor Emeritus/a',
       affilPositionTitle: 'undefined',
     },
-    zhaojiezhang: {
+    zhaojiezhang_CC45100: {
       unet: 'zhaojiezhang',
       costCenter: 'CC45100',
       unitName:
@@ -10751,7 +10751,7 @@ module.exports = {
       affilPosition: 'Instructor',
       affilPositionTitle: 'undefined',
     },
-    zhenw: {
+    zhenw_CC12600: {
       unet: 'zhenw',
       costCenter: 'CC12600',
       unitName:
@@ -10760,7 +10760,7 @@ module.exports = {
       affilPosition: 'Lecturer',
       affilPositionTitle: 'undefined',
     },
-    ztreimer: {
+    ztreimer_CC25000: {
       unet: 'ztreimer',
       costCenter: 'CC25000',
       unitName: 'Education Program',

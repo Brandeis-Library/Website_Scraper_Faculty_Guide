@@ -1,28 +1,55 @@
 const fs = require('fs');
 
 (async function () {
-  // brings in the spreadsheet obs + faculty guide scraped data
-  const { userEnhancedObjs } = require('./Spreadsheet_Objs_Plus_Fac_Guide.js');
+  try {
+    // brings in the spreadsheet obs + faculty guide scraped data
+    const {
+      userEnhancedObjs,
+    } = require('./Spreadsheet_Objs_Plus_Fac_Guide.js');
 
-  //console.log('userEnhancedObjs----- ', userEnhancedObjs);
+    //console.log('userEnhancedObjs----- ', userEnhancedObjs);
 
-  // brings in the spreadsheet obs + faculty guide scraped data
-  const { affilationObjs } = require('./Affilation_Spreadsheet_Objs.js');
+    // brings in the spreadsheet obs + faculty guide scraped data
+    const { affilationObjs } = require('./Affilation_Spreadsheet_Objs.js');
 
-  //console.log('affilationObjs----- ', affilationObjs);
+    //console.log('affilationObjs----- ', affilationObjs);
 
-  //userEnhancedObjs is not and array so it does not have a length.
-  for (let i = 0; i < userEnhancedObjs.length; i++) {
-    const positionArray = [];
-    const titleArray = [];
+    for (const user in userEnhancedObjs) {
+      //console.log(`${user}: ${JSON.stringify(userEnhancedObjs[user])}`);
+      const positionArray = [];
+      const titleArray = [];
+      userEnhancedObjs[user].positionArray = positionArray;
+      userEnhancedObjs[user].titleArray = titleArray;
+      const objStringified = JSON.stringify(userEnhancedObjs[user]);
+      const unet = userEnhancedObjs[user].unet;
+      const ccenter = [...userEnhancedObjs[user].costCenters];
+      let ccenterprimary = userEnhancedObjs[user].costCenterPrimary;
 
-    userEnhancedObjs[i].positionArray = positionArray;
-    userEnhancedObjs[i].titleArray = titleArray;
-    console.log('inside for loop +++++++ ', userEnhancedObjs[i]);
-  }
-  console.log('helloooo', userEnhancedObjs.length);
-  //console.log(userEnhancedObjs);
-  for (const user in userEnhancedObjs) {
-    console.log(`${user}: ${JSON.stringify(userEnhancedObjs[user])}`);
+      console.log('ccenter---  ', Array.isArray(ccenter));
+
+      if (!Array.isArray(ccenter)) {
+        Array.from(ccenter);
+      }
+      Array.from(ccenter);
+
+      if (!ccenter[0]) {
+        Array.from(ccenter);
+        ccenter.pop();
+        ccenter.push(ccenterprimary);
+      }
+      console.log('ccenter---  ', Array.isArray(ccenter));
+      for (let i = 0; i < ccenter.length; i++) {
+        let id = `${unet}_${ccenter[i]}`;
+        //console.log('id --- ', id);
+        const obj = await affilationObjs[id];
+        console.log('affiliation Object ===  ', obj);
+        //userEnhancedObjs[user].positionArray.push(obj[affilPosition]);
+        //userEnhancedObjs[user].titleArray.push(obj[affilPositionTitle]);
+      }
+
+      //console.log(`${user}: ${objStringified}`);
+    }
+  } catch (error) {
+    console.error(error);
   }
 })();

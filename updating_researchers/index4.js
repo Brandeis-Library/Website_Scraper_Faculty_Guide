@@ -40,7 +40,7 @@ const XLSX = require('xlsx');
       obj.costCenter = affilObj.Affiliation_Unit_Code;
       obj.unitName = affilObj.Affiliation_Unit_Name;
 
-      const obj2 = `"${affilObj.Primary_Identifier}": {"unet": "${affilObj.Primary_Identifier}",
+      const obj2 = `"${affilObj.Primary_Identifier}_${affilObj.Affiliation_Unit_Code}": {"unet": "${affilObj.Primary_Identifier}",
     "costCenter": "${affilObj.Affiliation_Unit_Code}", "unitName": "${affilObj.Affiliation_Unit_Name}", "unitType": "${affilObj.Affiliation_Unit_Type}", "affilPosition": "${affilObj.Affiliation_Position}", "affilPositionTitle": "${affilObj.Affiliation_Position_Title}"
     }`;
 
