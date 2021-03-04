@@ -29,8 +29,8 @@ const fs = require('fs');
       console.log('ccenter 1st check ---  ', Array.isArray(ccenter));
 
       console.log('ccenter[0] ---', ccenter[0]);
-      if (!ccenter[0]) {
-        ccenter.pop();
+      if (ccenter == 'undefined') {
+        ccenter = [];
         ccenter.push(ccenterprimary);
       } else {
         ccenter = ccenter.split(',');
