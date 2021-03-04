@@ -22,27 +22,32 @@ const fs = require('fs');
       userEnhancedObjs[user].titleArray = titleArray;
       const objStringified = JSON.stringify(userEnhancedObjs[user]);
       const unet = userEnhancedObjs[user].unet;
-      const ccenter = [...userEnhancedObjs[user].costCenters];
+      let ccenter = userEnhancedObjs[user].costCenters;
       let ccenterprimary = userEnhancedObjs[user].costCenterPrimary;
 
-      console.log('ccenter---  ', Array.isArray(ccenter));
+      console.log('ccenter root -- ', ccenter);
+      console.log('ccenter 1st check ---  ', Array.isArray(ccenter));
 
-      if (!Array.isArray(ccenter)) {
-        Array.from(ccenter);
-      }
-      Array.from(ccenter);
-
+      console.log('ccenter[0] ---', ccenter[0]);
       if (!ccenter[0]) {
-        Array.from(ccenter);
         ccenter.pop();
         ccenter.push(ccenterprimary);
+      } else {
+        ccenter = ccenter.split(',');
       }
-      console.log('ccenter---  ', Array.isArray(ccenter));
+      console.log('ccenter 2nd check ---  ', Array.isArray(ccenter));
       for (let i = 0; i < ccenter.length; i++) {
         let id = `${unet}_${ccenter[i]}`;
-        //console.log('id --- ', id);
+        console.log('id --- ', id);
         const obj = await affilationObjs[id];
-        console.log('affiliation Object ===  ', obj);
+        console.log(
+          'affiliation Object ===  ',
+          obj,
+          'ccenter[i] ',
+          ccenter[i],
+          ccenter,
+          unet
+        );
         //userEnhancedObjs[user].positionArray.push(obj[affilPosition]);
         //userEnhancedObjs[user].titleArray.push(obj[affilPositionTitle]);
       }

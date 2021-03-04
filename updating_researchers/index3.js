@@ -47,7 +47,7 @@ const fs = require('fs');
             `${userObjs[i].unet}: { fullName: "${userObjs[i].fullName}", firstName: "${userObjs[i].firstName}",lastName: "${userObjs[i].lastName}", unet: "${userObjs[i].unet}",titleWorkday: "${userObjs[i].title}",costCenterPrimary: "${userObjs[i].costCenterPrimary}",
           costCenterPrimaryLabel: "${userObjs[i].costCenterPrimaryLabel}",
           CCH: "${userObjs[i].CCH}",
-          costCenters: [${userObjs[i].costCenters}],
+          costCenters: "${userObjs[i].costCenters}",
           facGuideEmail: "${userObjs[i].facGuideEmail}",
           facGuideTitle: "${userObjs[i].facGuideTitle}",
           facGuide: "${userObjs[i].facGuide}",
@@ -77,10 +77,10 @@ const fs = require('fs');
           flags: 'a',
         })
         .write(
-          `${userObjs[i].unet}: { fullName: "${userObjs[i].fullName}", firstName: "${userObjs[i].firstName}",lastName: "${userObjs[i].lastName}", unet: "${userObjs[i].unet}",titleWorkday: "${userObjs[i].title}",costCenterPrimary: "${userObjs[i].costCenterPrimary}",
+          `"${userObjs[i].unet}": { fullName: "${userObjs[i].fullName}", firstName: "${userObjs[i].firstName}",lastName: "${userObjs[i].lastName}", unet: "${userObjs[i].unet}",titleWorkday: "${userObjs[i].title}",costCenterPrimary: "${userObjs[i].costCenterPrimary}",
           costCenterPrimaryLabel: "${userObjs[i].costCenterPrimaryLabel}",
           CCH: "${userObjs[i].CCH}",
-          costCenters: "[${userObjs[i].costCenters}]",
+          costCenters: "${userObjs[i].costCenters}",
           facGuideEmail: "${userObjs[i].facGuideEmail}",
           facGuideTitle: "${userObjs[i].facGuideTitle}",
           facGuide: "${userObjs[i].facGuide}",
