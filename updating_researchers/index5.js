@@ -26,7 +26,7 @@ const fs = require('fs');
     // write headers for Spreadsheet_Objs.csv
     await fs.createWriteStream('./Final_Data_Obj.js', { flags: 'a' }).write(
       `module.exports = {
-    finalDataObjs: {`
+    finalDataObjs: `
     );
 
     for (const user in userEnhancedObjs) {
@@ -94,7 +94,7 @@ const fs = require('fs');
       .createWriteStream('./Final_Data_Obj.js', {
         flags: 'a',
       })
-      .write(`}}\n`);
+      .write(`}\n`);
   } catch (error) {
     console.error(error);
   }
