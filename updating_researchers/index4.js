@@ -50,7 +50,13 @@ const XLSX = require('xlsx');
 
     await fs
       .createWriteStream('./Affilation_Spreadsheet_Objs.js', { flags: 'a' })
-      .write(`${resolvedAffilDataObjs}}}`);
+      .write(`${resolvedAffilDataObjs}`);
+
+    await fs
+      .createWriteStream('./Affilation_Spreadsheet_Objs.js', {
+        flags: 'a',
+      })
+      .write(`}}\n`);
 
     console.log('Can you see me now');
   } catch (error) {

@@ -14,6 +14,21 @@ const fs = require('fs');
 
     //console.log('affilationObjs----- ', affilationObjs);
 
+    // Ensure creation of final before truncating
+    await fs.appendFile('./Final_Data_Obj.js', '', function (err) {
+      if (err) throw err;
+      console.log('Final_Data_Obj.js!');
+    });
+
+    // Truncate final before appending
+    await fs.truncateSync('./Final_Data_Obj.js');
+
+    // write headers for Spreadsheet_Objs.csv
+    await fs.createWriteStream('./Final_Data_Obj.js', { flags: 'a' }).write(
+      `module.exports = {
+    finalDataObjs: {`
+    );
+
     for (const user in userEnhancedObjs) {
       //console.log(`${user}: ${JSON.stringify(userEnhancedObjs[user])}`);
       const positionArray = [];
@@ -40,6 +55,17 @@ const fs = require('fs');
         let id = `${unet}_${ccenter[i]}`;
         console.log('id --- ', id);
         const obj = await affilationObjs[id];
+        if (!obj) {
+          console.log('continue +++++++++++++++++++ ');
+          const affilPos = 'undefined';
+          //console.log('affilPos ************ ', affilPos);
+          userEnhancedObjs[user].positionArray.push(affilPos);
+          const affilPostTit = 'undefined';
+          //console.log('affilPostTit ************ ', affilPostTit);
+          userEnhancedObjs[user].titleArray.push(affilPostTit);
+          userEnhancedObjs[user].affilSheet = 'no';
+          continue;
+        }
         console.log(
           'affiliation Object ===  ',
           obj,
@@ -48,12 +74,27 @@ const fs = require('fs');
           ccenter,
           unet
         );
-        //userEnhancedObjs[user].positionArray.push(obj[affilPosition]);
-        //userEnhancedObjs[user].titleArray.push(obj[affilPositionTitle]);
+        const affilPos = obj['affilPosition'];
+        //console.log('affilPos ************ ', affilPos);
+        userEnhancedObjs[user].positionArray.push(affilPos);
+        const affilPostTit = obj['affilPositionTitle'];
+        //console.log('affilPostTit ************ ', affilPostTit);
+        userEnhancedObjs[user].titleArray.push(affilPostTit);
+        userEnhancedObjs[user].affilSheet = 'yes';
       }
 
-      //console.log(`${user}: ${objStringified}`);
+      console.log(`${user}: ${JSON.stringify(userEnhancedObjs[user])}`);
     }
+    // write headers for Spreadsheet_Objs.csv
+    await fs
+      .createWriteStream('./Final_Data_Obj.js', { flags: 'a' })
+      .write(`${JSON.stringify(userEnhancedObjs)}`);
+
+    await fs
+      .createWriteStream('./Final_Data_Obj.js', {
+        flags: 'a',
+      })
+      .write(`}}\n`);
   } catch (error) {
     console.error(error);
   }
