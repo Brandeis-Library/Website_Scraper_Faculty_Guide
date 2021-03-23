@@ -20,7 +20,7 @@ const fs = require('fs');
     for (const unet in finalDataObjs) {
       const user = finalDataObjs[unet];
       console.log('unet', unet);
-      let str = `<user><primary_id>${user.unet}</primary_id><is_researcher>true</is_researcher><researcher><researcher_first_name>${user.firstName}</researcher_first_name><researcher_last_name>${user.lastName}></researcher_last_name></researcher></user>`;
+      let str = `<user><primary_id>${user.unet}</primary_id><is_researcher>true</is_researcher><researcher><researcher_first_name>${user.firstName}</researcher_first_name><researcher_last_name>${user.lastName}></researcher_last_name><position>${user.titleWorkday}</position></researcher></user>`;
       console.log('for in loop', str);
       await fs
         .createWriteStream('./updateRearcher.xml', { flags: 'a' })
