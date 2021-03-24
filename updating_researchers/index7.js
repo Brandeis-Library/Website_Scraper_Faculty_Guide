@@ -22,6 +22,7 @@ const fs = require('fs');
       let displayTitleVar = '';
       let costCentersVar = '';
       const ccArr = user.costCenters.split(',');
+      console.log('ccArr-----  ', ccArr);
       if (user.facGuideTitle !== 'undefined') {
         displayTitleVar = `<display_title>${user.facGuideTitle}</display_title>`;
       }
@@ -29,6 +30,11 @@ const fs = require('fs');
       if (ccArr.length === 1) {
         costCentersVar = `<researcher_organization_affiliation
         >${user.costCenterPrimary}</researcher_organization_affiliation>`;
+      } else {
+        for (y = 0; y < ccArr.length; y++) {
+          costCentersVar += `<researcher_organization_affiliation
+        >${ccArr[y]}</researcher_organization_affiliation>`;
+        }
       }
 
       console.log('unet', unet);
