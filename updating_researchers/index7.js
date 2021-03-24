@@ -28,12 +28,10 @@ const fs = require('fs');
       }
 
       if (ccArr.length === 1) {
-        costCentersVar = `<researcher_organization_affiliation
-        >${user.costCenterPrimary}</researcher_organization_affiliation>`;
+        costCentersVar = `<researcher_organization_affiliation><organization_code>${user.costCenterPrimary}</organization_code></researcher_organization_affiliation>`;
       } else {
         for (y = 0; y < ccArr.length; y++) {
-          costCentersVar += `<researcher_organization_affiliation
-        >${ccArr[y]}</researcher_organization_affiliation>`;
+          costCentersVar += `<researcher_organization_affiliation><organization_code>${ccArr[y]}</organization_code></researcher_organization_affiliation>`;
         }
       }
 
