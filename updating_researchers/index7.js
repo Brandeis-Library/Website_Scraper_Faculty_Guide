@@ -21,12 +21,13 @@ const fs = require('fs');
       const user = finalDataObjs[unet];
       let displayTitleVar = '';
       let costCentersVar = '';
+      let positionVar = '';
       const ccArr = user.costCenters.split(',');
       console.log('ccArr-----  ', ccArr);
       if (user.facGuideTitle !== 'undefined') {
         displayTitleVar = `<display_title>${user.facGuideTitle}</display_title>`;
       }
-
+      // set affilation dept codes
       if (ccArr.length === 1) {
         costCentersVar = `<researcher_organization_affiliation><organization_code>${user.costCenterPrimary}</organization_code></researcher_organization_affiliation>`;
       } else {
@@ -35,8 +36,14 @@ const fs = require('fs');
         }
       }
 
+      // map title from Workday to codes for postion in Esploro
+
+      if (user.titleWorkday === 'Professor') {
+        positionVar = 'professor';
+      }
+
       console.log('unet', unet);
-      let str = `<user><primary_id>${user.unet}</primary_id><is_researcher>true</is_researcher><researcher><researcher_first_name>${user.firstName}</researcher_first_name><researcher_last_name>${user.lastName}></researcher_last_name><position>${user.titleWorkday}</position>${displayTitleVar}<researcher_organization_affiliations>${costCentersVar}</researcher_organization_affiliations></researcher></user>`;
+      let str = `<user><primary_id>${user.unet}</primary_id><is_researcher>true</is_researcher><researcher><researcher_first_name>${user.firstName}</researcher_first_name><researcher_last_name>${user.lastName}></researcher_last_name><position>${positionVar}</position>${displayTitleVar}<researcher_organization_affiliations>${costCentersVar}</researcher_organization_affiliations></researcher></user>`;
       console.log('for in loop', str);
       await fs
         .createWriteStream('./updateRearcher.xml', { flags: 'a' })
