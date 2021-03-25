@@ -38,7 +38,7 @@ const fs = require('fs');
 
       // map title from Workday to codes for postion in Esploro
       //  user.titleWorkday === 'Professor' user.titleWorkday === '' ||
-      if (user.titleWorkday.startsWith('Professor of the Practice')) {
+      if (user.titleWorkday.includes('Professor of the Practice')) {
         positionVar = 'professor_practice';
       } else if (
         user.titleWorkday.startsWith('Associate Professor of the Practice')
