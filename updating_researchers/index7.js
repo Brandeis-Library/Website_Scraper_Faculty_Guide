@@ -37,9 +37,24 @@ const fs = require('fs');
       }
 
       // map title from Workday to codes for postion in Esploro
-
-      if (user.titleWorkday === 'Professor') {
+      //  user.titleWorkday === 'Professor' user.titleWorkday === '' ||
+      if (
+        user.titleWorkday === 'Professor' ||
+        user.titleWorkday === 'Professor of Computer Science' ||
+        user.titleWorkday === 'Professor of Mathematics' ||
+        user.titleWorkday === 'Professor of Psychology' ||
+        user.titleWorkday === 'Professor of Physics' ||
+        user.titleWorkday === 'Professor of Chemistry' ||
+        user.titleWorkday === 'Professor of Theater Arts' ||
+        user.titleWorkday ===
+          'Professor of Biology and Harold and Bernice Davis Chair in Aging and Neurodegenerative Disease'
+      ) {
         positionVar = 'professor';
+      } else if (user.titleWorkday === 'Postdoctoral Fellow') {
+        positionVar = 'postdoctoral_fellow';
+      } else {
+        // Can use this to test if any are in the category with a long\specific text
+        positionVar = user.titleWorkday;
       }
 
       console.log('unet', unet);
