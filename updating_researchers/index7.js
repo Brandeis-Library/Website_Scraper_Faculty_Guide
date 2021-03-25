@@ -44,7 +44,7 @@ const fs = require('fs');
         user.titleWorkday.startsWith('Associate Professor of the Practice')
       ) {
         positionVar = 'associate_practice';
-      } else if (user.titleWorkday === 'Postdoctoral Fellow') {
+      } else if (user.titleWorkdaystartsWith('Postdoctoral Fellow')) {
         positionVar = 'postdoctoral_fellow';
       } else if (user.titleWorkday.startsWith('Assistant Professor')) {
         positionVar = 'assistant_professor';
