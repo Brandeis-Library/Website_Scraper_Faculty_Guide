@@ -52,6 +52,29 @@ const fs = require('fs');
         positionVar = 'professor';
       } else if (user.titleWorkday === 'Postdoctoral Fellow') {
         positionVar = 'postdoctoral_fellow';
+      } else if (
+        user.titleWorkday === 'Assistant Professor of English' ||
+        user.titleWorkday === 'Assistant Professor of Philosophy' ||
+        user.titleWorkday ===
+          'Assistant Professor in Education and Studies in Jewish Education' ||
+        user.titleWorkday === 'Assistant Professor of Economics' ||
+        user.titleWorkday === 'Assistant Professor of Psychology' ||
+        user.titleWorkday ===
+          'Assistant Professor of Education and Director of Teacher Education' ||
+        user.titleWorkday === 'Assistant Professor of Chemistry' ||
+        user.titleWorkday === 'Assistant Professor of Chemistry' ||
+        user.titleWorkday ===
+          'Assistant Professor of University Writing and Director of First-Year Writing' ||
+        user.titleWorkday === 'Assistant Professor of Physics' ||
+        user.titleWorkday === 'Assistant Research Professor of Physics' ||
+        user.titleWorkday ===
+          'Assistant Professor of Education and Sociology' ||
+        user.titleWorkday === 'Assistant Professor of Politics' ||
+        user.titleWorkday === 'Assistant Professor in Psychology' ||
+        user.titleWorkday === 'Assistant Professor of Computer Science' ||
+        user.titleWorkday === 'Assistant Professor'
+      ) {
+        positionVar = 'assistant_professor';
       } else {
         // Can use this to test if any are in the category with a long\specific text
         positionVar = user.titleWorkday;
