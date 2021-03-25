@@ -50,6 +50,8 @@ const fs = require('fs');
         positionVar = 'assistant_professor';
       } else if (user.titleWorkday.startsWith('Adjunct Assistant Professor')) {
         positionVar = 'adjunct_assistant';
+      } else if (user.titleWorkday.startsWith('Adjunct Associate Professor')) {
+        positionVar = 'adjunct_associate';
       } else if (user.titleWorkday.startsWith('Lecturer')) {
         positionVar = 'lecturer';
       } else if (user.titleWorkday.startsWith('Associate Professor')) {
