@@ -59,6 +59,8 @@ const fs = require('fs');
         positionVar = 'distinguished_research_scientist';
       } else if (user.titleWorkday.startsWith('Postdoctoral Fellow')) {
         positionVar = 'postdoctoral_fellow';
+      } else if (user.titleWorkday.startsWith('Postdoctoral Associate')) {
+        positionVar = 'postdoctoral_associate';
       } else if (user.titleWorkday.startsWith('Assistant Professor')) {
         positionVar = 'assistant_professor';
       } else if (
@@ -71,6 +73,8 @@ const fs = require('fs');
         positionVar = 'fellow';
       } else if (user.titleWorkday.includes('Kay Fellow')) {
         positionVar = 'kay_fellow';
+      } else if (user.titleWorkday.includes('NRSA Postdoctoral Fellow')) {
+        positionVar = 'nrsa_fellow';
       } else if (user.titleWorkday.startsWith('Adjunct Assistant Professor')) {
         positionVar = 'adjunct_assistant';
       } else if (user.titleWorkday.startsWith('Adjunct Associate Professor')) {
@@ -97,6 +101,8 @@ const fs = require('fs');
         positionVar = 'professor';
       } else if (user.titleWorkday.startsWith('Instructor')) {
         positionVar = 'instructor';
+      } else if (user.titleWorkday.startsWith('Poet-in-Residence')) {
+        positionVar = 'poet_in_residence';
       } else {
         // Can use this to test if any are in the category with a long\specific text
         positionVar = user.titleWorkday;
