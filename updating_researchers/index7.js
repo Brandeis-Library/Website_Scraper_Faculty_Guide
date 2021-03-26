@@ -101,6 +101,14 @@ const fs = require('fs');
         positionVar = 'associate_research_2';
       } else if (user.titleWorkday.startsWith('Associate Research')) {
         positionVar = 'associate_research';
+      } else if (user.titleWorkday.startsWith('Sr Research Associate I')) {
+        positionVar = 'senior_research_associate_1';
+      } else if (user.titleWorkday.startsWith('Sr Research Associate II')) {
+        positionVar = 'senior_research_associate_2';
+      } else if (user.titleWorkday.startsWith('Sr Research Scientist I')) {
+        positionVar = 'senior_research_scientist_1';
+      } else if (user.titleWorkday.startsWith('Sr Research Scientist II')) {
+        positionVar = 'senior_research_scientist_2';
       } else if (user.titleWorkday.startsWith('Senior Lecturer')) {
         positionVar = 'senior_lecturer';
       } else if (user.titleWorkday.startsWith('Lecturer')) {
