@@ -97,7 +97,7 @@
     <researcher>
       <researcher_first_name>David</researcher_first_name>
       <researcher_last_name>Albert</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Myra Kraft Transitional Year Program</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -122,16 +122,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>zalbert</primary_id>
+    <primary_id>alemzadeh</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Zachary</researcher_first_name>
-      <researcher_last_name>Albert</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Politics</display_title>
+      <researcher_first_name>Maryam</researcher_first_name>
+      <researcher_last_name>Alemzadeh</researcher_last_name>
+      <position>Postdoctoral Associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18600</organization_code>
+          <organization_code>CC35100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -142,7 +141,7 @@
     <researcher>
       <researcher_first_name>Richard</researcher_first_name>
       <researcher_last_name>Allen</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -213,7 +212,7 @@
     <researcher>
       <researcher_first_name>Christopher</researcher_first_name>
       <researcher_last_name>Alt</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -332,7 +331,7 @@
     <researcher>
       <researcher_first_name>Geoffrey</researcher_first_name>
       <researcher_last_name>Wright</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -472,7 +471,7 @@
     <researcher>
       <researcher_first_name>Carlos</researcher_first_name>
       <researcher_last_name>Arellano</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
@@ -504,7 +503,7 @@
     <researcher>
       <researcher_first_name>Jeffrey</researcher_first_name>
       <researcher_last_name>Ashe</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -518,7 +517,7 @@
     <researcher>
       <researcher_first_name>Nancy</researcher_first_name>
       <researcher_last_name>Armstrong</researcher_last_name>
-      <position>Adjunct Associate Professor of the Practice</position>
+      <position>professor_practice</position>
       <display_title>Adjunct Associate Professor of the Practice of Theater Arts</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -562,7 +561,7 @@
     <researcher>
       <researcher_first_name>Ramon</researcher_first_name>
       <researcher_last_name>Balut</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -620,7 +619,7 @@
     <researcher>
       <researcher_first_name>Fabia Ursula</researcher_first_name>
       <researcher_last_name>Battistuzzi</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -744,7 +743,7 @@
     <researcher>
       <researcher_first_name>Victoria</researcher_first_name>
       <researcher_last_name>Beltran</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -800,7 +799,7 @@
     <researcher>
       <researcher_first_name>Mark</researcher_first_name>
       <researcher_last_name>Berger</researcher_last_name>
-      <position>associate_practice</position>
+      <position>professor_practice</position>
       <display_title>Associate Professor of the Practice of Music</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -881,7 +880,7 @@
     <researcher>
       <researcher_first_name>Shawn</researcher_first_name>
       <researcher_last_name>Bhimani</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
@@ -895,7 +894,7 @@
     <researcher>
       <researcher_first_name>Sarah</researcher_first_name>
       <researcher_last_name>Biller</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -952,16 +951,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>adler</primary_id>
+    <primary_id>jhbladon</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Mark</researcher_first_name>
-      <researcher_last_name>Adler</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Mathematics</display_title>
+      <researcher_first_name>John</researcher_first_name>
+      <researcher_last_name>Bladon</researcher_last_name>
+      <position>NRSA Postdoctoral Fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16700</organization_code>
+          <organization_code>CC27200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -1047,7 +1045,7 @@
     <researcher>
       <researcher_first_name>Justin</researcher_first_name>
       <researcher_last_name>Boswell</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -1062,7 +1060,7 @@
     <researcher>
       <researcher_first_name>Marcia</researcher_first_name>
       <researcher_last_name>Boumil</researcher_last_name>
-      <position>Adjunct Associate Professor</position>
+      <position>adjunct_associate</position>
       <display_title>Adjunct Associate Professor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -1130,7 +1128,7 @@
     <researcher>
       <researcher_first_name>Elizabeth</researcher_first_name>
       <researcher_last_name>Bradfield</researcher_last_name>
-      <position>associate_practice</position>
+      <position>professor_practice</position>
       <display_title>Associate Professor of the Practice of English and Co-Director of the Creative Writing Program</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -1181,7 +1179,7 @@
     <researcher>
       <researcher_first_name>Douglas</researcher_first_name>
       <researcher_last_name>Brams</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -1238,7 +1236,7 @@
     <researcher>
       <researcher_first_name>Derek</researcher_first_name>
       <researcher_last_name>Brink</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -1297,15 +1295,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>alemzadeh</primary_id>
+    <primary_id>kseidlgo</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Maryam</researcher_first_name>
-      <researcher_last_name>Alemzadeh</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <researcher_first_name>Kathrin</researcher_first_name>
+      <researcher_last_name>Breuer</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Associate Professor of German and Director of the German Language Program</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC35100</organization_code>
+          <organization_code>CC12600</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -1316,7 +1315,7 @@
     <researcher>
       <researcher_first_name>Lynn</researcher_first_name>
       <researcher_last_name>Browne</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -1334,7 +1333,7 @@
     <researcher>
       <researcher_first_name>Ken</researcher_first_name>
       <researcher_last_name>Brumer</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -1366,7 +1365,7 @@
     <researcher>
       <researcher_first_name>Bonnie</researcher_first_name>
       <researcher_last_name>Budd</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45102</organization_code>
@@ -1415,7 +1414,7 @@
     <researcher>
       <researcher_first_name>Laura</researcher_first_name>
       <researcher_last_name>Beals</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Adjunct Lecturer</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -1430,7 +1429,7 @@
     <researcher>
       <researcher_first_name>Tessa</researcher_first_name>
       <researcher_last_name>Byer</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -1444,7 +1443,7 @@
     <researcher>
       <researcher_first_name>Cassandra</researcher_first_name>
       <researcher_last_name>Buck</researcher_last_name>
-      <position>Adjunct Associate Professor of the Practice</position>
+      <position>professor_practice</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27700</organization_code>
@@ -1501,7 +1500,7 @@
     <researcher>
       <researcher_first_name>Fernanda</researcher_first_name>
       <researcher_last_name>Campbell</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -1515,7 +1514,7 @@
     <researcher>
       <researcher_first_name>Mary</researcher_first_name>
       <researcher_last_name>Caraccioli</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -1735,7 +1734,7 @@
     <researcher>
       <researcher_first_name>Todd</researcher_first_name>
       <researcher_last_name>Chapin</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -1763,7 +1762,7 @@
     <researcher>
       <researcher_first_name>Megin</researcher_first_name>
       <researcher_last_name>Charner-Laird</researcher_last_name>
-      <position>Adjunct Assistant Professor</position>
+      <position>adjunct_assistant</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC25000</organization_code>
@@ -2002,7 +2001,7 @@
     <researcher>
       <researcher_first_name>Chiwai</researcher_first_name>
       <researcher_last_name>Chow</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -2092,7 +2091,7 @@
     <researcher>
       <researcher_first_name>Roberta</researcher_first_name>
       <researcher_last_name>Clarke</researcher_last_name>
-      <position>Adjunct Associate Professor</position>
+      <position>adjunct_associate</position>
       <display_title>Adjunct Professor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -2136,7 +2135,7 @@
     <researcher>
       <researcher_first_name>Simon</researcher_first_name>
       <researcher_last_name>Cleveland</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -2164,7 +2163,7 @@
     <researcher>
       <researcher_first_name>Annie</researcher_first_name>
       <researcher_last_name>Cole</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC30700</organization_code>
@@ -2178,7 +2177,7 @@
     <researcher>
       <researcher_first_name>Cheryl</researcher_first_name>
       <researcher_last_name>Coleman</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -2237,7 +2236,7 @@
     <researcher>
       <researcher_first_name>Ann</researcher_first_name>
       <researcher_last_name>Conway</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -2284,7 +2283,7 @@
     <researcher>
       <researcher_first_name>William</researcher_first_name>
       <researcher_last_name>Cowen</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40210</organization_code>
@@ -2298,7 +2297,7 @@
     <researcher>
       <researcher_first_name>Keith</researcher_first_name>
       <researcher_last_name>Cramer</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -2312,7 +2311,7 @@
     <researcher>
       <researcher_first_name>Clarke</researcher_first_name>
       <researcher_last_name>Cummings</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies.</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -2377,7 +2376,7 @@
     <researcher>
       <researcher_first_name>Joseph</researcher_first_name>
       <researcher_last_name>Dalessandro</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -2409,7 +2408,7 @@
     <researcher>
       <researcher_first_name>Ari</researcher_first_name>
       <researcher_last_name>Davidow</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -2423,7 +2422,7 @@
     <researcher>
       <researcher_first_name>Jenelle</researcher_first_name>
       <researcher_last_name>Davis</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -2451,7 +2450,7 @@
     <researcher>
       <researcher_first_name>Travis</researcher_first_name>
       <researcher_last_name>Dawry</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -2731,7 +2730,7 @@
     <researcher>
       <researcher_first_name>Paul</researcher_first_name>
       <researcher_last_name>Dooley</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -2828,7 +2827,7 @@
     <researcher>
       <researcher_first_name>Joan</researcher_first_name>
       <researcher_last_name>Dubinsky</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40400</organization_code>
@@ -2857,7 +2856,7 @@
     <researcher>
       <researcher_first_name>Robert</researcher_first_name>
       <researcher_last_name>Duff</researcher_last_name>
-      <position>associate_practice</position>
+      <position>professor_practice</position>
       <display_title>Associate Professor of the Practice of Music and Choral Conductor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -2872,7 +2871,7 @@
     <researcher>
       <researcher_first_name>Edward</researcher_first_name>
       <researcher_last_name>Dumas</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -2937,7 +2936,7 @@
     <researcher>
       <researcher_first_name>Yoni</researcher_first_name>
       <researcher_last_name>Dvorkis</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -2999,7 +2998,7 @@
     <researcher>
       <researcher_first_name>Gretchen</researcher_first_name>
       <researcher_last_name>Ehrenkaufer</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -3125,7 +3124,7 @@
     <researcher>
       <researcher_first_name>Can</researcher_first_name>
       <researcher_last_name>Erbil</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Adjunct Professor of the Practice</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -3172,7 +3171,7 @@
     <researcher>
       <researcher_first_name>Karol</researcher_first_name>
       <researcher_last_name>Estrada</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -3499,7 +3498,7 @@
     <researcher>
       <researcher_first_name>Mari</researcher_first_name>
       <researcher_last_name>Fitzduff</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Professor Emerita of The Heller School for Social Policy and Management</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -3514,7 +3513,7 @@
     <researcher>
       <researcher_first_name>Daniel</researcher_first_name>
       <researcher_last_name>Flanagan</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -3555,7 +3554,7 @@
     <researcher>
       <researcher_first_name>Erin</researcher_first_name>
       <researcher_last_name>Fortney</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -3585,7 +3584,7 @@
     <researcher>
       <researcher_first_name>Jonathan</researcher_first_name>
       <researcher_last_name>Fowler</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -3641,7 +3640,7 @@
     <researcher>
       <researcher_first_name>Anthony</researcher_first_name>
       <researcher_last_name>Francis</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -3655,7 +3654,7 @@
     <researcher>
       <researcher_first_name>Steven</researcher_first_name>
       <researcher_last_name>Freedman</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -3689,22 +3688,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>freeze</primary_id>
+    <primary_id>adler</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Gregory</researcher_first_name>
-      <researcher_last_name>Freeze</researcher_last_name>
+      <researcher_first_name>Mark</researcher_first_name>
+      <researcher_last_name>Adler</researcher_last_name>
       <position>professor</position>
-      <display_title>Victor and Gwendolyn Beinfield Professor of History</display_title>
+      <display_title>Professor of Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18500</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC12600</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC26300</organization_code>
+          <organization_code>CC16700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3798,6 +3791,21 @@
     </researcher>
   </user>
   <user>
+    <primary_id>zalbert</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Zachary</researcher_first_name>
+      <researcher_last_name>Albert</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Politics</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC18600</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
     <primary_id>hfujiwar</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -3826,27 +3834,6 @@
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>pgarrity</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Paul</researcher_first_name>
-      <researcher_last_name>Garrity</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Biology</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC27200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3908,15 +3895,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>michaelgauthier</primary_id>
+    <primary_id>pgarrity</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Michael</researcher_first_name>
-      <researcher_last_name>Gauthier</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <researcher_first_name>Paul</researcher_first_name>
+      <researcher_last_name>Garrity</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Biology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC16200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC27200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3957,7 +3951,7 @@
     <researcher>
       <researcher_first_name>Stephen</researcher_first_name>
       <researcher_last_name>Gentile</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -3984,16 +3978,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>shghosh</primary_id>
+    <primary_id>freeze</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Shanto</researcher_first_name>
-      <researcher_last_name>Ghosh</researcher_last_name>
-      <position>Adjunct Professor</position>
-      <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
+      <researcher_first_name>Gregory</researcher_first_name>
+      <researcher_last_name>Freeze</researcher_last_name>
+      <position>professor</position>
+      <display_title>Victor and Gwendolyn Beinfield Professor of History</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC18500</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC12600</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC26300</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4033,7 +4033,7 @@
     <researcher>
       <researcher_first_name>Candra</researcher_first_name>
       <researcher_last_name>Gill</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -4077,7 +4077,7 @@
     <researcher>
       <researcher_first_name>Garrett</researcher_first_name>
       <researcher_last_name>Gillin</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -4131,19 +4131,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rgodoy</primary_id>
+    <primary_id>shghosh</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Ricardo</researcher_first_name>
-      <researcher_last_name>Godoy</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of International Development</display_title>
+      <researcher_first_name>Shanto</researcher_first_name>
+      <researcher_last_name>Ghosh</researcher_last_name>
+      <position>adjunct_professor</position>
+      <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40400</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4185,16 +4182,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>kseidlgo</primary_id>
+    <primary_id>bgc</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Kathrin</researcher_first_name>
-      <researcher_last_name>Breuer</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of German and Director of the German Language Program</display_title>
+      <researcher_first_name>Benjamin</researcher_first_name>
+      <researcher_last_name>Gomes-Casseres</researcher_last_name>
+      <position>professor</position>
+      <display_title>Peter A. Petri Professor of Business and Society in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12600</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4215,15 +4212,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>jhbladon</primary_id>
+    <primary_id>goode</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>John</researcher_first_name>
-      <researcher_last_name>Bladon</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <researcher_first_name>Bruce</researcher_first_name>
+      <researcher_last_name>Goode</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Biology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC27200</organization_code>
+          <organization_code>CC16200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC28100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4386,7 +4387,7 @@
     <researcher>
       <researcher_first_name>Ernest</researcher_first_name>
       <researcher_last_name>Green</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -4418,7 +4419,7 @@
     <researcher>
       <researcher_first_name>Janna</researcher_first_name>
       <researcher_last_name>Greenberg</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -4448,7 +4449,7 @@
     <researcher>
       <researcher_first_name>Daniel</researcher_first_name>
       <researcher_last_name>Grieneisen</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -4483,7 +4484,7 @@
     <researcher>
       <researcher_first_name>Dragan</researcher_first_name>
       <researcher_last_name>Grigorjev</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -4599,7 +4600,7 @@
     <researcher>
       <researcher_first_name>Emre</researcher_first_name>
       <researcher_last_name>Guzelsu</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
@@ -4745,7 +4746,7 @@
     <researcher>
       <researcher_first_name>Neal</researcher_first_name>
       <researcher_last_name>Hampton</researcher_last_name>
-      <position>associate_practice</position>
+      <position>professor_practice</position>
       <display_title>Associate Professor of the Practice of Music</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -4809,22 +4810,29 @@
     </researcher>
   </user>
   <user>
-    <primary_id>khansen</primary_id>
+    <primary_id>radams</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Karen</researcher_first_name>
-      <researcher_last_name>Hansen</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Sociology and Women's, Gender and Sexuality Studies, and Director of the Women's Studies Research Center</display_title>
+      <researcher_first_name>Rachel</researcher_first_name>
+      <researcher_last_name>Adams</researcher_last_name>
+      <position>Scientist</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18800</organization_code>
+          <organization_code>CC40620</organization_code>
         </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>michaelgauthier</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Michael</researcher_first_name>
+      <researcher_last_name>Gauthier</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18500</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC24700</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4839,21 +4847,6 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40500</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>harder</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Hollie</researcher_first_name>
-      <researcher_last_name>Harder</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of French and Francophone Studies and Director of the French and Italian Language Programs</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC12500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4892,7 +4885,7 @@
     <researcher>
       <researcher_first_name>Sara</researcher_first_name>
       <researcher_last_name>Hascal</researcher_last_name>
-      <position>associate_practice</position>
+      <position>professor_practice</position>
       <display_title>Associate Professor of the Practice of Hebrew</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -4968,7 +4961,7 @@
     <researcher>
       <researcher_first_name>Shahar</researcher_first_name>
       <researcher_last_name>Hecht</researcher_last_name>
-      <position>Associate Research Scientist</position>
+      <position>associate_research</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC24500</organization_code>
@@ -4982,7 +4975,7 @@
     <researcher>
       <researcher_first_name>Raj</researcher_first_name>
       <researcher_last_name>Heda</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -5015,7 +5008,7 @@
     <researcher>
       <researcher_first_name>Deborah</researcher_first_name>
       <researcher_last_name>Hemdal</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -5024,16 +5017,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ehemdal</primary_id>
+    <primary_id>rgodoy</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Erik</researcher_first_name>
-      <researcher_last_name>Hemdal</researcher_last_name>
-      <position>Adjunct Instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_first_name>Ricardo</researcher_first_name>
+      <researcher_last_name>Godoy</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of International Development</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC40400</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5044,7 +5040,7 @@
     <researcher>
       <researcher_first_name>Patrick</researcher_first_name>
       <researcher_last_name>Herb</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -5087,7 +5083,7 @@
     <researcher>
       <researcher_first_name>Paul</researcher_first_name>
       <researcher_last_name>Hestand</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -5149,7 +5145,7 @@
     <researcher>
       <researcher_first_name>Lauren</researcher_first_name>
       <researcher_last_name>Hindman</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -5197,7 +5193,7 @@
     <researcher>
       <researcher_first_name>Kristin</researcher_first_name>
       <researcher_last_name>Ho</researcher_last_name>
-      <position>Associate Research Scientist</position>
+      <position>associate_research</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16100</organization_code>
@@ -5331,22 +5327,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>bhorton</primary_id>
+    <primary_id>ehemdal</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Brian</researcher_first_name>
-      <researcher_last_name>Horton</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Anthropology</display_title>
+      <researcher_first_name>Erik</researcher_first_name>
+      <researcher_last_name>Hemdal</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18300</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18320</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC24700</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5357,7 +5347,7 @@
     <researcher>
       <researcher_first_name>Julie</researcher_first_name>
       <researcher_last_name>Horwitz</researcher_last_name>
-      <position>Adjunct Professor of Education</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor of Education</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -5420,7 +5410,7 @@
     <researcher>
       <researcher_first_name>Diana</researcher_first_name>
       <researcher_last_name>Hubbard</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45102</organization_code>
@@ -5429,33 +5419,40 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rahuber</primary_id>
+    <primary_id>bhorton</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Rebecca</researcher_first_name>
-      <researcher_last_name>Huber</researcher_last_name>
-      <position>Research Associate II</position>
+      <researcher_first_name>Brian</researcher_first_name>
+      <researcher_last_name>Horton</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Anthropology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC18300</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18320</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC24700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
   </user>
   <user>
-    <primary_id>goode</primary_id>
+    <primary_id>dhughes</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Bruce</researcher_first_name>
-      <researcher_last_name>Goode</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Biology</display_title>
+      <researcher_first_name>Della</researcher_first_name>
+      <researcher_last_name>Hughes</researcher_last_name>
+      <position>Sr Fellow</position>
+      <display_title>Senior Fellow</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
+          <organization_code>CC40500</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
-          <organization_code>CC28100</organization_code>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5531,7 +5528,7 @@
     <researcher>
       <researcher_first_name>Shirley</researcher_first_name>
       <researcher_last_name>Idelson</researcher_last_name>
-      <position>associate_practice</position>
+      <position>professor_practice</position>
       <display_title>Leon A. Jick Director of the Hornstein Program</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -5556,16 +5553,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>igusa</primary_id>
+    <primary_id>harder</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Kiyoshi</researcher_first_name>
-      <researcher_last_name>Igusa</researcher_last_name>
+      <researcher_first_name>Hollie</researcher_first_name>
+      <researcher_last_name>Harder</researcher_last_name>
       <position>professor</position>
-      <display_title>Professor of Mathematics</display_title>
+      <display_title>Professor of French and Francophone Studies and Director of the French and Italian Language Programs</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16700</organization_code>
+          <organization_code>CC12500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5576,7 +5573,7 @@
     <researcher>
       <researcher_first_name>Javed</researcher_first_name>
       <researcher_last_name>Ikbal</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -5679,7 +5676,7 @@
     <researcher>
       <researcher_first_name>Benjamin</researcher_first_name>
       <researcher_last_name>Jackson</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -5772,7 +5769,7 @@
     <researcher>
       <researcher_first_name>Adam</researcher_first_name>
       <researcher_last_name>Jaffe</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Professor Emeritus and Research Professor of Economics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -5790,7 +5787,7 @@
     <researcher>
       <researcher_first_name>Hassan</researcher_first_name>
       <researcher_last_name>Jafri</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -5831,15 +5828,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>jankowski</primary_id>
+    <primary_id>igusa</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Paul</researcher_first_name>
-      <researcher_last_name>Jankowski</researcher_last_name>
+      <researcher_first_name>Kiyoshi</researcher_first_name>
+      <researcher_last_name>Igusa</researcher_last_name>
       <position>professor</position>
+      <display_title>Professor of Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18500</organization_code>
+          <organization_code>CC16700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5850,7 +5848,7 @@
     <researcher>
       <researcher_first_name>Isabella</researcher_first_name>
       <researcher_last_name>Jean</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -5897,15 +5895,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>radams</primary_id>
+    <primary_id>mjellinek</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Rachel</researcher_first_name>
-      <researcher_last_name>Adams</researcher_last_name>
-      <position>Scientist</position>
+      <researcher_first_name>Michael</researcher_first_name>
+      <researcher_last_name>Jellinek</researcher_last_name>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40620</organization_code>
+          <organization_code>CC40211</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5980,7 +5978,7 @@
     <researcher>
       <researcher_first_name>Theodore</researcher_first_name>
       <researcher_last_name>Johnson</researcher_last_name>
-      <position>associate_practice</position>
+      <position>professor_practice</position>
       <display_title>Associate Professor of the Practice</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -5995,7 +5993,7 @@
     <researcher>
       <researcher_first_name>Angel</researcher_first_name>
       <researcher_last_name>Jones</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -6024,7 +6022,7 @@
     <researcher>
       <researcher_first_name>Pratistha</researcher_first_name>
       <researcher_last_name>Joshi Rajkarnikar</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Adjunct Lecturer</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -6037,16 +6035,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rkabrhel</primary_id>
+    <primary_id>khansen</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Rosalind</researcher_first_name>
-      <researcher_last_name>Kabrhel</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Lecturer in Legal Studies</display_title>
+      <researcher_first_name>Karen</researcher_first_name>
+      <researcher_last_name>Hansen</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Sociology and Women's, Gender and Sexuality Studies, and Director of the Women's Studies Research Center</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC25100</organization_code>
+          <organization_code>CC18800</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18500</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC24700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -6135,7 +6139,7 @@
     <researcher>
       <researcher_first_name>Melissa</researcher_first_name>
       <researcher_last_name>Kane</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -6158,22 +6162,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>wkapelle</primary_id>
+    <primary_id>rahuber</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>William</researcher_first_name>
-      <researcher_last_name>Kapelle</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of History</display_title>
+      <researcher_first_name>Rebecca</researcher_first_name>
+      <researcher_last_name>Huber</researcher_last_name>
+      <position>Research Associate II</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18500</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC26600</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC27100</organization_code>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -6208,16 +6205,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>pkasili</primary_id>
+    <primary_id>wkapelle</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Paul</researcher_first_name>
-      <researcher_last_name>Kasili</researcher_last_name>
-      <position>Adjunct Instructor</position>
-      <display_title>Instructor in the Myra Kraft Transitional Year Program</display_title>
+      <researcher_first_name>William</researcher_first_name>
+      <researcher_last_name>Kapelle</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Associate Professor of History</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC30800</organization_code>
+          <organization_code>CC18500</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC26600</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC27100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -6252,22 +6255,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>dbkatz</primary_id>
+    <primary_id>pkasili</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Donald</researcher_first_name>
-      <researcher_last_name>Katz</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Psychology</display_title>
+      <researcher_first_name>Paul</researcher_first_name>
+      <researcher_last_name>Kasili</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Myra Kraft Transitional Year Program</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18700</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC27200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25200</organization_code>
+          <organization_code>CC30800</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -6278,7 +6275,7 @@
     <researcher>
       <researcher_first_name>Nancy</researcher_first_name>
       <researcher_last_name>Katz</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -6365,7 +6362,7 @@
     <researcher>
       <researcher_first_name>John</researcher_first_name>
       <researcher_last_name>Keilty</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -6409,16 +6406,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>kellman</primary_id>
+    <primary_id>jankowski</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Ellen</researcher_first_name>
-      <researcher_last_name>Kellman</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of Yiddish</display_title>
+      <researcher_first_name>Paul</researcher_first_name>
+      <researcher_last_name>Jankowski</researcher_last_name>
+      <position>professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC13200</organization_code>
+          <organization_code>CC18500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -6429,7 +6425,7 @@
     <researcher>
       <researcher_first_name>Daphne</researcher_first_name>
       <researcher_last_name>Kenyon</researcher_last_name>
-      <position>Adjunct Senior Lecturer</position>
+      <position>adjunct_senior_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -6443,7 +6439,7 @@
     <researcher>
       <researcher_first_name>Imran</researcher_first_name>
       <researcher_last_name>Khan</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -6472,7 +6468,7 @@
     <researcher>
       <researcher_first_name>Khadija</researcher_first_name>
       <researcher_last_name>Khartit</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -6591,7 +6587,7 @@
     <researcher>
       <researcher_first_name>Kevan</researcher_first_name>
       <researcher_last_name>Kivlan</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -6638,7 +6634,7 @@
     <researcher>
       <researcher_first_name>Eugene</researcher_first_name>
       <researcher_last_name>Kogan</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -6697,7 +6693,7 @@
     <researcher>
       <researcher_first_name>John</researcher_first_name>
       <researcher_last_name>Kolovos</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -6742,7 +6738,7 @@
     <researcher>
       <researcher_first_name>Ben</researcher_first_name>
       <researcher_last_name>Koskinen</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -6810,7 +6806,7 @@
     <researcher>
       <researcher_first_name>Lora</researcher_first_name>
       <researcher_last_name>Kratchounova</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -6942,7 +6938,7 @@
     <researcher>
       <researcher_first_name>Elena</researcher_first_name>
       <researcher_last_name>Kuklin</researcher_last_name>
-      <position>Associate Research Scientist</position>
+      <position>associate_research</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -7228,7 +7224,7 @@
     <researcher>
       <researcher_first_name>Celeste</researcher_first_name>
       <researcher_last_name>Lee</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -7257,7 +7253,7 @@
     <researcher>
       <researcher_first_name>Luz</researcher_first_name>
       <researcher_last_name>Lee</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -7286,7 +7282,7 @@
     <researcher>
       <researcher_first_name>Stevan</researcher_first_name>
       <researcher_last_name>Leiden</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -7332,7 +7328,7 @@
     <researcher>
       <researcher_first_name>Sibylla</researcher_first_name>
       <researcher_last_name>Leon Guerrero</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40401</organization_code>
@@ -7346,7 +7342,7 @@
     <researcher>
       <researcher_first_name>James</researcher_first_name>
       <researcher_last_name>Leu</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -7361,7 +7357,7 @@
     <researcher>
       <researcher_first_name>Enrique</researcher_first_name>
       <researcher_last_name>Levin</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -7527,7 +7523,7 @@
     <researcher>
       <researcher_first_name>Georg</researcher_first_name>
       <researcher_last_name>Link</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -7559,7 +7555,7 @@
     <researcher>
       <researcher_first_name>Kirk</researcher_first_name>
       <researcher_last_name>Lipscomb</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -7607,7 +7603,7 @@
     <researcher>
       <researcher_first_name>Jacob</researcher_first_name>
       <researcher_last_name>Livengood</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -7621,7 +7617,7 @@
     <researcher>
       <researcher_first_name>Jennifer</researcher_first_name>
       <researcher_last_name>Livengood</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -7820,7 +7816,7 @@
     <researcher>
       <researcher_first_name>David</researcher_first_name>
       <researcher_last_name>Lumerman</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -7835,7 +7831,7 @@
     <researcher>
       <researcher_first_name>Shaw</researcher_first_name>
       <researcher_last_name>Lupton</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
@@ -7849,7 +7845,7 @@
     <researcher>
       <researcher_first_name>John</researcher_first_name>
       <researcher_last_name>Lynch</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -7863,7 +7859,7 @@
     <researcher>
       <researcher_first_name>Alexandra</researcher_first_name>
       <researcher_last_name>Maertens</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -7878,7 +7874,7 @@
     <researcher>
       <researcher_first_name>Raquel</researcher_first_name>
       <researcher_last_name>Magidin de Kramer</researcher_last_name>
-      <position>Associate Research Scientist, Cohen Center</position>
+      <position>associate_research</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC24500</organization_code>
@@ -7892,7 +7888,7 @@
     <researcher>
       <researcher_first_name>Benjamin</researcher_first_name>
       <researcher_last_name>Mahnke</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Adjunct Lecturer</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -7902,19 +7898,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>dhughes</primary_id>
+    <primary_id>mairson</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Della</researcher_first_name>
-      <researcher_last_name>Hughes</researcher_last_name>
-      <position>Sr Fellow</position>
-      <display_title>Senior Fellow</display_title>
+      <researcher_first_name>Harry</researcher_first_name>
+      <researcher_last_name>Mairson</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Computer Science</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40500</organization_code>
+          <organization_code>CC16600</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC25200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -7952,7 +7948,7 @@
     <researcher>
       <researcher_first_name>Robert</researcher_first_name>
       <researcher_last_name>Malenfant</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -7967,7 +7963,7 @@
     <researcher>
       <researcher_first_name>Nadeem</researcher_first_name>
       <researcher_last_name>Malik</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -8026,7 +8022,7 @@
     <researcher>
       <researcher_first_name>Christin</researcher_first_name>
       <researcher_last_name>Manning</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -8035,16 +8031,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>bgc</primary_id>
+    <primary_id>afmarch</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Benjamin</researcher_first_name>
-      <researcher_last_name>Gomes-Casseres</researcher_last_name>
-      <position>professor</position>
-      <display_title>Peter A. Petri Professor of Business and Society in the Brandeis International Business School</display_title>
+      <researcher_first_name>Andrew</researcher_first_name>
+      <researcher_last_name>March</researcher_last_name>
+      <position>Faculty Leave Fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC35100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -8069,7 +8064,7 @@
     <researcher>
       <researcher_first_name>Alain</researcher_first_name>
       <researcher_last_name>Marcuse</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45102</organization_code>
@@ -8262,15 +8257,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>afmarch</primary_id>
+    <primary_id>mmcfadden</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Andrew</researcher_first_name>
-      <researcher_last_name>March</researcher_last_name>
-      <position>Faculty Leave Fellow</position>
+      <researcher_first_name>Matthew</researcher_first_name>
+      <researcher_last_name>McFadden</researcher_last_name>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC35100</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -8299,7 +8294,7 @@
     <researcher>
       <researcher_first_name>Jennifer</researcher_first_name>
       <researcher_last_name>McGinn</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -8335,7 +8330,7 @@
     <researcher>
       <researcher_first_name>Michael</researcher_first_name>
       <researcher_last_name>McKay</researcher_last_name>
-      <position>Adjunct Senior Lecturer</position>
+      <position>adjunct_senior_lecturer</position>
       <display_title>Senior Lecturer in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -8365,7 +8360,7 @@
     <researcher>
       <researcher_first_name>Sarah</researcher_first_name>
       <researcher_last_name>McMaster</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -8583,7 +8578,7 @@
     <researcher>
       <researcher_first_name>Marie</researcher_first_name>
       <researcher_last_name>Meteer</researcher_last_name>
-      <position>Adjunct Associate Professor of the Practice</position>
+      <position>professor_practice</position>
       <display_title>Adjunct Associate Professor of the Practice of Linguistics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -8619,7 +8614,7 @@
     <researcher>
       <researcher_first_name>Debra</researcher_first_name>
       <researcher_last_name>Michalides</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -8634,7 +8629,7 @@
     <researcher>
       <researcher_first_name>Candace</researcher_first_name>
       <researcher_last_name>Miller</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -8648,7 +8643,7 @@
     <researcher>
       <researcher_first_name>Carrie</researcher_first_name>
       <researcher_last_name>Miller</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -8673,15 +8668,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>genemiller</primary_id>
+    <primary_id>dbkatz</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Gene</researcher_first_name>
-      <researcher_last_name>Miller</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <researcher_first_name>Donald</researcher_first_name>
+      <researcher_last_name>Katz</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Psychology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC18700</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC27200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -8778,7 +8780,7 @@
     <researcher>
       <researcher_first_name>Sean</researcher_first_name>
       <researcher_last_name>Milligan</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -8810,7 +8812,7 @@
     <researcher>
       <researcher_first_name>Anupam</researcher_first_name>
       <researcher_last_name>Mishra</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
@@ -8883,7 +8885,7 @@
     <researcher>
       <researcher_first_name>Anna</researcher_first_name>
       <researcher_last_name>Modest</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -8977,7 +8979,7 @@
     <researcher>
       <researcher_first_name>Carl</researcher_first_name>
       <researcher_last_name>Moore</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -9107,7 +9109,7 @@
     <researcher>
       <researcher_first_name>Ross</researcher_first_name>
       <researcher_last_name>Morrone</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -9193,7 +9195,7 @@
     <researcher>
       <researcher_first_name>Ian</researcher_first_name>
       <researcher_last_name>Muneshwar</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC30800</organization_code>
@@ -9225,7 +9227,7 @@
     <researcher>
       <researcher_first_name>Ellen</researcher_first_name>
       <researcher_last_name>Murphy</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -9293,7 +9295,7 @@
     <researcher>
       <researcher_first_name>Charles</researcher_first_name>
       <researcher_last_name>Mutunga</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -9321,7 +9323,7 @@
     <researcher>
       <researcher_first_name>Ramesh</researcher_first_name>
       <researcher_last_name>Nagappan</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -9344,19 +9346,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>mairson</primary_id>
+    <primary_id>anahikian</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Harry</researcher_first_name>
-      <researcher_last_name>Mairson</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Computer Science</display_title>
+      <researcher_first_name>Anaide</researcher_first_name>
+      <researcher_last_name>Nahikian</researcher_last_name>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16600</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25200</organization_code>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -9470,16 +9468,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>gnenciu</primary_id>
+    <primary_id>kellman</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Gabriela</researcher_first_name>
-      <researcher_last_name>Nenciu</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Lecturer in French and Francophone Studies</display_title>
+      <researcher_first_name>Ellen</researcher_first_name>
+      <researcher_last_name>Kellman</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Associate Professor of Yiddish</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12500</organization_code>
+          <organization_code>CC13200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -9546,7 +9544,7 @@
     <researcher>
       <researcher_first_name>Brenda</researcher_first_name>
       <researcher_last_name>Ng</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -9579,7 +9577,7 @@
     <researcher>
       <researcher_first_name>Eric</researcher_first_name>
       <researcher_last_name>Nierenberg</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -9645,7 +9643,7 @@
     <researcher>
       <researcher_first_name>Michael</researcher_first_name>
       <researcher_last_name>Noonan</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -9659,7 +9657,7 @@
     <researcher>
       <researcher_first_name>Marsha</researcher_first_name>
       <researcher_last_name>Nourse</researcher_last_name>
-      <position>Adjunct Professor of University Writing</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor of University Writing</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -9751,7 +9749,7 @@
     <researcher>
       <researcher_first_name>Olalekan</researcher_first_name>
       <researcher_last_name>Ogunmolu</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -9765,7 +9763,7 @@
     <researcher>
       <researcher_first_name>Matthew</researcher_first_name>
       <researcher_last_name>Okazaki</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Lecturer in Fine Arts</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -9903,15 +9901,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>sourieff</primary_id>
+    <primary_id>rkabrhel</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Sally</researcher_first_name>
-      <researcher_last_name>Ourieff</researcher_last_name>
+      <researcher_first_name>Rosalind</researcher_first_name>
+      <researcher_last_name>Kabrhel</researcher_last_name>
       <position>lecturer</position>
+      <display_title>Lecturer in Legal Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40200</organization_code>
+          <organization_code>CC25100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -9922,7 +9921,7 @@
     <researcher>
       <researcher_first_name>Sarah</researcher_first_name>
       <researcher_last_name>Pagliacio</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -9964,15 +9963,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rogerpao</primary_id>
+    <primary_id>sourieff</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Roger</researcher_first_name>
-      <researcher_last_name>Pao</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <researcher_first_name>Sally</researcher_first_name>
+      <researcher_last_name>Ourieff</researcher_last_name>
+      <position>lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC40200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -9983,7 +9982,7 @@
     <researcher>
       <researcher_first_name>Mihaela</researcher_first_name>
       <researcher_last_name>Papa</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -9992,15 +9991,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>papaemmanouil</primary_id>
+    <primary_id>gnenciu</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Olga</researcher_first_name>
-      <researcher_last_name>Papaemmanouil</researcher_last_name>
-      <position>associate_professor</position>
+      <researcher_first_name>Gabriela</researcher_first_name>
+      <researcher_last_name>Nenciu</researcher_last_name>
+      <position>lecturer</position>
+      <display_title>Lecturer in French and Francophone Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16600</organization_code>
+          <organization_code>CC12500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10061,7 +10061,7 @@
     <researcher>
       <researcher_first_name>Daniel</researcher_first_name>
       <researcher_last_name>Parmer</researcher_last_name>
-      <position>Associate Research Scientist, Cohen Center</position>
+      <position>associate_research</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC24500</organization_code>
@@ -10120,7 +10120,7 @@
     <researcher>
       <researcher_first_name>Janet</researcher_first_name>
       <researcher_last_name>Paulsen</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10135,7 +10135,7 @@
     <researcher>
       <researcher_first_name>Marisa</researcher_first_name>
       <researcher_last_name>Peacock</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -10144,15 +10144,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>nilip</primary_id>
+    <primary_id>papaemmanouil</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Nili</researcher_first_name>
-      <researcher_last_name>Pearlmutter</researcher_last_name>
-      <position>lecturer</position>
+      <researcher_first_name>Olga</researcher_first_name>
+      <researcher_last_name>Papaemmanouil</researcher_last_name>
+      <position>associate_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC25000</organization_code>
+          <organization_code>CC16600</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10178,7 +10178,7 @@
     <researcher>
       <researcher_first_name>Gail</researcher_first_name>
       <researcher_last_name>Peretti</researcher_last_name>
-      <position>Adjunct Associate Professor</position>
+      <position>adjunct_associate</position>
       <display_title>Adjunct Associate Professor of Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10230,19 +10230,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>perloff</primary_id>
+    <primary_id>nilip</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Jennifer</researcher_first_name>
-      <researcher_last_name>Perloff</researcher_last_name>
-      <position>Sr Research Scientist II/Fellow</position>
-      <display_title>Senior Scientist and Director of Institute for Healthcare Systems (IHS)</display_title>
+      <researcher_first_name>Nili</researcher_first_name>
+      <researcher_last_name>Pearlmutter</researcher_last_name>
+      <position>lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40300</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC25000</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10281,7 +10277,7 @@
     <researcher>
       <researcher_first_name>Matthew</researcher_first_name>
       <researcher_last_name>Petit</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10361,7 +10357,7 @@
     <researcher>
       <researcher_first_name>Cynthia</researcher_first_name>
       <researcher_last_name>Phillips</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10420,7 +10416,7 @@
     <researcher>
       <researcher_first_name>Robert</researcher_first_name>
       <researcher_last_name>Piepenburg</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -10434,7 +10430,7 @@
     <researcher>
       <researcher_first_name>Alberto</researcher_first_name>
       <researcher_last_name>Pierobon</researcher_last_name>
-      <position>Associate Research Scientist</position>
+      <position>associate_research</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC25300</organization_code>
@@ -10448,7 +10444,7 @@
     <researcher>
       <researcher_first_name>Daniel</researcher_first_name>
       <researcher_last_name>Pineo</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10463,7 +10459,7 @@
     <researcher>
       <researcher_first_name>Alexandra</researcher_first_name>
       <researcher_last_name>Pineros-Shields</researcher_last_name>
-      <position>Adjunct Senior Lecturer</position>
+      <position>adjunct_senior_lecturer</position>
       <display_title>Adjunct Senior Lecturer</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10473,19 +10469,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>jpipkin</primary_id>
+    <primary_id>perloff</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Jason</researcher_first_name>
-      <researcher_last_name>Pipkin</researcher_last_name>
-      <position>Postdoctoral Associate</position>
-      <display_title>Visiting Research Scientist</display_title>
+      <researcher_first_name>Jennifer</researcher_first_name>
+      <researcher_last_name>Perloff</researcher_last_name>
+      <position>Sr Research Scientist II/Fellow</position>
+      <display_title>Senior Scientist and Director of Institute for Healthcare Systems (IHS)</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC27200</organization_code>
+          <organization_code>CC40300</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10547,7 +10543,7 @@
     <researcher>
       <researcher_first_name>Robert</researcher_first_name>
       <researcher_last_name>Podorefsky</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10664,7 +10660,7 @@
     <researcher>
       <researcher_first_name>Denise</researcher_first_name>
       <researcher_last_name>Porche</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -10678,7 +10674,7 @@
     <researcher>
       <researcher_first_name>Aswin</researcher_first_name>
       <researcher_last_name>Pranam</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -10687,16 +10683,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>dpriddle</primary_id>
+    <primary_id>genemiller</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>David</researcher_first_name>
-      <researcher_last_name>Priddle</researcher_last_name>
-      <position>Adjunct Instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_first_name>Gene</researcher_first_name>
+      <researcher_last_name>Miller</researcher_last_name>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10742,7 +10737,7 @@
     <researcher>
       <researcher_first_name>Jing</researcher_first_name>
       <researcher_last_name>Qi</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -10756,7 +10751,7 @@
     <researcher>
       <researcher_first_name>Terri</researcher_first_name>
       <researcher_last_name>Queler</researcher_last_name>
-      <position>Adjunct Associate Professor of the Practice</position>
+      <position>professor_practice</position>
       <display_title>Adjunct Associate Professor of the Practice of Genetic Counseling</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10806,7 +10801,7 @@
     <researcher>
       <researcher_first_name>Pierrette</researcher_first_name>
       <researcher_last_name>Quintiliani</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Adjunct Lecturer</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10835,7 +10830,7 @@
     <researcher>
       <researcher_first_name>Jennifer</researcher_first_name>
       <researcher_last_name>Rafferty</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -10849,7 +10844,7 @@
     <researcher>
       <researcher_first_name>Bharatendra</researcher_first_name>
       <researcher_last_name>Rai</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -10977,7 +10972,7 @@
     <researcher>
       <researcher_first_name>Jacob</researcher_first_name>
       <researcher_last_name>Redding</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45102</organization_code>
@@ -11059,7 +11054,7 @@
     <researcher>
       <researcher_first_name>Martha</researcher_first_name>
       <researcher_last_name>Reed</researcher_last_name>
-      <position>Associate Research Scientist</position>
+      <position>associate_research</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -11130,7 +11125,7 @@
     <researcher>
       <researcher_first_name>Paul</researcher_first_name>
       <researcher_last_name>Reitano</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -11174,7 +11169,7 @@
     <researcher>
       <researcher_first_name>Joseph</researcher_first_name>
       <researcher_last_name>Richard</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -11202,7 +11197,7 @@
     <researcher>
       <researcher_first_name>Grant</researcher_first_name>
       <researcher_last_name>Ritter</researcher_last_name>
-      <position>Associate Research Professor</position>
+      <position>associate_research</position>
       <display_title>Associate Professor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -11220,7 +11215,7 @@
     <researcher>
       <researcher_first_name>Sharon</researcher_first_name>
       <researcher_last_name>Rivo</researcher_last_name>
-      <position>Adjunct Associate Professor</position>
+      <position>adjunct_associate</position>
       <display_title>Adjunct Associate Professor of Jewish Film</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -11235,7 +11230,7 @@
     <researcher>
       <researcher_first_name>Brian</researcher_first_name>
       <researcher_last_name>Roach</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -11267,7 +11262,7 @@
     <researcher>
       <researcher_first_name>Greg</researcher_first_name>
       <researcher_last_name>Robinson</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -11321,7 +11316,7 @@
     <researcher>
       <researcher_first_name>Nicolas</researcher_first_name>
       <researcher_last_name>Rohleder</researcher_last_name>
-      <position>Associate Research Professor</position>
+      <position>associate_research</position>
       <display_title>Associate Professor in Psychology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -11334,54 +11329,12 @@
     </researcher>
   </user>
   <user>
-    <primary_id>anahikian</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Anaide</researcher_first_name>
-      <researcher_last_name>Nahikian</researcher_last_name>
-      <position>Adjunct Lecturer</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>mjellinek</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Michael</researcher_first_name>
-      <researcher_last_name>Jellinek</researcher_last_name>
-      <position>Adjunct Professor</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC40211</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>mmcfadden</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Matthew</researcher_first_name>
-      <researcher_last_name>McFadden</researcher_last_name>
-      <position>Adjunct Instructor</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
     <primary_id>aros</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
       <researcher_first_name>Agustin</researcher_first_name>
       <researcher_last_name>Ros</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
@@ -11410,7 +11363,7 @@
     <researcher>
       <researcher_first_name>Mark</researcher_first_name>
       <researcher_last_name>Rosen</researcher_last_name>
-      <position>Adjunct Associate Professor</position>
+      <position>adjunct_associate</position>
       <display_title>Associate Professor in the Hornstein Jewish Professional Leadership Program</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -11492,6 +11445,21 @@
     </researcher>
   </user>
   <user>
+    <primary_id>kround</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Kimberlee</researcher_first_name>
+      <researcher_last_name>Round</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC45100</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
     <primary_id>krothstein</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -11526,7 +11494,7 @@
     <researcher>
       <researcher_first_name>Robert</researcher_first_name>
       <researcher_last_name>Rue</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -11585,7 +11553,7 @@
     <researcher>
       <researcher_first_name>John</researcher_first_name>
       <researcher_last_name>Russo</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -11599,7 +11567,7 @@
     <researcher>
       <researcher_first_name>James</researcher_first_name>
       <researcher_last_name>Rutenbeck</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Lecturer in Creativity, the Arts, and Social Transformation</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -11622,6 +11590,24 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC18400</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>mayada</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Mayada</researcher_first_name>
+      <researcher_last_name>Saadoun</researcher_last_name>
+      <position>adjunct_lecturer</position>
+      <display_title>Lecturer and Internship Instructor for Health: Science, Society and Policy (HSSP)</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC40200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -11656,19 +11642,29 @@
     </researcher>
   </user>
   <user>
-    <primary_id>mayada</primary_id>
+    <primary_id>bsalerno</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Mayada</researcher_first_name>
-      <researcher_last_name>Saadoun</researcher_last_name>
-      <position>Adjunct Lecturer</position>
-      <display_title>Lecturer and Internship Instructor for Health: Science, Society and Policy (HSSP)</display_title>
+      <researcher_first_name>Brian</researcher_first_name>
+      <researcher_last_name>Salerno</researcher_last_name>
+      <position>Chair/Director, Department/Program</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40200</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>ssaluk</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Seda</researcher_first_name>
+      <researcher_last_name>Saluk</researcher_last_name>
+      <position>lecturer</position>
+      <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC18300</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -11733,7 +11729,7 @@
     <researcher>
       <researcher_first_name>Nicole</researcher_first_name>
       <researcher_last_name>Samuel</researcher_last_name>
-      <position>Associate Research Scientist, Cohen Center</position>
+      <position>associate_research</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC24500</organization_code>
@@ -11915,7 +11911,7 @@
     <researcher>
       <researcher_first_name>Alan</researcher_first_name>
       <researcher_last_name>Schlesinger</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
@@ -12010,7 +12006,7 @@
     <researcher>
       <researcher_first_name>Erich</researcher_first_name>
       <researcher_last_name>Schumann</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -12074,16 +12070,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>kround</primary_id>
+    <primary_id>asegar</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Kimberlee</researcher_first_name>
-      <researcher_last_name>Round</researcher_last_name>
-      <position>Adjunct Instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_first_name>Andrea</researcher_first_name>
+      <researcher_last_name>Segar</researcher_last_name>
+      <position>professor_practice</position>
+      <display_title>Associate Professor of the Practice of Music</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC11200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -12150,11 +12146,26 @@
     <researcher>
       <researcher_first_name>Paola</researcher_first_name>
       <researcher_last_name>Servino</researcher_last_name>
-      <position>associate_practice</position>
+      <position>professor_practice</position>
       <display_title>Associate Professor of the Practice of Italian Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC12500</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>dpriddle</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>David</researcher_first_name>
+      <researcher_last_name>Priddle</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -12165,7 +12176,7 @@
     <researcher>
       <researcher_first_name>Elizabeth</researcher_first_name>
       <researcher_last_name>Sessions</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40401</organization_code>
@@ -12184,20 +12195,6 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC12300</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>sumana45</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Sumana</researcher_first_name>
-      <researcher_last_name>Setty</researcher_last_name>
-      <position>Instructor</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC45200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -12223,7 +12220,7 @@
     <researcher>
       <researcher_first_name>David</researcher_first_name>
       <researcher_last_name>Shaby</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -12238,7 +12235,7 @@
     <researcher>
       <researcher_first_name>Dorothy</researcher_first_name>
       <researcher_last_name>Shamonsky</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -12252,7 +12249,7 @@
     <researcher>
       <researcher_first_name>Sara</researcher_first_name>
       <researcher_last_name>Shank</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -12299,7 +12296,7 @@
     <researcher>
       <researcher_first_name>Keishalee</researcher_first_name>
       <researcher_last_name>Shaw</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -12313,7 +12310,7 @@
     <researcher>
       <researcher_first_name>Annie</researcher_first_name>
       <researcher_last_name>Shebanow</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -12401,7 +12398,7 @@
     <researcher>
       <researcher_first_name>Wen</researcher_first_name>
       <researcher_last_name>Shi</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -12653,7 +12650,7 @@
     <researcher>
       <researcher_first_name>Elif</researcher_first_name>
       <researcher_last_name>Sisli Ciamarra</researcher_last_name>
-      <position>Adjunct Associate Professor of the Practice</position>
+      <position>professor_practice</position>
       <display_title>Adjunct Associate Professor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -12682,7 +12679,7 @@
     <researcher>
       <researcher_first_name>Andrey</researcher_first_name>
       <researcher_last_name>Sivachenko</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -12715,7 +12712,7 @@
     <researcher>
       <researcher_first_name>Valerie</researcher_first_name>
       <researcher_last_name>Smedile Rifkin</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -12738,15 +12735,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ssaluk</primary_id>
+    <primary_id>smiley</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Seda</researcher_first_name>
-      <researcher_last_name>Saluk</researcher_last_name>
-      <position>lecturer</position>
+      <researcher_first_name>Marion</researcher_first_name>
+      <researcher_last_name>Smiley</researcher_last_name>
+      <position>professor</position>
+      <display_title>J. P. Morgan Chase Professor of Ethics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18300</organization_code>
+          <organization_code>CC12300</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18600</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC24700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -12810,7 +12814,7 @@
     <researcher>
       <researcher_first_name>Louw</researcher_first_name>
       <researcher_last_name>Smith</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -12908,7 +12912,7 @@
     <researcher>
       <researcher_first_name>Parameswari</researcher_first_name>
       <researcher_last_name>Roychoudhury</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -12933,16 +12937,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rspack</primary_id>
+    <primary_id>rogerpao</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Ruth</researcher_first_name>
-      <researcher_last_name>Spack</researcher_last_name>
-      <position>Adjunct Instructor</position>
-      <display_title>Instructor in the Myra Kraft Transitional Year Program</display_title>
+      <researcher_first_name>Roger</researcher_first_name>
+      <researcher_last_name>Pao</researcher_last_name>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC30800</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -12953,7 +12956,7 @@
     <researcher>
       <researcher_first_name>Jeffrey</researcher_first_name>
       <researcher_last_name>Rudin</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -12980,22 +12983,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>smiley</primary_id>
+    <primary_id>sreenivasan</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Marion</researcher_first_name>
-      <researcher_last_name>Smiley</researcher_last_name>
-      <position>professor</position>
-      <display_title>J. P. Morgan Chase Professor of Ethics</display_title>
+      <researcher_first_name>Govind</researcher_first_name>
+      <researcher_last_name>Sreenivasan</researcher_last_name>
+      <position>associate_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12300</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18600</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC24700</organization_code>
+          <organization_code>CC18500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -13006,10 +13002,25 @@
     <researcher>
       <researcher_first_name>Lisa</researcher_first_name>
       <researcher_last_name>Spencer</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>rspack</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Ruth</researcher_first_name>
+      <researcher_last_name>Spack</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Myra Kraft Transitional Year Program</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC30800</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -13024,20 +13035,6 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40620</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>stieger</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Mirjam</researcher_first_name>
-      <researcher_last_name>Stieger</researcher_last_name>
-      <position>Postdoctoral Associate</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC18700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -13114,7 +13111,7 @@
     <researcher>
       <researcher_first_name>Michael</researcher_first_name>
       <researcher_last_name>Storiale</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -13143,7 +13140,7 @@
     <researcher>
       <researcher_first_name>Lawrence</researcher_first_name>
       <researcher_last_name>Strauss</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -13190,7 +13187,7 @@
     <researcher>
       <researcher_first_name>Elisabeth</researcher_first_name>
       <researcher_last_name>Stucklen</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -13204,7 +13201,7 @@
     <researcher>
       <researcher_first_name>Jose</researcher_first_name>
       <researcher_last_name>Suaya</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -13213,16 +13210,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>asegar</primary_id>
+    <primary_id>suderow</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Andrea</researcher_first_name>
-      <researcher_last_name>Segar</researcher_last_name>
-      <position>associate_practice</position>
-      <display_title>Associate Professor of the Practice of Music</display_title>
+      <researcher_first_name>Detlev</researcher_first_name>
+      <researcher_last_name>Suderow</researcher_last_name>
+      <position>adjunct_senior_lecturer</position>
+      <display_title>Senior Lecturer in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC11200</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -13233,7 +13230,7 @@
     <researcher>
       <researcher_first_name>Neal</researcher_first_name>
       <researcher_last_name>Sugawara</researcher_last_name>
-      <position>Associate Research Scientist II</position>
+      <position>associate_research_2</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -13263,16 +13260,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>yangs</primary_id>
+    <primary_id>jpipkin</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Yang</researcher_first_name>
-      <researcher_last_name>Sun</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Finance in the Brandeis International Business School</display_title>
+      <researcher_first_name>Jason</researcher_first_name>
+      <researcher_last_name>Pipkin</researcher_last_name>
+      <position>Postdoctoral Associate</position>
+      <display_title>Visiting Research Scientist</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC27200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC16200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -13283,7 +13283,7 @@
     <researcher>
       <researcher_first_name>Vincent</researcher_first_name>
       <researcher_last_name>Sutera</researcher_last_name>
-      <position>Associate Research Scientist</position>
+      <position>associate_research</position>
       <display_title>Lecturer in Biology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -13328,7 +13328,7 @@
     <researcher>
       <researcher_first_name>David</researcher_first_name>
       <researcher_last_name>Swiniarski</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -13422,7 +13422,7 @@
     <researcher>
       <researcher_first_name>Nanako</researcher_first_name>
       <researcher_last_name>Tamaru</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -13450,7 +13450,7 @@
     <researcher>
       <researcher_first_name>Robert</researcher_first_name>
       <researcher_last_name>Tannenwald</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -13494,15 +13494,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>sreenivasan</primary_id>
+    <primary_id>teuber</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Govind</researcher_first_name>
-      <researcher_last_name>Sreenivasan</researcher_last_name>
+      <researcher_first_name>Andreas</researcher_first_name>
+      <researcher_last_name>Teuber</researcher_last_name>
       <position>associate_professor</position>
+      <display_title>Associate Professor of Philosophy</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18500</organization_code>
+          <organization_code>CC12300</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -13513,7 +13517,7 @@
     <researcher>
       <researcher_first_name>Lenny</researcher_first_name>
       <researcher_last_name>Tevlin</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -13522,16 +13526,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>suderow</primary_id>
+    <primary_id>jtharaud</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Detlev</researcher_first_name>
-      <researcher_last_name>Suderow</researcher_last_name>
-      <position>Adjunct Senior Lecturer</position>
-      <display_title>Senior Lecturer in the Brandeis International Business School</display_title>
+      <researcher_first_name>Jerome</researcher_first_name>
+      <researcher_last_name>Tharaud</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of English</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC12400</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -13585,7 +13595,7 @@
     <researcher>
       <researcher_first_name>Paul</researcher_first_name>
       <researcher_last_name>Therrien</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
@@ -13617,7 +13627,7 @@
     <researcher>
       <researcher_first_name>Sharon</researcher_first_name>
       <researcher_last_name>Thomas</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -13708,7 +13718,7 @@
     <researcher>
       <researcher_first_name>Tibor</researcher_first_name>
       <researcher_last_name>Toth</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -13738,7 +13748,7 @@
     <researcher>
       <researcher_first_name>Gregory</researcher_first_name>
       <researcher_last_name>Townsend</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC25100</organization_code>
@@ -13752,7 +13762,7 @@
     <researcher>
       <researcher_first_name>Adam</researcher_first_name>
       <researcher_last_name>Towvim</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -13826,7 +13836,7 @@
     <researcher>
       <researcher_first_name>Patricia</researcher_first_name>
       <researcher_last_name>Steiner</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -13891,7 +13901,7 @@
     <researcher>
       <researcher_first_name>David</researcher_first_name>
       <researcher_last_name>Tybor</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Adjunct Assistant Professor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -13906,7 +13916,7 @@
     <researcher>
       <researcher_first_name>David</researcher_first_name>
       <researcher_last_name>Steele</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Adjunct Lecturer</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -14056,7 +14066,7 @@
     <researcher>
       <researcher_first_name>James</researcher_first_name>
       <researcher_last_name>Vasile</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -14084,7 +14094,7 @@
     <researcher>
       <researcher_first_name>Michelle</researcher_first_name>
       <researcher_last_name>Venezia</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -14108,15 +14118,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>fvadrianzen</primary_id>
+    <primary_id>yangs</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Fiorella</researcher_first_name>
-      <researcher_last_name>Vera-Adrianzen</researcher_last_name>
-      <position>Research Associate I part-time non-exempt hourly</position>
+      <researcher_first_name>Yang</researcher_first_name>
+      <researcher_last_name>Sun</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Finance in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC24651</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14169,16 +14180,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>hetalvig</primary_id>
+    <primary_id>sumana45</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Hetal</researcher_first_name>
-      <researcher_last_name>Vig</researcher_last_name>
-      <position>associate_practice</position>
-      <display_title>Associate Professor of the Practice of Genetic Counseling</display_title>
+      <researcher_first_name>Sumana</researcher_first_name>
+      <researcher_last_name>Setty</researcher_last_name>
+      <position>Instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC27700</organization_code>
+          <organization_code>CC45200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14252,6 +14262,21 @@
     </researcher>
   </user>
   <user>
+    <primary_id>hetalvig</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Hetal</researcher_first_name>
+      <researcher_last_name>Vig</researcher_last_name>
+      <position>professor_practice</position>
+      <display_title>Associate Professor of the Practice of Genetic Counseling</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC27700</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
     <primary_id>cwalker</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -14279,33 +14304,12 @@
     </researcher>
   </user>
   <user>
-    <primary_id>dwallace</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Derron</researcher_first_name>
-      <researcher_last_name>Wallace</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Education and Sociology</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC25000</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18100</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18800</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
     <primary_id>bwallace</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
       <researcher_first_name>Robert</researcher_first_name>
       <researcher_last_name>Wallace</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -14314,15 +14318,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>stephwallace</primary_id>
+    <primary_id>fvadrianzen</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Stephanie</researcher_first_name>
-      <researcher_last_name>Wallace</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <researcher_first_name>Fiorella</researcher_first_name>
+      <researcher_last_name>Vera-Adrianzen</researcher_last_name>
+      <position>Research Associate I part-time non-exempt hourly</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45102</organization_code>
+          <organization_code>CC24651</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14333,7 +14337,7 @@
     <researcher>
       <researcher_first_name>Robert</researcher_first_name>
       <researcher_last_name>Walsh</researcher_last_name>
-      <position>associate_practice</position>
+      <position>professor_practice</position>
       <display_title>Associate Professor of the Practice of Theater Arts</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -14414,7 +14418,7 @@
     <researcher>
       <researcher_first_name>Xin</researcher_first_name>
       <researcher_last_name>Wang</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <display_title>Adjunct Lecturer</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -14429,7 +14433,7 @@
     <researcher>
       <researcher_first_name>Yongge</researcher_first_name>
       <researcher_last_name>Wang</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -14517,7 +14521,7 @@
     <researcher>
       <researcher_first_name>Jeffrey</researcher_first_name>
       <researcher_last_name>Warrington</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -14532,7 +14536,7 @@
     <researcher>
       <researcher_first_name>Callie</researcher_first_name>
       <researcher_last_name>Watkins Liu</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40230</organization_code>
@@ -14590,7 +14594,7 @@
     <researcher>
       <researcher_first_name>Marc</researcher_first_name>
       <researcher_last_name>Weinberg</researcher_last_name>
-      <position>Adjunct Assistant Professor</position>
+      <position>adjunct_assistant</position>
       <display_title>Adjunct Assistant Professor of English</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -14614,19 +14618,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>teuber</primary_id>
+    <primary_id>wellner</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Andreas</researcher_first_name>
-      <researcher_last_name>Teuber</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of Philosophy</display_title>
+      <researcher_first_name>Benjamin</researcher_first_name>
+      <researcher_last_name>Wellner</researcher_last_name>
+      <position>lecturer</position>
+      <display_title>Lecturer in Linguistics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12300</organization_code>
+          <organization_code>CC16600</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
-          <organization_code>CC25100</organization_code>
+          <organization_code>CC26900</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14694,22 +14698,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>jtharaud</primary_id>
+    <primary_id>dwhalen</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Jerome</researcher_first_name>
-      <researcher_last_name>Tharaud</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of English</display_title>
+      <researcher_first_name>David</researcher_first_name>
+      <researcher_last_name>Whalen</researcher_last_name>
+      <position>adjunct_lecturer</position>
+      <display_title>Adjunct Lecturer</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12400</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25700</organization_code>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14762,7 +14760,7 @@
     <researcher>
       <researcher_first_name>Laura</researcher_first_name>
       <researcher_last_name>Willett</researcher_last_name>
-      <position>Adjunct Lecturer</position>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
@@ -14776,7 +14774,7 @@
     <researcher>
       <researcher_first_name>Alfred</researcher_first_name>
       <researcher_last_name>Williams</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -14785,15 +14783,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>cwilliam</primary_id>
+    <primary_id>stieger</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Carole</researcher_first_name>
-      <researcher_last_name>Williams</researcher_last_name>
-      <position>Research Specialist II (part time non-exempt hourly)</position>
+      <researcher_first_name>Mirjam</researcher_first_name>
+      <researcher_last_name>Stieger</researcher_last_name>
+      <position>Postdoctoral Associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16100</organization_code>
+          <organization_code>CC18700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14958,19 +14956,25 @@
     </researcher>
   </user>
   <user>
-    <primary_id>wellner</primary_id>
+    <primary_id>aida</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Benjamin</researcher_first_name>
-      <researcher_last_name>Wellner</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Lecturer in Linguistics</display_title>
+      <researcher_first_name>Aida</researcher_first_name>
+      <researcher_last_name>Wong</researcher_last_name>
+      <position>professor</position>
+      <display_title>Nathan Cummings and Robert B. and Beatrice C. Mayer Chair in Fine Arts, and Professor of Fine Arts, and East Asian Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16600</organization_code>
+          <organization_code>CC11100</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
-          <organization_code>CC26900</organization_code>
+          <organization_code>CC12102</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25600</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC12600</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15036,16 +15040,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ejwright</primary_id>
+    <primary_id>cwilliam</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Ellen</researcher_first_name>
-      <researcher_last_name>Wright</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of Psychology</display_title>
+      <researcher_first_name>Carole</researcher_first_name>
+      <researcher_last_name>Williams</researcher_last_name>
+      <position>Research Specialist II (part time non-exempt hourly)</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18700</organization_code>
+          <organization_code>CC16100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15056,7 +15059,7 @@
     <researcher>
       <researcher_first_name>Graham</researcher_first_name>
       <researcher_last_name>Wright</researcher_last_name>
-      <position>Associate Research Scientist, Cohen Center</position>
+      <position>associate_research</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC24500</organization_code>
@@ -15094,25 +15097,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>aida</primary_id>
+    <primary_id>simonxi</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Aida</researcher_first_name>
-      <researcher_last_name>Wong</researcher_last_name>
-      <position>professor</position>
-      <display_title>Nathan Cummings and Robert B. and Beatrice C. Mayer Chair in Fine Arts, and Professor of Fine Arts, and East Asian Studies</display_title>
+      <researcher_first_name>Hualin</researcher_first_name>
+      <researcher_last_name>Xi</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC11100</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC12102</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25600</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC12600</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15133,16 +15127,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>simonxi</primary_id>
+    <primary_id>bxu</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Hualin</researcher_first_name>
-      <researcher_last_name>Xi</researcher_last_name>
-      <position>Adjunct Instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_first_name>Bing</researcher_first_name>
+      <researcher_last_name>Xu</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Chemistry</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC16500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15184,34 +15178,31 @@
     </researcher>
   </user>
   <user>
-    <primary_id>yack</primary_id>
+    <primary_id>ejwright</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Bernard</researcher_first_name>
-      <researcher_last_name>Yack</researcher_last_name>
-      <position>professor</position>
-      <display_title>Lerman Neubauer Professor of Democracy and Public Policy</display_title>
+      <researcher_first_name>Ellen</researcher_first_name>
+      <researcher_last_name>Wright</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Associate Professor of Psychology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18600</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC12600</organization_code>
+          <organization_code>CC18700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
   </user>
   <user>
-    <primary_id>bxu</primary_id>
+    <primary_id>ryang</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Bing</researcher_first_name>
-      <researcher_last_name>Xu</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Chemistry</display_title>
+      <researcher_first_name>Robert</researcher_first_name>
+      <researcher_last_name>Yang</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16500</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15236,7 +15227,7 @@
     <researcher>
       <researcher_first_name>Kendra</researcher_first_name>
       <researcher_last_name>Yarbor</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Myra Kraft Transitional Year Program</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -15246,16 +15237,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ryang</primary_id>
+    <primary_id>dwallace</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Robert</researcher_first_name>
-      <researcher_last_name>Yang</researcher_last_name>
-      <position>Adjunct Instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_first_name>Derron</researcher_first_name>
+      <researcher_last_name>Wallace</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Education and Sociology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC25000</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18100</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18800</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15307,15 +15304,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>bsalerno</primary_id>
+    <primary_id>stephwallace</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Brian</researcher_first_name>
-      <researcher_last_name>Salerno</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <researcher_first_name>Stephanie</researcher_first_name>
+      <researcher_last_name>Wallace</researcher_last_name>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC45102</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15326,7 +15323,7 @@
     <researcher>
       <researcher_first_name>Vitaly</researcher_first_name>
       <researcher_last_name>Yurik</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -15363,6 +15360,20 @@
     </researcher>
   </user>
   <user>
+    <primary_id>bszeng</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Baosheng</researcher_first_name>
+      <researcher_last_name>Zeng</researcher_last_name>
+      <position>Postdoctoral Associate</position>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC16200</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
     <primary_id>chuxuzhang</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -15373,20 +15384,6 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16600</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>bszeng</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Baosheng</researcher_first_name>
-      <researcher_last_name>Zeng</researcher_last_name>
-      <position>Postdoctoral Associate</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15407,6 +15404,21 @@
     </researcher>
   </user>
   <user>
+    <primary_id>timothysong</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Timothy</researcher_first_name>
+      <researcher_last_name>Song</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC45100</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
     <primary_id>yunpengzhang</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -15416,64 +15428,6 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>ayurik</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Aline</researcher_first_name>
-      <researcher_last_name>Yurik</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>dwhalen</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>David</researcher_first_name>
-      <researcher_last_name>Whalen</researcher_last_name>
-      <position>Adjunct Lecturer</position>
-      <display_title>Adjunct Lecturer</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>jihyeyeon</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Jihye</researcher_first_name>
-      <researcher_last_name>Yeon</researcher_last_name>
-      <position>Postdoctoral Associate</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>timothysong</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Timothy</researcher_first_name>
-      <researcher_last_name>Song</researcher_last_name>
-      <position>Adjunct Instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15549,7 +15503,7 @@
     <researcher>
       <researcher_first_name>Zhaojie</researcher_first_name>
       <researcher_last_name>Zhang</researcher_last_name>
-      <position>Adjunct Instructor</position>
+      <position>adjunct_instructor</position>
       <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -15578,10 +15532,56 @@
     <researcher>
       <researcher_first_name>Mitch</researcher_first_name>
       <researcher_last_name>Tyson</researcher_last_name>
-      <position>Adjunct Professor</position>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>ayurik</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Aline</researcher_first_name>
+      <researcher_last_name>Yurik</researcher_last_name>
+      <position>Chair/Director, Department/Program</position>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC45100</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>yack</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Bernard</researcher_first_name>
+      <researcher_last_name>Yack</researcher_last_name>
+      <position>professor</position>
+      <display_title>Lerman Neubauer Professor of Democracy and Public Policy</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC18600</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC12600</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>jihyeyeon</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Jihye</researcher_first_name>
+      <researcher_last_name>Yeon</researcher_last_name>
+      <position>Postdoctoral Associate</position>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC16200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>

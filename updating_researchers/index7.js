@@ -40,10 +40,23 @@ const fs = require('fs');
       //  user.titleWorkday === 'Professor' user.titleWorkday === '' ||
       if (user.titleWorkday.includes('Professor of the Practice')) {
         positionVar = 'professor_practice';
+      } else if (user.titleWorkday.includes('Professor Emeritus')) {
+        positionVar = 'emeritus';
+      } else if (
+        user.titleWorkday.includes('Chair') ||
+        user.titleWorkday.includes(
+          'Director' || user.titleWorkday.includes('Dir, Center')
+        )
+      ) {
+        positionVar = 'chair_director';
       } else if (
         user.titleWorkday.startsWith('Associate Professor of the Practice')
       ) {
         positionVar = 'associate_practice';
+      } else if (
+        user.titleWorkday.startsWith('Distinguished Research Scientist')
+      ) {
+        positionVar = 'distinguished_research_scientist';
       } else if (user.titleWorkday.startsWith('Postdoctoral Fellow')) {
         positionVar = 'postdoctoral_fellow';
       } else if (user.titleWorkday.startsWith('Assistant Professor')) {
@@ -54,6 +67,10 @@ const fs = require('fs');
         )
       ) {
         positionVar = 'adjunct_associate_practice';
+      } else if (user.titleWorkday.startsWith('Faculty Leave Fellow')) {
+        positionVar = 'fellow';
+      } else if (user.titleWorkday.includes('Kay Fellow')) {
+        positionVar = 'kay_fellow';
       } else if (user.titleWorkday.startsWith('Adjunct Assistant Professor')) {
         positionVar = 'adjunct_assistant';
       } else if (user.titleWorkday.startsWith('Adjunct Associate Professor')) {
@@ -78,6 +95,8 @@ const fs = require('fs');
         positionVar = 'associate_professor';
       } else if (user.titleWorkday.startsWith('Professor')) {
         positionVar = 'professor';
+      } else if (user.titleWorkday.startsWith('Instructor')) {
+        positionVar = 'instructor';
       } else {
         // Can use this to test if any are in the category with a long\specific text
         positionVar = user.titleWorkday;
