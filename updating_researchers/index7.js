@@ -44,9 +44,8 @@ const fs = require('fs');
         positionVar = 'emeritus';
       } else if (
         user.titleWorkday.includes('Chair') ||
-        user.titleWorkday.includes(
-          'Director' || user.titleWorkday.includes('Dir, Center')
-        )
+        user.titleWorkday.includes('Director') ||
+        user.titleWorkday.includes('Dir, Center')
       ) {
         positionVar = 'chair_director';
       } else if (
@@ -139,7 +138,9 @@ const fs = require('fs');
         positionVar = 'senior_fellow';
       } else {
         // Can use this to test if any are in the category with a long\specific text
-        positionVar = user.titleWorkday;
+        // positionVar = user.titleWorkday;
+
+        positionVar = '------  ' + user.titleWorkday;
       }
 
       console.log('unet', unet);
