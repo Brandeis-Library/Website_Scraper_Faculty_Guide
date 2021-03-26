@@ -110,7 +110,13 @@ const fs = require('fs');
       } else if (user.titleWorkday.startsWith('Instructor')) {
         positionVar = 'instructor';
       } else if (user.titleWorkday.startsWith('Poet-in-Residence')) {
+        positionVar = 'scholar_in_residence';
+      } else if (user.titleWorkday.startsWith('Scientist')) {
+        positionVar = 'Scientist';
+      } else if (user.titleWorkday.startsWith('Scholoar-in-Residence')) {
         positionVar = 'poet_in_residence';
+      } else if (user.titleWorkday.startsWith('Sr Fellow')) {
+        positionVar = 'senior_fellow';
       } else {
         // Can use this to test if any are in the category with a long\specific text
         positionVar = user.titleWorkday;
