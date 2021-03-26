@@ -73,6 +73,8 @@ const fs = require('fs');
         positionVar = 'assistant_professor';
       } else if (user.titleWorkday.startsWith('Visiting Assistant Professor')) {
         positionVar = 'visiting_assistant_professor';
+      } else if (user.titleWorkday.startsWith('Visiting Research Scholar')) {
+        positionVar = 'visiting_researcher';
       } else if (
         user.titleWorkday.startsWith(
           'Adjunct Associate Professor of the Practice'
@@ -126,11 +128,13 @@ const fs = require('fs');
       } else if (user.titleWorkday.startsWith('Instructor')) {
         positionVar = 'instructor';
       } else if (user.titleWorkday.startsWith('Poet-in-Residence')) {
-        positionVar = 'scholar_in_residence';
+        positionVar = 'poet_in_residence';
       } else if (user.titleWorkday.startsWith('Scientist')) {
         positionVar = 'Scientist';
-      } else if (user.titleWorkday.startsWith('Scholoar-in-Residence')) {
-        positionVar = 'poet_in_residence';
+      } else if (user.titleWorkday.startsWith('Scholar-in-Residence')) {
+        positionVar = 'scholar_in_residence';
+      } else if (user.titleWorkday.startsWith('Writer-in-Residence')) {
+        positionVar = 'writer_in_residence';
       } else if (user.titleWorkday.startsWith('Sr Fellow')) {
         positionVar = 'senior_fellow';
       } else {
