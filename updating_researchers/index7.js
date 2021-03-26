@@ -44,14 +44,34 @@ const fs = require('fs');
         user.titleWorkday.startsWith('Associate Professor of the Practice')
       ) {
         positionVar = 'associate_practice';
-      } else if (user.titleWorkdaystartsWith('Postdoctoral Fellow')) {
+      } else if (user.titleWorkday.startsWith('Postdoctoral Fellow')) {
         positionVar = 'postdoctoral_fellow';
       } else if (user.titleWorkday.startsWith('Assistant Professor')) {
         positionVar = 'assistant_professor';
+      } else if (
+        user.titleWorkday.startsWith(
+          'Adjunct Associate Professor of the Practice'
+        )
+      ) {
+        positionVar = 'adjunct_associate_practice';
       } else if (user.titleWorkday.startsWith('Adjunct Assistant Professor')) {
         positionVar = 'adjunct_assistant';
       } else if (user.titleWorkday.startsWith('Adjunct Associate Professor')) {
         positionVar = 'adjunct_associate';
+      } else if (user.titleWorkday.startsWith('Adjunct Instructor')) {
+        positionVar = 'adjunct_instructor';
+      } else if (user.titleWorkday.startsWith('Adjunct Lecturer')) {
+        positionVar = 'adjunct_lecturer';
+      } else if (user.titleWorkday.startsWith('Adjunct Professor')) {
+        positionVar = 'adjunct_professor';
+      } else if (user.titleWorkday.startsWith('Adjunct Senior Lecturer')) {
+        positionVar = 'adjunct_senior_lecturer';
+      } else if (
+        user.titleWorkday.startsWith('Associate Research Scientist II')
+      ) {
+        positionVar = 'associate_research_2';
+      } else if (user.titleWorkday.startsWith('Associate Research')) {
+        positionVar = 'associate_research';
       } else if (user.titleWorkday.startsWith('Lecturer')) {
         positionVar = 'lecturer';
       } else if (user.titleWorkday.startsWith('Associate Professor')) {
