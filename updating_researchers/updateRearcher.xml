@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="saved.xsl"?>
 <users>
   <user>
-    <primary_id>abdurez</primary_id>
+    <primary_id>adler</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Hamza</researcher_first_name>
-      <researcher_last_name>Abdurezak</researcher_last_name>
-      <position>Senior Lecturer</position>
-      <display_title>Senior Lecturer in the Brandeis International Business School</display_title>
+      <researcher_first_name>Mark</researcher_first_name>
+      <researcher_last_name>Adler</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC16700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -50,7 +50,7 @@
     <researcher>
       <researcher_first_name>Hayal</researcher_first_name>
       <researcher_last_name>Akarsu</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <display_title>Postdoctoral Associate</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -107,30 +107,30 @@
     </researcher>
   </user>
   <user>
-    <primary_id>bramson</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Marcie</researcher_first_name>
-      <researcher_last_name>Abramson</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Lecturer in Education and Mathematics</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC25000</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
     <primary_id>alemzadeh</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
       <researcher_first_name>Maryam</researcher_first_name>
       <researcher_last_name>Alemzadeh</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC35100</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>zalbert</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Zachary</researcher_first_name>
+      <researcher_last_name>Albert</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Politics</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC18600</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -155,7 +155,7 @@
     <researcher>
       <researcher_first_name>Mohammed</researcher_first_name>
       <researcher_last_name>AlMehdar</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45200</organization_code>
@@ -198,7 +198,7 @@
     <researcher>
       <researcher_first_name>Leandro</researcher_first_name>
       <researcher_last_name>Alonso</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -222,22 +222,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ralterma</primary_id>
+    <primary_id>bramson</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Richard</researcher_first_name>
-      <researcher_last_name>Alterman</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Computer Science</display_title>
+      <researcher_first_name>Marcie</researcher_first_name>
+      <researcher_last_name>Abramson</researcher_last_name>
+      <position>lecturer</position>
+      <display_title>Lecturer in Education and Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16600</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18700</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25200</organization_code>
+          <organization_code>CC25000</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -532,7 +526,7 @@
     <researcher>
       <researcher_first_name>Mohammad</researcher_first_name>
       <researcher_last_name>Ataei</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC35100</organization_code>
@@ -605,7 +599,7 @@
     <researcher>
       <researcher_first_name>Leanne</researcher_first_name>
       <researcher_last_name>Bateman</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -629,16 +623,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ebayone</primary_id>
+    <primary_id>radams</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Edward</researcher_first_name>
-      <researcher_last_name>Bayone</researcher_last_name>
-      <position>professor_practice</position>
-      <display_title>Earle W. Kazis Professor of the Practice of Finance and International Real Estate in the Brandeis International Business School</display_title>
+      <researcher_first_name>Rachel</researcher_first_name>
+      <researcher_last_name>Adams</researcher_last_name>
+      <position>Scientist</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC40620</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -696,7 +689,7 @@
     <researcher>
       <researcher_first_name>Deshpreet</researcher_first_name>
       <researcher_last_name>Bedi</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -757,7 +750,7 @@
     <researcher>
       <researcher_first_name>Gregory</researcher_first_name>
       <researcher_last_name>Bentsen</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -771,7 +764,7 @@
     <researcher>
       <researcher_first_name>John</researcher_first_name>
       <researcher_last_name>Berezney</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -785,7 +778,7 @@
     <researcher>
       <researcher_first_name>Susan</researcher_first_name>
       <researcher_last_name>Bergamo</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -827,19 +820,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>sberhane</primary_id>
+    <primary_id>ebayone</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Sava</researcher_first_name>
-      <researcher_last_name>Berhane</researcher_last_name>
-      <position>Senior Lecturer</position>
-      <display_title>Senior Lecturer in the Brandeis International Business School</display_title>
+      <researcher_first_name>Edward</researcher_first_name>
+      <researcher_last_name>Bayone</researcher_last_name>
+      <position>professor_practice</position>
+      <display_title>Earle W. Kazis Professor of the Practice of Finance and International Real Estate in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC24700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -875,12 +865,13 @@
     </researcher>
   </user>
   <user>
-    <primary_id>sbhimani</primary_id>
+    <primary_id>abdurez</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Shawn</researcher_first_name>
-      <researcher_last_name>Bhimani</researcher_last_name>
-      <position>adjunct_professor</position>
+      <researcher_first_name>Hamza</researcher_first_name>
+      <researcher_last_name>Abdurezak</researcher_last_name>
+      <position>Senior Lecturer</position>
+      <display_title>Senior Lecturer in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC43100</organization_code>
@@ -936,16 +927,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>bisson</primary_id>
+    <primary_id>sberhane</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Alexandre</researcher_first_name>
-      <researcher_last_name>Bisson</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Biology</display_title>
+      <researcher_first_name>Sava</researcher_first_name>
+      <researcher_last_name>Berhane</researcher_last_name>
+      <position>Senior Lecturer</position>
+      <display_title>Senior Lecturer in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
+          <organization_code>CC43100</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC24700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -956,7 +950,7 @@
     <researcher>
       <researcher_first_name>John</researcher_first_name>
       <researcher_last_name>Bladon</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -970,7 +964,7 @@
     <researcher>
       <researcher_first_name>Cassandra</researcher_first_name>
       <researcher_last_name>Blanchette</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -1031,7 +1025,7 @@
     <researcher>
       <researcher_first_name>Alex</researcher_first_name>
       <researcher_last_name>Boodrookas</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC35100</organization_code>
@@ -1138,16 +1132,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>niels</primary_id>
+    <primary_id>sbhimani</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Niels</researcher_first_name>
-      <researcher_last_name>Bradshaw</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Biochemistry</display_title>
+      <researcher_first_name>Shawn</researcher_first_name>
+      <researcher_last_name>Bhimani</researcher_last_name>
+      <position>adjunct_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16100</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -1379,7 +1372,7 @@
     <researcher>
       <researcher_first_name>Gonzalo</researcher_first_name>
       <researcher_last_name>Budelli</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -1457,7 +1450,7 @@
     <researcher>
       <researcher_first_name>Irina</researcher_first_name>
       <researcher_last_name>Cain</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -1595,16 +1588,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>jdcas</primary_id>
+    <primary_id>ralterma</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Justin</researcher_first_name>
-      <researcher_last_name>Casinghino</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Lecturer in Music</display_title>
+      <researcher_first_name>Richard</researcher_first_name>
+      <researcher_last_name>Alterman</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Computer Science</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC11200</organization_code>
+          <organization_code>CC16600</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18700</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -1640,16 +1639,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>cha</primary_id>
+    <primary_id>niels</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Sandra</researcher_first_name>
-      <researcher_last_name>Cha</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of Organizational Behavior in the Brandeis International Business School</display_title>
+      <researcher_first_name>Niels</researcher_first_name>
+      <researcher_last_name>Bradshaw</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Biochemistry</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC16100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -1700,12 +1699,13 @@
     </researcher>
   </user>
   <user>
-    <primary_id>echang88</primary_id>
+    <primary_id>bisson</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Elaine</researcher_first_name>
-      <researcher_last_name>Chang</researcher_last_name>
-      <position>Research Associate II</position>
+      <researcher_first_name>Alexandre</researcher_first_name>
+      <researcher_last_name>Bisson</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Biology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -1729,15 +1729,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>toddchapin</primary_id>
+    <primary_id>jdcas</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Todd</researcher_first_name>
-      <researcher_last_name>Chapin</researcher_last_name>
-      <position>adjunct_instructor</position>
+      <researcher_first_name>Justin</researcher_first_name>
+      <researcher_last_name>Casinghino</researcher_last_name>
+      <position>lecturer</position>
+      <display_title>Lecturer in Music</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC11200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -1771,16 +1772,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>charney</primary_id>
+    <primary_id>toddchapin</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Ruth</researcher_first_name>
-      <researcher_last_name>Charney</researcher_last_name>
-      <position>professor</position>
-      <display_title>Theodore and Evelyn G. Berenson Chair in Mathematics</display_title>
+      <researcher_first_name>Todd</researcher_first_name>
+      <researcher_last_name>Chapin</researcher_last_name>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16700</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -1860,7 +1860,7 @@
     <researcher>
       <researcher_first_name>Chen</researcher_first_name>
       <researcher_last_name>Chen</researcher_last_name>
-      <position>Poet-in-Residence</position>
+      <position>poet_in_residence</position>
       <display_title>Jacob Ziskind Poet-in-Residence</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -1875,7 +1875,7 @@
     <researcher>
       <researcher_first_name>Nannan</researcher_first_name>
       <researcher_last_name>Chen</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -1889,7 +1889,7 @@
     <researcher>
       <researcher_first_name>Alan</researcher_first_name>
       <researcher_last_name>Cheng</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -1934,16 +1934,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>cchester</primary_id>
+    <primary_id>cha</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Charles</researcher_first_name>
-      <researcher_last_name>Chester</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Lecturer in Environmental Studies</display_title>
+      <researcher_first_name>Sandra</researcher_first_name>
+      <researcher_last_name>Cha</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Associate Professor of Organizational Behavior in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC25700</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -1987,7 +1987,7 @@
     <researcher>
       <researcher_first_name>Isu</researcher_first_name>
       <researcher_last_name>Cho</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC18700</organization_code>
@@ -2016,7 +2016,7 @@
     <researcher>
       <researcher_first_name>Susan</researcher_first_name>
       <researcher_last_name>Carman</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -2068,19 +2068,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>geoffclarke</primary_id>
+    <primary_id>cchester</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Geoff</researcher_first_name>
-      <researcher_last_name>Clarke</researcher_last_name>
+      <researcher_first_name>Charles</researcher_first_name>
+      <researcher_last_name>Chester</researcher_last_name>
       <position>lecturer</position>
-      <display_title>Lecturer in Economics</display_title>
+      <display_title>Lecturer in Environmental Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18400</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC25700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -2106,7 +2103,7 @@
     <researcher>
       <researcher_first_name>Vernon</researcher_first_name>
       <researcher_last_name>Clarke</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -2144,15 +2141,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>saaschec</primary_id>
+    <primary_id>geoffclarke</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Sascha</researcher_first_name>
-      <researcher_last_name>Cohen</researcher_last_name>
+      <researcher_first_name>Geoff</researcher_first_name>
+      <researcher_last_name>Clarke</researcher_last_name>
       <position>lecturer</position>
+      <display_title>Lecturer in Economics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18200</organization_code>
+          <organization_code>CC18400</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -2192,7 +2193,7 @@
     <researcher>
       <researcher_first_name>Mark</researcher_first_name>
       <researcher_last_name>Coleman</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <position>chair_director</position>
       <display_title>Program Chair for the Strategic Analytics Program, Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -2269,7 +2270,7 @@
     <researcher>
       <researcher_first_name>Charlie</researcher_first_name>
       <researcher_last_name>Cosnier-Horeau</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16700</organization_code>
@@ -2321,15 +2322,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>cunningham</primary_id>
+    <primary_id>saaschec</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Joseph</researcher_first_name>
-      <researcher_last_name>Cunningham</researcher_last_name>
-      <position>professor</position>
+      <researcher_first_name>Sascha</researcher_first_name>
+      <researcher_last_name>Cohen</researcher_last_name>
+      <position>lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18700</organization_code>
+          <organization_code>CC18200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -2503,7 +2504,7 @@
     <researcher>
       <researcher_first_name>Steven</researcher_first_name>
       <researcher_last_name>Del Signore</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -2578,22 +2579,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>diouf</primary_id>
+    <primary_id>cunningham</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Emilie</researcher_first_name>
-      <researcher_last_name>Diouf</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of English</display_title>
+      <researcher_first_name>Joseph</researcher_first_name>
+      <researcher_last_name>Cunningham</researcher_last_name>
+      <position>professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12400</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18100</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC24700</organization_code>
+          <organization_code>CC18700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -2668,22 +2662,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>bdonahue</primary_id>
+    <primary_id>charney</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Brian</researcher_first_name>
-      <researcher_last_name>Donahue</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of American Environmental Studies (on the Jack Meyerhoff Fund)</display_title>
+      <researcher_first_name>Ruth</researcher_first_name>
+      <researcher_last_name>Charney</researcher_last_name>
+      <position>professor</position>
+      <display_title>Theodore and Evelyn G. Berenson Chair in Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25700</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18500</organization_code>
+          <organization_code>CC16700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -2798,7 +2786,7 @@
     <researcher>
       <researcher_first_name>Erica</researcher_first_name>
       <researcher_last_name>Dresselhaus</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -2899,15 +2887,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>sdupree</primary_id>
+    <primary_id>echang88</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Steven</researcher_first_name>
-      <researcher_last_name>Dupree</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <researcher_first_name>Elaine</researcher_first_name>
+      <researcher_last_name>Chang</researcher_last_name>
+      <position>Research Associate II</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC16200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3022,19 +3010,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>eizmang</primary_id>
+    <primary_id>diouf</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Galit</researcher_first_name>
-      <researcher_last_name>Eizman</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Lecturer in Economics and Adjunct Professor in the Brandeis International Business School</display_title>
+      <researcher_first_name>Emilie</researcher_first_name>
+      <researcher_last_name>Diouf</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of English</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18400</organization_code>
+          <organization_code>CC12400</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC18100</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC24700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3045,7 +3036,7 @@
     <researcher>
       <researcher_first_name>Youssef</researcher_first_name>
       <researcher_last_name>El Chazli</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC35100</organization_code>
@@ -3054,16 +3045,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>eltobgui</primary_id>
+    <primary_id>sdupree</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Carl</researcher_first_name>
-      <researcher_last_name>El-Tobgui</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of Arabic and Islamic Studies and Director of the Arabic Language Program</display_title>
+      <researcher_first_name>Steven</researcher_first_name>
+      <researcher_last_name>Dupree</researcher_last_name>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC13200</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3110,7 +3100,7 @@
     <researcher>
       <researcher_first_name>Esther</researcher_first_name>
       <researcher_last_name>Epum</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -3139,7 +3129,7 @@
     <researcher>
       <researcher_first_name>Biljana</researcher_first_name>
       <researcher_last_name>Ermanoska</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -3199,16 +3189,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>fair</primary_id>
+    <primary_id>eltobgui</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Tory</researcher_first_name>
-      <researcher_last_name>Fair</researcher_last_name>
+      <researcher_first_name>Carl</researcher_first_name>
+      <researcher_last_name>El-Tobgui</researcher_last_name>
       <position>associate_professor</position>
-      <display_title>Associate Professor of Sculpture</display_title>
+      <display_title>Associate Professor of Arabic and Islamic Studies and Director of the Arabic Language Program</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC11100</organization_code>
+          <organization_code>CC13200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3328,7 +3318,7 @@
     <researcher>
       <researcher_first_name>Colby</researcher_first_name>
       <researcher_last_name>Fees</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -3383,16 +3373,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>fell</primary_id>
+    <primary_id>fair</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Richard</researcher_first_name>
-      <researcher_last_name>Fell</researcher_last_name>
-      <position>Senior Lecturer</position>
-      <display_title>Senior Lecturer in Physics</display_title>
+      <researcher_first_name>Tory</researcher_first_name>
+      <researcher_last_name>Fair</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Associate Professor of Sculpture</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16800</organization_code>
+          <organization_code>CC11100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3451,7 +3441,7 @@
     <researcher>
       <researcher_first_name>Eric</researcher_first_name>
       <researcher_last_name>Fields</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC18700</organization_code>
@@ -3460,19 +3450,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>pfirchow</primary_id>
+    <primary_id>bdonahue</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Pamina</researcher_first_name>
-      <researcher_last_name>Firchow</researcher_last_name>
+      <researcher_first_name>Brian</researcher_first_name>
+      <researcher_last_name>Donahue</researcher_last_name>
       <position>associate_professor</position>
-      <display_title>Associate Professor</display_title>
+      <display_title>Associate Professor of American Environmental Studies (on the Jack Meyerhoff Fund)</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC24651</organization_code>
+          <organization_code>CC18200</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC25700</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3564,14 +3557,17 @@
     </researcher>
   </user>
   <user>
-    <primary_id>fournier</primary_id>
+    <primary_id>pfirchow</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Stephen</researcher_first_name>
-      <researcher_last_name>Fournier</researcher_last_name>
-      <position>Senior Lecturer</position>
-      <display_title>Senior Lecturer</display_title>
+      <researcher_first_name>Pamina</researcher_first_name>
+      <researcher_last_name>Firchow</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Associate Professor</display_title>
       <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC24651</organization_code>
+        </researcher_organization_affiliation>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
@@ -3635,15 +3631,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>anthonyfrancis</primary_id>
+    <primary_id>fournier</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Anthony</researcher_first_name>
-      <researcher_last_name>Francis</researcher_last_name>
-      <position>adjunct_instructor</position>
+      <researcher_first_name>Stephen</researcher_first_name>
+      <researcher_last_name>Fournier</researcher_last_name>
+      <position>Senior Lecturer</position>
+      <display_title>Senior Lecturer</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3688,16 +3685,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>adler</primary_id>
+    <primary_id>freeze</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Mark</researcher_first_name>
-      <researcher_last_name>Adler</researcher_last_name>
+      <researcher_first_name>Gregory</researcher_first_name>
+      <researcher_last_name>Freeze</researcher_last_name>
       <position>professor</position>
-      <display_title>Professor of Mathematics</display_title>
+      <display_title>Victor and Gwendolyn Beinfield Professor of History</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16700</organization_code>
+          <organization_code>CC18500</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC12600</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC26300</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3733,16 +3736,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>eafrey</primary_id>
+    <primary_id>anthonyfrancis</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Emily</researcher_first_name>
-      <researcher_last_name>Frey</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Music</display_title>
+      <researcher_first_name>Anthony</researcher_first_name>
+      <researcher_last_name>Francis</researcher_last_name>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC11200</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3791,21 +3793,6 @@
     </researcher>
   </user>
   <user>
-    <primary_id>zalbert</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Zachary</researcher_first_name>
-      <researcher_last_name>Albert</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Politics</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC18600</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
     <primary_id>hfujiwar</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -3821,19 +3808,37 @@
     </researcher>
   </user>
   <user>
-    <primary_id>garnick</primary_id>
+    <primary_id>eafrey</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Deborah</researcher_first_name>
-      <researcher_last_name>Garnick</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor</display_title>
+      <researcher_first_name>Emily</researcher_first_name>
+      <researcher_last_name>Frey</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Music</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40300</organization_code>
+          <organization_code>CC11200</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>pgarrity</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Paul</researcher_first_name>
+      <researcher_last_name>Garrity</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Biology</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC16200</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC27200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3895,22 +3900,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>pgarrity</primary_id>
+    <primary_id>michaelgauthier</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Paul</researcher_first_name>
-      <researcher_last_name>Garrity</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Biology</display_title>
+      <researcher_first_name>Michael</researcher_first_name>
+      <researcher_last_name>Gauthier</researcher_last_name>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC27200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25200</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -3978,22 +3976,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>freeze</primary_id>
+    <primary_id>fell</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Gregory</researcher_first_name>
-      <researcher_last_name>Freeze</researcher_last_name>
-      <position>professor</position>
-      <display_title>Victor and Gwendolyn Beinfield Professor of History</display_title>
+      <researcher_first_name>Richard</researcher_first_name>
+      <researcher_last_name>Fell</researcher_last_name>
+      <position>Senior Lecturer</position>
+      <display_title>Senior Lecturer in Physics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18500</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC12600</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC26300</organization_code>
+          <organization_code>CC16800</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4028,16 +4020,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ckgill</primary_id>
+    <primary_id>garnick</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Candra</researcher_first_name>
-      <researcher_last_name>Gill</researcher_last_name>
-      <position>adjunct_instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_first_name>Deborah</researcher_first_name>
+      <researcher_last_name>Garnick</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC40300</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4072,16 +4067,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ggillin</primary_id>
+    <primary_id>eizmang</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Garrett</researcher_first_name>
-      <researcher_last_name>Gillin</researcher_last_name>
-      <position>adjunct_instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_first_name>Galit</researcher_first_name>
+      <researcher_last_name>Eizman</researcher_last_name>
+      <position>lecturer</position>
+      <display_title>Lecturer in Economics and Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC18400</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4131,37 +4129,34 @@
     </researcher>
   </user>
   <user>
-    <primary_id>shghosh</primary_id>
+    <primary_id>rgodoy</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Shanto</researcher_first_name>
-      <researcher_last_name>Ghosh</researcher_last_name>
-      <position>adjunct_professor</position>
-      <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
+      <researcher_first_name>Ricardo</researcher_first_name>
+      <researcher_last_name>Godoy</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of International Development</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC40400</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
   </user>
   <user>
-    <primary_id>lmgold</primary_id>
+    <primary_id>ckgill</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Lotus</researcher_first_name>
-      <researcher_last_name>Goldberg</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Linguistics</display_title>
+      <researcher_first_name>Candra</researcher_first_name>
+      <researcher_last_name>Gill</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16600</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC26900</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25200</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4182,16 +4177,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>bgc</primary_id>
+    <primary_id>ggillin</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Benjamin</researcher_first_name>
-      <researcher_last_name>Gomes-Casseres</researcher_last_name>
-      <position>professor</position>
-      <display_title>Peter A. Petri Professor of Business and Society in the Brandeis International Business School</display_title>
+      <researcher_first_name>Garrett</researcher_first_name>
+      <researcher_last_name>Gillin</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4253,7 +4248,7 @@
     <researcher>
       <researcher_first_name>Krishna</researcher_first_name>
       <researcher_last_name>Gopalakrishnan</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -4300,7 +4295,7 @@
     <researcher>
       <researcher_first_name>Srinivas</researcher_first_name>
       <researcher_last_name>Gorur Shandilya</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -4354,15 +4349,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>bgradowhite</primary_id>
+    <primary_id>shghosh</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Brianna</researcher_first_name>
-      <researcher_last_name>Grado-White</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <researcher_first_name>Shanto</researcher_first_name>
+      <researcher_last_name>Ghosh</researcher_last_name>
+      <position>adjunct_professor</position>
+      <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16800</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4529,7 +4525,7 @@
     <researcher>
       <researcher_first_name>Huma</researcher_first_name>
       <researcher_last_name>Gupta</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC35100</organization_code>
@@ -4732,7 +4728,7 @@
     <researcher>
       <researcher_first_name>Hanan</researcher_first_name>
       <researcher_last_name>Hammad</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC35100</organization_code>
@@ -4756,16 +4752,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>gracehan</primary_id>
+    <primary_id>lmgold</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Grace</researcher_first_name>
-      <researcher_last_name>Han</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Chemistry</display_title>
+      <researcher_first_name>Lotus</researcher_first_name>
+      <researcher_last_name>Goldberg</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Linguistics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16500</organization_code>
+          <organization_code>CC16600</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC26900</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4810,29 +4812,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>radams</primary_id>
+    <primary_id>khansen</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Rachel</researcher_first_name>
-      <researcher_last_name>Adams</researcher_last_name>
-      <position>Scientist</position>
+      <researcher_first_name>Karen</researcher_first_name>
+      <researcher_last_name>Hansen</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Sociology and Women's, Gender and Sexuality Studies, and Director of the Women's Studies Research Center</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40620</organization_code>
+          <organization_code>CC18800</organization_code>
         </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>michaelgauthier</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Michael</researcher_first_name>
-      <researcher_last_name>Gauthier</researcher_last_name>
-      <position>adjunct_instructor</position>
-      <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC18500</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC24700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4847,6 +4842,21 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40500</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>harder</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Hollie</researcher_first_name>
+      <researcher_last_name>Harder</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of French and Francophone Studies and Director of the French and Italian Language Programs</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC12500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -4871,7 +4881,7 @@
     <researcher>
       <researcher_first_name>Nathan</researcher_first_name>
       <researcher_last_name>Harris</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -4895,15 +4905,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>zivahassenfeld</primary_id>
+    <primary_id>bgradowhite</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Ziva</researcher_first_name>
-      <researcher_last_name>Hassenfeld</researcher_last_name>
-      <position>assistant_professor</position>
+      <researcher_first_name>Brianna</researcher_first_name>
+      <researcher_last_name>Grado-White</researcher_last_name>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC25000</organization_code>
+          <organization_code>CC16800</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5017,19 +5027,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rgodoy</primary_id>
+    <primary_id>ehemdal</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Ricardo</researcher_first_name>
-      <researcher_last_name>Godoy</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of International Development</display_title>
+      <researcher_first_name>Erik</researcher_first_name>
+      <researcher_last_name>Hemdal</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40400</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5155,16 +5162,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>hirsch</primary_id>
+    <primary_id>gracehan</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Eli</researcher_first_name>
-      <researcher_last_name>Hirsch</researcher_last_name>
-      <position>professor</position>
-      <display_title>Charles Goldman Professor of Philosophy</display_title>
+      <researcher_first_name>Grace</researcher_first_name>
+      <researcher_last_name>Han</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Chemistry</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12300</organization_code>
+          <organization_code>CC16500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5239,7 +5246,7 @@
     <researcher>
       <researcher_first_name>Gregory</researcher_first_name>
       <researcher_last_name>Hoeprich</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -5327,16 +5334,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ehemdal</primary_id>
+    <primary_id>bhorton</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Erik</researcher_first_name>
-      <researcher_last_name>Hemdal</researcher_last_name>
-      <position>adjunct_instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_first_name>Brian</researcher_first_name>
+      <researcher_last_name>Horton</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Anthropology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC18300</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18320</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC24700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5390,16 +5403,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>anhuang</primary_id>
+    <primary_id>bgc</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>An</researcher_first_name>
-      <researcher_last_name>Huang</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Mathematics</display_title>
+      <researcher_first_name>Benjamin</researcher_first_name>
+      <researcher_last_name>Gomes-Casseres</researcher_last_name>
+      <position>professor</position>
+      <display_title>Peter A. Petri Professor of Business and Society in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16700</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5419,22 +5432,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>bhorton</primary_id>
+    <primary_id>rahuber</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Brian</researcher_first_name>
-      <researcher_last_name>Horton</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Anthropology</display_title>
+      <researcher_first_name>Rebecca</researcher_first_name>
+      <researcher_last_name>Huber</researcher_last_name>
+      <position>Research Associate II</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18300</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18320</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC24700</organization_code>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5543,7 +5549,7 @@
     <researcher>
       <researcher_first_name>Danielle</researcher_first_name>
       <researcher_last_name>Igra</researcher_last_name>
-      <position>assistant_professor</position>
+      <position>chair_director</position>
       <display_title>Assistant Professor of Education and Director of Teacher Education</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -5553,16 +5559,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>harder</primary_id>
+    <primary_id>igusa</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Hollie</researcher_first_name>
-      <researcher_last_name>Harder</researcher_last_name>
+      <researcher_first_name>Kiyoshi</researcher_first_name>
+      <researcher_last_name>Igusa</researcher_last_name>
       <position>professor</position>
-      <display_title>Professor of French and Francophone Studies and Director of the French and Italian Language Programs</display_title>
+      <display_title>Professor of Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12500</organization_code>
+          <organization_code>CC16700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5690,7 +5696,7 @@
     <researcher>
       <researcher_first_name>Yavuz</researcher_first_name>
       <researcher_last_name>Ceylan</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16500</organization_code>
@@ -5704,7 +5710,7 @@
     <researcher>
       <researcher_first_name>Alexander</researcher_first_name>
       <researcher_last_name>Jacobs</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45200</organization_code>
@@ -5782,15 +5788,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>hjafri</primary_id>
+    <primary_id>hirsch</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Hassan</researcher_first_name>
-      <researcher_last_name>Jafri</researcher_last_name>
-      <position>adjunct_instructor</position>
+      <researcher_first_name>Eli</researcher_first_name>
+      <researcher_last_name>Hirsch</researcher_last_name>
+      <position>professor</position>
+      <display_title>Charles Goldman Professor of Philosophy</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC12300</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5828,16 +5835,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>igusa</primary_id>
+    <primary_id>jankowski</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Kiyoshi</researcher_first_name>
-      <researcher_last_name>Igusa</researcher_last_name>
+      <researcher_first_name>Paul</researcher_first_name>
+      <researcher_last_name>Jankowski</researcher_last_name>
       <position>professor</position>
-      <display_title>Professor of Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16700</organization_code>
+          <organization_code>CC18500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5909,19 +5915,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>xji</primary_id>
+    <primary_id>zivahassenfeld</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>James</researcher_first_name>
-      <researcher_last_name>Ji</researcher_last_name>
-      <position>Kay Fellow in Economics and Environmental Studies</position>
-      <display_title>Florence Levy Kay Fellow in Environmental Economics</display_title>
+      <researcher_first_name>Ziva</researcher_first_name>
+      <researcher_last_name>Hassenfeld</researcher_last_name>
+      <position>assistant_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18400</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25700</organization_code>
+          <organization_code>CC25000</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -5932,7 +5934,7 @@
     <researcher>
       <researcher_first_name>Wei</researcher_first_name>
       <researcher_last_name>Jia</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45200</organization_code>
@@ -6002,6 +6004,21 @@
     </researcher>
   </user>
   <user>
+    <primary_id>anhuang</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>An</researcher_first_name>
+      <researcher_last_name>Huang</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Mathematics</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC16700</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
     <primary_id>pamjoshi</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -6017,40 +6034,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>pratisthaj</primary_id>
+    <primary_id>rkabrhel</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Pratistha</researcher_first_name>
-      <researcher_last_name>Joshi Rajkarnikar</researcher_last_name>
-      <position>adjunct_lecturer</position>
-      <display_title>Adjunct Lecturer</display_title>
+      <researcher_first_name>Rosalind</researcher_first_name>
+      <researcher_last_name>Kabrhel</researcher_last_name>
+      <position>lecturer</position>
+      <display_title>Lecturer in Legal Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40400</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>khansen</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Karen</researcher_first_name>
-      <researcher_last_name>Hansen</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Sociology and Women's, Gender and Sexuality Studies, and Director of the Women's Studies Research Center</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC18800</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18500</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC24700</organization_code>
+          <organization_code>CC25100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -6153,7 +6146,7 @@
     <researcher>
       <researcher_first_name>Eva</researcher_first_name>
       <researcher_last_name>Kaniasty</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -6162,15 +6155,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rahuber</primary_id>
+    <primary_id>xji</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Rebecca</researcher_first_name>
-      <researcher_last_name>Huber</researcher_last_name>
-      <position>Research Associate II</position>
+      <researcher_first_name>James</researcher_first_name>
+      <researcher_last_name>Ji</researcher_last_name>
+      <position>kay_fellow</position>
+      <display_title>Florence Levy Kay Fellow in Environmental Economics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC18400</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -6205,6 +6202,21 @@
     </researcher>
   </user>
   <user>
+    <primary_id>pkasili</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Paul</researcher_first_name>
+      <researcher_last_name>Kasili</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Myra Kraft Transitional Year Program</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC30800</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
     <primary_id>wkapelle</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -6226,20 +6238,6 @@
     </researcher>
   </user>
   <user>
-    <primary_id>katsh</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Rebecca</researcher_first_name>
-      <researcher_last_name>Katsh</researcher_last_name>
-      <position>lecturer</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC25000</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
     <primary_id>davidkatz</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -6255,16 +6253,36 @@
     </researcher>
   </user>
   <user>
-    <primary_id>pkasili</primary_id>
+    <primary_id>dbkatz</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Paul</researcher_first_name>
-      <researcher_last_name>Kasili</researcher_last_name>
-      <position>adjunct_instructor</position>
-      <display_title>Instructor in the Myra Kraft Transitional Year Program</display_title>
+      <researcher_first_name>Donald</researcher_first_name>
+      <researcher_last_name>Katz</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Psychology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC30800</organization_code>
+          <organization_code>CC18700</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC27200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25200</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>hjafri</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Hassan</researcher_first_name>
+      <researcher_last_name>Jafri</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -6279,21 +6297,6 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>shennankavanagh</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Shennan</researcher_first_name>
-      <researcher_last_name>Kavanagh</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Joshua A. Guberman Teaching Fellow and Lecturer in the Legal Studies Program</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC25100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -6334,7 +6337,7 @@
     <researcher>
       <researcher_first_name>Sonal</researcher_first_name>
       <researcher_last_name>Kedia</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -6392,29 +6395,30 @@
     </researcher>
   </user>
   <user>
-    <primary_id>maurakelley</primary_id>
+    <primary_id>katsh</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Maura</researcher_first_name>
-      <researcher_last_name>Kelley</researcher_last_name>
+      <researcher_first_name>Rebecca</researcher_first_name>
+      <researcher_last_name>Katsh</researcher_last_name>
       <position>lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC30100</organization_code>
+          <organization_code>CC25000</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
   </user>
   <user>
-    <primary_id>jankowski</primary_id>
+    <primary_id>kellman</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Paul</researcher_first_name>
-      <researcher_last_name>Jankowski</researcher_last_name>
-      <position>professor</position>
+      <researcher_first_name>Ellen</researcher_first_name>
+      <researcher_last_name>Kellman</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Associate Professor of Yiddish</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18500</organization_code>
+          <organization_code>CC13200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -6454,7 +6458,7 @@
     <researcher>
       <researcher_first_name>Dinar</researcher_first_name>
       <researcher_last_name>Kharisma</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -6526,7 +6530,7 @@
     <researcher>
       <researcher_first_name>Yoosik</researcher_first_name>
       <researcher_last_name>Kim</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16700</organization_code>
@@ -6849,7 +6853,7 @@
     <researcher>
       <researcher_first_name>Rahul</researcher_first_name>
       <researcher_last_name>Krishna</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <display_title>Instructor in Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -6952,7 +6956,7 @@
     <researcher>
       <researcher_first_name>Ekin</researcher_first_name>
       <researcher_last_name>Kurtic</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC35100</organization_code>
@@ -7012,22 +7016,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>lackner</primary_id>
+    <primary_id>shennankavanagh</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>James</researcher_first_name>
-      <researcher_last_name>Lackner</researcher_last_name>
-      <position>professor</position>
-      <display_title>Meshulam and Judith Riklis Professor of Physiology</display_title>
+      <researcher_first_name>Shennan</researcher_first_name>
+      <researcher_last_name>Kavanagh</researcher_last_name>
+      <position>lecturer</position>
+      <display_title>Joshua A. Guberman Teaching Fellow and Lecturer in the Legal Studies Program</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18700</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC27200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25200</organization_code>
+          <organization_code>CC25100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -7093,15 +7091,22 @@
     </researcher>
   </user>
   <user>
-    <primary_id>laneb</primary_id>
+    <primary_id>lackner</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Brian</researcher_first_name>
-      <researcher_last_name>Lane</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <researcher_first_name>James</researcher_first_name>
+      <researcher_last_name>Lackner</researcher_last_name>
+      <position>professor</position>
+      <display_title>Meshulam and Judith Riklis Professor of Physiology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
+          <organization_code>CC18700</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -7125,6 +7130,20 @@
     </researcher>
   </user>
   <user>
+    <primary_id>laneb</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Brian</researcher_first_name>
+      <researcher_last_name>Lane</researcher_last_name>
+      <position>postdoctoral_associate</position>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC27200</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
     <primary_id>wlaursen</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -7139,27 +7158,12 @@
     </researcher>
   </user>
   <user>
-    <primary_id>albion</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Albion</researcher_first_name>
-      <researcher_last_name>Lawrence</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Physics</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC16800</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
     <primary_id>hannahlawson</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
       <researcher_first_name>Hannah</researcher_first_name>
       <researcher_last_name>Lawson</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -7248,16 +7252,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>lfloreslee</primary_id>
+    <primary_id>maurakelley</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Luz</researcher_first_name>
-      <researcher_last_name>Lee</researcher_last_name>
-      <position>adjunct_instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_first_name>Maura</researcher_first_name>
+      <researcher_last_name>Kelley</researcher_last_name>
+      <position>lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC30100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -7450,7 +7453,7 @@
     <researcher>
       <researcher_first_name>Jicun</researcher_first_name>
       <researcher_last_name>Li</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16500</organization_code>
@@ -7509,7 +7512,7 @@
     <researcher>
       <researcher_first_name>Jian You</researcher_first_name>
       <researcher_last_name>Lin</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -7674,7 +7677,7 @@
     <researcher>
       <researcher_first_name>Richard</researcher_first_name>
       <researcher_last_name>Lockwood</researcher_last_name>
-      <position>Instructor - temp</position>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40400</organization_code>
@@ -7688,7 +7691,7 @@
     <researcher>
       <researcher_first_name>Joseph</researcher_first_name>
       <researcher_last_name>Lopes</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -7720,7 +7723,7 @@
     <researcher>
       <researcher_first_name>Janna</researcher_first_name>
       <researcher_last_name>Lowensohn</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -7793,34 +7796,49 @@
     </researcher>
   </user>
   <user>
-    <primary_id>luis</primary_id>
+    <primary_id>albion</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Keridwen</researcher_first_name>
-      <researcher_last_name>Luis</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Lecturer in Anthropology and Women's, Gender, and Sexuality Studies</display_title>
+      <researcher_first_name>Albion</researcher_first_name>
+      <researcher_last_name>Lawrence</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Physics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18300</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC24700</organization_code>
+          <organization_code>CC16800</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
   </user>
   <user>
-    <primary_id>dlumerman</primary_id>
+    <primary_id>lfloreslee</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>David</researcher_first_name>
-      <researcher_last_name>Lumerman</researcher_last_name>
+      <researcher_first_name>Luz</researcher_first_name>
+      <researcher_last_name>Lee</researcher_last_name>
       <position>adjunct_instructor</position>
-      <display_title>Adjunct Instructor</display_title>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>pratisthaj</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Pratistha</researcher_first_name>
+      <researcher_last_name>Joshi Rajkarnikar</researcher_last_name>
+      <position>adjunct_lecturer</position>
+      <display_title>Adjunct Lecturer</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC40400</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -7943,21 +7961,6 @@
     </researcher>
   </user>
   <user>
-    <primary_id>robmalenfant</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Robert</researcher_first_name>
-      <researcher_last_name>Malenfant</researcher_last_name>
-      <position>adjunct_professor</position>
-      <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
     <primary_id>nmalik88</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -7973,45 +7976,33 @@
     </researcher>
   </user>
   <user>
-    <primary_id>johnmallon</primary_id>
+    <primary_id>luis</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>John</researcher_first_name>
-      <researcher_last_name>Mallon</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <researcher_first_name>Keridwen</researcher_first_name>
+      <researcher_last_name>Luis</researcher_last_name>
+      <position>lecturer</position>
+      <display_title>Lecturer in Anthropology and Women's, Gender, and Sexuality Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
+          <organization_code>CC18300</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC24700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
   </user>
   <user>
-    <primary_id>mandrell</primary_id>
+    <primary_id>johnmallon</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>James</researcher_first_name>
-      <researcher_last_name>Mandrell</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Director of the University Writing Program, and Associate Professor of Hispanic Studies, Comparative Literature, and Film Studies</display_title>
+      <researcher_first_name>John</researcher_first_name>
+      <researcher_last_name>Mallon</researcher_last_name>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12500</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC12501</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC26800</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC24700</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC12450</organization_code>
+          <organization_code>CC16200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -8036,7 +8027,7 @@
     <researcher>
       <researcher_first_name>Andrew</researcher_first_name>
       <researcher_last_name>March</researcher_last_name>
-      <position>Faculty Leave Fellow</position>
+      <position>fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC35100</organization_code>
@@ -8068,6 +8059,21 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45102</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>robmalenfant</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Robert</researcher_first_name>
+      <researcher_last_name>Malenfant</researcher_last_name>
+      <position>adjunct_professor</position>
+      <display_title>Adjunct Professor in the Brandeis International Business School</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -8127,15 +8133,59 @@
     </researcher>
   </user>
   <user>
-    <primary_id>martens</primary_id>
+    <primary_id>mandrell</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Edward</researcher_first_name>
-      <researcher_last_name>Martens</researcher_last_name>
-      <position>Instructor</position>
+      <researcher_first_name>James</researcher_first_name>
+      <researcher_last_name>Mandrell</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Director of the University Writing Program, and Associate Professor of Hispanic Studies, Comparative Literature, and Film Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45200</organization_code>
+          <organization_code>CC12500</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC12501</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC26800</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC24700</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC12450</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>anem</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Ane</researcher_first_name>
+      <researcher_last_name>Martin Anduaga</researcher_last_name>
+      <position>postdoctoral_associate</position>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC16200</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>ashishkm</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Ashish</researcher_first_name>
+      <researcher_last_name>Maurya</researcher_last_name>
+      <position>postdoctoral_associate</position>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC16200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -8155,59 +8205,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>anem</primary_id>
+    <primary_id>martens</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Ane</researcher_first_name>
-      <researcher_last_name>Martin Anduaga</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <researcher_first_name>Edward</researcher_first_name>
+      <researcher_last_name>Martens</researcher_last_name>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>ashishkm</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Ashish</researcher_first_name>
-      <researcher_last_name>Maurya</researcher_last_name>
-      <position>Postdoctoral Associate</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>pmay</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Peter</researcher_first_name>
-      <researcher_last_name>May</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Lecturer in Journalism</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC26700</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>mayer</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Alan</researcher_first_name>
-      <researcher_last_name>Mayer</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Mathematics</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC16700</organization_code>
+          <organization_code>CC45200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -8439,7 +8445,7 @@
     <researcher>
       <researcher_first_name>Rebecca</researcher_first_name>
       <researcher_last_name>Meeks</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC18700</organization_code>
@@ -8448,19 +8454,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>joel</primary_id>
+    <primary_id>dlumerman</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Joel</researcher_first_name>
-      <researcher_last_name>Christensen</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Professor of Classical Studies</display_title>
+      <researcher_first_name>David</researcher_first_name>
+      <researcher_last_name>Lumerman</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Adjunct Instructor</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12100</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC12501</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -8481,19 +8484,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ivanovic</primary_id>
+    <primary_id>joel</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Tijana</researcher_first_name>
-      <researcher_last_name>Ivanovic</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Biochemistry</display_title>
+      <researcher_first_name>Joel</researcher_first_name>
+      <researcher_last_name>Christensen</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Professor of Classical Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16100</organization_code>
+          <organization_code>CC12100</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
-          <organization_code>CC28100</organization_code>
+          <organization_code>CC12501</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -8668,22 +8671,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>dbkatz</primary_id>
+    <primary_id>genemiller</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Donald</researcher_first_name>
-      <researcher_last_name>Katz</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Psychology</display_title>
+      <researcher_first_name>Gene</researcher_first_name>
+      <researcher_last_name>Miller</researcher_last_name>
+      <position>adjunct_lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18700</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC27200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25200</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -8712,7 +8708,7 @@
     <researcher>
       <researcher_first_name>Marlyn</researcher_first_name>
       <researcher_last_name>Miller</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45200</organization_code>
@@ -8899,7 +8895,7 @@
     <researcher>
       <researcher_first_name>Farzaneh</researcher_first_name>
       <researcher_last_name>Mohajerani</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -9038,7 +9034,7 @@
     <researcher>
       <researcher_first_name>Ekaterina</researcher_first_name>
       <researcher_last_name>Morozova</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -9124,7 +9120,7 @@
     <researcher>
       <researcher_first_name>Leonard</researcher_first_name>
       <researcher_last_name>Muellner</researcher_last_name>
-      <position>professor</position>
+      <position>emeritus</position>
       <display_title>Professor Emeritus of Classical Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -9309,7 +9305,7 @@
     <researcher>
       <researcher_first_name>Katherine</researcher_first_name>
       <researcher_last_name>Nadeau</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45200</organization_code>
@@ -9337,7 +9333,7 @@
     <researcher>
       <researcher_first_name>Ashley</researcher_first_name>
       <researcher_last_name>Nagle Eknaian</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -9365,7 +9361,7 @@
     <researcher>
       <researcher_first_name>Yuko</researcher_first_name>
       <researcher_last_name>Nakajima</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -9379,7 +9375,7 @@
     <researcher>
       <researcher_first_name>Kosuke</researcher_first_name>
       <researcher_last_name>Nakamoto</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16500</organization_code>
@@ -9458,7 +9454,7 @@
     <researcher>
       <researcher_first_name>Gleb</researcher_first_name>
       <researcher_last_name>Nenashev</researcher_last_name>
-      <position>Instructor in Mathematics</position>
+      <position>instructor</position>
       <display_title>Instructor in Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -9468,16 +9464,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>kellman</primary_id>
+    <primary_id>gnenciu</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Ellen</researcher_first_name>
-      <researcher_last_name>Kellman</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of Yiddish</display_title>
+      <researcher_first_name>Gabriela</researcher_first_name>
+      <researcher_last_name>Nenciu</researcher_last_name>
+      <position>lecturer</position>
+      <display_title>Lecturer in French and Francophone Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC13200</organization_code>
+          <organization_code>CC12500</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -9502,7 +9498,7 @@
     <researcher>
       <researcher_first_name>Mahesh</researcher_first_name>
       <researcher_last_name>Neralkar</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16500</organization_code>
@@ -9525,15 +9521,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>mmn</primary_id>
+    <primary_id>pmay</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Matthew</researcher_first_name>
-      <researcher_last_name>Newman</researcher_last_name>
+      <researcher_first_name>Peter</researcher_first_name>
+      <researcher_last_name>May</researcher_last_name>
       <position>lecturer</position>
+      <display_title>Lecturer in Journalism</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12100</organization_code>
+          <organization_code>CC26700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -9831,7 +9828,7 @@
     <researcher>
       <researcher_first_name>Yerdos</researcher_first_name>
       <researcher_last_name>Ordabayev</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16100</organization_code>
@@ -9845,7 +9842,7 @@
     <researcher>
       <researcher_first_name>Serah</researcher_first_name>
       <researcher_last_name>Nthenge</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -9901,16 +9898,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rkabrhel</primary_id>
+    <primary_id>sourieff</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Rosalind</researcher_first_name>
-      <researcher_last_name>Kabrhel</researcher_last_name>
+      <researcher_first_name>Sally</researcher_first_name>
+      <researcher_last_name>Ourieff</researcher_last_name>
       <position>lecturer</position>
-      <display_title>Lecturer in Legal Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC25100</organization_code>
+          <organization_code>CC40200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -9936,7 +9932,7 @@
     <researcher>
       <researcher_first_name>Nagarjuna</researcher_first_name>
       <researcher_last_name>Pamudurti</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -9963,15 +9959,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>sourieff</primary_id>
+    <primary_id>rogerpao</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Sally</researcher_first_name>
-      <researcher_last_name>Ourieff</researcher_last_name>
-      <position>lecturer</position>
+      <researcher_first_name>Roger</researcher_first_name>
+      <researcher_last_name>Pao</researcher_last_name>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40200</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -9991,16 +9987,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>gnenciu</primary_id>
+    <primary_id>papaemmanouil</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Gabriela</researcher_first_name>
-      <researcher_last_name>Nenciu</researcher_last_name>
-      <position>lecturer</position>
-      <display_title>Lecturer in French and Francophone Studies</display_title>
+      <researcher_first_name>Olga</researcher_first_name>
+      <researcher_last_name>Papaemmanouil</researcher_last_name>
+      <position>associate_professor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12500</organization_code>
+          <organization_code>CC16600</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10046,7 +10041,7 @@
     <researcher>
       <researcher_first_name>Youngmin</researcher_first_name>
       <researcher_last_name>Park</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <display_title>NRSA Postdoctoral Fellow</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10090,7 +10085,7 @@
     <researcher>
       <researcher_first_name>Soham</researcher_first_name>
       <researcher_last_name>Patel</researcher_last_name>
-      <position>Kay Fellow in Afro-Asian Diaspora Studies</position>
+      <position>kay_fellow</position>
       <display_title>Florence Levy Kay Fellow in Afro-Asian Diaspora Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10144,15 +10139,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>papaemmanouil</primary_id>
+    <primary_id>nilip</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Olga</researcher_first_name>
-      <researcher_last_name>Papaemmanouil</researcher_last_name>
-      <position>associate_professor</position>
+      <researcher_first_name>Nili</researcher_first_name>
+      <researcher_last_name>Pearlmutter</researcher_last_name>
+      <position>lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16600</organization_code>
+          <organization_code>CC25000</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10188,22 +10183,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>perlman</primary_id>
+    <primary_id>mmn</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Dan</researcher_first_name>
-      <researcher_last_name>Perlman</researcher_last_name>
-      <position>professor</position>
-      <display_title>Professor of Environmental Studies and of The Heller School for Social Policy and Management</display_title>
+      <researcher_first_name>Matthew</researcher_first_name>
+      <researcher_last_name>Newman</researcher_last_name>
+      <position>lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC25700</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC12100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10230,15 +10218,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>nilip</primary_id>
+    <primary_id>perloff</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Nili</researcher_first_name>
-      <researcher_last_name>Pearlmutter</researcher_last_name>
-      <position>lecturer</position>
+      <researcher_first_name>Jennifer</researcher_first_name>
+      <researcher_last_name>Perloff</researcher_last_name>
+      <position>Sr Research Scientist II/Fellow</position>
+      <display_title>Senior Scientist and Director of Institute for Healthcare Systems (IHS)</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC25000</organization_code>
+          <organization_code>CC40300</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10249,7 +10241,7 @@
     <researcher>
       <researcher_first_name>Matthew</researcher_first_name>
       <researcher_last_name>Pescosolido</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -10263,7 +10255,7 @@
     <researcher>
       <researcher_first_name>Nicholas</researcher_first_name>
       <researcher_last_name>Petersen</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -10328,7 +10320,7 @@
     <researcher>
       <researcher_first_name>Lam</researcher_first_name>
       <researcher_last_name>Pham</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <display_title>Instructor in Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -10343,7 +10335,7 @@
     <researcher>
       <researcher_first_name>Alison</researcher_first_name>
       <researcher_last_name>Philbrook</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -10469,19 +10461,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>perloff</primary_id>
+    <primary_id>jpipkin</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Jennifer</researcher_first_name>
-      <researcher_last_name>Perloff</researcher_last_name>
-      <position>Sr Research Scientist II/Fellow</position>
-      <display_title>Senior Scientist and Director of Institute for Healthcare Systems (IHS)</display_title>
+      <researcher_first_name>Jason</researcher_first_name>
+      <researcher_last_name>Pipkin</researcher_last_name>
+      <position>postdoctoral_associate</position>
+      <display_title>Visiting Research Scientist</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40300</organization_code>
+          <organization_code>CC27200</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
-          <organization_code>CC40100</organization_code>
+          <organization_code>CC16200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10604,7 +10596,7 @@
     <researcher>
       <researcher_first_name>Jacob</researcher_first_name>
       <researcher_last_name>Olson</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -10632,7 +10624,7 @@
     <researcher>
       <researcher_first_name>Linda</researcher_first_name>
       <researcher_last_name>Pololi</researcher_last_name>
-      <position>Distinguished Research Scientist</position>
+      <position>distinguished_research_scientist</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC24900</organization_code>
@@ -10683,15 +10675,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>genemiller</primary_id>
+    <primary_id>dpriddle</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Gene</researcher_first_name>
-      <researcher_last_name>Miller</researcher_last_name>
-      <position>adjunct_lecturer</position>
+      <researcher_first_name>David</researcher_first_name>
+      <researcher_last_name>Priddle</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -10787,7 +10780,7 @@
     <researcher>
       <researcher_first_name>Monica</researcher_first_name>
       <researcher_last_name>Quinones-Frias</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -10816,7 +10809,7 @@
     <researcher>
       <researcher_first_name>Dorde</researcher_first_name>
       <researcher_last_name>Radicevic</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -10933,7 +10926,7 @@
     <researcher>
       <researcher_first_name>Carina</researcher_first_name>
       <researcher_last_name>Ray</researcher_last_name>
-      <position>associate_professor</position>
+      <position>chair_director</position>
       <display_title>Associate Professor of African and African American Studies, and Harry Coplan Chair of Social Sciences</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -11479,7 +11472,7 @@
     <researcher>
       <researcher_first_name>Lisa</researcher_first_name>
       <researcher_last_name>Rourke</researcher_last_name>
-      <position>assistant_professor</position>
+      <position>chair_director</position>
       <display_title>Assistant Professor of University Writing and Director of First-Year Writing</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -11524,7 +11517,7 @@
     <researcher>
       <researcher_first_name>Casey</researcher_first_name>
       <researcher_last_name>Rufener</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45200</organization_code>
@@ -11647,7 +11640,7 @@
     <researcher>
       <researcher_first_name>Brian</researcher_first_name>
       <researcher_last_name>Salerno</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -11706,16 +11699,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rsampath</primary_id>
+    <primary_id>perlman</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Rajesh</researcher_first_name>
-      <researcher_last_name>Sampath</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of the Philosophy of Justice, Rights, and Social Change</display_title>
+      <researcher_first_name>Dan</researcher_first_name>
+      <researcher_last_name>Perlman</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Environmental Studies and of The Heller School for Social Policy and Management</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC40400</organization_code>
+          <organization_code>CC16200</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC25700</organization_code>
         </researcher_organization_affiliation>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -11790,7 +11786,7 @@
     <researcher>
       <researcher_first_name>Elena</researcher_first_name>
       <researcher_last_name>Sapede</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -11892,15 +11888,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ascheur</primary_id>
+    <primary_id>ivanovic</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Aviva</researcher_first_name>
-      <researcher_last_name>Scheur</researcher_last_name>
-      <position>lecturer</position>
+      <researcher_first_name>Tijana</researcher_first_name>
+      <researcher_last_name>Ivanovic</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Biochemistry</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC25000</organization_code>
+          <organization_code>CC16100</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC28100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -12111,7 +12111,7 @@
     <researcher>
       <researcher_first_name>Nesrin</researcher_first_name>
       <researcher_last_name>Senbil</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -12125,7 +12125,7 @@
     <researcher>
       <researcher_first_name>Piali</researcher_first_name>
       <researcher_last_name>Sengupta</researcher_last_name>
-      <position>professor</position>
+      <position>chair_director</position>
       <display_title>Harold and Bernice Davis Professor in Aging and Neurodegenerative Disease</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -12156,21 +12156,6 @@
     </researcher>
   </user>
   <user>
-    <primary_id>dpriddle</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>David</researcher_first_name>
-      <researcher_last_name>Priddle</researcher_last_name>
-      <position>adjunct_instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
     <primary_id>esession</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -12195,6 +12180,20 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC12300</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>sumana45</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Sumana</researcher_first_name>
+      <researcher_last_name>Setty</researcher_last_name>
+      <position>instructor</position>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC45200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -12665,7 +12664,7 @@
     <researcher>
       <researcher_first_name>Christopher</researcher_first_name>
       <researcher_last_name>Sistrom</researcher_last_name>
-      <position>Distinguished Research Scientist</position>
+      <position>distinguished_research_scientist</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40300</organization_code>
@@ -12707,15 +12706,19 @@
     </researcher>
   </user>
   <user>
-    <primary_id>vsmedile</primary_id>
+    <primary_id>rsampath</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Valerie</researcher_first_name>
-      <researcher_last_name>Smedile Rifkin</researcher_last_name>
-      <position>adjunct_instructor</position>
+      <researcher_first_name>Rajesh</researcher_first_name>
+      <researcher_last_name>Sampath</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Associate Professor of the Philosophy of Justice, Rights, and Social Change</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC40400</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC40100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -12877,16 +12880,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ssoleimani</primary_id>
+    <primary_id>ascheur</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Sheida</researcher_first_name>
-      <researcher_last_name>Soleimani</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Fine Arts</display_title>
+      <researcher_first_name>Aviva</researcher_first_name>
+      <researcher_last_name>Scheur</researcher_last_name>
+      <position>lecturer</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC11100</organization_code>
+          <organization_code>CC25000</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -12937,15 +12939,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rogerpao</primary_id>
+    <primary_id>rspack</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Roger</researcher_first_name>
-      <researcher_last_name>Pao</researcher_last_name>
+      <researcher_first_name>Ruth</researcher_first_name>
+      <researcher_last_name>Spack</researcher_last_name>
       <position>adjunct_instructor</position>
+      <display_title>Instructor in the Myra Kraft Transitional Year Program</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC30800</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -13011,21 +13014,6 @@
     </researcher>
   </user>
   <user>
-    <primary_id>rspack</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Ruth</researcher_first_name>
-      <researcher_last_name>Spack</researcher_last_name>
-      <position>adjunct_instructor</position>
-      <display_title>Instructor in the Myra Kraft Transitional Year Program</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC30800</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
     <primary_id>mstewart</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -13035,6 +13023,20 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40620</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>stieger</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Mirjam</researcher_first_name>
+      <researcher_last_name>Stieger</researcher_last_name>
+      <position>postdoctoral_associate</position>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC18700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -13060,7 +13062,7 @@
     <researcher>
       <researcher_first_name>Jillian</researcher_first_name>
       <researcher_last_name>Stinchcomb</researcher_last_name>
-      <position>Florence Levy Kay Fellow in Hebrew Bible and Mediterranean Cross-CulturalTextual Traditions</position>
+      <position>kay_fellow</position>
       <display_title>Florence Levy Kay Fellow in Hebrew Bible and Mediterranean Cross-Cultural Textual Traditions</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -13260,19 +13262,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>jpipkin</primary_id>
+    <primary_id>yangs</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Jason</researcher_first_name>
-      <researcher_last_name>Pipkin</researcher_last_name>
-      <position>Postdoctoral Associate</position>
-      <display_title>Visiting Research Scientist</display_title>
+      <researcher_first_name>Yang</researcher_first_name>
+      <researcher_last_name>Sun</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Finance in the Brandeis International Business School</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC27200</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
+          <organization_code>CC43100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -13342,7 +13341,7 @@
     <researcher>
       <researcher_first_name>Claire</researcher_first_name>
       <researcher_last_name>Symanski</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -13807,7 +13806,7 @@
     <researcher>
       <researcher_first_name>Nicholas</researcher_first_name>
       <researcher_last_name>Trojanowski</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -13931,7 +13930,7 @@
     <researcher>
       <researcher_first_name>Botond</researcher_first_name>
       <researcher_last_name>Tyukodi</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -13945,7 +13944,7 @@
     <researcher>
       <researcher_first_name>Ken</researcher_first_name>
       <researcher_last_name>Udas</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -14080,7 +14079,7 @@
     <researcher>
       <researcher_first_name>Michael</researcher_first_name>
       <researcher_last_name>Vela</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45200</organization_code>
@@ -14118,16 +14117,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>yangs</primary_id>
+    <primary_id>fvadrianzen</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Yang</researcher_first_name>
-      <researcher_last_name>Sun</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Finance in the Brandeis International Business School</display_title>
+      <researcher_first_name>Fiorella</researcher_first_name>
+      <researcher_last_name>Vera-Adrianzen</researcher_last_name>
+      <position>Research Associate I part-time non-exempt hourly</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC43100</organization_code>
+          <organization_code>CC24651</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14171,7 +14169,7 @@
     <researcher>
       <researcher_first_name>Thomas</researcher_first_name>
       <researcher_last_name>Videbaek</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -14180,15 +14178,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>sumana45</primary_id>
+    <primary_id>hetalvig</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Sumana</researcher_first_name>
-      <researcher_last_name>Setty</researcher_last_name>
-      <position>Instructor</position>
+      <researcher_first_name>Hetal</researcher_first_name>
+      <researcher_last_name>Vig</researcher_last_name>
+      <position>professor_practice</position>
+      <display_title>Associate Professor of the Practice of Genetic Counseling</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45200</organization_code>
+          <organization_code>CC27700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14217,7 +14216,7 @@
     <researcher>
       <researcher_first_name>Vivekanand</researcher_first_name>
       <researcher_last_name>Vimal</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC25300</organization_code>
@@ -14262,21 +14261,6 @@
     </researcher>
   </user>
   <user>
-    <primary_id>hetalvig</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Hetal</researcher_first_name>
-      <researcher_last_name>Vig</researcher_last_name>
-      <position>professor_practice</position>
-      <display_title>Associate Professor of the Practice of Genetic Counseling</display_title>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC27700</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
     <primary_id>cwalker</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -14304,6 +14288,27 @@
     </researcher>
   </user>
   <user>
+    <primary_id>dwallace</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Derron</researcher_first_name>
+      <researcher_last_name>Wallace</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Education and Sociology</display_title>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC25000</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18100</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC18800</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
     <primary_id>bwallace</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
@@ -14318,15 +14323,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>fvadrianzen</primary_id>
+    <primary_id>stephwallace</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Fiorella</researcher_first_name>
-      <researcher_last_name>Vera-Adrianzen</researcher_last_name>
-      <position>Research Associate I part-time non-exempt hourly</position>
+      <researcher_first_name>Stephanie</researcher_first_name>
+      <researcher_last_name>Wallace</researcher_last_name>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC24651</organization_code>
+          <organization_code>CC45102</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14565,7 +14570,7 @@
     <researcher>
       <researcher_first_name>Wei-Shao</researcher_first_name>
       <researcher_last_name>Wei</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16800</organization_code>
@@ -14589,16 +14594,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>marcw</primary_id>
+    <primary_id>mayer</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Marc</researcher_first_name>
-      <researcher_last_name>Weinberg</researcher_last_name>
-      <position>adjunct_assistant</position>
-      <display_title>Adjunct Assistant Professor of English</display_title>
+      <researcher_first_name>Alan</researcher_first_name>
+      <researcher_last_name>Mayer</researcher_last_name>
+      <position>professor</position>
+      <display_title>Professor of Mathematics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC12400</organization_code>
+          <organization_code>CC16700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14656,7 +14661,7 @@
     <researcher>
       <researcher_first_name>Wei</researcher_first_name>
       <researcher_last_name>Wen</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -14670,7 +14675,7 @@
     <researcher>
       <researcher_first_name>Yaxuan</researcher_first_name>
       <researcher_last_name>Wen</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <display_title>Lecturer in Economics</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
@@ -14746,7 +14751,7 @@
     <researcher>
       <researcher_first_name>Timothy</researcher_first_name>
       <researcher_last_name>Wiggin</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -14783,15 +14788,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>stieger</primary_id>
+    <primary_id>cwilliam</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Mirjam</researcher_first_name>
-      <researcher_last_name>Stieger</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <researcher_first_name>Carole</researcher_first_name>
+      <researcher_last_name>Williams</researcher_last_name>
+      <position>Research Specialist II (part time non-exempt hourly)</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18700</organization_code>
+          <organization_code>CC16100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -14835,7 +14840,7 @@
     <researcher>
       <researcher_first_name>Richard</researcher_first_name>
       <researcher_last_name>Williams</researcher_last_name>
-      <position>Instructor</position>
+      <position>instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45200</organization_code>
@@ -14918,7 +14923,7 @@
     <researcher>
       <researcher_first_name>Alison</researcher_first_name>
       <researcher_last_name>Wirshing</researcher_last_name>
-      <position>NRSA Postdoctoral Fellow</position>
+      <position>nrsa_fellow</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -15040,15 +15045,16 @@
     </researcher>
   </user>
   <user>
-    <primary_id>cwilliam</primary_id>
+    <primary_id>ejwright</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Carole</researcher_first_name>
-      <researcher_last_name>Williams</researcher_last_name>
-      <position>Research Specialist II (part time non-exempt hourly)</position>
+      <researcher_first_name>Ellen</researcher_first_name>
+      <researcher_last_name>Wright</researcher_last_name>
+      <position>associate_professor</position>
+      <display_title>Associate Professor of Psychology</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16100</organization_code>
+          <organization_code>CC18700</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15088,7 +15094,7 @@
     <researcher>
       <researcher_first_name>Chi-Hong</researcher_first_name>
       <researcher_last_name>Wu</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -15178,31 +15184,34 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ejwright</primary_id>
+    <primary_id>yack</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Ellen</researcher_first_name>
-      <researcher_last_name>Wright</researcher_last_name>
-      <position>associate_professor</position>
-      <display_title>Associate Professor of Psychology</display_title>
+      <researcher_first_name>Bernard</researcher_first_name>
+      <researcher_last_name>Yack</researcher_last_name>
+      <position>professor</position>
+      <display_title>Lerman Neubauer Professor of Democracy and Public Policy</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18700</organization_code>
+          <organization_code>CC18600</organization_code>
+        </researcher_organization_affiliation>
+        <researcher_organization_affiliation>
+          <organization_code>CC12600</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
   </user>
   <user>
-    <primary_id>ryang</primary_id>
+    <primary_id>marcw</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Robert</researcher_first_name>
-      <researcher_last_name>Yang</researcher_last_name>
-      <position>adjunct_instructor</position>
-      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
+      <researcher_first_name>Marc</researcher_first_name>
+      <researcher_last_name>Weinberg</researcher_last_name>
+      <position>adjunct_assistant</position>
+      <display_title>Adjunct Assistant Professor of English</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45100</organization_code>
+          <organization_code>CC12400</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15237,22 +15246,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>dwallace</primary_id>
+    <primary_id>jihyeyeon</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Derron</researcher_first_name>
-      <researcher_last_name>Wallace</researcher_last_name>
-      <position>assistant_professor</position>
-      <display_title>Assistant Professor of Education and Sociology</display_title>
+      <researcher_first_name>Jihye</researcher_first_name>
+      <researcher_last_name>Yeon</researcher_last_name>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC25000</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18100</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC18800</organization_code>
+          <organization_code>CC16200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15281,7 +15283,7 @@
     <researcher>
       <researcher_first_name>Junwei</researcher_first_name>
       <researcher_last_name>Yu</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -15295,7 +15297,7 @@
     <researcher>
       <researcher_first_name>Shichen</researcher_first_name>
       <researcher_last_name>Yuan</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16500</organization_code>
@@ -15304,15 +15306,15 @@
     </researcher>
   </user>
   <user>
-    <primary_id>stephwallace</primary_id>
+    <primary_id>ayurik</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Stephanie</researcher_first_name>
-      <researcher_last_name>Wallace</researcher_last_name>
-      <position>adjunct_instructor</position>
+      <researcher_first_name>Aline</researcher_first_name>
+      <researcher_last_name>Yurik</researcher_last_name>
+      <position>chair_director</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC45102</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15337,7 +15339,7 @@
     <researcher>
       <researcher_first_name>Hussaini</researcher_first_name>
       <researcher_last_name>Zandam</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC40100</organization_code>
@@ -15351,7 +15353,7 @@
     <researcher>
       <researcher_first_name>Yunliang</researcher_first_name>
       <researcher_last_name>Zang</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -15365,7 +15367,7 @@
     <researcher>
       <researcher_first_name>Baosheng</researcher_first_name>
       <researcher_last_name>Zeng</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16200</organization_code>
@@ -15394,11 +15396,25 @@
     <researcher>
       <researcher_first_name>Ying</researcher_first_name>
       <researcher_last_name>Zhang</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <display_title>Postdoctoral Associate</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC16700</organization_code>
+        </researcher_organization_affiliation>
+      </researcher_organization_affiliations>
+    </researcher>
+  </user>
+  <user>
+    <primary_id>yunpengzhang</primary_id>
+    <is_researcher>true</is_researcher>
+    <researcher>
+      <researcher_first_name>Yunpeng</researcher_first_name>
+      <researcher_last_name>Zhang</researcher_last_name>
+      <position>postdoctoral_associate</position>
+      <researcher_organization_affiliations>
+        <researcher_organization_affiliation>
+          <organization_code>CC27200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15414,20 +15430,6 @@
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
-        </researcher_organization_affiliation>
-      </researcher_organization_affiliations>
-    </researcher>
-  </user>
-  <user>
-    <primary_id>yunpengzhang</primary_id>
-    <is_researcher>true</is_researcher>
-    <researcher>
-      <researcher_first_name>Yunpeng</researcher_first_name>
-      <researcher_last_name>Zhang</researcher_last_name>
-      <position>Postdoctoral Associate</position>
-      <researcher_organization_affiliations>
-        <researcher_organization_affiliation>
-          <organization_code>CC27200</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
@@ -15456,7 +15458,7 @@
     <researcher>
       <researcher_first_name>Mark</researcher_first_name>
       <researcher_last_name>Zielinski</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <position>postdoctoral_associate</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC27200</organization_code>
@@ -15541,12 +15543,13 @@
     </researcher>
   </user>
   <user>
-    <primary_id>ayurik</primary_id>
+    <primary_id>ryang</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Aline</researcher_first_name>
-      <researcher_last_name>Yurik</researcher_last_name>
-      <position>Chair/Director, Department/Program</position>
+      <researcher_first_name>Robert</researcher_first_name>
+      <researcher_last_name>Yang</researcher_last_name>
+      <position>adjunct_instructor</position>
+      <display_title>Instructor in the Rabb School of Continuing Studies, Division of Graduate Professional Studies</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
           <organization_code>CC45100</organization_code>
@@ -15555,33 +15558,30 @@
     </researcher>
   </user>
   <user>
-    <primary_id>yack</primary_id>
+    <primary_id>ssoleimani</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Bernard</researcher_first_name>
-      <researcher_last_name>Yack</researcher_last_name>
-      <position>professor</position>
-      <display_title>Lerman Neubauer Professor of Democracy and Public Policy</display_title>
+      <researcher_first_name>Sheida</researcher_first_name>
+      <researcher_last_name>Soleimani</researcher_last_name>
+      <position>assistant_professor</position>
+      <display_title>Assistant Professor of Fine Arts</display_title>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC18600</organization_code>
-        </researcher_organization_affiliation>
-        <researcher_organization_affiliation>
-          <organization_code>CC12600</organization_code>
+          <organization_code>CC11100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
   </user>
   <user>
-    <primary_id>jihyeyeon</primary_id>
+    <primary_id>vsmedile</primary_id>
     <is_researcher>true</is_researcher>
     <researcher>
-      <researcher_first_name>Jihye</researcher_first_name>
-      <researcher_last_name>Yeon</researcher_last_name>
-      <position>Postdoctoral Associate</position>
+      <researcher_first_name>Valerie</researcher_first_name>
+      <researcher_last_name>Smedile Rifkin</researcher_last_name>
+      <position>adjunct_instructor</position>
       <researcher_organization_affiliations>
         <researcher_organization_affiliation>
-          <organization_code>CC16200</organization_code>
+          <organization_code>CC45100</organization_code>
         </researcher_organization_affiliation>
       </researcher_organization_affiliations>
     </researcher>
