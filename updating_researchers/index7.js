@@ -71,6 +71,8 @@ const fs = require('fs');
         positionVar = 'postdoctoral_associate';
       } else if (user.titleWorkday.startsWith('Assistant Professor')) {
         positionVar = 'assistant_professor';
+      } else if (user.titleWorkday.startsWith('Visiting Assistant Professor')) {
+        positionVar = 'visiting_assistant_professor';
       } else if (
         user.titleWorkday.startsWith(
           'Adjunct Associate Professor of the Practice'
@@ -109,12 +111,16 @@ const fs = require('fs');
         positionVar = 'senior_research_scientist_1';
       } else if (user.titleWorkday.startsWith('Sr Research Scientist II')) {
         positionVar = 'senior_research_scientist_2';
+      } else if (user.titleWorkday.startsWith('Sr Scientist')) {
+        positionVar = 'senior_scientist';
       } else if (user.titleWorkday.startsWith('Senior Lecturer')) {
         positionVar = 'senior_lecturer';
       } else if (user.titleWorkday.startsWith('Lecturer')) {
         positionVar = 'lecturer';
       } else if (user.titleWorkday.startsWith('Associate Professor')) {
         positionVar = 'associate_professor';
+      } else if (user.titleWorkday.startsWith('University Professor')) {
+        positionVar = 'univeristy_professor';
       } else if (user.titleWorkday.startsWith('Professor')) {
         positionVar = 'professor';
       } else if (user.titleWorkday.startsWith('Instructor')) {
