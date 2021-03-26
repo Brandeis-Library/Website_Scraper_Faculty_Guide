@@ -62,7 +62,10 @@ const fs = require('fs');
         positionVar = 'research_associate_2';
       } else if (user.titleWorkday.startsWith('Research Scientist I')) {
         positionVar = 'research_scientist_1';
-      } else if (user.titleWorkday.startsWith('Research Scientist II')) {
+      } else if (
+        user.titleWorkday.startsWith('Research Scientist II') ||
+        user.titleWorkday.startsWith('Research Specialist II')
+      ) {
         positionVar = 'research_scientist_2';
       } else if (user.titleWorkday.startsWith('Postdoctoral Fellow')) {
         positionVar = 'postdoctoral_fellow';
