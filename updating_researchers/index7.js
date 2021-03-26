@@ -71,7 +71,10 @@ const fs = require('fs');
         positionVar = 'postdoctoral_fellow';
       } else if (user.titleWorkday.startsWith('Postdoctoral Associate')) {
         positionVar = 'postdoctoral_associate';
-      } else if (user.titleWorkday.startsWith('Assistant Professor')) {
+      } else if (
+        user.titleWorkday.startsWith('Assistant Professor') ||
+        user.titleWorkday.startsWith('Assistant Research Professor')
+      ) {
         positionVar = 'assistant_professor';
       } else if (user.titleWorkday.startsWith('Visiting Assistant Professor')) {
         positionVar = 'visiting_assistant_professor';
