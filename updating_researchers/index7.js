@@ -101,6 +101,8 @@ const fs = require('fs');
         positionVar = 'associate_research_2';
       } else if (user.titleWorkday.startsWith('Associate Research')) {
         positionVar = 'associate_research';
+      } else if (user.titleWorkday.startsWith('Senior Lecturer')) {
+        positionVar = 'senior_lecturer';
       } else if (user.titleWorkday.startsWith('Lecturer')) {
         positionVar = 'lecturer';
       } else if (user.titleWorkday.startsWith('Associate Professor')) {
