@@ -32,7 +32,11 @@ const fs = require('fs');
         costCentersVar = `<researcher_organization_affiliation><organization_code>${user.costCenterPrimary}</organization_code></researcher_organization_affiliation>`;
       } else {
         for (y = 0; y < ccArr.length; y++) {
-          costCentersVar += `<researcher_organization_affiliation><organization_code>${ccArr[y]}</organization_code></researcher_organization_affiliation>`;
+          if (ccArr[y] === 'CC00000') {
+            continue;
+          } else {
+            costCentersVar += `<researcher_organization_affiliation><organization_code>${ccArr[y]}</organization_code></researcher_organization_affiliation>`;
+          }
         }
       }
 
@@ -135,7 +139,7 @@ const fs = require('fs');
       } else if (user.titleWorkday.startsWith('Poet-in-Residence')) {
         positionVar = 'poet_in_residence';
       } else if (user.titleWorkday.startsWith('Scientist')) {
-        positionVar = 'Scientist';
+        positionVar = 'scientist';
       } else if (user.titleWorkday.startsWith('Scholar-in-Residence')) {
         positionVar = 'scholar_in_residence';
       } else if (user.titleWorkday.startsWith('Writer-in-Residence')) {
