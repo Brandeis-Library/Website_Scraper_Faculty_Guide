@@ -12,6 +12,6 @@
   "dependencies": {
     "axios": "^0.21.1",
     "crawler": "^1.2.2",
-    "xlsx": "^0.16.9"
+    "xlsx": "^0.17.0"
   }
 }
